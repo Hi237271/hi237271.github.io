@@ -143,6 +143,7 @@
 		display: grid;
 		grid-template-columns: 64px repeat(10,minmax(128px,1fr));
 		overflow-x: scroll;
+		overflow-y: auto;
 		min-width:1120px;
 		border-radius:8px;
 		box-shadow: var(--shadow);
@@ -391,6 +392,9 @@
 	div.matchup-container {
 		display: grid;
 		grid-template-columns: repeat(3,minmax(400px,500px));
+		padding:20px 40px;
+		margin: 20px 40px;
+		/* border: 2px var(--line) solid; */
 		
 	}
 	.score-box {
@@ -404,6 +408,9 @@
 		flex-direction: row;
 		align-items: center;
 		justify-content: space-evenly;
+	}
+	.section-title {
+		margin: 20px 90px;
 	}
 	</style>
 </head>
@@ -887,7 +894,7 @@
 		</table>
 	</section>
 	<section id = "matchups">
-		<h1>Matchups</h1>
+		<h1 class="section-title">Matchups</h1>
 		<div class = 'matchup-container'>
 			<!-- <div class = "matchup">
 				<div class = 'week-num'>Week 1</div>
