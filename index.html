@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<!-- Link your external CSS stylesheet here -->
+	<link rel="stylesheet" href="style.css"> 
+	<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,800&family=Fira+Code:wght@300..700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Graduate&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<style>
+		:root {
+  --primary-color: #ce1c0f;
+  --main-padding: 16px;
+  --red: hsl(0, 95%, 43%);
+  --light-red: hsl(0, 100%, 52%);
+  --dark-red: #4A0712;
+  --line: #E9D9D9;
+}
+	body {
+		margin: 0px;
+		padding: 0px;
+		line-height:1.5;
+		box-sizing:border-box;
+	}
+	.not-navbar {
+		margin: 60px 20px 100px ;
+	}
+	div.navbar-inner{
+		flex: 1;
+		max-width: 1000px;
+		display: flex;
+		padding: 0px 50px;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.flex-child{
+		flex: 1;
+		padding: 0px 15px;
+	}
+	div.navbar span {
+		color: white;
+		padding: 0px 10px;
+		font-weight: 900 !important;
+		font-size: 20px;
+		margin: 0px;
+		text-align: center;
+
+	}
+	
+	.graduate-regular {
+		font-family: "Graduate", serif;
+		font-weight: 900;
+	}
+	div.navbar{
+		align-items: center;
+		display:flex;
+		background-color: hsl(0, 95%, 43%);
+		padding: 0px;
+		margin: 0px;
+		height: 70px;
+		justify-content: center;
+	}
+	div.title {
+		display: flex;
+		align-items: center;
+	}
+	div.navbar  ul{
+		display:flex;
+		padding: 0px;
+		margin: 0px;
+		list-style-type: none;
+	}
+	.navbar svg{
+		object-fit: contain;
+		height: 30px;
+	}
+	.navbar a{
+		color: white;
+		text-decoration: none;
+		padding: 15px;
+		display:block;
+		text-align: center;
+		border-radius: 8px;
+		font-family: 'Fira Code';
+	}
+	@keyframes border {
+		0% {
+			border-bottom: 2px rgb(147, 147, 147) solid;
+		}
+		100% {
+			border-bottom: 2px white solid;
+		}
+	}
+	.navbar a:hover {
+		animation:  border 0.8s ease-out forwards; 
+		background-color: hsl(0, 89%, 48%);
+	}
+	.navbar li{
+		font-family: 'Fira Code', monospace;
+		border-radius: 4px;
+	}
+	div.navbar-text:hover {
+		border-radius: 5px;
+		border-bottom: 10px white solid;
+	}
+	h1 {
+		font-family: 'Big Shoulders Display';
+		font-weight: 900;
+		font-size: 50px;
+		letter-spacing:0.02em;
+		padding: 0px;
+		margin: 0px;
+	}
+	.helpful-info {
+		font-family:'Inter', sans-serif;
+		letter-spacing:0.03em;
+		font-weight:700;
+		color: var(--light-red);
+
+	}
+	.title-container {
+		padding-bottom: 60px;
+		border-bottom: 1px rgb(216, 207, 207) solid;
+	}
+	div.draft-container {
+		display: grid;
+		grid-template-columns: 64px repeat(10,minmax(128px,1fr));
+		overflow-x: scroll;
+		min-width:1120px;
+		border-radius:8px;
+		/* align-items:center;
+		justify-content: center; */
+	}
+	div.table-top, div.table-corner, div.table-header {
+		display:flex;
+		align-items:center;
+		justify-content: center;
+		/* border: rgba(255, 112, 112, 0.999) 1px solid; */
+	}
+	div.table-corner{
+		background-color: var(--dark-red);
+		border:0px;
+		padding: -2px -2px;
+		border-right: 1px rgba(255, 255, 255, 0.12) solid;
+	}
+	div.table-top {
+		background-color: var(--dark-red);
+		border-right: 1px rgba(255, 255, 255, 0.12) solid;
+		padding:6px 8px;
+	}
+	div.table-header {
+		background-color: var(--light-red);
+		height:100%;
+		border-top: 1px rgba(255, 255, 255, 0.12) solid;
+	}
+	div.table-top, div.table-corner, div.table-header span {
+		font-family: 'Big Shoulders';
+		letter-spacing:0.03em;
+		color: white;
+	}
+	div.table-cell {
+		display:flex;
+		flex-direction: column;
+		justify-content: center;
+		box-sizing:border-box;
+		height:100%;
+		gap:4px;
+		font-family: 'Inter', sans-serif;
+		border-top: 1px solid #E9D9D9;
+		border-right: 1px solid #E9D9D9;
+		padding: 5px 10px;
+		font-weight:600;
+		font-size:0.85rem;
+	}
+	div.table-cell.WR div{
+		width:20px;
+		border-radius:4px !important;
+		color:white;
+		background-color:blue;
+		font-size:10px;
+		font-family:'Inter',sans-serif;
+		letter-spacing:0.02em;
+		padding:3px;
+		text-align:center;
+	}
+	div.table-cell.RB div{
+		width:20px;
+		border-radius:4px !important;
+		color:var(--light-red);
+		background-color:white;
+		border-color:var(--light-red);
+		font-size:10px;
+		font-family:'Inter',sans-serif;
+		letter-spacing:0.02em;
+		padding:3px;
+		text-align:center;
+		border: 2px solid;
+		font-weight:700;
+	}
+		div.table-cell.TE div{
+		width:20px;
+		border-radius:4px !important;
+		color:white;
+		background-color:rgb(255, 128, 0);
+		font-size:10px;
+		font-family:'Inter',sans-serif;
+		letter-spacing:0.02em;
+		padding:3px;
+		text-align:center;
+	}
+		div.table-cell.QB div{
+		width:20px;
+		border-radius:4px !important;
+		color:black;
+		background-color:rgb(0, 255, 17);
+		font-size:10px;
+		font-family:'Inter',sans-serif;
+		letter-spacing:0.02em;
+		padding:3px;
+		text-align:center;
+	}
+	div.table-cell.K div{
+		width:20px;
+		border-radius:4px !important;
+		color:white;
+		background-color:black;
+		font-size:10px;
+		font-family:'Inter',sans-serif;
+		letter-spacing:0.02em;
+		padding:3px;
+		text-align:center;
+	}
+	div.table-cell.DEF div{
+		width:20px;
+		border-radius:4px !important;
+		color:rgb(255, 242, 242);
+		background-color:rgb(97, 97, 97);
+		font-size:10px;
+		font-family:'Inter',sans-serif;
+		letter-spacing:0.02em;
+		padding:3px;
+		text-align:center;
+	}
+	</style>
+</head>
+
+<body>
+	<script>
+		
+		document.addEventListener("DOMContentLoaded",()=>{
+			//let roster = {'Washable Markers': ['Jahmyr Gibbs', 'Nico Collins', 'Chris Olave', 'Breece Hall', 'Emeka Egbuka', 'Quinshon Judkins', 'Patrick Mahomes', 'Jaylen Warren', 'DJ Moore', 'Dalton Kincaid', 'Jacory Croskey-Merritt', 'Mike Evans', 'Trevor Lawrence', 'Evan McPherson', 'MIN'], 'Make Draye': ['Bijan Robinson', 'Ashton Jeanty', 'Kyren Williams', 'Ladd McConkey', 'Drake Maye', 'Luther Burden III', 'George Kittle', 'Parker Washington', 'Chuba Hubbard', 'Jordan Mason', 'KC Concepcion', 'Makai Lemon', 'Bo Nix', 'CHI', 'Dominic Zvada'], 'Maye Drake Good': ["Ja'Marr Chase", 'Kenneth Walker III', 'Trey McBride', 'Drake London', 'Travis Etienne', 'Justin Herbert', 'Bhayshul Tuten', 'Christian Watson', 'Tony Pollard', 'Cameron Dicker', 'PIT', 'Marvin Harrison Jr.', 'Jake Ferguson', 'Jaxson Dart', 'Eli Heidenreich'], 'McPicklePounders': ['Puka Nacua', "De'Von Achane", 'Rashee Rice', 'Javonte Williams', 'Lamar Jackson', 'Davante Adams', 'Dallas Goedert', 'Brandon Aubrey', 'Josh Jacobs', 'LA', 'T.J. Hockenson', 'Courtland Sutton', 'Kyler Murray', 'Tyler Allgeier', 'Dylan Sampson'], 'Bad Piggies': ['Jonathan Taylor', 'George Pickens', 'Derrick Henry', 'Tetairoa McMillan', 'Sam LaPorta', 'Jalen Hurts', 'David Montgomery', 'Jameson Williams', 'Jason Myers', 'MarShawn Lloyd', 'BAL', 'Mark Andrews', 'Brian Robinson', 'Jordan Love', 'Kenny Gainwell'], 'Laser Llamas': ['Christian McCaffrey', 'Brock Bowers', 'Malik Nabers', 'Tee Higgins', "D'Andre Swift", 'Rome Odunze', 'Carnell Tate', 'Caleb Williams', 'J.K. Dobbins', 'DEN', 'Kyle Monangai', 'Keon Coleman', 'Jessie Bates', 'Brenton Strange', 'Daniel Jones'], 'Adebayo FC': ['Amon-Ra St. Brown', 'Omarion Hampton', 'Devonta Smith', 'Colston Loveland', 'Cam Skattebo', 'Bucky Irving', 'Jared Goff', 'Isaiah Likely', 'Stefon Diggs', 'Matthew Stafford', 'Cam Little', 'Alec Pierce', 'Aaron Jones', 'Josh Downs', 'DET'], 'LJSSNC': ['Jaxon Smith-Njigba', 'Chase Brown', 'Jeremiyah Love', 'A.J. Brown', 'Harold Fannin Jr.', 'Jayden Daniels', 'Terry McLaurin', 'Jonathon Brooks', 'SEA', 'Michael Pittman', "Ka'imi Fairbairn", 'Pat Freiermuth', 'Rachaad White', "De'Zhaun Stribling", 'Tyjae Spears'], 'Mmm... Food': ['Justin Jefferson', 'Saquon Barkley', 'Tyler Warren', 'Josh Allen', 'Kyle Pitts', 'Jaylen Waddle', 'HOU', 'Rhamondre Stevenson', 'Rico Dowdle', 'Kaelon Black', 'Jayden Reed', 'Tyler Loop', 'Jordan Addison', 'Dak Prescott', 'Xavier Worthy'], 'Rumble Bees': ['CeeDee Lamb', 'James Cook', 'Zay Flowers', 'Garrett Wilson', 'Joe Burrow', 'Tucker Kraft', 'Jadarian Price', 'TreVeyon Henderson', 'Brock Purdy', 'DK Metcalf', 'PHI', 'Eddy Pineiro', 'RJ Harvey', 'Travis Kelce', 'Quentin Johnston']}
+			let roster = {'Washable Markers': ['Jahmyr Gibbs RB', 'Nico Collins WR', 'Chris Olave WR', 'Breece Hall RB', 'Emeka Egbuka WR', 'Quinshon Judkins RB', 'Patrick Mahomes QB', 'Jaylen Warren RB', 'DJ Moore WR', 'Dalton Kincaid TE', 'Jacory Croskey-Merritt RB', 'Mike Evans WR', 'Trevor Lawrence QB', 'Evan McPherson K', 'MIN DE'], 'Make Draye': ['Bijan Robinson RB', 'Ashton Jeanty RB', 'Kyren Williams RB', 'Ladd McConkey WR', 'Drake Maye QB', 'Luther Burden III WR', 'George Kittle TE', 'Parker Washington WR', 'Chuba Hubbard RB', 'Jordan Mason RB', 'KC Concepcion WR', 'Makai Lemon WR', 'Bo Nix QB', 'CHI DE', 'Dominic Zvada K'], 'Maye Drake Good': ["Ja'Marr Chase WR", 'Kenneth Walker III RB', 'Trey McBride TE', 'Drake London WR', 'Travis Etienne RB', 'Justin Herbert QB', 'Bhayshul Tuten RB', 'Christian Watson WR', 'Tony Pollard RB', 'Cameron Dicker K', 'PIT DE', 'Marvin Harrison Jr. WR', 'Jake Ferguson TE', 'Jaxson Dart QB', 'Eli Heidenreich RB'], 'McPicklePounders': ['Puka Nacua WR', "De'Von Achane RB", 'Rashee Rice WR', 'Javonte Williams RB', 'Lamar Jackson QB', 'Davante Adams WR', 'Dallas Goedert TE', 'Brandon Aubrey K', 'Josh Jacobs RB', 'LA DE', 'T.J. Hockenson TE', 'Courtland Sutton WR', 'Kyler Murray QB', 'Tyler Allgeier RB', 'Dylan Sampson RB'], 'Bad Piggies': ['Jonathan Taylor RB', 'George Pickens WR', 'Derrick Henry RB', 'Tetairoa McMillan WR', 'Sam LaPorta TE', 'Jalen Hurts QB', 'David Montgomery RB', 'Jameson Williams WR', 'Jason Myers K', 'MarShawn Lloyd RB', 'BAL DE', 'Mark Andrews TE', 'Brian Robinson RB', 'Jordan Love QB', 'Kenny Gainwell RB'], 'Laser Llamas': ['Christian McCaffrey RB', 'Brock Bowers TE', 'Malik Nabers WR', 'Tee Higgins WR', "D'Andre Swift RB", 'Rome Odunze WR', 'Carnell Tate WR', 'Caleb Williams QB', 'J.K. Dobbins RB', 'DEN DE', 'Kyle Monangai RB', 'Keon Coleman WR', 'Jessie Bates DB', 'Brenton Strange TE', 'Daniel Jones QB'], 'Adebayo FC': ['Amon-Ra St. Brown WR', 'Omarion Hampton RB', 'Devonta Smith DB', 'Colston Loveland TE', 'Cam Skattebo RB', 'Bucky Irving RB', 'Jared Goff QB', 'Isaiah Likely TE', 'Stefon Diggs WR', 'Matthew Stafford QB', 'Cam Little K', 'Alec Pierce WR', 'Aaron Jones RB', 'Josh Downs WR', 'DET DE'], 'LJSSNC': ['Jaxon Smith-Njigba WR', 'Chase Brown RB', 'Jeremiyah Love RB', 'A.J. Brown WR', 'Harold Fannin Jr. TE', 'Jayden Daniels QB', 'Terry McLaurin WR', 'Jonathon Brooks RB', 'SEA DE', 'Michael Pittman WR', "Ka'imi Fairbairn K", 'Pat Freiermuth TE', 'Rachaad White RB', "De'Zhaun Stribling WR", 'Tyjae Spears RB'], 'Mmm... Food': ['Justin Jefferson WR\nLB', 'Saquon Barkley RB', 'Tyler Warren TE', 'Josh Allen QB', 'Kyle Pitts TE', 'Jaylen Waddle WR', 'HOU DE', 'Rhamondre Stevenson RB', 'Rico Dowdle RB', 'Kaelon Black RB', 'Jayden Reed WR', 'Tyler Loop K', 'Jordan Addison WR', 'Dak Prescott QB', 'Xavier Worthy WR'], 'Rumble Bees': ['CeeDee Lamb WR', 'James Cook RB', 'Zay Flowers WR', 'Garrett Wilson WR', 'Joe Burrow QB', 'Tucker Kraft TE', 'Jadarian Price RB', 'TreVeyon Henderson RB', 'Brock Purdy QB', 'DK Metcalf WR', 'PHI DE', 'Eddy Pineiro K', 'RJ Harvey RB', 'Travis Kelce TE', 'Quentin Johnston WR']}
+			teams = Object.keys(roster)
+			for(let i = 0; i< teams.length; i++){				
+				rows = Array.from(document.querySelectorAll('div.table-cell'))
+				for(let j = 0; j< 15; j++){
+					let a = roster[teams[i]][j]
+					elt = rows[10*j+i]
+					elt.innerText = a.slice(0,-2)
+					let b = a.slice(-2).trim()
+					if (b == "DE"){
+						b = "DEF"
+					}
+					elt.classList.add(b)
+					const newDiv = document.createElement('div');
+					newDiv.innerText=b
+					elt.appendChild(newDiv)
+
+				}
+			}
+		})
+	</script>
+	<div class = 'navbar'>
+		<!-- <svg>something something</svg> -->
+			<div class = "navbar-inner">
+				<div class = "title">				
+					<svg class = "" viewBox="0 0 24 24" fill="none"><ellipse cx="12" cy="12" rx="10" ry="6.2" fill="#fff"/><path d="M4.5 12h15M9 8.6v6.8M12 7.8v8.4M15 8.6v6.8" stroke="#C8102E" stroke-width="1.3" stroke-linecap="round"/></svg>
+					<span class = "graduate-regular">Sports Stat Draft 2026</span>
+				</div>
+				<div>
+				<ul class = "">
+					<li class = "navbar-text">
+							<a>Home</a>
+					</li>
+					<li class = "navbar-text"><a>Players</a></li>
+					<li class = "navbar-text"><a>Matchups</a></li>
+				</ul>
+				</div>
+			</div>
+	</div>
+	<div class = 'not-navbar'>
+		<div class = 'title-container'>
+				<span class = "helpful-info">2026 SEASON · FANTASY DRAFT</span>
+			<h1 class = 'draft-title'>Draft Board</h1>
+
+		</div>
+	</div>
+	<div class = "draft-container">
+			<div class = 'table-corner left'>
+				<span>Round</span>
+			</div>
+			<div class = 'table-top'>
+				<span>Washable Markers</span>
+			</div>
+			<div class = 'table-top'>
+				<span>Make Draye</span>
+			</div>
+			<div class = 'table-top'>
+				<span>Maye Drake Good</span>
+			</div>
+			<div class = 'table-top'>
+				<span>McPicklePounders</span>
+			</div>
+			<div class = 'table-top'>
+				<span>Bad Piggies</span>
+			</div>
+			<div class = 'table-top'>
+				<span>Laser Llamas</span>
+			</div>
+			<div class = 'table-top'>
+				<span>Adebayo FC</span>
+			</div>
+			<div class = 'table-top'>
+				<span>LJSSNC</span>
+			</div>
+			<div class = 'table-top'>
+				<span>Mmm... Food</span>
+			</div>
+			<div class = 'table-corner right'>
+				<span>Rumble Bees</span>
+			</div>
+
+
+			<div class = 'table-header'>1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+
+
+			<div class = 'table-header'>2</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+
+			<div class = 'table-header'>3</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+
+
+			<div class = 'table-header'>4</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+
+
+			<div class = 'table-header'>5</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+
+
+			<div class = 'table-header'>6</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+
+
+			<div class = 'table-header'>7</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+
+
+			<div class = 'table-header'>8</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+
+
+			<div class = 'table-header'>9</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+
+
+			<div class = 'table-header'>10</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+
+
+			<div class = 'table-header'>11</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+
+
+			<div class = 'table-header'>12</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+
+
+			<div class = 'table-header'>13</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+
+
+			<div class = 'table-header'>14</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+
+
+			<div class = 'table-header'>15</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+			<div class = 'table-cell'>team 1</div>
+	</div>
+	<!-- Link your external JavaScript file here -->
+	<!-- <script src="script.js"></script> -->
+</body>
+
+</html>
