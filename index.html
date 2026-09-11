@@ -6,7 +6,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 	<!-- Link your external CSS stylesheet here -->
-	<link rel="stylesheet" href="style.css"> 
 	<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -79,7 +78,8 @@
 		height: 30px;
 	}
 	.navbar a{
-		color: white;
+		/* color: white; */
+		color: rgb(202, 202, 202);
 		text-decoration: none;
 		padding: 15px;
 		display:block;
@@ -98,6 +98,11 @@
 	.navbar a:hover {
 		animation:  border 0.8s ease-out forwards; 
 		background-color: hsl(0, 89%, 48%);
+		color:white;
+	}
+	a:active{
+		outline:none;
+		box-shadow:none;
 	}
 	.navbar li{
 		font-family: 'Fira Code', monospace;
@@ -245,13 +250,51 @@
 		padding:3px;
 		text-align:center;
 	}
+	section {
+		display:none;
+	}
+	section.active {
+		display:block;
+	}
+	a.active {
+		color: white;
+	}
 	</style>
 </head>
 
 <body>
 	<script>
-		
-		document.addEventListener("DOMContentLoaded",()=>{
+		async function loadJSONData(){
+			// try{
+			 const response = await fetch('./out.json');
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+                
+                // 2. Parse the response into a JavaScript object/array
+                const data = await response.json();
+				console.log(data)
+			// }
+			// catch(err){
+			// 	console.log("Couldn't load player data from out.json")
+			// }
+		}
+		function showSection(section){
+			sections = Array.from(document.querySelectorAll('section'))
+			sections.forEach((sec)=>{
+				sec.classList.remove('active')
+			})
+			links = Array.from(document.querySelectorAll('div.navbar-inner a'))
+			links.forEach((link)=>{
+				link.classList.remove('active')
+			})
+			let sec = document.querySelector(`section#${section}`)
+			sec.classList.add('active')
+			let link = document.querySelector(`.a-${section}`)
+			link.classList.add('active')
+		}
+		document.addEventListener("DOMContentLoaded",async ()=>{
 			//let roster = {'Washable Markers': ['Jahmyr Gibbs', 'Nico Collins', 'Chris Olave', 'Breece Hall', 'Emeka Egbuka', 'Quinshon Judkins', 'Patrick Mahomes', 'Jaylen Warren', 'DJ Moore', 'Dalton Kincaid', 'Jacory Croskey-Merritt', 'Mike Evans', 'Trevor Lawrence', 'Evan McPherson', 'MIN'], 'Make Draye': ['Bijan Robinson', 'Ashton Jeanty', 'Kyren Williams', 'Ladd McConkey', 'Drake Maye', 'Luther Burden III', 'George Kittle', 'Parker Washington', 'Chuba Hubbard', 'Jordan Mason', 'KC Concepcion', 'Makai Lemon', 'Bo Nix', 'CHI', 'Dominic Zvada'], 'Maye Drake Good': ["Ja'Marr Chase", 'Kenneth Walker III', 'Trey McBride', 'Drake London', 'Travis Etienne', 'Justin Herbert', 'Bhayshul Tuten', 'Christian Watson', 'Tony Pollard', 'Cameron Dicker', 'PIT', 'Marvin Harrison Jr.', 'Jake Ferguson', 'Jaxson Dart', 'Eli Heidenreich'], 'McPicklePounders': ['Puka Nacua', "De'Von Achane", 'Rashee Rice', 'Javonte Williams', 'Lamar Jackson', 'Davante Adams', 'Dallas Goedert', 'Brandon Aubrey', 'Josh Jacobs', 'LA', 'T.J. Hockenson', 'Courtland Sutton', 'Kyler Murray', 'Tyler Allgeier', 'Dylan Sampson'], 'Bad Piggies': ['Jonathan Taylor', 'George Pickens', 'Derrick Henry', 'Tetairoa McMillan', 'Sam LaPorta', 'Jalen Hurts', 'David Montgomery', 'Jameson Williams', 'Jason Myers', 'MarShawn Lloyd', 'BAL', 'Mark Andrews', 'Brian Robinson', 'Jordan Love', 'Kenny Gainwell'], 'Laser Llamas': ['Christian McCaffrey', 'Brock Bowers', 'Malik Nabers', 'Tee Higgins', "D'Andre Swift", 'Rome Odunze', 'Carnell Tate', 'Caleb Williams', 'J.K. Dobbins', 'DEN', 'Kyle Monangai', 'Keon Coleman', 'Jessie Bates', 'Brenton Strange', 'Daniel Jones'], 'Adebayo FC': ['Amon-Ra St. Brown', 'Omarion Hampton', 'Devonta Smith', 'Colston Loveland', 'Cam Skattebo', 'Bucky Irving', 'Jared Goff', 'Isaiah Likely', 'Stefon Diggs', 'Matthew Stafford', 'Cam Little', 'Alec Pierce', 'Aaron Jones', 'Josh Downs', 'DET'], 'LJSSNC': ['Jaxon Smith-Njigba', 'Chase Brown', 'Jeremiyah Love', 'A.J. Brown', 'Harold Fannin Jr.', 'Jayden Daniels', 'Terry McLaurin', 'Jonathon Brooks', 'SEA', 'Michael Pittman', "Ka'imi Fairbairn", 'Pat Freiermuth', 'Rachaad White', "De'Zhaun Stribling", 'Tyjae Spears'], 'Mmm... Food': ['Justin Jefferson', 'Saquon Barkley', 'Tyler Warren', 'Josh Allen', 'Kyle Pitts', 'Jaylen Waddle', 'HOU', 'Rhamondre Stevenson', 'Rico Dowdle', 'Kaelon Black', 'Jayden Reed', 'Tyler Loop', 'Jordan Addison', 'Dak Prescott', 'Xavier Worthy'], 'Rumble Bees': ['CeeDee Lamb', 'James Cook', 'Zay Flowers', 'Garrett Wilson', 'Joe Burrow', 'Tucker Kraft', 'Jadarian Price', 'TreVeyon Henderson', 'Brock Purdy', 'DK Metcalf', 'PHI', 'Eddy Pineiro', 'RJ Harvey', 'Travis Kelce', 'Quentin Johnston']}
 			let roster = {'Washable Markers': ['Jahmyr Gibbs RB', 'Nico Collins WR', 'Chris Olave WR', 'Breece Hall RB', 'Emeka Egbuka WR', 'Quinshon Judkins RB', 'Patrick Mahomes QB', 'Jaylen Warren RB', 'DJ Moore WR', 'Dalton Kincaid TE', 'Jacory Croskey-Merritt RB', 'Mike Evans WR', 'Trevor Lawrence QB', 'Evan McPherson K', 'MIN DE'], 'Make Draye': ['Bijan Robinson RB', 'Ashton Jeanty RB', 'Kyren Williams RB', 'Ladd McConkey WR', 'Drake Maye QB', 'Luther Burden III WR', 'George Kittle TE', 'Parker Washington WR', 'Chuba Hubbard RB', 'Jordan Mason RB', 'KC Concepcion WR', 'Makai Lemon WR', 'Bo Nix QB', 'CHI DE', 'Dominic Zvada K'], 'Maye Drake Good': ["Ja'Marr Chase WR", 'Kenneth Walker III RB', 'Trey McBride TE', 'Drake London WR', 'Travis Etienne RB', 'Justin Herbert QB', 'Bhayshul Tuten RB', 'Christian Watson WR', 'Tony Pollard RB', 'Cameron Dicker K', 'PIT DE', 'Marvin Harrison Jr. WR', 'Jake Ferguson TE', 'Jaxson Dart QB', 'Eli Heidenreich RB'], 'McPicklePounders': ['Puka Nacua WR', "De'Von Achane RB", 'Rashee Rice WR', 'Javonte Williams RB', 'Lamar Jackson QB', 'Davante Adams WR', 'Dallas Goedert TE', 'Brandon Aubrey K', 'Josh Jacobs RB', 'LA DE', 'T.J. Hockenson TE', 'Courtland Sutton WR', 'Kyler Murray QB', 'Tyler Allgeier RB', 'Dylan Sampson RB'], 'Bad Piggies': ['Jonathan Taylor RB', 'George Pickens WR', 'Derrick Henry RB', 'Tetairoa McMillan WR', 'Sam LaPorta TE', 'Jalen Hurts QB', 'David Montgomery RB', 'Jameson Williams WR', 'Jason Myers K', 'MarShawn Lloyd RB', 'BAL DE', 'Mark Andrews TE', 'Brian Robinson RB', 'Jordan Love QB', 'Kenny Gainwell RB'], 'Laser Llamas': ['Christian McCaffrey RB', 'Brock Bowers TE', 'Malik Nabers WR', 'Tee Higgins WR', "D'Andre Swift RB", 'Rome Odunze WR', 'Carnell Tate WR', 'Caleb Williams QB', 'J.K. Dobbins RB', 'DEN DE', 'Kyle Monangai RB', 'Keon Coleman WR', 'Jessie Bates DB', 'Brenton Strange TE', 'Daniel Jones QB'], 'Adebayo FC': ['Amon-Ra St. Brown WR', 'Omarion Hampton RB', 'Devonta Smith DB', 'Colston Loveland TE', 'Cam Skattebo RB', 'Bucky Irving RB', 'Jared Goff QB', 'Isaiah Likely TE', 'Stefon Diggs WR', 'Matthew Stafford QB', 'Cam Little K', 'Alec Pierce WR', 'Aaron Jones RB', 'Josh Downs WR', 'DET DE'], 'LJSSNC': ['Jaxon Smith-Njigba WR', 'Chase Brown RB', 'Jeremiyah Love RB', 'A.J. Brown WR', 'Harold Fannin Jr. TE', 'Jayden Daniels QB', 'Terry McLaurin WR', 'Jonathon Brooks RB', 'SEA DE', 'Michael Pittman WR', "Ka'imi Fairbairn K", 'Pat Freiermuth TE', 'Rachaad White RB', "De'Zhaun Stribling WR", 'Tyjae Spears RB'], 'Mmm... Food': ['Justin Jefferson WR\nLB', 'Saquon Barkley RB', 'Tyler Warren TE', 'Josh Allen QB', 'Kyle Pitts TE', 'Jaylen Waddle WR', 'HOU DE', 'Rhamondre Stevenson RB', 'Rico Dowdle RB', 'Kaelon Black RB', 'Jayden Reed WR', 'Tyler Loop K', 'Jordan Addison WR', 'Dak Prescott QB', 'Xavier Worthy WR'], 'Rumble Bees': ['CeeDee Lamb WR', 'James Cook RB', 'Zay Flowers WR', 'Garrett Wilson WR', 'Joe Burrow QB', 'Tucker Kraft TE', 'Jadarian Price RB', 'TreVeyon Henderson RB', 'Brock Purdy QB', 'DK Metcalf WR', 'PHI DE', 'Eddy Pineiro K', 'RJ Harvey RB', 'Travis Kelce TE', 'Quentin Johnston WR']}
 			teams = Object.keys(roster)
@@ -272,6 +315,7 @@
 
 				}
 			}
+			await loadJSONData()
 		})
 	</script>
 	<div class = 'navbar'>
@@ -284,14 +328,15 @@
 				<div>
 				<ul class = "">
 					<li class = "navbar-text">
-							<a>Home</a>
+							<a class = 'a-home active' href = 'javascript:void(0);' onclick = 'showSection("home")'>Home</a>
 					</li>
-					<li class = "navbar-text"><a>Players</a></li>
-					<li class = "navbar-text"><a>Matchups</a></li>
+					<li class = "navbar-text"><a class = 'a-players' href = 'javascript:void(0);' onclick = 'showSection("players")'>Players</a></li>
+					<li class = "navbar-text"><a class = 'a-matchups' href = 'javascript:void(0);' onclick = 'showSection("matchups")'>Matchups</a></li>
 				</ul>
 				</div>
 			</div>
 	</div>
+	<section id = 'home', class="home active">
 	<div class = 'not-navbar'>
 		<div class = 'title-container'>
 				<span class = "helpful-info">2026 SEASON · FANTASY DRAFT</span>
@@ -528,6 +573,16 @@
 			<div class = 'table-cell'>team 1</div>
 			<div class = 'table-cell'>team 1</div>
 	</div>
+	</section>
+	<section id="players">
+		<h1>Drafted Players</h1>
+		<table class = 'player-table'>
+
+		</table>
+	</section>
+	<section id = "matchups">
+		<h1>goodbye world</h1>
+	</section>
 	<!-- Link your external JavaScript file here -->
 	<!-- <script src="script.js"></script> -->
 </body>
