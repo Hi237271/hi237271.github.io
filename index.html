@@ -464,6 +464,7 @@
 			console.log(stats)
 			table = document.querySelector('table.player-table')
 			var teams = Object.keys(roster)
+			console.log(teams.toString())
 			for(let i = 0; i< teams.length; i++){				
 				rows = Array.from(document.querySelectorAll('div.table-cell'))
 				for(let j = 0; j< 15; j++){
@@ -478,8 +479,7 @@
 					let player_name = roster_without_position[teams[i]][j]
 					const textDiv = document.createElement('div');
 					const textSpan = document.createElement('span');
-					console.log(stats[teams[i]])
-					textSpan.innerText = `${stats[teams[i]][player_name]['score']} pts`
+					textSpan.innerText = `${stats[teams[i]][player_name]['score'].toFixed(2)} pts`
 					textSpan.classList.add('score-box')
 					textDiv.classList.add('player-info-container');
 
@@ -509,6 +509,7 @@
 			//Generate list of players and their stats
 			data = []
 			teams = Object.keys(stats)
+			console.log(teams.toString())
 			for(let i = 0; i<teams.length; i++){
 				players = Object.keys(stats[teams[i]])
 				for(let j = 0; j<players.length;j++){
@@ -537,7 +538,11 @@
 						const div= document.createElement('div')
 						div.innerText=data[i][headers[j]]
 						div.classList.add(`${data[i][headers[j]]}`)
+
 						td.appendChild(div)
+					}
+					else if (headers[j]=='score'){
+						td.innerText=data[i][headers[j]].toFixed(2)
 					}
 					else {
 						td.innerText=data[i][headers[j]]
@@ -555,6 +560,7 @@
 				return sum
 			}
 			//Compute team score
+			console.log(`week: ${week}`)
 			matchup_container = document.querySelector('div.matchup-container')
 			for(let i = 0; i<matchups[week-1].length;i++){
 				matchup = matchups[week-1][i]
@@ -566,13 +572,13 @@
 						<div class = 'team-one'>
 							<span class = 'team'>${team_one}</span>
 							<span class = "win-record">0W  0D 0L</span>
-							<span class = "num">${get_team_score(team_one)}</span>
+							<span class = "num">${get_team_score(team_one).toFixed(2)}</span>
 						</div>
 						<span class = 'vs'>VS</span>
 						<div class = "team-two">
 							<span class = 'team'>${team_two}</span>
 							<span class = "win-record">0W 0D 0L</span>
-							<span class = "num">${get_team_score(team_two)}</span>
+							<span class = "num">${get_team_score(team_two).toFixed(2)}</span>
 						</div>
 					</div>`
 			}
@@ -581,11 +587,11 @@
 			teams = teams.sort((a,b)=>{
 				return get_team_score(b)-get_team_score(a)
 			})
-			console.log(teams)
+			console.log(teams.toString())
 			console.log(teams[0])
 			leader_node.innerText=teams[0]
 			score_node = document.querySelector('.score-to-beat')
-			score_node.innerText=get_team_score(teams[0])
+			score_node.innerText=get_team_score(teams[0]).toFixed(2)
 		})
 	</script>
 	<div class = 'navbar'>
