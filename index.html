@@ -424,14 +424,19 @@
 		margin: 20px 90px;
 	}
 	.form-position {
-		border-bottom: 4px var(--line) solid;
-		background-color: var(--light-red);
-		border-radius: 5px;
+		display: flex;
+		border-bottom: 1px rgba(15, 15, 15, 0.861) solid;
+		background-color: rgba(1, 1, 1, 0.861);
+		border-radius: 10px;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0px 20px;
 	}
 	div.form-position span {
 		font-family: 'Big Shoulders';
 		font-weight: 600;
 		font-size: 40px;
+		color: white;
 	}
 	/* .form-QB {
 		background-color: var(--QB);
@@ -463,6 +468,18 @@
 		flex-direction: column;
 		gap:0px;
 
+	}
+	span#error-field { 
+		color: red;
+		font-size: 10px;
+	}
+	select.select-position {
+		font-family: 'Inter', sans-serif;
+		font-size: 12px;
+		font-weight: 600;
+		border-radius: 8px;
+		padding: 5px 50px;
+		text-align: center;
 	}
 	</style>
 </head>
@@ -663,13 +680,14 @@
 				lineup.innerHTML+=`
 					<div position = '${positions[i]}' class = 'form-position form-${positions[i]}'>
 						<span>${positions_str[i]}</span>
-						<select name = '${positions[i]}${i-positions.indexOf(positions[i])+1}' class = 'form-${positions[i]}'>
+						<select name = '${positions[i]}${i-positions.indexOf(positions[i])+1}' class = 'select-position form-${positions[i]}'>
 							
 						</select>
 					</div>
 				`
 			}
 			document.querySelector("#team-name").addEventListener("change" , (e)=>{
+				document.querySelector('#error-field').innerHTML = ''
 				selected_team = event.target.value;
 				selected_players = roster[selected_team]; 
 				elts = document.querySelectorAll('.form-position')
@@ -694,10 +712,42 @@
 				}
 			})
 			document.querySelector('form').addEventListener('submit',function(e){
+				document.querySelector('#error-field').innerHTML = ''
 				e.preventDefault();
 				const formData = new FormData(event.target);
 				const dataObject = Object.fromEntries(formData.entries());
 				console.log(dataObject); 
+				required_positions = ['RB1','RB2','WR1','WR2','Flex1','QB1','DE1','K1','TE1']
+				used_players = []
+				function handleErrors() {
+					try {
+						for(const position of required_positions){
+							player = dataObject[position].trim();
+							if (used_players.includes(player)){
+								return `Error: Player ${player} was used more than once`
+							}
+							else if (!roster_without_position[dataObject['team-name']].includes(player)){
+								return `Error: Player ${player} is not on team ${dataObject['team-name']}`
+							}
+							if (position != 'Flex1') {
+								if(!roster[dataObject['team-name']].includes(player+' '+position.slice(0,-1))) {
+									return `Error: Player ${player} is not of position ${position}`
+								}
+							}
+							used_players.push(player);
+						
+						}
+					}
+					catch (error){
+						return "An unknown error occured"
+					}
+					return false;
+				}
+				a = handleErrors();
+				if(a) {
+					document.querySelector('#error-field').innerHTML = a;
+					return;
+				}
 				console.log(formData.get('first-name'))
 				const url = 'http://52.87.225.110:3000/submit'
 				console.log({
@@ -767,19 +817,16 @@
 				<span>Round</span>
 			</div>
 			<div class = 'table-top'>
+				<span>Make Draye Good</span>
+			</div>
+			<div class = 'table-top'>
+				<span>Mmm Food</span>
+			</div>
+			<div class = 'table-top'>
 				<span>Washable Markers</span>
 			</div>
 			<div class = 'table-top'>
-				<span>Make Draye</span>
-			</div>
-			<div class = 'table-top'>
-				<span>Maye Drake Good</span>
-			</div>
-			<div class = 'table-top'>
 				<span>McPicklePounders</span>
-			</div>
-			<div class = 'table-top'>
-				<span>Bad Piggies</span>
 			</div>
 			<div class = 'table-top'>
 				<span>Laser Llamas</span>
@@ -788,10 +835,13 @@
 				<span>Adebayo FC</span>
 			</div>
 			<div class = 'table-top'>
+				<span>Make Draye</span>
+			</div>
+			<div class = 'table-top'>
 				<span>LJSSNC</span>
 			</div>
 			<div class = 'table-top'>
-				<span>Mmm... Food</span>
+				<span>Bad Piggies</span>
 			</div>
 			<div class = 'table-corner right'>
 				<span>Rumble Bees</span>
@@ -1025,6 +1075,7 @@
 
 					<label for = "team-name">Team Name</label>
 					<select name="team-name" id="team-name">
+						  <option disabled selected value> -- Select a Team -- </option>
 						<option value="Maye Drake Good">Maye Drake Good</option>
 						<option value="Rumble Bees">Rumble Bees</option>
 						<option value="McPicklePounders">McPicklePounders</option>
@@ -1040,6 +1091,7 @@
 
 				</div>
   			<button type="submit" value="Submit">Submit</button>
+			<span id = 'error-field'></span>
 			</form>
 		</div>
 	</section>
