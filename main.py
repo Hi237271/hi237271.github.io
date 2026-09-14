@@ -34,7 +34,7 @@ def calculate_offensive_score(d):
     # data = data.iloc[0].tolist()
     # for i in range(100):
     #     print(data[int(input("enter index: "))])
-    return d["def_safeties"]*4 + d["receptions"]+d["passing_yards"]/25+4*d["passing_tds"]-2*d["passing_interceptions"]+d["rushing_yards"]/10+d["rushing_tds"]*6+d["receiving_yards"]/10+d["receiving_tds"]+6*d["fumble_recovery_tds"]+6*d["special_teams_tds"]+2*d["passing_2pt_conversions"]+2*d["rushing_2pt_conversions"]-2*d["fumbles_lost_total"]
+    return d["def_safeties"]*4 + d["receptions"]+d["passing_yards"]/25+4*d["passing_tds"]-2*d["passing_interceptions"]+d["rushing_yards"]*0.1+d["rushing_tds"]*6+d["receiving_yards"]*0.1+6*d["receiving_tds"]+6*d["fumble_recovery_tds"]+6*d["special_teams_tds"]+2*d["passing_2pt_conversions"]+2*d["rushing_2pt_conversions"]+2*d['receiving_2pt_conversions']-2*d["fumbles_lost_total"]+d["pat_made"]+3*(d['fg_made_0_19']+d['fg_made_20_29']+d['fg_made_30_39']) + 4*d['fg_made_40_49'] + 5*d['fg_made_50_59']+5*d['fg_made_60_']-d['pat_missed']
     # TODO See if fumbles work and add "blocked kick" functionality
 
 
