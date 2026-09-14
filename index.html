@@ -541,7 +541,7 @@
 				]
 			]
 			var stats = await loadJSONData('out.json')
-			var lineups = await loadJSONData('lineups.json')
+			var lineups = await loadJSONData('serialized_lineups.json')
 			//console.log(stats)
 			table = document.querySelector('table.player-table')
 			var teams = Object.keys(roster)
@@ -643,13 +643,17 @@
 				table.appendChild(tr)
 			}
 			function get_team_score(team){
-				team_roster = Object.keys(stat[team]).filter((val)=>{
+				console.log(stats[team])
+				console.log(Object.keys(stats[team]))
+				console.log(lineups[team])
+				let team_roster = Object.keys(stats[team]).filter((val)=>{
 					lineups[team].includes(val);
 				})
-				players = Object.keys(stats[team])
+				console.log(team_roster)
+				// players = Object.keys(stats[team])
 				sum = 0
-				for(let i = 0; i<players.length;i++){
-					sum+=stats[team][players[i]]['score']
+				for(let i = 0; i<team_roster.length;i++){
+					sum+=stats[team][team_roster[i]]['score']
 				}
 				return sum
 			}
