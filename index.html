@@ -20,6 +20,12 @@
   --line: #E9D9D9;
   --shadow: 0 8px 24px rgba(74, 7, 18, 0.10);
   --off-white: #FBF7F5;
+  --QB: rgb(0, 255, 17);
+  --RB: hsl(0, 100%, 52%);
+  --WR: blue;
+  --TE: rgb(255, 128, 0);
+  --K: black;
+  --DEF: rgb(97, 97, 97);
 }
 	body {
 		background-color: var(--off-white);
@@ -203,7 +209,7 @@
 		width:20px;
 		border-radius:4px !important;
 		color:white;
-		background-color:blue;
+		background-color:var(--WR);
 		font-size:10px;
 		font-family:'Inter',sans-serif;
 		letter-spacing:0.02em;
@@ -214,7 +220,7 @@
 		width:20px;
 		border-radius:5px !important;
 		color:white;
-		background-color: var(--light-red);
+		background-color: var(--RB);
 		/* border-color:var(--light-red); */
 		font-size:10px;
 		font-family:'Inter',sans-serif;
@@ -228,7 +234,7 @@
 		width:20px;
 		border-radius:4px !important;
 		color:white;
-		background-color:rgb(255, 128, 0);
+		background-color:var(--TE);
 		font-size:10px;
 		font-family:'Inter',sans-serif;
 		letter-spacing:0.02em;
@@ -239,7 +245,7 @@
 		width:20px;
 		border-radius:4px !important;
 		color:black;
-		background-color:rgb(0, 255, 17);
+		background-color:var(--QB);
 		font-size:10px;
 		font-family:'Inter',sans-serif;
 		letter-spacing:0.02em;
@@ -250,7 +256,7 @@
 		width:20px;
 		border-radius:4px !important;
 		color:white;
-		background-color:black;
+		background-color:var(--K);
 		font-size:10px;
 		font-family:'Inter',sans-serif;
 		letter-spacing:0.02em;
@@ -261,7 +267,7 @@
 		width:20px;
 		border-radius:4px !important;
 		color:rgb(255, 242, 242);
-		background-color:rgb(97, 97, 97);
+		background-color:var(--DEF);
 		font-size:10px;
 		font-family:'Inter',sans-serif;
 		letter-spacing:0.02em;
@@ -417,6 +423,47 @@
 	.section-title {
 		margin: 20px 90px;
 	}
+	.form-position {
+		border-bottom: 4px var(--line) solid;
+		background-color: var(--light-red);
+		border-radius: 5px;
+	}
+	div.form-position span {
+		font-family: 'Big Shoulders';
+		font-weight: 600;
+		font-size: 40px;
+	}
+	/* .form-QB {
+		background-color: var(--QB);
+	} */
+	form.lineup-form {
+		background-color: white;
+		border-radius: 20px;
+		min-width: 1000px;
+		display: flex;
+		align-content: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+	.normal-form {
+		padding: 20px 40px;
+		display: flex;
+		align-content: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+	section#lineup {
+		align-content:center;
+		justify-content: center;
+		padding: 30px 150px;
+	}
+	.lineup-player-container {
+		margin-top: 50px;
+		display: flex;
+		flex-direction: column;
+		gap:0px;
+
+	}
 	</style>
 </head>
 
@@ -454,8 +501,11 @@
 		}
 		document.addEventListener("DOMContentLoaded",async ()=>{
 			let week = 1;
-			let roster_without_position = {'Washable Markers': ['Jahmyr Gibbs', 'Nico Collins', 'Chris Olave', 'Breece Hall', 'Emeka Egbuka', 'Quinshon Judkins', 'Patrick Mahomes', 'Jaylen Warren', 'DJ Moore', 'Dalton Kincaid', 'Jacory Croskey-Merritt', 'Mike Evans', 'Trevor Lawrence', 'Evan McPherson', 'MIN'], 'Make Draye': ['Bijan Robinson', 'Ashton Jeanty', 'Kyren Williams', 'Ladd McConkey', 'Drake Maye', 'Luther Burden III', 'George Kittle', 'Parker Washington', 'Chuba Hubbard', 'Jordan Mason', 'KC Concepcion', 'Makai Lemon', 'Bo Nix', 'CHI', 'Dominic Zvada'], 'Maye Drake Good': ["Ja'Marr Chase", 'Kenneth Walker III', 'Trey McBride', 'Drake London', 'Travis Etienne', 'Justin Herbert', 'Bhayshul Tuten', 'Christian Watson', 'Tony Pollard', 'Cameron Dicker', 'PIT', 'Marvin Harrison Jr.', 'Jake Ferguson', 'Jaxson Dart', 'Eli Heidenreich'], 'McPicklePounders': ['Puka Nacua', "De'Von Achane", 'Rashee Rice', 'Javonte Williams', 'Lamar Jackson', 'Davante Adams', 'Dallas Goedert', 'Brandon Aubrey', 'Josh Jacobs', 'LA', 'T.J. Hockenson', 'Courtland Sutton', 'Kyler Murray', 'Tyler Allgeier', 'Dylan Sampson'], 'Bad Piggies': ['Jonathan Taylor', 'George Pickens', 'Derrick Henry', 'Tetairoa McMillan', 'Sam LaPorta', 'Jalen Hurts', 'David Montgomery', 'Jameson Williams', 'Jason Myers', 'MarShawn Lloyd', 'BAL', 'Mark Andrews', 'Brian Robinson', 'Jordan Love', 'Kenny Gainwell'], 'Laser Llamas': ['Christian McCaffrey', 'Brock Bowers', 'Malik Nabers', 'Tee Higgins', "D'Andre Swift", 'Rome Odunze', 'Carnell Tate', 'Caleb Williams', 'J.K. Dobbins', 'DEN', 'Kyle Monangai', 'Keon Coleman', 'Jessie Bates', 'Brenton Strange', 'Daniel Jones'], 'Adebayo FC': ['Amon-Ra St. Brown', 'Omarion Hampton', 'Devonta Smith', 'Colston Loveland', 'Cam Skattebo', 'Bucky Irving', 'Jared Goff', 'Isaiah Likely', 'Stefon Diggs', 'Matthew Stafford', 'Cam Little', 'Alec Pierce', 'Aaron Jones', 'Josh Downs', 'DET'], 'LJSSNC': ['Jaxon Smith-Njigba', 'Chase Brown', 'Jeremiyah Love', 'A.J. Brown', 'Harold Fannin Jr.', 'Jayden Daniels', 'Terry McLaurin', 'Jonathon Brooks', 'SEA', 'Michael Pittman', "Ka'imi Fairbairn", 'Pat Freiermuth', 'Rachaad White', "De'Zhaun Stribling", 'Tyjae Spears'], 'Mmm... Food': ['Justin Jefferson', 'Saquon Barkley', 'Tyler Warren', 'Josh Allen', 'Kyle Pitts', 'Jaylen Waddle', 'HOU', 'Rhamondre Stevenson', 'Rico Dowdle', 'Kaelon Black', 'Jayden Reed', 'Tyler Loop', 'Jordan Addison', 'Dak Prescott', 'Xavier Worthy'], 'Rumble Bees': ['CeeDee Lamb', 'James Cook', 'Zay Flowers', 'Garrett Wilson', 'Joe Burrow', 'Tucker Kraft', 'Jadarian Price', 'TreVeyon Henderson', 'Brock Purdy', 'DK Metcalf', 'PHI', 'Eddy Pineiro', 'RJ Harvey', 'Travis Kelce', 'Quentin Johnston']}
-			let roster = {'Washable Markers': ['Jahmyr Gibbs RB', 'Nico Collins WR', 'Chris Olave WR', 'Breece Hall RB', 'Emeka Egbuka WR', 'Quinshon Judkins RB', 'Patrick Mahomes QB', 'Jaylen Warren RB', 'DJ Moore WR', 'Dalton Kincaid TE', 'Jacory Croskey-Merritt RB', 'Mike Evans WR', 'Trevor Lawrence QB', 'Evan McPherson K', 'MIN DE'], 'Make Draye': ['Bijan Robinson RB', 'Ashton Jeanty RB', 'Kyren Williams RB', 'Ladd McConkey WR', 'Drake Maye QB', 'Luther Burden III WR', 'George Kittle TE', 'Parker Washington WR', 'Chuba Hubbard RB', 'Jordan Mason RB', 'KC Concepcion WR', 'Makai Lemon WR', 'Bo Nix QB', 'CHI DE', 'Dominic Zvada K'], 'Maye Drake Good': ["Ja'Marr Chase WR", 'Kenneth Walker III RB', 'Trey McBride TE', 'Drake London WR', 'Travis Etienne RB', 'Justin Herbert QB', 'Bhayshul Tuten RB', 'Christian Watson WR', 'Tony Pollard RB', 'Cameron Dicker K', 'PIT DE', 'Marvin Harrison Jr. WR', 'Jake Ferguson TE', 'Jaxson Dart QB', 'Eli Heidenreich RB'], 'McPicklePounders': ['Puka Nacua WR', "De'Von Achane RB", 'Rashee Rice WR', 'Javonte Williams RB', 'Lamar Jackson QB', 'Davante Adams WR', 'Dallas Goedert TE', 'Brandon Aubrey K', 'Josh Jacobs RB', 'LA DE', 'T.J. Hockenson TE', 'Courtland Sutton WR', 'Kyler Murray QB', 'Tyler Allgeier RB', 'Dylan Sampson RB'], 'Bad Piggies': ['Jonathan Taylor RB', 'George Pickens WR', 'Derrick Henry RB', 'Tetairoa McMillan WR', 'Sam LaPorta TE', 'Jalen Hurts QB', 'David Montgomery RB', 'Jameson Williams WR', 'Jason Myers K', 'MarShawn Lloyd RB', 'BAL DE', 'Mark Andrews TE', 'Brian Robinson RB', 'Jordan Love QB', 'Kenny Gainwell RB'], 'Laser Llamas': ['Christian McCaffrey RB', 'Brock Bowers TE', 'Malik Nabers WR', 'Tee Higgins WR', "D'Andre Swift RB", 'Rome Odunze WR', 'Carnell Tate WR', 'Caleb Williams QB', 'J.K. Dobbins RB', 'DEN DE', 'Kyle Monangai RB', 'Keon Coleman WR', 'Jessie Bates DB', 'Brenton Strange TE', 'Daniel Jones QB'], 'Adebayo FC': ['Amon-Ra St. Brown WR', 'Omarion Hampton RB', 'Devonta Smith DB', 'Colston Loveland TE', 'Cam Skattebo RB', 'Bucky Irving RB', 'Jared Goff QB', 'Isaiah Likely TE', 'Stefon Diggs WR', 'Matthew Stafford QB', 'Cam Little K', 'Alec Pierce WR', 'Aaron Jones RB', 'Josh Downs WR', 'DET DE'], 'LJSSNC': ['Jaxon Smith-Njigba WR', 'Chase Brown RB', 'Jeremiyah Love RB', 'A.J. Brown WR', 'Harold Fannin Jr. TE', 'Jayden Daniels QB', 'Terry McLaurin WR', 'Jonathon Brooks RB', 'SEA DE', 'Michael Pittman WR', "Ka'imi Fairbairn K", 'Pat Freiermuth TE', 'Rachaad White RB', "De'Zhaun Stribling WR", 'Tyjae Spears RB'], 'Mmm... Food': ['Justin Jefferson WR\nLB', 'Saquon Barkley RB', 'Tyler Warren TE', 'Josh Allen QB', 'Kyle Pitts TE', 'Jaylen Waddle WR', 'HOU DE', 'Rhamondre Stevenson RB', 'Rico Dowdle RB', 'Kaelon Black RB', 'Jayden Reed WR', 'Tyler Loop K', 'Jordan Addison WR', 'Dak Prescott QB', 'Xavier Worthy WR'], 'Rumble Bees': ['CeeDee Lamb WR', 'James Cook RB', 'Zay Flowers WR', 'Garrett Wilson WR', 'Joe Burrow QB', 'Tucker Kraft TE', 'Jadarian Price RB', 'TreVeyon Henderson RB', 'Brock Purdy QB', 'DK Metcalf WR', 'PHI DE', 'Eddy Pineiro K', 'RJ Harvey RB', 'Travis Kelce TE', 'Quentin Johnston WR']}
+			//let roster_without_position = {'Washable Markers': ['Jahmyr Gibbs', 'Nico Collins', 'Chris Olave', 'Breece Hall', 'Emeka Egbuka', 'Quinshon Judkins', 'Patrick Mahomes', 'Jaylen Warren', 'DJ Moore', 'Dalton Kincaid', 'Jacory Croskey-Merritt', 'Mike Evans', 'Trevor Lawrence', 'Evan McPherson', 'MIN'], 'Make Draye': ['Bijan Robinson', 'Ashton Jeanty', 'Kyren Williams', 'Ladd McConkey', 'Drake Maye', 'Luther Burden III', 'George Kittle', 'Parker Washington', 'Chuba Hubbard', 'Jordan Mason', 'KC Concepcion', 'Makai Lemon', 'Bo Nix', 'CHI', 'Dominic Zvada'], 'Maye Drake Good': ["Ja'Marr Chase", 'Kenneth Walker III', 'Trey McBride', 'Drake London', 'Travis Etienne', 'Justin Herbert', 'Bhayshul Tuten', 'Christian Watson', 'Tony Pollard', 'Cameron Dicker', 'PIT', 'Marvin Harrison Jr.', 'Jake Ferguson', 'Jaxson Dart', 'Eli Heidenreich'], 'McPicklePounders': ['Puka Nacua', "De'Von Achane", 'Rashee Rice', 'Javonte Williams', 'Lamar Jackson', 'Davante Adams', 'Dallas Goedert', 'Brandon Aubrey', 'Josh Jacobs', 'LA', 'T.J. Hockenson', 'Courtland Sutton', 'Kyler Murray', 'Tyler Allgeier', 'Dylan Sampson'], 'Bad Piggies': ['Jonathan Taylor', 'George Pickens', 'Derrick Henry', 'Tetairoa McMillan', 'Sam LaPorta', 'Jalen Hurts', 'David Montgomery', 'Jameson Williams', 'Jason Myers', 'MarShawn Lloyd', 'BAL', 'Mark Andrews', 'Brian Robinson', 'Jordan Love', 'Kenny Gainwell'], 'Laser Llamas': ['Christian McCaffrey', 'Brock Bowers', 'Malik Nabers', 'Tee Higgins', "D'Andre Swift", 'Rome Odunze', 'Carnell Tate', 'Caleb Williams', 'J.K. Dobbins', 'DEN', 'Kyle Monangai', 'Keon Coleman', 'Jessie Bates', 'Brenton Strange', 'Daniel Jones'], 'Adebayo FC': ['Amon-Ra St. Brown', 'Omarion Hampton', 'Devonta Smith', 'Colston Loveland', 'Cam Skattebo', 'Bucky Irving', 'Jared Goff', 'Isaiah Likely', 'Stefon Diggs', 'Matthew Stafford', 'Cam Little', 'Alec Pierce', 'Aaron Jones', 'Josh Downs', 'DET'], 'LJSSNC': ['Jaxon Smith-Njigba', 'Chase Brown', 'Jeremiyah Love', 'A.J. Brown', 'Harold Fannin Jr.', 'Jayden Daniels', 'Terry McLaurin', 'Jonathon Brooks', 'SEA', 'Michael Pittman', "Ka'imi Fairbairn", 'Pat Freiermuth', 'Rachaad White', "De'Zhaun Stribling", 'Tyjae Spears'], 'Mmm... Food': ['Justin Jefferson', 'Saquon Barkley', 'Tyler Warren', 'Josh Allen', 'Kyle Pitts', 'Jaylen Waddle', 'HOU', 'Rhamondre Stevenson', 'Rico Dowdle', 'Kaelon Black', 'Jayden Reed', 'Tyler Loop', 'Jordan Addison', 'Dak Prescott', 'Xavier Worthy'], 'Rumble Bees': ['CeeDee Lamb', 'James Cook', 'Zay Flowers', 'Garrett Wilson', 'Joe Burrow', 'Tucker Kraft', 'Jadarian Price', 'TreVeyon Henderson', 'Brock Purdy', 'DK Metcalf', 'PHI', 'Eddy Pineiro', 'RJ Harvey', 'Travis Kelce', 'Quentin Johnston']}
+			//let roster = {'Washable Markers': ['Jahmyr Gibbs RB', 'Nico Collins WR', 'Chris Olave WR', 'Breece Hall RB', 'Emeka Egbuka WR', 'Quinshon Judkins RB', 'Patrick Mahomes QB', 'Jaylen Warren RB', 'DJ Moore WR', 'Dalton Kincaid TE', 'Jacory Croskey-Merritt RB', 'Mike Evans WR', 'Trevor Lawrence QB', 'Evan McPherson K', 'MIN DE'], 'Make Draye': ['Bijan Robinson RB', 'Ashton Jeanty RB', 'Kyren Williams RB', 'Ladd McConkey WR', 'Drake Maye QB', 'Luther Burden III WR', 'George Kittle TE', 'Parker Washington WR', 'Chuba Hubbard RB', 'Jordan Mason RB', 'KC Concepcion WR', 'Makai Lemon WR', 'Bo Nix QB', 'CHI DE', 'Dominic Zvada K'], 'Maye Drake Good': ["Ja'Marr Chase WR", 'Kenneth Walker III RB', 'Trey McBride TE', 'Drake London WR', 'Travis Etienne RB', 'Justin Herbert QB', 'Bhayshul Tuten RB', 'Christian Watson WR', 'Tony Pollard RB', 'Cameron Dicker K', 'PIT DE', 'Marvin Harrison Jr. WR', 'Jake Ferguson TE', 'Jaxson Dart QB', 'Eli Heidenreich RB'], 'McPicklePounders': ['Puka Nacua WR', "De'Von Achane RB", 'Rashee Rice WR', 'Javonte Williams RB', 'Lamar Jackson QB', 'Davante Adams WR', 'Dallas Goedert TE', 'Brandon Aubrey K', 'Josh Jacobs RB', 'LA DE', 'T.J. Hockenson TE', 'Courtland Sutton WR', 'Kyler Murray QB', 'Tyler Allgeier RB', 'Dylan Sampson RB'], 'Bad Piggies': ['Jonathan Taylor RB', 'George Pickens WR', 'Derrick Henry RB', 'Tetairoa McMillan WR', 'Sam LaPorta TE', 'Jalen Hurts QB', 'David Montgomery RB', 'Jameson Williams WR', 'Jason Myers K', 'MarShawn Lloyd RB', 'BAL DE', 'Mark Andrews TE', 'Brian Robinson RB', 'Jordan Love QB', 'Kenny Gainwell RB'], 'Laser Llamas': ['Christian McCaffrey RB', 'Brock Bowers TE', 'Malik Nabers WR', 'Tee Higgins WR', "D'Andre Swift RB", 'Rome Odunze WR', 'Carnell Tate WR', 'Caleb Williams QB', 'J.K. Dobbins RB', 'DEN DE', 'Kyle Monangai RB', 'Keon Coleman WR', 'Jessie Bates DB', 'Brenton Strange TE', 'Daniel Jones QB'], 'Adebayo FC': ['Amon-Ra St. Brown WR', 'Omarion Hampton RB', 'Devonta Smith DB', 'Colston Loveland TE', 'Cam Skattebo RB', 'Bucky Irving RB', 'Jared Goff QB', 'Isaiah Likely TE', 'Stefon Diggs WR', 'Matthew Stafford QB', 'Cam Little K', 'Alec Pierce WR', 'Aaron Jones RB', 'Josh Downs WR', 'DET DE'], 'LJSSNC': ['Jaxon Smith-Njigba WR', 'Chase Brown RB', 'Jeremiyah Love RB', 'A.J. Brown WR', 'Harold Fannin Jr. TE', 'Jayden Daniels QB', 'Terry McLaurin WR', 'Jonathon Brooks RB', 'SEA DE', 'Michael Pittman WR', "Ka'imi Fairbairn K", 'Pat Freiermuth TE', 'Rachaad White RB', "De'Zhaun Stribling WR", 'Tyjae Spears RB'], 'Mmm... Food': ['Justin Jefferson WR\nLB', 'Saquon Barkley RB', 'Tyler Warren TE', 'Josh Allen QB', 'Kyle Pitts TE', 'Jaylen Waddle WR', 'HOU DE', 'Rhamondre Stevenson RB', 'Rico Dowdle RB', 'Kaelon Black RB', 'Jayden Reed WR', 'Tyler Loop K', 'Jordan Addison WR', 'Dak Prescott QB', 'Xavier Worthy WR'], 'Rumble Bees': ['CeeDee Lamb WR', 'James Cook RB', 'Zay Flowers WR', 'Garrett Wilson WR', 'Joe Burrow QB', 'Tucker Kraft TE', 'Jadarian Price RB', 'TreVeyon Henderson RB', 'Brock Purdy QB', 'DK Metcalf WR', 'PHI DE', 'Eddy Pineiro K', 'RJ Harvey RB', 'Travis Kelce TE', 'Quentin Johnston WR']}
+			let roster_without_position = {'Maye Drake Good': ["Ja'Marr Chase", 'Kenneth Walker III', 'Trey McBride', 'Drake London', 'Travis Etienne', 'Justin Herbert', 'Bhayshul Tuten', 'Christian Watson', 'Tony Pollard', 'Cameron Dicker', 'PIT', 'Marvin Harrison Jr.', 'Jake Ferguson', 'Jaxson Dart', 'Eli Heidenreich'], 'Mmm... Food': ['Justin Jefferson', 'Saquon Barkley', 'Tyler Warren', 'Josh Allen', 'Kyle Pitts', 'Jaylen Waddle', 'HOU', 'Rhamondre Stevenson', 'Rico Dowdle', 'Kaelon Black', 'Jayden Reed', 'Tyler Loop', 'Jordan Addison', 'Dak Prescott', 'Xavier Worthy'], 'Washable Markers': ['Jahmyr Gibbs', 'Nico Collins', 'Chris Olave', 'Breece Hall', 'Emeka Egbuka', 'Quinshon Judkins', 'Patrick Mahomes', 'Jaylen Warren', 'DJ Moore', 'Dalton Kincaid', 'Jacory Croskey-Merritt', 'Mike Evans', 'Trevor Lawrence', 'Evan McPherson', 'MIN'], 'McPicklePounders': ['Puka Nacua', "De'Von Achane", 'Rashee Rice', 'Javonte Williams', 'Lamar Jackson', 'Davante Adams', 'Dallas Goedert', 'Brandon Aubrey', 'Josh Jacobs', 'LA', 'T.J. Hockenson', 'Courtland Sutton', 'Kyler Murray', 'Tyler Allgeier', 'Dylan Sampson'], 'Laser Llamas': ['Christian McCaffrey', 'Brock Bowers', 'Malik Nabers', 'Tee Higgins', "D'Andre Swift", 'Rome Odunze', 'Carnell Tate', 'Caleb Williams', 'J.K. Dobbins', 'DEN', 'Kyle Monangai', 'Jonah Coleman', 'Jake Bates', 'Brenton Strange', 'Daniel Jones'], 'Adebayo FC': ['Amon-Ra St. Brown', 'Omarion Hampton', 'Devonta Smith', 'Colston Loveland', 'Cam Skattebo', 'Bucky Irving', 'Jared Goff', 'Isaiah Likely', 'Stefon Diggs', 'Matthew Stafford', 'Cam Little', 'Alec Pierce', 'Aaron Jones', 'Josh Downs', 'DET'], 'Make Draye': ['Bijan Robinson', 'Ashton Jeanty', 'Kyren Williams', 'Ladd McConkey', 'Drake Maye', 'Luther Burden III', 'George Kittle', 'Parker Washington', 'Chuba Hubbard', 'Jordan Mason', 'KC Concepcion', 'Makai Lemon', 'Bo Nix', 'CHI', 'Dominic Zvada'], 'LJSSNC': ['Jaxon Smith-Njigba', 'Chase Brown', 'Jeremiyah Love', 'A.J. Brown', 'Harold Fannin Jr.', 'Jayden Daniels', 'Terry McLaurin', 'Jonathon Brooks', 'SEA', 'Michael Pittman', "Ka'imi Fairbairn", 'Pat Freiermuth', 'Rachaad White', "De'Zhaun Stribling", 'Tyjae Spears'], 'Bad Piggies': ['Jonathan Taylor', 'George Pickens', 'Derrick Henry', 'Tetairoa McMillan', 'Sam LaPorta', 'Jalen Hurts', 'David Montgomery', 'Jameson Williams', 'Jason Myers', 'MarShawn Lloyd', 'BAL', 'Mark Andrews', 'Brian Robinson', 'Jordan Love', 'Kenny Gainwell'], 'Rumble Bees': ['CeeDee Lamb', 'James Cook', 'Zay Flowers', 'Garrett Wilson', 'Joe Burrow', 'Tucker Kraft', 'Jadarian Price', 'TreVeyon Henderson', 'Brock Purdy', 'DK Metcalf', 'PHI', 'Eddy Pineiro', 'RJ Harvey', 'Travis Kelce', 'Quentin Johnston']}
+			let roster = {'Maye Drake Good': ["Ja'Marr Chase WR", 'Kenneth Walker III RB', 'Trey McBride TE', 'Drake London WR', 'Travis Etienne RB', 'Justin Herbert QB', 'Bhayshul Tuten RB', 'Christian Watson WR', 'Tony Pollard RB', 'Cameron Dicker K', 'PIT DE', 'Marvin Harrison Jr. WR', 'Jake Ferguson TE', 'Jaxson Dart QB', 'Eli Heidenreich RB'], 'Mmm... Food': ['Justin Jefferson WR\nLB', 'Saquon Barkley RB', 'Tyler Warren TE', 'Josh Allen QB', 'Kyle Pitts TE', 'Jaylen Waddle WR', 'HOU DE', 'Rhamondre Stevenson RB', 'Rico Dowdle RB', 'Kaelon Black RB', 'Jayden Reed WR', 'Tyler Loop K', 'Jordan Addison WR', 'Dak Prescott QB', 'Xavier Worthy WR'], 'Washable Markers': ['Jahmyr Gibbs RB', 'Nico Collins WR', 'Chris Olave WR', 'Breece Hall RB', 'Emeka Egbuka WR', 'Quinshon Judkins RB', 'Patrick Mahomes QB', 'Jaylen Warren RB', 'DJ Moore WR', 'Dalton Kincaid TE', 'Jacory Croskey-Merritt RB', 'Mike Evans WR', 'Trevor Lawrence QB', 'Evan McPherson K', 'MIN DE'], 'McPicklePounders': ['Puka Nacua WR', "De'Von Achane RB", 'Rashee Rice WR', 'Javonte Williams RB', 'Lamar Jackson QB', 'Davante Adams WR', 'Dallas Goedert TE', 'Brandon Aubrey K', 'Josh Jacobs RB', 'LA DE', 'T.J. Hockenson TE', 'Courtland Sutton WR', 'Kyler Murray QB', 'Tyler Allgeier RB', 'Dylan Sampson RB'], 'Laser Llamas': ['Christian McCaffrey RB', 'Brock Bowers TE', 'Malik Nabers WR', 'Tee Higgins WR', "D'Andre Swift RB", 'Rome Odunze WR', 'Carnell Tate WR', 'Caleb Williams QB', 'J.K. Dobbins RB', 'DEN DE', 'Kyle Monangai RB', 'Jonah Coleman RB', 'Jake Bates K', 'Brenton Strange TE', 'Daniel Jones QB'], 'Adebayo FC': ['Amon-Ra St. Brown WR', 'Omarion Hampton RB', 'Devonta Smith DB', 'Colston Loveland TE', 'Cam Skattebo RB', 'Bucky Irving RB', 'Jared Goff QB', 'Isaiah Likely TE', 'Stefon Diggs WR', 'Matthew Stafford QB', 'Cam Little K', 'Alec Pierce WR', 'Aaron Jones RB', 'Josh Downs WR', 'DET DE'], 'Make Draye': ['Bijan Robinson RB', 'Ashton Jeanty RB', 'Kyren Williams RB', 'Ladd McConkey WR', 'Drake Maye QB', 'Luther Burden III WR', 'George Kittle TE', 'Parker Washington WR', 'Chuba Hubbard RB', 'Jordan Mason RB', 'KC Concepcion WR', 'Makai Lemon WR', 'Bo Nix QB', 'CHI DE', 'Dominic Zvada K'], 'LJSSNC': ['Jaxon Smith-Njigba WR', 'Chase Brown RB', 'Jeremiyah Love RB', 'A.J. Brown WR', 'Harold Fannin Jr. TE', 'Jayden Daniels QB', 'Terry McLaurin WR', 'Jonathon Brooks RB', 'SEA DE', 'Michael Pittman WR', "Ka'imi Fairbairn K", 'Pat Freiermuth TE', 'Rachaad White RB', "De'Zhaun Stribling WR", 'Tyjae Spears RB'], 'Bad Piggies': ['Jonathan Taylor RB', 'George Pickens WR', 'Derrick Henry RB', 'Tetairoa McMillan WR', 'Sam LaPorta TE', 'Jalen Hurts QB', 'David Montgomery RB', 'Jameson Williams WR', 'Jason Myers K', 'MarShawn Lloyd RB', 'BAL DE', 'Mark Andrews TE', 'Brian Robinson RB', 'Jordan Love QB', 'Kenny Gainwell RB'], 'Rumble Bees': ['CeeDee Lamb WR', 'James Cook RB', 'Zay Flowers WR', 'Garrett Wilson WR', 'Joe Burrow QB', 'Tucker Kraft TE', 'Jadarian Price RB', 'TreVeyon Henderson RB', 'Brock Purdy QB', 'DK Metcalf WR', 'PHI DE', 'Eddy Pineiro K', 'RJ Harvey RB', 'Travis Kelce TE', 'Quentin Johnston WR']}
+			console.log(roster_without_position)
 			let matchups = [
 				[
 					[1,10],
@@ -604,6 +654,61 @@
 			leader_node.innerText=teams[0]
 			score_node = document.querySelector('.score-to-beat')
 			score_node.innerText=get_team_score(teams[0]).toFixed(2)
+
+			//Add lineup submission form
+			lineup = document.querySelector(".lineup-player-container")
+			positions_str = ['QB','RB','RB','WR','WR','TE','Flex','DST','Kicker']
+			positions = ['QB','RB','RB','WR','WR','TE','Flex','DE','K']
+			for(let i = 0; i< positions.length; i++){
+				lineup.innerHTML+=`
+					<div position = '${positions[i]}' class = 'form-position form-${positions[i]}'>
+						<span>${positions_str[i]}</span>
+						<select name = '${positions[i]}${i-positions.indexOf(positions[i])+1}' class = 'form-${positions[i]}'>
+							
+						</select>
+					</div>
+				`
+			}
+			document.querySelector("#team-name").addEventListener("change" , (e)=>{
+				selected_team = event.target.value;
+				selected_players = roster[selected_team]; 
+				elts = document.querySelectorAll('.form-position')
+				used_players = []
+				for(let i = 0; i< elts.length; i++){
+					elt = elts[i]
+					position = elt.getAttribute('position');
+					valid_players = selected_players.filter((e)=>{
+						val = e.slice(-2,e.length).trim()
+						if (position == 'Flex'){
+							return (val == 'WR' || val == 'RB') && !(used_players.includes(e))
+						}
+						return val==position && !(used_players.includes(e))
+					})
+					let dropdown = elt.children[1]
+					dropdown.innerHTML='';
+					for(player of valid_players){
+						dropdown.innerHTML+=`<option value="${player.slice(0,-2)}">${player.slice(0,-2)}</option>`
+					}
+					dropdown.value = valid_players[0].slice(0,-2);
+					used_players.push(valid_players[0])
+				}
+			})
+			document.querySelector('form').addEventListener('submit',function(e){
+				e.preventDefault();
+				const formData = new FormData(event.target);
+				const dataObject = Object.fromEntries(formData.entries());
+				console.log(dataObject); 
+				console.log(formData.get('first-name'))
+				const url = 'http://52.87.225.110:3000/submit'
+				console.log({
+				method: 'POST', // Specify the HTTP method
+				body: formData
+			})
+				fetch(url, {
+				method: 'POST', // Specify the HTTP method
+				body: formData
+			})
+			})
 		})
 	</script>
 	<div class = 'navbar'>
@@ -620,6 +725,8 @@
 					</li>
 					<li class = "navbar-text"><a class = 'a-players' href = 'javascript:void(0);' onclick = 'showSection("players")'>Players</a></li>
 					<li class = "navbar-text"><a class = 'a-matchups' href = 'javascript:void(0);' onclick = 'showSection("matchups")'>Matchups</a></li>
+					<li class = "navbar-text"><a class = 'a-lineup' href = 'javascript:void(0);' onclick = 'showSection("lineup")'>Submit Lineup</a></li>
+
 				</ul>
 				</div>
 			</div>
@@ -901,24 +1008,41 @@
 	<section id = "matchups">
 		<h1 class="section-title">Matchups</h1>
 		<div class = 'matchup-container'>
-			<!-- <div class = "matchup">
-				<div class = 'week-num'>Week 1</div>
-				<div class = 'team-one'>
-					<span class = 'team'>McPicklePounders</span>
-					<span class = "win-record">7W  0D 1L</span>
-					<span class = "num">100</span>
-				</div>
-				<span class = 'vs'>VS</span>
-				<div class = "team-two">
-					<span class = 'team'>Drake Maye</span>
-					<span class = "win-record">4W 0D 4L</span>
-					<span class = "num">120</span>
-				</div>
-			</div> -->
+
 		</div>
 	</section>
-	<!-- Link your external JavaScript file here -->
-	<!-- <script src="script.js"></script> -->
+	<section id = "lineup">
+		<div class = "lineup-container">
+			<form class = "lineup-form">
+				<div class = "normal-form">
+					<label for = "first-name">First Name</label>
+					<input name = 'first-name' type = "text" id="first-name">
+					<label for = "last-name">Last Name</label>
+					<input name = 'last-name' type = "text" id="last-name">
+
+					<label for = "student-id">Student ID</label>
+					<input name = 'student-id' type = "text" id="student-id">
+
+					<label for = "team-name">Team Name</label>
+					<select name="team-name" id="team-name">
+						<option value="Maye Drake Good">Maye Drake Good</option>
+						<option value="Rumble Bees">Rumble Bees</option>
+						<option value="McPicklePounders">McPicklePounders</option>
+						<option value="Mmm... Food">Mmm... Food</option>
+						<option value="Bad Piggies">Bad Piggies</option>
+						<option value="Laser Llamas">Laser Llamas</option>
+						<option value="Adebayo FC">Adebayo FC</option>
+						<option value="Washable Markers">Washable Markers</option>
+						<option value="LJSSNC">LJSSNC</option>
+					</select>
+				</div>
+				<div class = "lineup-player-container">
+
+				</div>
+  			<button type="submit" value="Submit">Submit</button>
+			</form>
+		</div>
+	</section>
 </body>
 
 </html>
