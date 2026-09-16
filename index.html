@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Document</title>
+	<title>Sports Stat Draft</title>
 	<!-- Link your external CSS stylesheet here -->
 	<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap"
 		rel="stylesheet" />
@@ -12,6 +12,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 	<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,800&family=Fira+Code:wght@300..700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Graduate&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
 		rel="stylesheet" />
+	<link rel="icon" type="image/png" href="red_football_transparent.png">
 	<style>
 		:root {
 			--primary-color: #ce1c0f;
@@ -442,7 +443,7 @@
 			display: flex;
 			flex-direction: column;
 			font-family: "Big Shoulders Display", sans-serif;
-			font-weight: 600;
+			/* font-weight: 600; */
 			font-size: 1.2rem;
 			justify-content: center;
 			align-items: center;
@@ -475,11 +476,16 @@
 		}
 
 		div.matchup-container {
+			display: flex;
+			flex-direction: column;
+			/* border: 2px var(--line) solid; */
+		}
+		div.week-matchup-container {
 			display: grid;
 			grid-template-columns: repeat(3, minmax(400px, 500px));
 			padding: 20px 40px;
-			margin: 20px 40px;
-			/* border: 2px var(--line) solid; */
+			margin: 20px 60px;
+			border-bottom: rgb(224, 208, 208) 1px solid;
 		}
 
 		.score-box {
@@ -550,11 +556,6 @@
 			gap: 0px;
 		}
 
-		span#error-field {
-			color: red;
-			font-size: 10px;
-		}
-
 		select.select-position {
 			font-family: "Inter", sans-serif;
 			font-size: 12px;
@@ -623,11 +624,151 @@
 				background-color: black;
 			}
 		}
+		.waiver-container {
+			border: 5px;
+			border-radius: 15px;
+			min-width: 1100px;
+			width: 100%;
+			gap: 0px;
+			border-collapse: collapse;
+			box-shadow: var(--shadow);
+			padding: 25px 25px;
+		}
+		section#waiver {
+			padding: 100px 80px;
+		}
+		.player-waiver-container {
+			height: 40px;
+			display: flex;
+			flex-direction: column;
+			background-color: var(--off-white);
+			padding: 5px 5px;
+			border-radius: 8px;
+		}
+		@keyframes expand-and-gray {
+			0% {
+				background-color:var(--off-white);
+			}
+			100% {
+				background-color:#ded8d57b;
+			}
+		}
+		.small-title {
+			font-family: "Big Shoulders Display";
+			font-weight: 900;
+			font-size: 30px;
+			letter-spacing: 0.02em;
+			padding: 0px;
+			margin-bottom: 20px;
+		}
+		.player-waiver-container:hover {
+			animation: expand-and-gray 0.5s ease-out forwards;
+
+		}
+		.waiver-header {
+			font-family: 'Inter', sans-serif;
+			font-weight: 300;
+			font-size: 8px;
+			/* display: flex;
+			flex-direction: row;
+			justify-content: space-between; */
+		}
+		.waiver-data-container {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			font-family: 'Inter', sans-serif;
+			font-weight: 500;
+			font-size: 12px;
+			padding: 0px 10px;
+		}
+		.waiver-data {
+			display: flex;
+			flex-direction: column;
+			width: 150px;
+		}
+		.search-container {
+			display: flex;
+			flex-direction: row;
+			justify-content:space-between;
+			padding: 5px 20px;
+		}
+		.search-container span {
+			font-size: 15px;
+		}
+		input#waiver-search {
+			width: 200px;
+		}
+		button.waiver-submission {
+			border-radius: 4px;
+			letter-spacing: 0.04rem;
+			border: none;
+			max-height: 30px;
+			padding: 10px 15px;
+			font-size: 10px;
+		}
+		#drop-player-select {
+			min-width: 100px;
+		}
+		form#waiver-form {
+			display: flex;
+			flex-direction: column;
+			background-color: var(--off-white);
+			border-radius: 15px;
+			box-shadow: var(--shadow);
+			margin-bottom: 35px;
+			padding: 35px 35px;
+		}
+		#request-player-container {
+			min-height: 70px;
+		}
+		.waiver-submit {
+			width: fit-content;
+			padding: 1rem 2rem;
+			border-radius: 0.5rem;
+			background-color: var(--red);
+			color: white;
+			font-size: 14px;
+			font-family: "Inter", sans-serif;
+			border: none;
+			margin: 0 auto;
+			&:hover {
+				background-color: var(--dark-red);
+			}
+		}
+		.waiver-error-desc, #error-field {
+			margin-top: 20px;
+			font-size: 22px;
+			color:red;
+			text-align: center;
+		}
+
 	</style>
 </head>
 
 <body>
 	<script>
+		let week = get_week();
+		let roster_position_promise = loadJSONData("roster_without_position.json")
+		let roster_promise = loadJSONData('roster.json')
+		let all_scores_promise = loadJSONData("all_player_scores.json")
+		let all_scores = null;
+		let stats_promise = loadJSONData(`week${week}.json`)
+		let week_data_promise = loadWeekData();
+		async function loadWeekData(){ 
+			let week_data = []
+			for(let i = 1; i<=week; i++){
+					a = await loadJSONData(`week${i}.json`)
+					if(!a) {
+						console.log(`Error: couldn't find data for week ${i}`)
+						return week_data
+					}
+					else {
+						week_data.push(a);
+					}
+			}
+			return week_data
+		}
 		async function loadJSONData(file) {
 			try {
 				const response = await fetch(`${file}`);
@@ -640,6 +781,7 @@
 				const data = await response.json();
 				return data;
 			} catch (err) {
+				return false;
 				console.log(`Couldn't load data from ${file}`);
 			}
 		}
@@ -657,9 +799,16 @@
 			let link = document.querySelector(`.a-${section}`);
 			link.classList.add("active");
 		}
+		function request_player(player){
+			let player_element = document.querySelector(`[player="${player}"]`)
+			document.querySelector('#request-player-container').innerHTML=player_element.outerHTML;
+
+			let player_input = document.querySelector('input#request-player-input')
+			player_input.value = player;
+		}
 		function get_week() {
 			const start = new Date("2026-09-08");
-			let now = new Date("2026-09-22");
+			let now = new Date();
 			return (
 				Math.floor(
 					(now.getTime() - start.getTime()) / (1000 * 60 * 60 * 24 * 7),
@@ -667,14 +816,8 @@
 			);
 		}
 		document.addEventListener("DOMContentLoaded", async () => {
-			let week = get_week();
-			console.log(get_week());
-			//let roster_without_position = {'Washable Markers': ['Jahmyr Gibbs', 'Nico Collins', 'Chris Olave', 'Breece Hall', 'Emeka Egbuka', 'Quinshon Judkins', 'Patrick Mahomes', 'Jaylen Warren', 'DJ Moore', 'Dalton Kincaid', 'Jacory Croskey-Merritt', 'Mike Evans', 'Trevor Lawrence', 'Evan McPherson', 'MIN'], 'Make Draye': ['Bijan Robinson', 'Ashton Jeanty', 'Kyren Williams', 'Ladd McConkey', 'Drake Maye', 'Luther Burden III', 'George Kittle', 'Parker Washington', 'Chuba Hubbard', 'Jordan Mason', 'KC Concepcion', 'Makai Lemon', 'Bo Nix', 'CHI', 'Dominic Zvada'], 'Maye Drake Good': ["Ja'Marr Chase", 'Kenneth Walker III', 'Trey McBride', 'Drake London', 'Travis Etienne', 'Justin Herbert', 'Bhayshul Tuten', 'Christian Watson', 'Tony Pollard', 'Cameron Dicker', 'PIT', 'Marvin Harrison Jr.', 'Jake Ferguson', 'Jaxson Dart', 'Eli Heidenreich'], 'McPicklePounders': ['Puka Nacua', "De'Von Achane", 'Rashee Rice', 'Javonte Williams', 'Lamar Jackson', 'Davante Adams', 'Dallas Goedert', 'Brandon Aubrey', 'Josh Jacobs', 'LA', 'T.J. Hockenson', 'Courtland Sutton', 'Kyler Murray', 'Tyler Allgeier', 'Dylan Sampson'], 'Bad Piggies': ['Jonathan Taylor', 'George Pickens', 'Derrick Henry', 'Tetairoa McMillan', 'Sam LaPorta', 'Jalen Hurts', 'David Montgomery', 'Jameson Williams', 'Jason Myers', 'MarShawn Lloyd', 'BAL', 'Mark Andrews', 'Brian Robinson', 'Jordan Love', 'Kenny Gainwell'], 'Laser Llamas': ['Christian McCaffrey', 'Brock Bowers', 'Malik Nabers', 'Tee Higgins', "D'Andre Swift", 'Rome Odunze', 'Carnell Tate', 'Caleb Williams', 'J.K. Dobbins', 'DEN', 'Kyle Monangai', 'Keon Coleman', 'Jessie Bates', 'Brenton Strange', 'Daniel Jones'], 'Adebayo FC': ['Amon-Ra St. Brown', 'Omarion Hampton', 'Devonta Smith', 'Colston Loveland', 'Cam Skattebo', 'Bucky Irving', 'Jared Goff', 'Isaiah Likely', 'Stefon Diggs', 'Matthew Stafford', 'Cam Little', 'Alec Pierce', 'Aaron Jones', 'Josh Downs', 'DET'], 'LJSSNC': ['Jaxon Smith-Njigba', 'Chase Brown', 'Jeremiyah Love', 'A.J. Brown', 'Harold Fannin Jr.', 'Jayden Daniels', 'Terry McLaurin', 'Jonathon Brooks', 'SEA', 'Michael Pittman', "Ka'imi Fairbairn", 'Pat Freiermuth', 'Rachaad White', "De'Zhaun Stribling", 'Tyjae Spears'], 'Mmm... Food': ['Justin Jefferson', 'Saquon Barkley', 'Tyler Warren', 'Josh Allen', 'Kyle Pitts', 'Jaylen Waddle', 'HOU', 'Rhamondre Stevenson', 'Rico Dowdle', 'Kaelon Black', 'Jayden Reed', 'Tyler Loop', 'Jordan Addison', 'Dak Prescott', 'Xavier Worthy'], 'Rumble Bees': ['CeeDee Lamb', 'James Cook', 'Zay Flowers', 'Garrett Wilson', 'Joe Burrow', 'Tucker Kraft', 'Jadarian Price', 'TreVeyon Henderson', 'Brock Purdy', 'DK Metcalf', 'PHI', 'Eddy Pineiro', 'RJ Harvey', 'Travis Kelce', 'Quentin Johnston']}
-			//let roster = {'Washable Markers': ['Jahmyr Gibbs RB', 'Nico Collins WR', 'Chris Olave WR', 'Breece Hall RB', 'Emeka Egbuka WR', 'Quinshon Judkins RB', 'Patrick Mahomes QB', 'Jaylen Warren RB', 'DJ Moore WR', 'Dalton Kincaid TE', 'Jacory Croskey-Merritt RB', 'Mike Evans WR', 'Trevor Lawrence QB', 'Evan McPherson K', 'MIN DE'], 'Make Draye': ['Bijan Robinson RB', 'Ashton Jeanty RB', 'Kyren Williams RB', 'Ladd McConkey WR', 'Drake Maye QB', 'Luther Burden III WR', 'George Kittle TE', 'Parker Washington WR', 'Chuba Hubbard RB', 'Jordan Mason RB', 'KC Concepcion WR', 'Makai Lemon WR', 'Bo Nix QB', 'CHI DE', 'Dominic Zvada K'], 'Maye Drake Good': ["Ja'Marr Chase WR", 'Kenneth Walker III RB', 'Trey McBride TE', 'Drake London WR', 'Travis Etienne RB', 'Justin Herbert QB', 'Bhayshul Tuten RB', 'Christian Watson WR', 'Tony Pollard RB', 'Cameron Dicker K', 'PIT DE', 'Marvin Harrison Jr. WR', 'Jake Ferguson TE', 'Jaxson Dart QB', 'Eli Heidenreich RB'], 'McPicklePounders': ['Puka Nacua WR', "De'Von Achane RB", 'Rashee Rice WR', 'Javonte Williams RB', 'Lamar Jackson QB', 'Davante Adams WR', 'Dallas Goedert TE', 'Brandon Aubrey K', 'Josh Jacobs RB', 'LA DE', 'T.J. Hockenson TE', 'Courtland Sutton WR', 'Kyler Murray QB', 'Tyler Allgeier RB', 'Dylan Sampson RB'], 'Bad Piggies': ['Jonathan Taylor RB', 'George Pickens WR', 'Derrick Henry RB', 'Tetairoa McMillan WR', 'Sam LaPorta TE', 'Jalen Hurts QB', 'David Montgomery RB', 'Jameson Williams WR', 'Jason Myers K', 'MarShawn Lloyd RB', 'BAL DE', 'Mark Andrews TE', 'Brian Robinson RB', 'Jordan Love QB', 'Kenny Gainwell RB'], 'Laser Llamas': ['Christian McCaffrey RB', 'Brock Bowers TE', 'Malik Nabers WR', 'Tee Higgins WR', "D'Andre Swift RB", 'Rome Odunze WR', 'Carnell Tate WR', 'Caleb Williams QB', 'J.K. Dobbins RB', 'DEN DE', 'Kyle Monangai RB', 'Keon Coleman WR', 'Jessie Bates DB', 'Brenton Strange TE', 'Daniel Jones QB'], 'Adebayo FC': ['Amon-Ra St. Brown WR', 'Omarion Hampton RB', 'Devonta Smith DB', 'Colston Loveland TE', 'Cam Skattebo RB', 'Bucky Irving RB', 'Jared Goff QB', 'Isaiah Likely TE', 'Stefon Diggs WR', 'Matthew Stafford QB', 'Cam Little K', 'Alec Pierce WR', 'Aaron Jones RB', 'Josh Downs WR', 'DET DE'], 'LJSSNC': ['Jaxon Smith-Njigba WR', 'Chase Brown RB', 'Jeremiyah Love RB', 'A.J. Brown WR', 'Harold Fannin Jr. TE', 'Jayden Daniels QB', 'Terry McLaurin WR', 'Jonathon Brooks RB', 'SEA DE', 'Michael Pittman WR', "Ka'imi Fairbairn K", 'Pat Freiermuth TE', 'Rachaad White RB', "De'Zhaun Stribling WR", 'Tyjae Spears RB'], 'Mmm... Food': ['Justin Jefferson WR\nLB', 'Saquon Barkley RB', 'Tyler Warren TE', 'Josh Allen QB', 'Kyle Pitts TE', 'Jaylen Waddle WR', 'HOU DE', 'Rhamondre Stevenson RB', 'Rico Dowdle RB', 'Kaelon Black RB', 'Jayden Reed WR', 'Tyler Loop K', 'Jordan Addison WR', 'Dak Prescott QB', 'Xavier Worthy WR'], 'Rumble Bees': ['CeeDee Lamb WR', 'James Cook RB', 'Zay Flowers WR', 'Garrett Wilson WR', 'Joe Burrow QB', 'Tucker Kraft TE', 'Jadarian Price RB', 'TreVeyon Henderson RB', 'Brock Purdy QB', 'DK Metcalf WR', 'PHI DE', 'Eddy Pineiro K', 'RJ Harvey RB', 'Travis Kelce TE', 'Quentin Johnston WR']}
-			let roster_without_position = await loadJSONData("roster_without_position.json")
-			let roster = await loadJSONData('roster.json')
-			console.log(roster);
-			console.log(roster_without_position);
+			let roster = await roster_promise;
+			let roster_without_position = await roster_position_promise;
 			let matchups = [
 				[
 					[1, 10],
@@ -740,12 +883,15 @@
 					[6, 7],
 				],
 			];
-			var stats = await loadJSONData("out.json");
+			var stats = await stats_promise;
 			var lineups = await loadJSONData("serialized_lineups.json");
 			//console.log(stats)
 			table = document.querySelector("table.player-table");
 			var teams = Object.keys(roster);
-			console.log(teams.toString());
+			all_lineups = {}
+			for(const team of teams){
+				all_lineups[team]=[]
+			}
 			for (let i = 0; i < teams.length; i++) {
 				rows = Array.from(document.querySelectorAll("div.table-cell"));
 				for (let j = 0; j < 15; j++) {
@@ -775,15 +921,14 @@
 				}
 			}
 			function log_all_players() {
-				all_players = [];
+				all_players_list = [];
 				for (const team of teams) {
-					for (const player of roster_without_position[team]) {
-						all_players.push(player);
+					for (const player of roster[team]) {
+						all_players_list.push(player);
 					}
 				}
-				console.log(all_players);
+				return all_players_list
 			}
-			log_all_players();
 			// const tr = document.createElement('tr')
 			// headers = ['Player','Team','Position','Score']
 			// for(let i = 0; i<headers.length;i++){
@@ -796,7 +941,6 @@
 			//Generate list of players and their stats
 			data = [];
 			teams = Object.keys(stats);
-			console.log(teams.toString());
 			for (let i = 0; i < teams.length; i++) {
 				players = Object.keys(stats[teams[i]]);
 				for (let j = 0; j < players.length; j++) {
@@ -812,7 +956,6 @@
 			data.sort((a, b) => {
 				return b["score"] - a["score"];
 			});
-			console.log(data);
 			headers = ["name", "position", "team", "score"];
 			//Create player table
 			for (let i = 0; i < data.length; i++) {
@@ -838,8 +981,8 @@
 				}
 				table.appendChild(tr);
 			}
-			function get_team_score(team) {
-				let team_roster = Array.from(Object.keys(stats[team])).filter(
+			function get_team_score(team, statistics) {
+				let team_roster = Array.from(Object.keys(statistics[team])).filter(
 					(val) => {
 						return lineups[team].includes(val);
 					},
@@ -848,48 +991,58 @@
 				// console.log(team_roster)
 				sum = 0;
 				for (let i = 0; i < team_roster.length; i++) {
-					sum += stats[team][team_roster[i]]["score"];
+					sum += statistics[team][team_roster[i]]["score"];
 				}
 				return sum;
 			}
 			//Compute team score and add matchups
 			console.log(`week: ${week}`);
-			matchup_container = document.querySelector("div.matchup-container");
-			for (let i = 0; i < matchups[week - 1].length; i++) {
-				matchup = matchups[week - 1][i];
-				team_one = teams[matchup[0] - 1];
-				team_two = teams[matchup[1] - 1];
-				if (get_team_score(team_one) < get_team_score(team_two)) {
-					swp = team_one;
-					team_one = team_two;
-					team_two = swp;
+			let week_data = await week_data_promise;
+			let matchup_container = document.querySelector("div.matchup-container");
+			for(let j = 1; j<=week; j++){
+				let week_matchup_container = document.createElement('div')
+				week_matchup_container.classList.add('week-matchup-container')
+				for (let i = 0; i < matchups[j - 1].length; i++) {
+					var stat_var = []
+					if (j==week){
+						stat_var = stats
+					}
+					else {
+						stat_var = week_data[j - 1]
+					}
+					matchup = matchups[j - 1][i];
+					team_one = teams[matchup[0] - 1];
+					team_two = teams[matchup[1] - 1];
+					if (get_team_score(team_one, stat_var) < get_team_score(team_two, stat_var)) {
+						swp = team_one;
+						team_one = team_two;
+						team_two = swp;
+					}
+					week_matchup_container.innerHTML += `
+						<div class = "matchup">
+							<div class = 'week-num'>Week ${j}</div>
+							<div class = 'team-one'>
+								<span class = 'team'>${team_one}</span>
+								<span class = "win-record">0W  0D 0L</span>
+								<span class = "num">${get_team_score(team_one, stat_var).toFixed(2)}</span>
+							</div>
+							<span class = 'vs'>VS</span>
+							<div class = "team-two">
+								<span class = 'team'>${team_two}</span>
+								<span class = "win-record">0W 0D 0L</span>
+								<span class = "num">${get_team_score(team_two, stat_var).toFixed(2)}</span>
+							</div>
+						</div>`;
 				}
-				matchup_container.innerHTML += `
-					<div class = "matchup">
-						<div class = 'week-num'>Week ${week}</div>
-						<div class = 'team-one'>
-							<span class = 'team'>${team_one}</span>
-							<span class = "win-record">0W  0D 0L</span>
-							<span class = "num">${get_team_score(team_one).toFixed(2)}</span>
-						</div>
-						<span class = 'vs'>VS</span>
-						<div class = "team-two">
-							<span class = 'team'>${team_two}</span>
-							<span class = "win-record">0W 0D 0L</span>
-							<span class = "num">${get_team_score(team_two).toFixed(2)}</span>
-						</div>
-					</div>`;
+				matchup_container.appendChild(week_matchup_container)
 			}
 			leader_node = document.querySelector(".leader-num");
-			console.log(teams);
 			teams = teams.sort((a, b) => {
-				return get_team_score(b) - get_team_score(a);
+				return get_team_score(b, stats) - get_team_score(a, stats);
 			});
-			console.log(teams.toString());
-			console.log(teams[0]);
 			leader_node.innerText = teams[0];
 			score_node = document.querySelector(".score-to-beat");
-			score_node.innerText = get_team_score(teams[0]).toFixed(2);
+			score_node.innerText = get_team_score(teams[0], stats).toFixed(2);
 
 			//Add lineup submission form
 			lineup = document.querySelector(".lineup-player-container");
@@ -915,6 +1068,92 @@
 					</div>
 				`;
 			}
+
+			//Add Waiver wire picks
+			async function load_waiver_scores(){
+				function render_player(player_obj){
+					player_draft = document.querySelector('.player-draft')
+					player = player_obj['player']
+					position = player.slice(-2, player.length).trim()
+					player_name = player.slice(0,-2).trim()
+					player_draft.innerHTML += `
+						<div player = "${player_obj['player']}" class = 'player-waiver-container'>
+							<div class = 'waiver-data-container'>
+								<div class = 'waiver-data-div'>
+									<span class = 'waiver-header'>Name</span>
+									<span class = 'waiver-data'>${player_name}</span>
+								</div>
+								<div class = 'waiver-data-value'>
+									<span class = 'waiver-header'>Position</span>
+									<span class = 'waiver-data'>${position}</span>
+								</div>
+								<div class = 'waiver-data-div'>
+									<span class = 'waiver-header'> Latest Score </span>
+									<span class = 'waiver-data'>${player_obj['score'].toFixed(2)}</span>
+
+								</div>
+								<div class = 'waiver-data-value'>
+									<span class = 'waiver-header'> Average Score (Past Weeks)</span>
+									<span class = 'waiver-data'>${player_obj['average'].toFixed(2)}</span>
+								</div>
+								<button class = 'waiver-submission' onclick = "request_player('${player_obj['player']}')">Request</button>
+							</div>
+						</div>
+					`
+				}
+				all_scores = await all_scores_promise;
+				let all_players = log_all_players()
+				all_scores = all_scores.filter((val)=>{
+					return !all_players.includes(val['player'])
+				})
+				all_scores=all_scores.sort((a,b)=>{
+					avg_diff = b['average']-a['average']
+					if(Math.abs(avg_diff)<0.02){
+						return b['score']-a['score']
+					}
+					else {
+						return avg_diff
+					}
+				})
+
+				player_draft = document.querySelector('.player-draft')
+				for(let i = 0; i<30; i++) {
+					player_obj = all_scores[i]
+					render_player(player_obj)
+				}
+				document.querySelector('input#waiver-search').addEventListener('input',(event)=>{
+					let query = event.target.value;
+					if (query == ''){
+						document.querySelector('.player-draft').innerHTML = '';
+						for(let i = 0; i<30; i++){
+							render_player(all_scores[i])
+						}
+						return;
+					}
+				document.querySelector('.player-draft').innerHTML = '';
+					console.log(query)
+					let tmp_scores = all_scores.filter((val)=>{
+						return val['player'].toLowerCase().startsWith(query)
+					})
+					if (tmp_scores.length>40){
+						tmp_scores = tmp_scores.slice(0,40)
+					}
+					for(const player of tmp_scores){
+						render_player(player)
+					}
+				})
+				
+			}
+			setTimeout(load_waiver_scores,0)
+			document.querySelector('#waiver-select-team').addEventListener('change', (e)=>{
+				let team = event.target.value;
+				let selected_players = roster[team]
+				player_drop = document.querySelector('#drop-player-select')
+				player_drop.innerHTML = "";
+				for(let i = 0; i<selected_players.length; i++){
+					player_drop.innerHTML += `<option value = "${selected_players[i]}">${selected_players[i]}</option>`
+				}
+			})
 			document.querySelector("#team-name").addEventListener("change", (e) => {
 				document.querySelector("#error-field").innerHTML = "";
 				selected_team = event.target.value;
@@ -942,7 +1181,8 @@
 					used_players.push(valid_players[0]);
 				}
 			});
-			document.querySelector("form").addEventListener("submit", function (e) {
+
+			document.querySelector("form.lineup-form").addEventListener("submit", function (e) {
 				document.querySelector("#error-field").innerHTML = "";
 				e.preventDefault();
 				const formData = new FormData(event.target);
@@ -961,6 +1201,12 @@
 				];
 				used_players = [];
 				function handleErrors() {
+					if(!dataObject['team-name']){
+						return 'Error: Team name is missing'
+					}
+					if(!dataObject['team-password']){
+						return 'Error: Team password is missing'
+					}
 					try {
 						for (const position of required_positions) {
 							player = dataObject[position].trim();
@@ -985,7 +1231,7 @@
 							used_players.push(player);
 						}
 					} catch (error) {
-						return "An unknown error occured";
+						return "At least one field is missing";
 					}
 					return false;
 				}
@@ -994,17 +1240,48 @@
 					document.querySelector("#error-field").innerHTML = a;
 					return;
 				}
-				console.log(formData.get("first-name"));
 				const url = "http://52.87.225.110:3000/submit";
 				console.log({
-					method: "POST", // Specify the HTTP method
+					method: "POST", 
 					body: formData,
 				});
 				fetch(url, {
-					method: "POST", // Specify the HTTP method
+					method: "POST", 
 					body: formData,
 				});
 			});
+
+
+			document.querySelector('form#waiver-form').addEventListener('submit', function (e) {
+				document.querySelector('.waiver-error-desc').innerHTML = ''
+				e.preventDefault();
+				const formData = new FormData(event.target);
+				const dataObject = Object.fromEntries(formData.entries());
+				console.log(dataObject);
+				fields = ['team-name','drop','request','team-password']
+				function handleErrors(){ 
+					for(const field of fields) {
+						if (!dataObject[field]){
+							return `Field ${field} is empty`
+						}
+					}
+					return false;
+				}
+				a = handleErrors()
+				if (a) {
+					document.querySelector('.waiver-error-desc').innerHTML = `Error: ${a}`
+					return;
+				}
+				const url = "http://52.87.225.110:3000/submit";
+				console.log({
+					method: "POST", 
+					body: formData,
+				});
+				fetch(url, {
+					method: "POST", 
+					body: formData,
+				});
+			})
 		});
 	</script>
 	<div class="navbar">
@@ -1035,6 +1312,10 @@
 					<li class="navbar-text">
 						<a class="a-lineup" href="javascript:void(0);"
 							onclick="showSection('lineup')">Submit Lineup</a>
+					</li>
+					<li class="navbar-text">
+						<a class="a-waiver" href="javascript:void(0);"
+							onclick="showSection('waiver')">Waiver Wires</a>
 					</li>
 				</ul>
 			</div>
@@ -1308,13 +1589,14 @@
 		<div class="lineup-container">
 			<form class="lineup-form">
 				<div class="normal-form">
+					<!-- <input type="hidden" id="secretField0" name="type" value="lineup">
 					<label class="input-label" for="first-name">First Name</label>
 					<input class="input-field" name="first-name" type="text" id="first-name" />
 					<label class="input-label" for="last-name">Last Name</label>
 					<input class="input-field" name="last-name" type="text" id="last-name" />
 
 					<label class="input-label" for="student-id">Student ID</label>
-					<input class="input-field" name="student-id" type="text" id="student-id" />
+					<input class="input-field" name="student-id" type="text" id="student-id" /> -->
 
 					<label class="input-label" for="team-name">Team Name</label>
 					<select class="input-field" name="team-name" id="team-name">
@@ -1330,13 +1612,63 @@
 						<option value="Washable Markers">Washable Markers</option>
 						<option value="LJSSNC">LJSSNC</option>
 					</select>
+					<label class="input-label" for="lineup-team-password">Team Password</label>
+					<input class="input-field" name="team-password" type="text" id="lineup-team-password" />
 				</div>
+					
 				<div class="lineup-player-container"></div>
 				<button class="lineup-submit" type="submit" value="Submit">
 					Submit
 				</button>
+			
 				<span id="error-field"></span>
 			</form>
+		</div>
+	</section>
+	<section id = "waiver">
+		<form id = 'waiver-form'>
+			<h1 class="small-title">Waiver Wire Submission</h1>
+			<!-- <div class = "waiver-team-name"> -->
+				<input type="hidden" id="secretField1" name="type" value="waiver">
+				<label for = 'waiver-select-team' class = 'input-label' >Team Name*</label>
+				<select id = 'waiver-select-team' class = 'input-field' name = 'team-name'>
+					<option disabled selected value>-- Select a Team --</option>
+					<option value="Maye Drake Good">Maye Drake Good</option>
+					<option value="Make Draye">Make Draye</option>
+					<option value="Rumble Bees">Rumble Bees</option>
+					<option value="McPicklePounders">McPicklePounders</option>
+					<option value="Mmm... Food">Mmm... Food</option>
+					<option value="Bad Piggies">Bad Piggies</option>
+					<option value="Laser Llamas">Laser Llamas</option>
+					<option value="Adebayo FC">Adebayo FC</option>
+					<option value="Washable Markers">Washable Markers</option>
+					<option value="LJSSNC">LJSSNC</option>
+				</select> 
+				<label for = 'waiver-team-password' class = 'input-label' >Team Password</label>
+				<input type = 'text' id = 'waiver-team-password' class = 'input-field' name = 'team-password'>
+			<!-- </div> -->
+			<!-- <div class = "drop-player"> -->
+				<label for = 'drop-player-select' class = 'input-label'>Drop</label>
+				<select id = 'drop-player-select' class = 'input-field' name = 'drop'></select>
+			<!-- </div> -->
+			<!-- <div class = "request-waiver"> -->
+				<label for = 'request-player-input' class = 'input-label'>Request</label>
+				<input id = 'request-player-input' type = 'text' hidden name = 'request'>
+				<div id = 'request-player-container'>
+
+				</div>
+				<button type = 'submit' value = 'Submit' class = 'waiver-submit'>Submit</button>
+				<span class = 'waiver-error-desc'></span>
+			<!-- </div> -->
+		</form>
+		<div class = 'waiver-container'>
+				<div class = 'search-container'>
+					<span>Undrafted players (Top 30 results)</span>
+					<input type="text" id = "waiver-search" placeholder="Search player here...">
+				</div>
+				<div class = 'player-draft'>
+
+				</div>
 		</div>
 	</section>
 </body>

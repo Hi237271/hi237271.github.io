@@ -2,9 +2,18 @@ import nflreadpy as nfl
 import pandas as pd
 import numpy as np
 import json
+from datetime import date
 # TODO need to check if df.iloc[-1] actually gets the most recent performance per player
 # I think they do though
-week = 1
+
+
+def get_week():
+    start = date(2026, 9, 8)
+    today = date.today()
+    return (today-start).days//7+1
+
+
+week = get_week()
 
 
 def get_stats(
@@ -82,6 +91,7 @@ def main():
     teams = get_teams()
     dataframes = []
     all_data = {}
+    stats = stats[stats['week'] == week]
     for team in teams.keys():
         data = {}
         for player in teams[team]:
@@ -93,12 +103,10 @@ def main():
             position = roster[roster['full_name'] == player]['position'].to_string(
                 index=False, dtype=False)
 
-            print(player, position)
             if position.find('\n') != -1:
                 position = position[:position.find('\n')]
             if position.strip() == "Series([], )":
                 position = 'DEF'
-            print(f"SCORE: {score}")
             if isinstance(score, pd.Series):
                 if len(score) == 0:
                     score = 0
@@ -110,9 +118,9 @@ def main():
                 "position": position}
         all_data[team] = data
     # print(dataframes[7].to_numpy())
-    with open("out.json", 'w') as file:
+    with open(f"week{week}.json", 'w') as file:
         file.write(json.dumps(all_data))
-    print(json.dumps(all_data))
+    # print(json.dumps(all_data))
 
 
 main()
