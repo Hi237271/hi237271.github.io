@@ -346,14 +346,20 @@
 			color: white;
 		}
 
-		table.player-table {
+		table.player-table, table.coordinator-table {
 			border: 5px;
 			border-radius: 10px;
-			min-width: 1100px;
 			width: 100%;
 			gap: 0px;
 			border-collapse: collapse;
 			box-shadow: var(--shadow);
+		}
+		table.player-table {
+			min-width: 1100px;
+		}
+		table.coordinator-table {
+			min-width: 300px;
+			max-width: 400px;
 		}
 
 		th.player-table-header {
@@ -368,7 +374,7 @@
 			font-size: 0.72rem;
 		}
 
-		td.player-table-data {
+		td.player-table-data, td.coordinator-table-data {
 			font-family: "Inter", sans-serif;
 			font-weight: 400;
 			justify-content: center;
@@ -511,7 +517,7 @@
 		.form-position {
 			display: flex;
 			border-bottom: 1px rgba(15, 15, 15, 0.861) solid;
-			background-color: rgba(1, 1, 1, 0.861);
+			background-color: var(--primary-color);
 			border-radius: 10px;
 			justify-content: space-between;
 			align-items: center;
@@ -519,8 +525,9 @@
 		}
 
 		div.form-position span {
-			font-family: "Big Shoulders";
-			font-weight: 600;
+			font-family: "Big Shoulders Display";
+			font-weight: 400;
+			letter-spacing: 0.02rem;
 			font-size: 40px;
 			color: white;
 		}
@@ -789,7 +796,27 @@
 			padding-right: 20px;
 
 		}
-
+		/* data-receive */
+		#coordinator-section-container {
+			padding: 20px 30px;
+			flex-direction: column;
+		}
+		#coordinator-data-container {
+			display: flex;
+			flex-direction: row;
+			flex-wrap:wrap;
+			gap: 20px;
+		}
+		div.coordinator-player-data {
+			max-width: 600px;
+			background-color: white;
+			box-shadow: var(--shadow);
+			padding: 30px 30px;
+			border-radius: 15px;
+		}
+		.bottom-margin {
+			margin-bottom: 30px;
+		}
 	</style>
 </head>
 
@@ -956,7 +983,6 @@
 					rows = Array.from(document.querySelectorAll("div.table-cell"));
 					for (let j = 0; j < players.length; j++) {
 						let a = players[j];
-						console.log(`${a}`)
 						elt = rows[10 * j + i];
 						elt.innerHTML='';
 						elt.innerText = players[j];
@@ -1437,7 +1463,61 @@
 							return;
 						}
 						else {
-							document.querySelector('.coordinator-password').hidden = true;			
+							//Display lineups for coordinator
+							//data-receive
+							let section_container = document.querySelector('#coordinator-section-container')
+							section_container.hidden = false;
+							let data_container = document.querySelector('#coordinator-data-container');
+							data_container.innerHTML = ``;
+							document.querySelector('.coordinator-password').hidden = true;	
+
+							const lineups = body['lineups']
+							const 	required_positions = [
+								"RB1",
+								"RB2",
+								"WR1",
+								"WR2",
+								"Flex1",
+								"QB1",
+								"DE1",
+								"K1",
+								"TE1",
+							];
+							let teams = Object.keys(roster)	
+							for(let i = 0; i<teams.length; i++){
+								const coordinator_player_data = document.createElement('div');
+								coordinator_player_data.classList.add('coordinator-player-data')
+								coordinator_player_data.innerHTML+=`<h1 class = 'small-title'>${teams[i]}</h1>`
+								const table = document.createElement('table');
+								table.classList.add('coordinator-table')
+								table.innerHTML+=`<thead>
+														<th class = 'player-table-header left'>Position</th>
+														<th class = 'player-table-header right'>Player</th>
+													</thead>`
+								const tbody = document.createElement('tbody');
+								var current_lineup = lineups[teams[i]]
+								for(let i = 0; i < required_positions.length; i++) {
+									let current_player = '???'
+									if (Object.keys(current_lineup).length>7) {
+										current_player = current_lineup[required_positions[i]]
+									}
+									tbody.innerHTML+=`
+									<tr>
+										<td class = 'coordinator-table-data'>${required_positions[i]}</td>
+										<td class = 'coordinator-table-data'>${current_player}</td>
+									</tr>`
+								}
+								table.appendChild(tbody)
+
+								coordinator_player_data.appendChild(table)
+								data_container.appendChild(coordinator_player_data)
+								if(current_lineup['date']){
+									coordinator_player_data.innerHTML+=`<span>Submitted at ${current_lineup['date']}</span>`
+								}
+								else {
+									coordinator_player_data.innerHTML+=`<span>Submission date unknown</span>`
+								}
+							}	
 						}
 
 
@@ -1478,7 +1558,7 @@
 							onclick="showSection('waiver')">Waiver Wires</a>
 					</li>
 					<li class = "navbar-text">
-						<a class = "a-coordinator" href = "javascript:void(0);" onclick = "showSection('coordinator')">Gaffney</a>
+						<a class = "a-coordinator" href = "javascript:void(0);" onclick = "showSection('coordinator')">Coordinator</a>
 					</li>
 				</ul>
 			</div>
@@ -1854,8 +1934,19 @@
 				<span id = 'coordinator-error-field'></span>
 			</form>
 		</div>
-		<div id = "coordinator-data-container">
-
+		<!-- data-receive -->
+		<div id = "coordinator-section-container" hidden>
+			<h1 class="small-title bottom-margin">Lineups</h1>
+			<div id = 'coordinator-data-container'>
+				<div class = 'coordinator-player-data'>
+					<table class = 'coordinator-table'>
+						<thead>
+							<th class = 'player-table-header left'>Position</th>
+							<th class = 'player-table-header right'>Player</th>
+						</thead>
+					</table>
+				</div>
+			</div>
 		</div>
 	</section>
 </body>
