@@ -827,6 +827,18 @@
 		document.addEventListener("DOMContentLoaded", async () => {
 			let roster = await roster_promise;
 			let roster_without_position = await roster_position_promise;
+			let team_scores = {
+				"Maye Drake Good": [0,0,0],
+				"Mmm... Food": [0,0,0],
+				"Washable Markers": [0,0,0],
+				"McPicklePounders": [0,0,0],
+				"Laser Llamas": [0,0,0],
+				"Adebayo FC": [0,0,0],
+				"Make Draye": [0,0,0],
+				"LJSSNC": [0,0,0],
+				"Bad Piggies": [0,0,0],
+				"Rumble Bees": [0,0,0]
+			}
 			let matchups = [
 				[
 					[1, 10],
@@ -1004,9 +1016,31 @@
 				}
 				return sum;
 			}
+
+			//Populate win record
+			let week_data = await week_data_promise;
+			for(let j = 1; j < week; j++){
+				for(let i = 0; i< matchups[j-1].length; i++){
+					
+					matchup = matchups[j-1][i]
+					team_one = teams[matchup[0] - 1];
+					team_two = teams[matchup[1] - 1];
+					if (get_team_score(team_one, week_data[j-1]) < get_team_score(team_two, week_data[j-1])) {
+						swp = team_one;
+						team_one = team_two;
+						team_two = swp;
+					}
+					else if(get_team_score(team_one, week_data[j-1]) == get_team_score(team_two, week_data[j-1])) {
+						team_scores[team_one][1]+=1
+						team_scores[team_two][1]+=1
+						continue
+					}
+					team_scores[team_one][0]+=1
+					team_scores[team_two][2]+=1
+				}
+			}
 			//Compute team score and add matchups
 			console.log(`week: ${week}`);
-			let week_data = await week_data_promise;
 			let matchup_container = document.querySelector("div.matchup-container");
 			for(let j = 1; j<=week; j++){
 				let week_matchup_container = document.createElement('div')
@@ -1032,13 +1066,13 @@
 							<div class = 'week-num'>Week ${j}</div>
 							<div class = 'team-one'>
 								<span class = 'team'>${team_one}</span>
-								<span class = "win-record">0W  0D 0L</span>
+								<span class = "win-record">${team_scores[team_one][0]}W  ${team_scores[team_one][1]}D ${team_scores[team_one][2]}L</span>
 								<span class = "num">${get_team_score(team_one, stat_var).toFixed(2)}</span>
 							</div>
 							<span class = 'vs'>VS</span>
 							<div class = "team-two">
 								<span class = 'team'>${team_two}</span>
-								<span class = "win-record">0W 0D 0L</span>
+								<span class = "win-record">${team_scores[team_two][0]}W ${team_scores[team_two][1]}D ${team_scores[team_two][2]}L</span>
 								<span class = "num">${get_team_score(team_two, stat_var).toFixed(2)}</span>
 							</div>
 						</div>`;
