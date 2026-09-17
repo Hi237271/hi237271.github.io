@@ -48,7 +48,6 @@
 
 		div.navbar-inner {
 			flex: 1;
-			max-width: 1000px;
 			display: flex;
 			padding: 0px 50px;
 			justify-content: space-between;
@@ -752,9 +751,6 @@
 			margin-top: 20px;
 			font-size:22px
 		}
-		section#coordinator {
-			display: flex;
-		}
 		div.coordinator-password {
 			display: flex;
 			flex: 1;
@@ -774,6 +770,24 @@
 			padding-bottom: 5px;
 			align-content: center;
 			color: black;
+		}
+		div.draft-title-container {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+		}
+		select#draft-week-select{
+			font-family: 'Inter', sans-serif;
+			border: none;
+			max-height: 50px;
+			background-color: var(--red);
+			color: var(--off-white);
+			margin-right: 25px;
+			border-radius:5px;
+			letter-spacing:0.05rem;
+			padding: 2px 10px;
+			padding-right: 20px;
+
 		}
 
 	</style>
@@ -934,40 +948,55 @@
 			var stats = await stats_promise;
 			var lineups = await loadJSONData("serialized_lineups.json");
 			//console.log(stats)
-			table = document.querySelector("table.player-table");
-			var teams = Object.keys(roster);
-			all_lineups = {}
-			for(const team of teams){
-				all_lineups[team]=[]
-			}
-			for (let i = 0; i < teams.length; i++) {
-				rows = Array.from(document.querySelectorAll("div.table-cell"));
-				for (let j = 0; j < 15; j++) {
-					let a = roster[teams[i]][j];
-					elt = rows[10 * j + i];
-					elt.innerText = a.slice(0, -2);
-					let b = a.slice(-2).trim();
-					if (b == "DE") {
-						b = "DEF";
+			function render_table(player_stats){
+				table = document.querySelector("table.player-table");
+				var teams = Object.keys(player_stats);
+				for (let i = 0; i < teams.length; i++) {
+					let players = Object.keys(player_stats[teams[i]])
+					rows = Array.from(document.querySelectorAll("div.table-cell"));
+					for (let j = 0; j < players.length; j++) {
+						let a = players[j];
+						console.log(`${a}`)
+						elt = rows[10 * j + i];
+						elt.innerHTML='';
+						elt.innerText = players[j];
+						let b = player_stats[teams[i]][a]['position'];
+						if (b == "DE") {
+							b = "DEF";
+						}
+						let player_name = players[j];
+						const textDiv = document.createElement("div");
+						const textSpan = document.createElement("span");
+						textSpan.innerText = `${player_stats[teams[i]][player_name]["score"].toFixed(2)} pts`;
+						textSpan.classList.add("score-box");
+						textDiv.classList.add("player-info-container");
+
+						const newDiv = document.createElement("div");
+						newDiv.classList.add(b);
+						newDiv.innerText = b;
+
+						textDiv.appendChild(newDiv);
+						textDiv.appendChild(textSpan);
+
+						elt.appendChild(textDiv);
 					}
-
-					let player_name = roster_without_position[teams[i]][j];
-					const textDiv = document.createElement("div");
-					const textSpan = document.createElement("span");
-					textSpan.innerText = `${stats[teams[i]][player_name]["score"].toFixed(2)} pts`;
-					textSpan.classList.add("score-box");
-					textDiv.classList.add("player-info-container");
-
-					const newDiv = document.createElement("div");
-					newDiv.classList.add(b);
-					newDiv.innerText = b;
-
-					textDiv.appendChild(newDiv);
-					textDiv.appendChild(textSpan);
-
-					elt.appendChild(textDiv);
 				}
 			}
+			render_table(stats);
+			let week_select = document.querySelector('select#draft-week-select')
+			for(let i = 1; i<week; i++){
+				week_select.innerHTML+=`
+				<option value = "${i}">Week ${i}</option>
+				`
+			}
+			week_select.innerHTML+=`<option value = "${week}" selected> Week ${week}</option>`
+			document.querySelector('select#draft-week-select').addEventListener('change', function (event){
+				let render_week = event.target.value;
+				console.log(week_data)
+				render_table(week_data[render_week-1])
+				console.log('value changed')
+			})
+
 			function log_all_players() {
 				all_players_list = [];
 				for (const team of teams) {
@@ -1449,7 +1478,7 @@
 							onclick="showSection('waiver')">Waiver Wires</a>
 					</li>
 					<li class = "navbar-text">
-						<a class = "a-coordinator" href = "javascript:void(0);" onclick = "showSection('coordinator')" hidden>Coordinator</a>
+						<a class = "a-coordinator" href = "javascript:void(0);" onclick = "showSection('coordinator')">Gaffney</a>
 					</li>
 				</ul>
 			</div>
@@ -1484,7 +1513,12 @@
 				</div>
 			</div>
 		</div>
-		<h1 class="table-title">Draft Table</h1>
+		<div class = 'draft-title-container'>
+			<h1 class="table-title">Draft Table</h1>
+			<select id = 'draft-week-select'>
+
+			</select>
+		</div>
 		<div class="draft-container">
 			<div class="table-corner left">
 				<span>Round</span>
@@ -1808,7 +1842,7 @@
 				</div>
 		</div>
 	</section>
-	<section id = 'coordinator' hidden>
+	<section id = 'coordinator'>
 		<div class = 'coordinator-password'>
 			<form id = 'coordinator-password-form'>
 				<input type="hidden" id="secretField2" name="type" value="coordinator">
