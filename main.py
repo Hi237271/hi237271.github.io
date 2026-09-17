@@ -21,8 +21,10 @@ def get_stats(
 
 
 def get_teams():
-    players = pd.read_csv('names.csv', index_col=0)
-    return players.to_dict(orient='list')
+    players = {}
+    with open('roster_without_position.json', 'r') as file:
+        players = json.load(file)
+    return players
 #     teams = list(players.keys())
 #     for team in teams:
 #         lineup = players[team].tolist()
@@ -120,7 +122,6 @@ def main():
     # print(dataframes[7].to_numpy())
     with open(f"week{week}.json", 'w') as file:
         file.write(json.dumps(all_data))
+
     # print(json.dumps(all_data))
-
-
 main()
