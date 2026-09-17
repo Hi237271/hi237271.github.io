@@ -22,8 +22,9 @@ def get_stats(
 
 def get_teams():
     players = {}
-    with open('roster_without_position.json', 'r') as file:
+    with open('new_half_roster.json', 'r') as file:
         players = json.load(file)
+    print(players)
     return players
 #     teams = list(players.keys())
 #     for team in teams:

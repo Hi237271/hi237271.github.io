@@ -782,8 +782,8 @@
 <body>
 	<script>
 		let week = get_week();
-		let roster_position_promise = loadJSONData("roster_without_position.json")
-		let roster_promise = loadJSONData('roster.json')
+		let roster_position_promise = loadJSONData("new_half_roster.json")
+		let roster_promise = loadJSONData('new_full_roster.json')
 		let all_scores_promise = loadJSONData("all_player_scores.json")
 		let all_scores = null;
 		let stats_promise = loadJSONData(`week${week}.json`)
@@ -1808,7 +1808,7 @@
 				</div>
 		</div>
 	</section>
-	<section id = 'coordinator'>
+	<section id = 'coordinator' hidden>
 		<div class = 'coordinator-password'>
 			<form id = 'coordinator-password-form'>
 				<input type="hidden" id="secretField2" name="type" value="coordinator">
