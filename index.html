@@ -742,6 +742,12 @@
 			color:red;
 			text-align: center;
 		}
+		.waiver-success-desc, #success-field {
+			color: green;
+			text-align: center;
+			margin-top: 20px;
+			font-size:22px
+		}
 
 	</style>
 </head>
@@ -814,6 +820,9 @@
 					(now.getTime() - start.getTime()) / (1000 * 60 * 60 * 24 * 7),
 				) + 1
 			);
+		}
+		function promise_error(error){
+			console.log(`An error occured: ${error}`)
 		}
 		document.addEventListener("DOMContentLoaded", async () => {
 			let roster = await roster_promise;
@@ -1183,8 +1192,9 @@
 			});
 
 			document.querySelector("form.lineup-form").addEventListener("submit", function (e) {
-				document.querySelector("#error-field").innerHTML = "";
 				e.preventDefault();
+				document.querySelector("#error-field").innerHTML = "";
+				document.querySelector('#success-field').hidden = true;
 				const formData = new FormData(event.target);
 				const dataObject = Object.fromEntries(formData.entries());
 				console.log(dataObject);
@@ -1248,13 +1258,26 @@
 				fetch(url, {
 					method: "POST", 
 					body: formData,
-				});
+				}).then((res)=>{
+					return res.json()
+				},promise_error).then(
+					(body)=>{
+						if(!body['success']){
+							document.querySelector('#error-field').innerHTML = `${body['message']}`
+						}
+						else {
+							document.querySelector('#success-field').hidden = false;
+						}
+					},
+					promise_error
+				);
 			});
 
 
 			document.querySelector('form#waiver-form').addEventListener('submit', function (e) {
-				document.querySelector('.waiver-error-desc').innerHTML = ''
 				e.preventDefault();
+				document.querySelector('.waiver-success-desc').hidden = true;
+				document.querySelector('.waiver-error-desc').innerHTML = ''
 				const formData = new FormData(event.target);
 				const dataObject = Object.fromEntries(formData.entries());
 				console.log(dataObject);
@@ -1280,7 +1303,19 @@
 				fetch(url, {
 					method: "POST", 
 					body: formData,
-				});
+				}).then((res)=>{
+					return res.json()
+				},promise_error).then(
+					(body)=>{
+						if(!body['success']){
+							document.querySelector('.waiver-error-desc').innerHTML = `${body['message']}`
+						}
+						else {
+							document.querySelector('.waiver-success-desc').hidden = false;
+						}
+					},
+					promise_error
+				);
 			})
 		});
 	</script>
@@ -1598,6 +1633,7 @@
 					<label class="input-label" for="student-id">Student ID</label>
 					<input class="input-field" name="student-id" type="text" id="student-id" /> -->
 
+					<input type="hidden" id="secretField0" name="type" value="lineup">
 					<label class="input-label" for="team-name">Team Name</label>
 					<select class="input-field" name="team-name" id="team-name">
 						<option disabled selected value>-- Select a Team --</option>
@@ -1622,6 +1658,7 @@
 				</button>
 			
 				<span id="error-field"></span>
+				<span id = "success-field" hidden>Success</span>
 			</form>
 		</div>
 	</section>
@@ -1659,6 +1696,7 @@
 				</div>
 				<button type = 'submit' value = 'Submit' class = 'waiver-submit'>Submit</button>
 				<span class = 'waiver-error-desc'></span>
+				<span class = 'waiver-success-desc' hidden>Success!</span>
 			<!-- </div> -->
 		</form>
 		<div class = 'waiver-container'>
