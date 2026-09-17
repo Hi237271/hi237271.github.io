@@ -38,7 +38,10 @@
 			line-height: 1.5;
 			box-sizing: border-box;
 		}
+		[hidden] {
 
+			display: none !important;
+		}
 		.not-navbar {
 			margin: 60px 20px 20px;
 		}
@@ -585,7 +588,7 @@
 			gap: 0.5rem;
 		}
 
-		.lineup-submit {
+		.lineup-submit, .coordinator-submit {
 			width: fit-content;
 			padding: 1rem 2rem;
 			border-radius: 0.5rem;
@@ -737,17 +740,40 @@
 				background-color: var(--dark-red);
 			}
 		}
-		.waiver-error-desc, #error-field {
+		.waiver-error-desc, #error-field, #coordinator-error-field {
 			margin-top: 20px;
 			font-size: 22px;
 			color:red;
 			text-align: center;
 		}
-		.waiver-success-desc, #success-field {
+		.waiver-success-desc, #success-field, #coordinator-success-field {
 			color: green;
 			text-align: center;
 			margin-top: 20px;
 			font-size:22px
+		}
+		section#coordinator {
+			display: flex;
+		}
+		div.coordinator-password {
+			display: flex;
+			flex: 1;
+			align-content: center;
+			justify-content: center;
+		}
+		form#coordinator-password-form {
+			gap: 15px;
+			min-width: 400px;
+			max-width: 500px;
+			display:flex;
+			flex-direction:column;
+			border-radius: 15px;
+			color: white;
+			box-shadow: var(--shadow);
+			padding: 20px 20px;
+			padding-bottom: 5px;
+			align-content: center;
+			color: black;
 		}
 
 	</style>
@@ -1352,6 +1378,41 @@
 					promise_error
 				);
 			})
+			document.querySelector('form#coordinator-password-form').addEventListener('submit', async function (e){
+						e.preventDefault();
+						document.querySelector('#coordinator-success-field').hidden = true;
+						document.querySelector('#coordinator-error-field').innerHTML = '';
+						const formData = new FormData(event.target);
+						const dataObject = Object.fromEntries(formData.entries());
+						console.log('Form submission received')
+						let body = null
+						try{
+							let res = await fetch("https://sportstatistics.mbhs.edu/coordinator",{
+								method: "POST",
+								body: formData
+							})
+							body = await res.json();
+							console.log(body);
+						}
+						catch(err){
+							console.log('Error')
+							console.log(err)
+							document.querySelector('#coordinator-error-field').innerHTML = "Couldn't reach server";
+						}
+						if(!body){
+							document.querySelector('#coordinator-error-field').innerHTML = 'An error occurred'
+							return;
+						}
+						if(!body['success']){
+							document.querySelector('#coordinator-error-field').innerHTML = body['message']
+							return;
+						}
+						else {
+							document.querySelector('.coordinator-password').hidden = true;			
+						}
+
+
+				})
 		});
 	</script>
 	<div class="navbar">
@@ -1386,6 +1447,9 @@
 					<li class="navbar-text">
 						<a class="a-waiver" href="javascript:void(0);"
 							onclick="showSection('waiver')">Waiver Wires</a>
+					</li>
+					<li class = "navbar-text">
+						<a class = "a-coordinator" href = "javascript:void(0);" onclick = "showSection('coordinator')" hidden>Coordinator</a>
 					</li>
 				</ul>
 			</div>
@@ -1742,6 +1806,22 @@
 				<div class = 'player-draft'>
 
 				</div>
+		</div>
+	</section>
+	<section id = 'coordinator'>
+		<div class = 'coordinator-password'>
+			<form id = 'coordinator-password-form'>
+				<input type="hidden" id="secretField2" name="type" value="coordinator">
+
+				<label for = "coordinator-password-input" class = "input-label">Password</label>
+				<input id = 'coordinator-password-input' type = 'text' class = 'input-field' name = 'password'>
+				<button type = 'submit' value = 'Submit' class = 'coordinator-submit'>Submit</button>
+				<span id = 'coordinator-success-field' hidden>Success</span>
+				<span id = 'coordinator-error-field'></span>
+			</form>
+		</div>
+		<div id = "coordinator-data-container">
+
 		</div>
 	</section>
 </body>
