@@ -2,7 +2,16 @@ import nflreadpy as nfl
 import pandas as pd
 import numpy as np
 import json
-week = 1
+from datetime import date
+
+
+def get_week():
+    start = date(2026, 9, 8)
+    today = date.today()
+    return (today-start).days//7+1
+
+
+week = get_week()
 
 
 def get_stats(player, player_stats):
@@ -80,12 +89,13 @@ def main():
             if len(score) == 0:
                 score = 0
             else:
-                if len(score)>1:
+                if len(score) > 1:
                     average_score = sum(score[:-1])/len(score[:-1])
-                else: 
+                else:
                     average_score = 0
                 score = score.iloc[-1]
-        all_stats.append({'player':player,'score': score, 'average': average_score})
+        all_stats.append(
+            {'player': player, 'score': score, 'average': average_score})
     for team in teams:
         scores = []
         average_score = 0
@@ -108,7 +118,8 @@ def main():
             average_score = 0
         else:
             average_score = sum(scores)/len(scores)
-        all_stats.append({'player':team + ' DE','score': score, 'average': average_score})
+        all_stats.append(
+            {'player': team + ' DE', 'score': score, 'average': average_score})
     with open('all_player_scores.json', 'w') as file:
         json.dump(all_stats, file, indent=4)
 
