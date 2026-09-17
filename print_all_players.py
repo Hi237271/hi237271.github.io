@@ -89,8 +89,8 @@ def main():
             if len(score) == 0:
                 score = 0
             else:
-                if len(score) > 1:
-                    average_score = sum(score[:-1])/len(score[:-1])
+                if len(score) >= 1:
+                    average_score = sum(score)/len(score)
                 else:
                     average_score = 0
                 score = score.iloc[-1]
