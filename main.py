@@ -120,6 +120,7 @@ def main():
         all_data[team] = data
     with open(f"week{week}.json", 'w') as file:
         file.write(json.dumps(all_data))
+    print("main.py: upload success!")
 
 
 main()
