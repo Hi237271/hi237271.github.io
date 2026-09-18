@@ -39,9 +39,8 @@ def get_teams():
 def calculate_offensive_score(d):
     if d.shape[0] == 0:
         return 0
-    if d.shape[0] > 1:
-        d = d.iloc[[-1]]
-    data = d
+    #if d.shape[0] > 1:
+    #    d = d.iloc[-1]
     # Pandas ints function as ints even if formatted oddly in tostring
     # data = data.iloc[0].tolist()
     # for i in range(100):
@@ -114,7 +113,7 @@ def main():
                 if len(score) == 0:
                     score = 0
                 else:
-                    score = score.iloc[0]
+                    score = score.iloc[-1]
             data[player] = {
                 "score": score,
                 "team": team,
