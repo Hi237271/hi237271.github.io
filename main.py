@@ -24,7 +24,6 @@ def get_teams():
     players = {}
     with open('new_half_roster.json', 'r') as file:
         players = json.load(file)
-    print(players)
     return players
 #     teams = list(players.keys())
 #     for team in teams:
@@ -39,7 +38,7 @@ def get_teams():
 def calculate_offensive_score(d):
     if d.shape[0] == 0:
         return 0
-    #if d.shape[0] > 1:
+    # if d.shape[0] > 1:
     #    d = d.iloc[-1]
     # Pandas ints function as ints even if formatted oddly in tostring
     # data = data.iloc[0].tolist()
@@ -77,7 +76,7 @@ def calculate_team_score(team, schedule, team_stats):
                     else -1 if score < 35
                     else -4)
     team_games = team_stats[team_stats['week'] == week]
-    team_games = team_stats[team_games['team'] == team]
+    team_games = team_games[team_games['team'] == team]
     return pts_conceded + calculate_defensive_score(team_games)
 
 
@@ -91,8 +90,8 @@ def main():
     team_statistics = nfl.load_team_stats([2026]).to_pandas()
     nfl_teams = schedule["away_team"].tolist()
     teams = get_teams()
-    dataframes = []
     all_data = {}
+    # stats.to_csv('player_data.csv', index=False)
     stats = stats[stats['week'] == week]
     for team in teams.keys():
         data = {}
@@ -119,9 +118,8 @@ def main():
                 "team": team,
                 "position": position}
         all_data[team] = data
-    # print(dataframes[7].to_numpy())
     with open(f"week{week}.json", 'w') as file:
         file.write(json.dumps(all_data))
 
-    # print(json.dumps(all_data))
+
 main()
