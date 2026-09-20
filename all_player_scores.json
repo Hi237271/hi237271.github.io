@@ -590,6 +590,11 @@
         "average": 14.4
     },
     {
+        "player": "Lucas Patrick OL",
+        "score": 0,
+        "average": 0
+    },
+    {
         "player": "Hunter Henry TE",
         "score": 5.6,
         "average": 5.6
@@ -601,8 +606,8 @@
     },
     {
         "player": "Jared Goff QB",
-        "score": 16.44,
-        "average": 16.44
+        "score": 29.779999999999998,
+        "average": 23.11
     },
     {
         "player": "Javon Hargrave DL",
@@ -1090,6 +1095,11 @@
         "average": 0
     },
     {
+        "player": "Marquez Valdes-Scantling WR",
+        "score": 0,
+        "average": 0
+    },
+    {
         "player": "Foley Fatukasi DL",
         "score": 0,
         "average": 0
@@ -1481,8 +1491,8 @@
     },
     {
         "player": "DJ Moore WR",
-        "score": 21.0,
-        "average": 21.0
+        "score": -0.1,
+        "average": 10.45
     },
     {
         "player": "Harold Landry III LB",
@@ -1541,8 +1551,8 @@
     },
     {
         "player": "Josh Allen QB",
-        "score": 35.66,
-        "average": 35.66
+        "score": 40.82,
+        "average": 38.239999999999995
     },
     {
         "player": "Sam Darnold QB",
@@ -2181,8 +2191,8 @@
     },
     {
         "player": "Dawson Knox TE",
-        "score": 1.7000000000000002,
-        "average": 1.7000000000000002
+        "score": 8.5,
+        "average": 5.1
     },
     {
         "player": "Clelin Ferrell DL",
@@ -2446,8 +2456,8 @@
     },
     {
         "player": "Tyler Bass K",
-        "score": 13.0,
-        "average": 13.0
+        "score": 4.0,
+        "average": 8.5
     },
     {
         "player": "Dane Jackson DB",
@@ -2886,8 +2896,8 @@
     },
     {
         "player": "Michael Danna LB",
-        "score": 0,
-        "average": 0
+        "score": 0.0,
+        "average": 0.0
     },
     {
         "player": "Alohi Gilman DB",
@@ -3021,6 +3031,11 @@
     },
     {
         "player": "Charlie Woerner TE",
+        "score": 0,
+        "average": 0
+    },
+    {
+        "player": "Kenneth Murray, Jr. LB",
         "score": 0,
         "average": 0
     },
@@ -3385,9 +3400,14 @@
         "average": 0
     },
     {
+        "player": "Jack Stoll TE",
+        "score": 0,
+        "average": 0
+    },
+    {
         "player": "Brock Wright TE",
-        "score": 1.5,
-        "average": 1.5
+        "score": 0.0,
+        "average": 0.75
     },
     {
         "player": "Brandon Smith WR",
@@ -3590,6 +3610,11 @@
         "average": 0
     },
     {
+        "player": "Khalil Herbert RB",
+        "score": 0,
+        "average": 0
+    },
+    {
         "player": "Khyiris Tonga DL",
         "score": 0,
         "average": 0
@@ -3726,8 +3751,8 @@
     },
     {
         "player": "Amon-Ra St. Brown WR",
-        "score": 28.7,
-        "average": 28.7
+        "score": 35.2,
+        "average": 31.950000000000003
     },
     {
         "player": "Derrick Barnes LB",
@@ -3826,8 +3851,8 @@
     },
     {
         "player": "Josh Palmer WR",
-        "score": 10.4,
-        "average": 10.4
+        "score": 11.3,
+        "average": 10.850000000000001
     },
     {
         "player": "Malcolm Koonce DL",
@@ -4246,8 +4271,8 @@
     },
     {
         "player": "Jameson Williams WR",
-        "score": 8.5,
-        "average": 8.5
+        "score": 5.300000000000001,
+        "average": 6.9
     },
     {
         "player": "Trevor Penning OL",
@@ -4281,8 +4306,8 @@
     },
     {
         "player": "James Cook RB",
-        "score": 9.899999999999999,
-        "average": 9.899999999999999
+        "score": 20.9,
+        "average": 15.399999999999999
     },
     {
         "player": "Nik Bonitto LB",
@@ -4341,8 +4366,8 @@
     },
     {
         "player": "Khalil Shakir WR",
-        "score": 9.0,
-        "average": 9.0
+        "score": 6.800000000000001,
+        "average": 7.9
     },
     {
         "player": "Thomas Booker DL",
@@ -4360,7 +4385,17 @@
         "average": 0
     },
     {
+        "player": "Jerome Ford RB",
+        "score": 0,
+        "average": 0
+    },
+    {
         "player": "Zyon McCollum DB",
+        "score": 0,
+        "average": 0
+    },
+    {
+        "player": "Eric Johnson DL",
         "score": 0,
         "average": 0
     },
@@ -4606,6 +4641,11 @@
     },
     {
         "player": "Jashaun Corbin RB",
+        "score": 0,
+        "average": 0
+    },
+    {
+        "player": "Cal Adomitis LS",
         "score": 0,
         "average": 0
     },
@@ -5183,6 +5223,11 @@
         "player": "Jordan Stout P",
         "score": 0.0,
         "average": 0.0
+    },
+    {
+        "player": "Cordell Volson OL",
+        "score": 0,
+        "average": 0
     },
     {
         "player": "Pierre Strong RB",
@@ -6526,8 +6571,8 @@
     },
     {
         "player": "Dalton Kincaid TE",
-        "score": 18.0,
-        "average": 18.0
+        "score": 22.5,
+        "average": 20.25
     },
     {
         "player": "Anton Harrison OL",
@@ -6856,8 +6901,8 @@
     },
     {
         "player": "Sam LaPorta TE",
-        "score": 9.8,
-        "average": 9.8
+        "score": 17.2,
+        "average": 13.5
     },
     {
         "player": "Michael Mayer TE",
@@ -6946,8 +6991,8 @@
     },
     {
         "player": "Jahmyr Gibbs RB",
-        "score": 33.6,
-        "average": 33.6
+        "score": 23.3,
+        "average": 28.450000000000003
     },
     {
         "player": "Kelee Ringo DB",
@@ -7431,8 +7476,8 @@
     },
     {
         "player": "Sione Vaki RB",
-        "score": 2.8000000000000003,
-        "average": 2.8000000000000003
+        "score": 3.0,
+        "average": 2.9000000000000004
     },
     {
         "player": "Jacob Cowing WR",
@@ -8701,8 +8746,8 @@
     },
     {
         "player": "Ray Davis RB",
-        "score": 0.30000000000000004,
-        "average": 0.30000000000000004
+        "score": 0.0,
+        "average": 0.15000000000000002
     },
     {
         "player": "Sedrick Van Pran-Granger OL",
@@ -8806,8 +8851,8 @@
     },
     {
         "player": "Keon Coleman WR",
-        "score": 1.1,
-        "average": 1.1
+        "score": 12.3,
+        "average": 6.7
     },
     {
         "player": "Chris Braswell LB",
@@ -9270,7 +9315,7 @@
         "average": 0
     },
     {
-        "player": "Melvin Smith DB",
+        "player": "Melvin Smith Jr. DB",
         "score": 0,
         "average": 0
     },
@@ -10495,6 +10540,11 @@
         "average": 0.0
     },
     {
+        "player": "Jaden Robinson DB",
+        "score": 0,
+        "average": 0
+    },
+    {
         "player": "Xavier Truss OL",
         "score": 0,
         "average": 0
@@ -10626,6 +10676,11 @@
     },
     {
         "player": "Joe Huber OL",
+        "score": 0,
+        "average": 0
+    },
+    {
+        "player": "Austin Keys LB",
         "score": 0,
         "average": 0
     },
@@ -11176,8 +11231,8 @@
     },
     {
         "player": "Isaac TeSlaa WR",
-        "score": 0.0,
-        "average": 0.0
+        "score": 4.6,
+        "average": 2.3
     },
     {
         "player": "Nohl Williams DB",
@@ -11576,6 +11631,11 @@
     },
     {
         "player": "Jaheim Thomas LB",
+        "score": 0,
+        "average": 0
+    },
+    {
+        "player": "Maceo Beard DB",
         "score": 0,
         "average": 0
     },
@@ -14840,163 +14900,163 @@
         "average": 0
     },
     {
-        "player": "CAR DE",
-        "score": -2.0,
-        "average": 0
-    },
-    {
         "player": "LA DE",
-        "score": 2.0,
-        "average": 0
-    },
-    {
-        "player": "BUF DE",
-        "score": 2.0,
-        "average": 0
-    },
-    {
-        "player": "TB DE",
-        "score": 2.0,
-        "average": 0
-    },
-    {
-        "player": "SF DE",
-        "score": 6.0,
-        "average": 0
-    },
-    {
-        "player": "IND DE",
-        "score": -2.0,
-        "average": 0
-    },
-    {
-        "player": "HOU DE",
-        "score": -2.0,
-        "average": 0
-    },
-    {
-        "player": "ATL DE",
-        "score": 3.0,
-        "average": 0
-    },
-    {
-        "player": "MIN DE",
-        "score": 6.0,
-        "average": 0
-    },
-    {
-        "player": "NYG DE",
-        "score": 3.0,
-        "average": 0
-    },
-    {
-        "player": "NO DE",
-        "score": 0.0,
-        "average": 0
-    },
-    {
-        "player": "NYJ DE",
-        "score": 7.0,
-        "average": 0
-    },
-    {
-        "player": "CIN DE",
-        "score": 4.0,
-        "average": 0
-    },
-    {
-        "player": "KC DE",
-        "score": 9.0,
-        "average": 0
-    },
-    {
-        "player": "WAS DE",
-        "score": 3.0,
-        "average": 0
-    },
-    {
-        "player": "MIA DE",
-        "score": 4.0,
-        "average": 0
-    },
-    {
-        "player": "CLE DE",
-        "score": 0.0,
-        "average": 0
-    },
-    {
-        "player": "SEA DE",
-        "score": 13.0,
-        "average": 0
-    },
-    {
-        "player": "DEN DE",
-        "score": 3.0,
-        "average": 0
-    },
-    {
-        "player": "CHI DE",
-        "score": 0.0,
-        "average": 0
-    },
-    {
-        "player": "DAL DE",
-        "score": 1.0,
-        "average": 0
-    },
-    {
-        "player": "ARI DE",
-        "score": 8.0,
-        "average": 0
-    },
-    {
-        "player": "BAL DE",
-        "score": 4.0,
-        "average": 0
-    },
-    {
-        "player": "PIT DE",
-        "score": 12.0,
-        "average": 0
-    },
-    {
-        "player": "PHI DE",
-        "score": 1.0,
-        "average": 0
-    },
-    {
-        "player": "JAX DE",
-        "score": 11.0,
-        "average": 0
-    },
-    {
-        "player": "TEN DE",
-        "score": 0.0,
-        "average": 0
-    },
-    {
-        "player": "DET DE",
-        "score": 8.0,
-        "average": 0
-    },
-    {
-        "player": "LAC DE",
-        "score": 1.0,
-        "average": 0
-    },
-    {
-        "player": "LV DE",
-        "score": 11.0,
-        "average": 0
+        "score": 0,
+        "average": 0.0
     },
     {
         "player": "NE DE",
-        "score": 6.0,
-        "average": 0
+        "score": 0,
+        "average": 0.0
+    },
+    {
+        "player": "CLE DE",
+        "score": 0,
+        "average": 0.0
+    },
+    {
+        "player": "CIN DE",
+        "score": 0,
+        "average": 0.0
+    },
+    {
+        "player": "IND DE",
+        "score": 0,
+        "average": 0.0
+    },
+    {
+        "player": "CAR DE",
+        "score": 0,
+        "average": 0.0
+    },
+    {
+        "player": "SEA DE",
+        "score": 0,
+        "average": 0.0
+    },
+    {
+        "player": "BAL DE",
+        "score": 0,
+        "average": 0.0
+    },
+    {
+        "player": "CHI DE",
+        "score": 0,
+        "average": 0.0
+    },
+    {
+        "player": "SF DE",
+        "score": 0,
+        "average": 0.0
+    },
+    {
+        "player": "DEN DE",
+        "score": 0,
+        "average": 0.0
+    },
+    {
+        "player": "LAC DE",
+        "score": 0,
+        "average": 0.0
+    },
+    {
+        "player": "HOU DE",
+        "score": 0,
+        "average": 0.0
+    },
+    {
+        "player": "PHI DE",
+        "score": 0,
+        "average": 0.0
+    },
+    {
+        "player": "TEN DE",
+        "score": 0,
+        "average": 0.0
+    },
+    {
+        "player": "DET DE",
+        "score": -2.0,
+        "average": 1.0
+    },
+    {
+        "player": "KC DE",
+        "score": 0,
+        "average": 0.0
+    },
+    {
+        "player": "ATL DE",
+        "score": 0,
+        "average": 0.0
+    },
+    {
+        "player": "TB DE",
+        "score": 0,
+        "average": 0.0
+    },
+    {
+        "player": "NYG DE",
+        "score": 0,
+        "average": 0.0
+    },
+    {
+        "player": "ARI DE",
+        "score": 0,
+        "average": 0.0
+    },
+    {
+        "player": "MIA DE",
+        "score": 0,
+        "average": 0.0
+    },
+    {
+        "player": "PIT DE",
+        "score": 0,
+        "average": 0.0
+    },
+    {
+        "player": "MIN DE",
+        "score": 0,
+        "average": 0.0
+    },
+    {
+        "player": "JAX DE",
+        "score": 0,
+        "average": 0.0
+    },
+    {
+        "player": "DAL DE",
+        "score": 0,
+        "average": 0.0
+    },
+    {
+        "player": "LV DE",
+        "score": 0,
+        "average": 0.0
+    },
+    {
+        "player": "NO DE",
+        "score": 0,
+        "average": 0.0
+    },
+    {
+        "player": "NYJ DE",
+        "score": 0,
+        "average": 0.0
+    },
+    {
+        "player": "WAS DE",
+        "score": 0,
+        "average": 0.0
+    },
+    {
+        "player": "BUF DE",
+        "score": 3.0,
+        "average": 3.0
     },
     {
         "player": "GB DE",
-        "score": 1.0,
-        "average": 0
+        "score": 0,
+        "average": 0.0
     }
 ]

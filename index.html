@@ -1022,6 +1022,7 @@
 				render_table(week_data[render_week-1])
 				console.log('value changed')
 			})
+			document.querySelector('#current-week').innerHTML = week;
 
 			function log_all_players() {
 				all_players_list = [];
@@ -1579,8 +1580,8 @@
 						<span class="num-desc">Players drafted</span>
 					</div>
 					<div class="num-box">
-						<span class="num">17</span>
-						<span class="num-desc">Weeks Remaining</span>
+						<span class="num" id = 'current-week'>17</span>
+						<span class="num-desc">Current Week</span>
 					</div>
 					<div class="num-box">
 						<span class="num leader-num">150</span>
@@ -1837,14 +1838,6 @@
 		<div class="lineup-container">
 			<form class="lineup-form">
 				<div class="normal-form">
-					<!-- <input type="hidden" id="secretField0" name="type" value="lineup">
-					<label class="input-label" for="first-name">First Name</label>
-					<input class="input-field" name="first-name" type="text" id="first-name" />
-					<label class="input-label" for="last-name">Last Name</label>
-					<input class="input-field" name="last-name" type="text" id="last-name" />
-
-					<label class="input-label" for="student-id">Student ID</label>
-					<input class="input-field" name="student-id" type="text" id="student-id" /> -->
 
 					<input type="hidden" id="secretField0" name="type" value="lineup">
 					<label class="input-label" for="team-name">Team Name</label>
@@ -1896,12 +1889,10 @@
 				</select> 
 				<label for = 'waiver-team-password' class = 'input-label' >Team Password</label>
 				<input type = 'password' id = 'waiver-team-password' class = 'input-field' name = 'team-password'>
-			<!-- </div> -->
-			<!-- <div class = "drop-player"> -->
+
 				<label for = 'drop-player-select' class = 'input-label'>Drop</label>
 				<select id = 'drop-player-select' class = 'input-field' name = 'drop'></select>
-			<!-- </div> -->
-			<!-- <div class = "request-waiver"> -->
+
 				<label for = 'request-player-input' class = 'input-label'>Request</label>
 				<input id = 'request-player-input' type = 'text' hidden name = 'request'>
 				<div id = 'request-player-container'>
@@ -1910,7 +1901,6 @@
 				<button type = 'submit' value = 'Submit' class = 'waiver-submit'>Submit</button>
 				<span class = 'waiver-error-desc'></span>
 				<span class = 'waiver-success-desc' hidden>Success!</span>
-			<!-- </div> -->
 		</form>
 		<div class = 'waiver-container'>
 				<div class = 'search-container'>
