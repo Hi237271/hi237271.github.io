@@ -264,7 +264,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     function get_team_score(team, statistics) {
         let team_roster = Array.from(Object.keys(statistics[team])).filter(
             (val) => {
-                return lineups[team].includes(val);
+                return Object.values(lineups[team]).includes(val);
             },
         );
         // console.log(team)
