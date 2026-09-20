@@ -1,1 +1,112 @@
-{"Laser Llamas": ["Christian McCaffrey", "D'Andre Swift", "Malik Nabers", "Tee Higgins", "Rome Odunze", "Caleb Williams", "DEN", "Jake Bates", "Brock Bowers"], "Bad Piggies": ["Jonathan Taylor", "Derrick Henry", "George Pickens", "Tetairoa McMillan", "David Montgomery", "Jalen Hurts", "BAL", "Jason Myers", "Sam LaPorta"], "McPicklePounders": ["De'Von Achane", "Javonte Williams", "Puka Nacua", "Rashee Rice", "Davante Adams", "Lamar Jackson", "LA", "Brandon Aubrey", "Dallas Goedert"], "Adebayo FC": ["Omarion Hampton", "Cam Skattebo", "Amon-Ra St. Brown", "Devonta Smith", "Bucky Irving", "Jared Goff", "DET", "Cam Little", "Colston Loveland"], "Mmm... Food": ["Saquon Barkley", "Rhamondre Stevenson", "Justin Jefferson", "Jaylen Waddle", "Rico Dowdle", "Josh Allen", "HOU", "Tyler Loop", "Tyler Warren"], "LJSSNC": ["Chase Brown", "Jeremiyah Love", "Jaxon Smith-Njigba", "A.J. Brown", "Michael Pittman", "Jayden Daniels", "SEA", "Ka'imi Fairbairn", "Harold Fannin Jr."], "Make Draye": ["Bijan Robinson", "Ashton Jeanty", "Ladd McConkey", "Luther Burden III", "Kyren Williams", "Drake Maye", "CHI", "Dominic Zvada", "George Kittle"], "Maye Drake Good": ["Kenneth Walker III", "Travis Etienne", "Ja'Marr Chase", "Drake London", "Christian Watson", "Justin Herbert", "PIT", "Cameron Dicker", "Trey McBride"], "Washable Markers": ["Jahmyr Gibbs", "Breece Hall", "Nico Collins", "Chris Olave", "Quinshon Judkins", "Trevor Lawrence", "MIN", "Evan McPherson", "Dalton Kincaid"], "Rumble Bees": ["James Cook", "Jadarian Price", "CeeDee Lamb", "Zay Flowers", "Garrett Wilson", "Joe Burrow", "PHI", "Eddy Pineiro", "Tucker Kraft"]}
+{
+  "Laser Llamas": {
+    "RB1": "Christian McCaffrey ",
+    "RB2": "D'Andre Swift ",
+    "WR1": "Malik Nabers ",
+    "WR2": "Tee Higgins ",
+    "Flex1": "Rome Odunze ",
+    "QB1": "Caleb Williams ",
+    "DE1": "DEN ",
+    "K1": "Jake Bates",
+    "TE1": "Brock Bowers "
+  },
+  "Bad Piggies": {
+    "RB1": "Jonathan Taylor ",
+    "RB2": "Derrick Henry ",
+    "WR1": "George Pickens ",
+    "WR2": "Tetairoa McMillan ",
+    "Flex1": "David Montgomery ",
+    "QB1": "Jalen Hurts ",
+    "DE1": "BAL ",
+    "K1": "Jason Myers",
+    "TE1": "Sam LaPorta "
+  },
+  "McPicklePounders": {
+    "RB1": "De'Von Achane ",
+    "RB2": "Javonte Williams ",
+    "WR1": "Puka Nacua ",
+    "WR2": "Rashee Rice ",
+    "Flex1": "Davante Adams ",
+    "QB1": "C.J. Stroud ",
+    "DE1": "LA ",
+    "K1": "Brandon Aubrey",
+    "TE1": "Dallas Goedert "
+  },
+  "Adebayo FC": {
+    "RB1": "Omarion Hampton ",
+    "RB2": "Cam Skattebo ",
+    "WR1": "Amon-Ra St. Brown ",
+    "WR2": "Devonta Smith ",
+    "Flex1": "Bucky Irving ",
+    "QB1": "Jared Goff ",
+    "DE1": "DET ",
+    "K1": "Cam Little",
+    "TE1": "Colston Loveland "
+  },
+  "Mmm... Food": {
+    "RB1": "Saquon Barkley ",
+    "RB2": "Rhamondre Stevenson ",
+    "WR1": "Justin Jefferson ",
+    "WR2": "Jaylen Waddle ",
+    "Flex1": "Jayden Reed ",
+    "QB1": "Josh Allen ",
+    "DE1": "HOU ",
+    "K1": "Tyler Loop",
+    "TE1": "Tyler Warren "
+  },
+  "LJSSNC": {
+    "RB1": "Chase Brown ",
+    "RB2": "Jeremiyah Love ",
+    "WR1": "Jaxon Smith-Njigba ",
+    "WR2": "Michael Wilson ",
+    "Flex1": "Terry McLaurin ",
+    "QB1": "Jayden Daniels ",
+    "DE1": "SEA ",
+    "K1": "Ka'imi Fairbairn",
+    "TE1": "Harold Fannin Jr. "
+  },
+  "Make Draye": {
+    "RB1": "Bijan Robinson ",
+    "RB2": "Ashton Jeanty ",
+    "WR1": "Parker Washington ",
+    "WR2": "Luther Burden III ",
+    "Flex1": "Kyren Williams ",
+    "QB1": "Drake Maye ",
+    "DE1": "CHI ",
+    "K1": "Dominic Zvada",
+    "TE1": "George Kittle "
+  },
+  "Maye Drake Good": {
+    "RB1": "Kenneth Walker III ",
+    "RB2": "Travis Etienne ",
+    "WR1": "Ja'Marr Chase ",
+    "WR2": "Drake London ",
+    "Flex1": "Bhayshul Tuten ",
+    "QB1": "Justin Herbert ",
+    "DE1": "PIT ",
+    "K1": "Cameron Dicker",
+    "TE1": "Trey McBride "
+  },
+  "Washable Markers": {
+    "RB1": "Jahmyr Gibbs ",
+    "RB2": "Breece Hall ",
+    "WR1": "Emeka Egbuka ",
+    "WR2": "Chris Olave ",
+    "Flex1": "Quinshon Judkins ",
+    "QB1": "Patrick Mahomes ",
+    "DE1": "KC ",
+    "K1": "Evan McPherson",
+    "TE1": "Dalton Kincaid "
+  },
+  "Rumble Bees": {
+    "RB1": "James Cook ",
+    "RB2": "Jadarian Price ",
+    "WR1": "CeeDee Lamb ",
+    "WR2": "Jalen Coker ",
+    "Flex1": "Garrett Wilson ",
+    "QB1": "Brock Purdy ",
+    "DE1": "PHI ",
+    "K1": "Eddy Pineiro",
+    "TE1": "Tucker Kraft "
+  }
+}
