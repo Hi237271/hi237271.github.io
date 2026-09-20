@@ -22,7 +22,7 @@ def get_stats(
 
 def get_teams():
     players = {}
-    with open('new_half_roster.json', 'r') as file:
+    with open('../json/new_half_roster.json', 'r') as file:
         players = json.load(file)
     return players
 #     teams = list(players.keys())
@@ -118,7 +118,7 @@ def main():
                 "team": team,
                 "position": position}
         all_data[team] = data
-    with open(f"week{week}.json", 'w') as file:
+    with open(f"../json/week{week}.json", 'w') as file:
         file.write(json.dumps(all_data))
     print("main.py: upload success!")
 

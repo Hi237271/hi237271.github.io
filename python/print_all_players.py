@@ -120,7 +120,7 @@ def main():
             average_score = sum(scores)/len(scores)
         all_stats.append(
             {'player': team + ' DE', 'score': score, 'average': average_score})
-    with open('all_player_scores.json', 'w') as file:
+    with open('../json/all_player_scores.json', 'w') as file:
         json.dump(all_stats, file, indent=4)
 
 
