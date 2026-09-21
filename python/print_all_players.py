@@ -76,7 +76,6 @@ def main():
     schedule = nfl.load_schedules([2026]).to_pandas()
     team_statistics = nfl.load_team_stats([2026]).to_pandas()
     nfl_teams = schedule["away_team"].tolist()
-    dataframes = []
     players = (roster["full_name"] + ' ' +
                roster['position']).to_list()
     all_stats = []

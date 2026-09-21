@@ -1,5 +1,4 @@
 let week = get_week();
-let roster_position_promise = loadJSONData("new_half_roster.json")
 let roster_promise = loadJSONData('new_full_roster.json')
 let all_scores_promise = loadJSONData("all_player_scores.json")
 let all_scores = null;
@@ -70,7 +69,6 @@ function promise_error(error){
 }
 document.addEventListener("DOMContentLoaded", async () => {
     let roster = await roster_promise;
-    let roster_without_position = await roster_position_promise;
     let team_scores = {
         "Maye Drake Good": [0,0,0],
         "Mmm... Food": [0,0,0],
@@ -395,7 +393,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
                         </div>
                         <div class = 'waiver-data-value'>
-                            <span class = 'waiver-header'> Average Score (Past Weeks)</span>
+                            <span class = 'waiver-header'> Average Score</span>
                             <span class = 'waiver-data'>${player_obj['average'].toFixed(2)}</span>
                         </div>
                         <button class = 'waiver-submission' onclick = "request_player('${player_obj['player']}')">Request</button>
@@ -515,12 +513,6 @@ document.addEventListener("DOMContentLoaded", async () => {
                     player = dataObject[position].trim();
                     if (used_players.includes(player)) {
                         return `Error: Player ${player} was used more than once`;
-                    } else if (
-                        !roster_without_position[dataObject["team-name"]].includes(
-                            player,
-                        )
-                    ) {
-                        return `Error: Player ${player} is not on team ${dataObject["team-name"]}`;
                     }
                     if (position != "Flex1") {
                         if (
