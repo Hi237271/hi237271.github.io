@@ -94,7 +94,7 @@ def print_all_players(roster, schedule, stats, team_statistics):
     players = (roster["full_name"] + ' ' +
                roster['position']).to_list()
     all_stats = []
-    teams = set(schedule['away_team'].to_list())
+    teams = sorted(set(schedule['away_team'].to_list()))
     # print(f'TEAMS: {teams}')
     for player in players:
         score = calculate_offensive_score(get_stats(player, stats))
