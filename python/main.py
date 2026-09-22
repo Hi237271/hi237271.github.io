@@ -164,7 +164,7 @@ def update_player_data(roster, schedule, stats, team_statistics):
                 "team": team,
                 "position": position}
         all_data[team] = data
-    with open(f"../json/week{week}.json", 'w') as file:
+    with open(get_json_path(f'week{week}.json'), 'w') as file:
         json.dump(all_data, file, indent=4)
 
 
