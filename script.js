@@ -299,7 +299,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     //Compute team score and add matchups
     console.log(`week: ${week}`);
     let matchup_container = document.querySelector("div.matchup-container");
-    for(let j = 1; j<=week; j++){
+    for(let j = week; j>0; j--){
         let week_matchup_container = document.createElement('div')
         week_matchup_container.classList.add('week-matchup-container')
         for (let i = 0; i < matchups[j - 1].length; i++) {
