@@ -748,6 +748,9 @@ div.coordinator-password, div.trades-password {
     align-content: center;
     justify-content: center;
 }
+div.trades-password {
+    margin-top: 80px;
+}
 form#coordinator-password-form,form#trade-password-form {
     gap: 15px;
     min-width: 400px;
