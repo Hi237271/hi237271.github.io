@@ -48,7 +48,9 @@ async function loadWeekData(){
 }
 async function loadJSONData(file) {
     try {
-        const response = await fetch(`json/${file}`);
+        const response = await fetch(`json/${file}`,{
+                cache: 'no-store'
+            });
 
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);
