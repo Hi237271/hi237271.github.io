@@ -3,7 +3,35 @@ let roster_promise = loadJSONData('new_full_roster.json')
 let all_scores_promise = loadJSONData("all_player_scores.json")
 let all_scores = null;
 let stats_promise = loadJSONData(`week${week}.json`)
+let stats = null;
 let week_data_promise = loadWeekData();
+let current_login = '';
+let current_password = '';
+let trades = null;
+let check = `<div class = 'trade-team-icon-container trade-always-white always-check'>
+                                <svg class = 'always-check' viewBox="0 0 1920 1920">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M1827.701 303.065 698.835 1431.801 92.299 825.266 0 917.564 698.835 1616.4 1919.869 395.234z" fill-rule="evenodd"></path> </g>
+                                </svg>
+                            </div>`
+let cross = `
+            <div class = 'trade-team-icon-container trade-always-white always-cross'>
+                        <svg class = 'svg-cross' viewBox="0 0 256 256" id="Flat" xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="4"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-width = '4' stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g> <path stroke-width="4" stroke-linecap="round" stroke-linejoin="round" d="M202.82861,197.17188a3.99991,3.99991,0,1,1-5.65722,5.65624L128,133.65723,58.82861,202.82812a3.99991,3.99991,0,0,1-5.65722-5.65624L122.343,128,53.17139,58.82812a3.99991,3.99991,0,0,1,5.65722-5.65624L128,122.34277l69.17139-69.17089a3.99991,3.99991,0,0,1,5.65722,5.65624L133.657,128Z" ></path> </g>
+                        </svg>
+                    </div>`
+let time = `<div class = 'trade-team-icon-container always-time'>
+                        <svg class = 'time-mark' viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g class="time-path-container"> 
+                                <path d="M12 8V12L15 15" stroke="#000000" stroke-width="2" stroke-linecap="round"></path> 
+                                <circle cx="12" cy="12" r="9" stroke="#000000" stroke-width="2"></circle> 
+                            </g>
+                        </svg>	
+            </div>`
 async function loadWeekData(){ 
     let week_data = []
     for(let i = 1; i<=week; i++){
@@ -146,7 +174,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             [6, 7],
         ],
     ];
-    var stats = await stats_promise;
+    stats = await stats_promise;
     var lineups = await loadJSONData("serialized_lineups.json");
     //console.log(stats)
     function render_table(player_stats){
@@ -234,31 +262,6 @@ document.addEventListener("DOMContentLoaded", async () => {
     data.sort((a, b) => {
         return b["score"] - a["score"];
     });
-    headers = ["name", "position", "team", "score"];
-    //Create player table
-    for (let i = 0; i < data.length; i++) {
-        const tr = document.createElement("tr");
-        for (let j = 0; j < headers.length; j++) {
-            const td = document.createElement("td");
-            td.classList.add(
-                "player-table-data",
-                `player-header-${headers[j]}`,
-            );
-            if (headers[j] == "position") {
-                const div = document.createElement("div");
-                div.innerText = data[i][headers[j]];
-                div.classList.add(`${data[i][headers[j]]}`);
-
-                td.appendChild(div);
-            } else if (headers[j] == "score") {
-                td.innerText = data[i][headers[j]].toFixed(2);
-            } else {
-                td.innerText = data[i][headers[j]];
-            }
-            tr.appendChild(td);
-        }
-        table.appendChild(tr);
-    }
     function get_team_score(team, statistics) {
         let team_roster = Array.from(Object.keys(statistics[team])).filter(
             (val) => {
@@ -403,10 +406,10 @@ document.addEventListener("DOMContentLoaded", async () => {
         }
         all_scores = await all_scores_promise;
         let all_players = log_all_players()
-        all_scores = all_scores.filter((val)=>{
+        let new_scores = all_scores.filter((val)=>{
             return !all_players.includes(val['player'])
         })
-        all_scores=all_scores.sort((a,b)=>{
+        new_scores=new_scores.sort((a,b)=>{
             avg_diff = b['average']-a['average']
             if(Math.abs(avg_diff)<0.02){
                 return b['score']-a['score']
@@ -418,7 +421,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
         player_draft = document.querySelector('.player-draft')
         for(let i = 0; i<30; i++) {
-            player_obj = all_scores[i]
+            player_obj = new_scores[i]
             render_player(player_obj)
         }
         document.querySelector('input#waiver-search').addEventListener('input',(event)=>{
@@ -426,13 +429,13 @@ document.addEventListener("DOMContentLoaded", async () => {
             if (query == ''){
                 document.querySelector('.player-draft').innerHTML = '';
                 for(let i = 0; i<30; i++){
-                    render_player(all_scores[i])
+                    render_player(new_scores[i])
                 }
                 return;
             }
         document.querySelector('.player-draft').innerHTML = '';
             console.log(query)
-            let tmp_scores = all_scores.filter((val)=>{
+            let tmp_scores = new_scores.filter((val)=>{
                 return val['player'].toLowerCase().startsWith(query)
             })
             if (tmp_scores.length>40){
@@ -481,7 +484,34 @@ document.addEventListener("DOMContentLoaded", async () => {
             used_players.push(valid_players[0]);
         }
     });
+    function populate_players(e, elt) {
+        selected_team = e.target.value;
+        selected_players = roster[selected_team];
 
+        elt.innerHTML = "";
+        for (const player of selected_players) {
+            elt.innerHTML += `<option value="${player}">${player.slice(0, -2).trim()}</option>`;
+        }
+    }
+    function get_all_player(name){
+        let a = all_scores.filter((a)=>{
+            return a['player'].trim()==name.trim()
+        })
+        if(a.length>0){
+            return a[0];
+        }
+        return null;
+    }
+    document.querySelector('#create-trade-select-team').addEventListener('change', (e)=>{
+        document.querySelector("#create-trade-error-desc").innerHTML = "";
+        populate_players(e,document.querySelector('#offer-player-input'))
+
+    })
+    document.querySelector('#opposing-team-select').addEventListener('change', (e)=>{
+        console.log(e.target.value);
+        document.querySelector("#create-trade-error-desc").innerHTML = "";
+        populate_players(e,document.querySelector('#trade-request-player-input'))
+    })
     document.querySelector("form.lineup-form").addEventListener("submit", function (e) {
         e.preventDefault();
         document.querySelector("#error-field").innerHTML = "";
@@ -622,6 +652,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                     console.log('Error')
                     console.log(err)
                     document.querySelector('#coordinator-error-field').innerHTML = "Couldn't reach server";
+                    return;
                 }
                 if(!body){
                     document.querySelector('#coordinator-error-field').innerHTML = 'An error occurred'
@@ -691,4 +722,260 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 
         })
+        document.querySelector('form#create-trade-form').addEventListener('submit',async (e)=>{
+            e.preventDefault();
+            document.querySelector('#create-trade-success-desc').hidden = true;
+            document.querySelector('#create-trade-error-desc').innerHTML = '';
+            let error_field = document.querySelector('#create-trade-error-desc');
+            const formData = new FormData(event.target);
+            const dataObject = Object.fromEntries(formData.entries());
+            console.log('Form submission received')
+            let body = null
+            try{
+                let res = await fetch("https://sportstatistics.mbhs.edu/trade",{
+                    method: "POST",
+                    body: formData
+                })
+                body = await res.json();
+                console.log(body);
+            }
+            catch(err){
+                console.log('Error')
+                console.log(err)
+                error_field.innerHTML = "Couldn't reach server";
+                return;
+            }
+            if(!body){
+                error_field.innerHTML = 'An error occurred'
+                return;
+            }
+            if(!body['success']){
+                error_field.innerHTML = body['message']
+                return;
+            }
+            else {
+                document.querySelector('#create-trade-success-desc').hidden = false;
+            }
+        })
+        //Get trades once password is put in
+        document.querySelector('#trade-password-form').addEventListener('submit', async (e)=>{
+            e.preventDefault();
+            document.querySelector('#trade-success-field').hidden = true;
+            document.querySelector('#trade-error-field').innerHTML = '';
+            const formData = new FormData(e.target);
+            const dataObject = Object.fromEntries(formData.entries());
+            console.log('Form submission received')
+            let body = null
+            try{
+                let res = await fetch("https://sportstatistics.mbhs.edu/trade",{
+                    method: "POST",
+                    body: formData
+                })
+                body = await res.json();
+                console.log(body);
+            }
+            catch(err){
+                console.log('Error')
+                console.log(err)
+                document.querySelector('#trade-error-field').innerHTML = "Couldn't reach server";
+                return;
+            }
+            if(!body){
+                document.querySelector('#trade-error-field').innerHTML = 'An error occurred'
+                return;
+            }
+            if(!body['success']){
+                document.querySelector('#trade-error-field').innerHTML = body['message']
+                return;
+            }
+            //Populate trade menu
+            current_login = dataObject['team-name']
+            current_password = dataObject['team-password']
+            document.querySelector('.trades-password').hidden = true;
+            document.querySelector('#trade-container').hidden = false;
+            trades = body['trades']
+            let container = document.querySelector('div#all-trades')
+            for (let i = 0; i< trades.length;i++) {
+                trade = trades[i]
+                console.log(stats[trade['team-name']])
+                console.log(trade['offer'].trim())
+                //Generate trade-teams
+                let team_score_container = '';
+                for(const team of Object.keys(roster)){
+                    let icon = time
+                    if (trade[team]=='approved'){
+                        icon = check
+                    }
+                    else if (trade[team]=='denied'){
+                        icon = cross
+                    }
+                    team_score_container+=`
+                        <div class = 'trade-team'>
+                            <span class = 'back-trade-team-name'>${team}</span>
+                            ${icon}
+                        </div>`
+                }
+                container.innerHTML+=a = ` 
+                    <div class = 'trade'>
+                        <div class = 'trade-inner' onclick = 'handle_trade_click(this)'>
+                            <div class = 'trade-front'>
+                                <div class = 'trade-header'>
+                                    <!-- Arrow to see votes -->
+                                    <div class = 'trade-back-container'>
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="256" height="256" viewBox="0 0 256 256" xml:space="preserve">
+                                            <g style="stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+                                                <path d="M 64.71 90 H 25.291 c -4.693 0 -8.584 -3.67 -8.859 -8.355 l -3.928 -67.088 c -0.048 -0.825 0.246 -1.633 0.812 -2.234 c 0.567 -0.601 1.356 -0.941 2.183 -0.941 h 59.002 c 0.826 0 1.615 0.341 2.183 0.941 c 0.566 0.601 0.86 1.409 0.813 2.234 l -3.928 67.089 C 73.294 86.33 69.403 90 64.71 90 z M 18.679 17.381 l 3.743 63.913 C 22.51 82.812 23.771 84 25.291 84 H 64.71 c 1.52 0 2.779 -1.188 2.868 -2.705 l 3.742 -63.914 H 18.679 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10;  fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"/>
+                                                <path d="M 80.696 17.381 H 9.304 c -1.657 0 -3 -1.343 -3 -3 s 1.343 -3 3 -3 h 71.393 c 1.657 0 3 1.343 3 3 S 82.354 17.381 80.696 17.381 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10;  fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"/>
+                                                <path d="M 58.729 17.381 H 31.271 c -1.657 0 -3 -1.343 -3 -3 V 8.789 C 28.271 3.943 32.214 0 37.061 0 h 15.879 c 4.847 0 8.789 3.943 8.789 8.789 v 5.592 C 61.729 16.038 60.386 17.381 58.729 17.381 z M 34.271 11.381 h 21.457 V 8.789 C 55.729 7.251 54.478 6 52.939 6 H 37.061 c -1.538 0 -2.789 1.251 -2.789 2.789 V 11.381 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10;  fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"/>
+                                                <path d="M 58.33 74.991 c -0.06 0 -0.118 -0.002 -0.179 -0.005 c -1.653 -0.097 -2.916 -1.517 -2.819 -3.171 l 2.474 -42.244 c 0.097 -1.655 1.508 -2.933 3.171 -2.819 c 1.653 0.097 2.916 1.516 2.819 3.17 l -2.474 42.245 C 61.229 73.761 59.906 74.991 58.33 74.991 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10;  fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"/>
+                                                <path d="M 31.669 74.991 c -1.577 0 -2.898 -1.23 -2.992 -2.824 l -2.473 -42.245 c -0.097 -1.654 1.165 -3.073 2.819 -3.17 c 1.646 -0.111 3.073 1.165 3.17 2.819 l 2.473 42.244 c 0.097 1.654 -1.165 3.074 -2.819 3.171 C 31.788 74.989 31.729 74.991 31.669 74.991 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10;  fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"/>
+                                                <path d="M 45 74.991 c -1.657 0 -3 -1.343 -3 -3 V 29.747 c 0 -1.657 1.343 -3 3 -3 c 1.657 0 3 1.343 3 3 v 42.244 C 48 73.648 46.657 74.991 45 74.991 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10;  fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"/>
+                                            </g>
+                                        </svg>								
+                                    </div>
+                                    <span class = 'trade-offer'>TRADE OFFER</span>
+
+                                    <span class = 'trade-week-num'>WEEK ${week}</span>
+                                </div>
+                                <div class = 'trade-body'>
+                                    <span class = 'trade-team-name'>
+                                        ${trade['team-name']}
+                                    </span>
+                                    <div class = 'player-body'>
+                                        <span class = 'offers-span'>Offers</span>
+                                        <div class = 'trade-data-val'>
+                                            <span class = 'waiver-header'>Name</span>
+                                            <span class = 'trade-data'>${trade['offer'].slice(0,-2).trim()}</span>
+                                        </div>
+                                        <div class = 'trade-data-val'>
+                                            <span class = 'waiver-header'>Position</span>
+                                            <span class = 'trade-data'>${trade['offer'].slice(-2,trade['offer'].length).trim()}</span>
+                                        </div>
+                                        <div class = 'trade-data-val'>
+                                            <span class = 'waiver-header'> Latest Score </span>
+                                            <span class = 'trade-data'>${stats[trade['team-name']][trade['offer'].slice(0,-2).trim()]['score']}</span>
+                                        </div>
+                                        <div class = 'trade-data-val'>
+                                            <span class = 'waiver-header'> Average Score</span>
+                                            <span class = 'trade-data'>${get_all_player(trade['offer'])['average']}</span>
+                                        </div>
+                                    </div>
+                                    <span class = 'trade-team-name'>
+                                        ${trade['opposing-team']}
+                                    </span>
+                                    <div class = 'player-body'>
+                                        <span class = 'offers-span'>Offers</span>
+                                        <div class = 'trade-data-val'>
+                                            <span class = 'waiver-header'>Name</span>
+                                            <span class = 'trade-data'>${trade['request'].slice(0,-2).trim()}</span>
+                                        </div>
+                                        <div class = 'trade-data-val'>
+                                            <span class = 'waiver-header'>Position</span>
+                                            <span class = 'trade-data'>${trade['request'].slice(-2,trade['request'].length).trim()}</span>
+                                        </div>
+                                        <div class = 'trade-data-val'>
+                                            <span class = 'waiver-header'> Latest Score </span>
+                                            <span class = 'trade-data'>${stats[trade['opposing-team']][trade['request'].slice(0,-2).trim()]['score']}</span>
+                                        </div>
+                                        <div class = 'trade-data-val'>
+                                            <span class = 'waiver-header'> Average Score</span>
+                                            <span class = 'trade-data'>${get_all_player(trade['request'])['average']}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class = 'trade-footer'>
+                                    <!-- Check mark -->
+                                    <div class = 'trade-icon-container check trade-white' onclick = "event.stopPropagation(); handle_trade_trigger(${i},'approved')">
+                                        <svg class = 'check-mark' viewBox="0 0 1920 1920">
+                                            <!-- <rect class="check-bg" width="100%" height="100%" /> -->
+                                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M1827.701 303.065 698.835 1431.801 92.299 825.266 0 917.564 698.835 1616.4 1919.869 395.234z" fill-rule="evenodd"></path> </g>
+                                        </svg>
+                                    </div>
+                                    <!-- Time symbol -->
+                                    <div class = 'trade-icon-container time' onclick = "event.stopPropagation(); handle_trade_trigger(${i},'pending')">
+                                        <svg class = 'time-mark' viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                            <g class="time-path-container"> 
+                                                <path d="M12 8V12L15 15" stroke="#000000" stroke-width="2" stroke-linecap="round"></path> 
+                                                <circle cx="12" cy="12" r="9" stroke="#000000" stroke-width="2"></circle> 
+                                            </g>
+                                        </svg>					
+                                    </div>
+                                    <!-- Cross symbol -->
+                                    <div class = 'trade-icon-container trade-white cross' onclick = "event.stopPropagation(); handle_trade_trigger(${i},'denied')">
+                                        <svg class = 'svg-cross' viewBox="0 0 256 256" id="Flat" xmlns="http://www.w3.org/2000/svg">
+                                            <g id="SVGRepo_bgCarrier" stroke-width="4"></g>
+                                            <g id="SVGRepo_tracerCarrier" stroke-width = '4' stroke-linecap="round" stroke-linejoin="round"></g>
+                                            <g> <path stroke-width="4" stroke-linecap="round" stroke-linejoin="round" d="M202.82861,197.17188a3.99991,3.99991,0,1,1-5.65722,5.65624L128,133.65723,58.82861,202.82812a3.99991,3.99991,0,0,1-5.65722-5.65624L122.343,128,53.17139,58.82812a3.99991,3.99991,0,0,1,5.65722-5.65624L128,122.34277l69.17139-69.17089a3.99991,3.99991,0,0,1,5.65722,5.65624L133.657,128Z" ></path> </g>
+                                        </svg>						
+                                    </div>
+                                </div>
+                            </div>
+                            <div class = 'trade-back'>
+                                <div class = 'trade-team-container'>
+                                    ${team_score_container}
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>`
+            }
+        })
 });
+function handle_trade_click(elt){
+    if(elt.classList.contains('trade-rotate')){
+        elt.classList.remove('trade-rotate')
+    }
+    else {
+        elt.classList.add('trade-rotate');
+    }
+    elt.addEventListener('transitionend',()=>{
+        console.log('Animation completed')
+    }, {once: true})
+}
+async function handle_trade_trigger(index, state){
+    let req = {}
+    req['type']='trade_state'
+    req['team-name']=current_login;
+    req['team-password'] = current_password;
+    req['index']=index;
+    req['state']=state
+    let body = null
+    try {
+        res = await fetch("https://sportstatistics.mbhs.edu/trade", {
+            method: 'POST', 
+            headers: {
+                'Content-Type': 'application/json' 
+            },
+            body: JSON.stringify(req)
+        });
+        body = await res.json()
+        console.log(body);
+    }
+    catch (err){
+        console.log(err);
+        return;
+    }
+    if(!body){
+        console.log('Server couldn\'t be found')
+        return;
+    }
+    if(body['success']){
+        console.log('Success!')
+        let elt = Array.from(document.querySelectorAll('div.trade')[index].querySelectorAll('.back-trade-team-name')).filter((a)=>{
+                return a.innerHTML.trim()==req['team-name'].trim()
+            })[0].parentElement.children[1]
+        
+        if(req['state']=='approved'){
+            elt.outerHTML = check;
+        }
+        else if (req['state']=='pending'){
+            elt.outerHTML = time;
+        }
+        else if (req['state']=='denied'){
+            elt.outerHTML=cross;
+        }
+    }
+}
