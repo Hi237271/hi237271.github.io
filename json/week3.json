@@ -127,11 +127,6 @@
             "team": "Mmm... Food",
             "position": "RB"
         },
-        "Jayden Reed": {
-            "score": 0,
-            "team": "Mmm... Food",
-            "position": "WR"
-        },
         "Tyler Loop": {
             "score": 0,
             "team": "Mmm... Food",
@@ -151,6 +146,11 @@
             "score": 0,
             "team": "Mmm... Food",
             "position": "WR"
+        },
+        "Jonah Coleman": {
+            "score": 0,
+            "team": "Mmm... Food",
+            "position": "RB"
         }
     },
     "Washable Markers": {
