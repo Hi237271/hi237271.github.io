@@ -373,15 +373,15 @@
             "team": "Laser Llamas",
             "position": "TE"
         },
-        "Daniel Jones": {
-            "score": 0,
-            "team": "Laser Llamas",
-            "position": "QB"
-        },
         "Caleb Douglas": {
             "score": 0,
             "team": "Laser Llamas",
             "position": "WR"
+        },
+        "Bryce Young": {
+            "score": 0,
+            "team": "Laser Llamas",
+            "position": "QB"
         }
     },
     "Adebayo FC": {
@@ -455,7 +455,7 @@
             "team": "Adebayo FC",
             "position": "WR"
         },
-        "DET": {
+        "GB": {
             "score": 0,
             "team": "Adebayo FC",
             "position": "DE"
@@ -527,15 +527,15 @@
             "team": "Make Draye",
             "position": "DE"
         },
-        "Dominic Zvada": {
-            "score": 0,
-            "team": "Make Draye",
-            "position": "K"
-        },
         "Devaughn Vele": {
             "score": 0,
             "team": "Make Draye",
             "position": "WR"
+        },
+        "Chase McLaughlin": {
+            "score": 0,
+            "team": "Make Draye",
+            "position": "K"
         }
     },
     "LJSSNC": {
@@ -574,11 +574,6 @@
             "team": "LJSSNC",
             "position": "WR"
         },
-        "Jonathon Brooks": {
-            "score": 0,
-            "team": "LJSSNC",
-            "position": "RB"
-        },
         "SEA": {
             "score": 0,
             "team": "LJSSNC",
@@ -610,6 +605,11 @@
             "position": "RB"
         },
         "Michael Wilson": {
+            "score": 0,
+            "team": "LJSSNC",
+            "position": "WR"
+        },
+        "Denzel Boston": {
             "score": 0,
             "team": "LJSSNC",
             "position": "WR"
