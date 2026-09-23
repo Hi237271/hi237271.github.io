@@ -564,11 +564,6 @@
             "team": "LJSSNC",
             "position": "TE"
         },
-        "Jayden Daniels": {
-            "score": 0,
-            "team": "LJSSNC",
-            "position": "QB"
-        },
         "Terry McLaurin": {
             "score": 0,
             "team": "LJSSNC",
@@ -613,6 +608,11 @@
             "score": 0,
             "team": "LJSSNC",
             "position": "WR"
+        },
+        "Tyler Shough": {
+            "score": 0,
+            "team": "LJSSNC",
+            "position": "QB"
         }
     },
     "Bad Piggies": {
