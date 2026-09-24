@@ -350,47 +350,59 @@
 		</div>
 	</section>
 	<section id = "waiver">
-		<form id = 'waiver-form'>
-			<h1 class="small-title">Waiver Wire Submission</h1>
-			<!-- <div class = "waiver-team-name"> -->
-				<input type="hidden" id="secretField1" name="type" value="waiver">
-				<label for = 'waiver-select-team' class = 'input-label' >Team Name*</label>
-				<select id = 'waiver-select-team' class = 'input-field' name = 'team-name'>
-					<option disabled selected value>-- Select a Team --</option>
-					<option value="Maye Drake Good">Maye Drake Good</option>
-					<option value="Make Draye">Make Draye</option>
-					<option value="Rumble Bees">Rumble Bees</option>
-					<option value="McPicklePounders">McPicklePounders</option>
-					<option value="Mmm... Food">Mmm... Food</option>
-					<option value="Bad Piggies">Bad Piggies</option>
-					<option value="Laser Llamas">Laser Llamas</option>
-					<option value="Adebayo FC">Adebayo FC</option>
-					<option value="Washable Markers">Washable Markers</option>
-					<option value="LJSSNC">LJSSNC</option>
-				</select> 
-				<label for = 'waiver-team-password' class = 'input-label' >Team Password</label>
-				<input type = 'password' id = 'waiver-team-password' class = 'input-field' name = 'team-password'>
+		<div class = 'waiver-information-container'>
+			<form id = 'waiver-form'>
+				<h1 class="small-title">Waiver Wire Submission</h1>
+				<!-- <div class = "waiver-team-name"> -->
+					<input type="hidden" id="secretField1" name="type" value="waiver">
+					<label for = 'waiver-select-team' class = 'input-label' >Team Name*</label>
+					<select id = 'waiver-select-team' class = 'input-field' name = 'team-name'>
+						<option disabled selected value>-- Select a Team --</option>
+						<option value="Maye Drake Good">Maye Drake Good</option>
+						<option value="Make Draye">Make Draye</option>
+						<option value="Rumble Bees">Rumble Bees</option>
+						<option value="McPicklePounders">McPicklePounders</option>
+						<option value="Mmm... Food">Mmm... Food</option>
+						<option value="Bad Piggies">Bad Piggies</option>
+						<option value="Laser Llamas">Laser Llamas</option>
+						<option value="Adebayo FC">Adebayo FC</option>
+						<option value="Washable Markers">Washable Markers</option>
+						<option value="LJSSNC">LJSSNC</option>
+					</select> 
+					<label for = 'waiver-team-password' class = 'input-label' >Team Password</label>
+					<input type = 'password' id = 'waiver-team-password' class = 'input-field' name = 'team-password'>
 
-				<label for = 'drop-player-select' class = 'input-label'>Drop</label>
-				<select id = 'drop-player-select' class = 'input-field' name = 'drop'></select>
+					<label for = 'drop-player-select' class = 'input-label'>Drop</label>
+					<select id = 'drop-player-select' class = 'input-field' name = 'drop'></select>
 
-				<label for = 'request-player-input' class = 'input-label'>Request</label>
-				<input id = 'request-player-input' type = 'text' hidden name = 'request'>
-				<div id = 'request-player-container'>
+					<label for = 'request-player-input' class = 'input-label'>Request</label>
+					<input id = 'request-player-input' type = 'text' hidden name = 'request'>
+					<div id = 'request-player-container'>
 
-				</div>
-				<button type = 'submit' value = 'Submit' class = 'waiver-submit'>Submit</button>
-				<span class = 'waiver-error-desc'></span>
-				<span class = 'waiver-success-desc' hidden>Success!</span>
-		</form>
+					</div>
+					<button type = 'submit' value = 'Submit' class = 'waiver-submit'>Submit</button>
+					<span class = 'waiver-error-desc'></span>
+					<span class = 'waiver-success-desc' hidden>Success!</span>
+			</form>
+			<table class = 'draft-order-container'>
+				<thead>
+					<th class = 'player-table-header'>Draft Priority</th>
+					<th class = 'player-table-header'>Team</th>
+				</thead>
+				<tbody id = 'draft-priority-container'>
+					
+				</tbody>
+			</table>
+		</div>
+
 		<div class = 'waiver-container'>
-				<div class = 'search-container'>
-					<span>Undrafted players (Top 30 results)</span>
-					<input type="text" id = "waiver-search" placeholder="Search player here...">
-				</div>
-				<div class = 'player-draft'>
+			<div class = 'search-container'>
+				<span>Undrafted players (Top 30 results)</span>
+				<input type="text" id = "waiver-search" placeholder="Search player here...">
+			</div>
+			<div class = 'player-draft'>
 
-				</div>
+			</div>
 		</div>
 	</section>
 	<section id = 'coordinator'>
@@ -458,7 +470,6 @@
 	<section id = 'create-trade'>
 		<form id = 'create-trade-form'>
 			<h1 class="small-title">Create a Trade</h1>
-			<!-- <div class = "waiver-team-name"> -->
 				<input type="hidden" name="type" value="trade_submit">
 				<label for = 'create-trade-select-team' class = 'input-label' >Team Name*</label>
 				<select id = 'create-trade-select-team' class = 'input-field' name = 'team-name'>

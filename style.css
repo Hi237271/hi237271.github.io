@@ -704,14 +704,23 @@ button.waiver-submission {
 #drop-player-select {
     min-width: 100px;
 }
-form#waiver-form {
+.waiver-information-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 35px;
+}
+form#waiver-form, .draft-order-container {
+    flex: 1;
     display: flex;
     flex-direction: column;
     background-color: var(--off-white);
     border-radius: 15px;
     box-shadow: var(--shadow);
-    margin-bottom: 35px;
     padding: 35px 35px;
+}
+.draft-order-container {
+
 }
 #request-player-container {
     min-height: 70px;

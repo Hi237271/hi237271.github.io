@@ -8,6 +8,7 @@ let week_data_promise = loadWeekData();
 let current_login = '';
 let current_password = '';
 let trades = null;
+let draft_priority_promise = loadJSONData('draft_priority.json')
 let check = `<div class = 'trade-team-icon-container trade-always-white always-check'>
                                 <svg class = 'always-check' viewBox="0 0 1920 1920">
                                     <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -447,6 +448,20 @@ document.addEventListener("DOMContentLoaded", async () => {
                 render_player(player)
             }
         })
+        //Load draft priority
+        let draft_priority = await draft_priority_promise;
+        console.log(draft_priority)
+        let teams = Object.keys(roster)
+        let priority_container = document.querySelector('#draft-priority-container')
+        for(let i = 0; i<draft_priority.length; i++){
+            team = teams[draft_priority[i]]
+            priority_container.innerHTML += `
+                <tr>    
+                    <td class = 'player-table-data'>${i+1}</td>
+                    <td class = 'player-table-data'>${teams[draft_priority[i]]}</td>
+                </tr>
+            `
+        }
         
     }
     setTimeout(load_waiver_scores,0)
