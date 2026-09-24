@@ -35,11 +35,6 @@
             "team": "Maye Drake Good",
             "position": "RB"
         },
-        "Christian Watson": {
-            "score": 0,
-            "team": "Maye Drake Good",
-            "position": "WR"
-        },
         "Tony Pollard": {
             "score": 0,
             "team": "Maye Drake Good",
@@ -71,6 +66,11 @@
             "position": "QB"
         },
         "Eli Heidenreich": {
+            "score": 0,
+            "team": "Maye Drake Good",
+            "position": "RB"
+        },
+        "Kyren Williams": {
             "score": 0,
             "team": "Maye Drake Good",
             "position": "RB"
@@ -472,11 +472,6 @@
             "team": "Make Draye",
             "position": "RB"
         },
-        "Kyren Williams": {
-            "score": 0,
-            "team": "Make Draye",
-            "position": "RB"
-        },
         "Ladd McConkey": {
             "score": 0,
             "team": "Make Draye",
@@ -536,6 +531,11 @@
             "score": 0,
             "team": "Make Draye",
             "position": "K"
+        },
+        "Christian Watson": {
+            "score": 0,
+            "team": "Make Draye",
+            "position": "WR"
         }
     },
     "LJSSNC": {
