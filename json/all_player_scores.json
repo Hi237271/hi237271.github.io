@@ -85,6 +85,11 @@
         "average": 0
     },
     {
+        "player": "Johnny Hekker P",
+        "score": 0,
+        "average": 0
+    },
+    {
         "player": "Case Keenum QB",
         "score": 0,
         "average": 0
@@ -216,6 +221,11 @@
     },
     {
         "player": "Odell Beckham Jr. WR",
+        "score": 0,
+        "average": 0
+    },
+    {
+        "player": "Brandin Cooks WR",
         "score": 0,
         "average": 0
     },
@@ -510,6 +520,11 @@
         "average": 0
     },
     {
+        "player": "Austin Johnson DL",
+        "score": 0,
+        "average": 0
+    },
+    {
         "player": "Derrick Henry RB",
         "score": 17.7,
         "average": 26.5
@@ -746,6 +761,11 @@
     },
     {
         "player": "Adam Butler DL",
+        "score": 0,
+        "average": 0
+    },
+    {
+        "player": "Kenny Moore DB",
         "score": 0,
         "average": 0
     },
@@ -1676,6 +1696,11 @@
     },
     {
         "player": "Sam Mustipher OL",
+        "score": 0,
+        "average": 0
+    },
+    {
+        "player": "Jonathan Harris DL",
         "score": 0,
         "average": 0
     },
@@ -3435,6 +3460,11 @@
         "average": 0.75
     },
     {
+        "player": "Jaret Patterson RB",
+        "score": 0,
+        "average": 0
+    },
+    {
         "player": "Brandon Smith WR",
         "score": 0,
         "average": 0
@@ -3481,6 +3511,11 @@
     },
     {
         "player": "Kene Nwangwu RB",
+        "score": 0,
+        "average": 0
+    },
+    {
+        "player": "Isaiahh Loudermilk DL",
         "score": 0,
         "average": 0
     },
@@ -4905,6 +4940,11 @@
         "average": 0
     },
     {
+        "player": "Benton Whitley DL",
+        "score": 0,
+        "average": 0
+    },
+    {
         "player": "Ja'Marcus Ingram DB",
         "score": 0,
         "average": 0
@@ -5920,7 +5960,7 @@
         "average": 0
     },
     {
-        "player": "Viliami Fehoko Jr. DL",
+        "player": "Viliami Fehoko DL",
         "score": 0,
         "average": 0
     },
@@ -14665,6 +14705,11 @@
         "average": 0
     },
     {
+        "player": "Malick Meiga WR",
+        "score": 0,
+        "average": 0
+    },
+    {
         "player": "Mansoor Delane DB",
         "score": 0,
         "average": 0
@@ -14936,6 +14981,11 @@
     },
     {
         "player": "Al-Jay Henderson RB",
+        "score": 0,
+        "average": 0
+    },
+    {
+        "player": "Spencer Triplett LS",
         "score": 0,
         "average": 0
     },
