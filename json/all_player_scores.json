@@ -1270,9 +1270,9 @@
         "average": 0
     },
     {
-        "player": "Foye Oluokun LB",
-        "score": 0.0,
-        "average": 0.0
+        "player": "Foyesade Oluokun LB",
+        "score": 0,
+        "average": 0
     },
     {
         "player": "Matt Pryor OL",
@@ -3196,6 +3196,11 @@
     },
     {
         "player": "Jaylon Moore OL",
+        "score": 0,
+        "average": 0
+    },
+    {
+        "player": "Shaun Wade DB",
         "score": 0,
         "average": 0
     },
