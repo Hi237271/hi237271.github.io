@@ -437,9 +437,8 @@ document.addEventListener("DOMContentLoaded", async () => {
                 return;
             }
         document.querySelector('.player-draft').innerHTML = '';
-            console.log(query)
             let tmp_scores = new_scores.filter((val)=>{
-                return val['player'].toLowerCase().startsWith(query)
+                return val['player'].toLowerCase().includes(query.toLowerCase())
             })
             if (tmp_scores.length>40){
                 tmp_scores = tmp_scores.slice(0,40)
