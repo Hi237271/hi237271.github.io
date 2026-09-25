@@ -2,13 +2,13 @@
   "Laser Llamas": {
     "RB1": "Christian McCaffrey",
     "RB2": "D'Andre Swift",
-    "WR1": "Malik Nabers",
+    "WR1": "Rome Odunze",
     "WR2": "Tee Higgins",
-    "Flex1": "Rome Odunze",
-    "QB1": "Caleb Williams",
+    "Flex1": "Kyle Monangai",
+    "QB1": "Bryce Young",
     "DE1": "DEN",
     "K1": "Jake Bates",
-    "TE1": "Brock Bowers"
+    "TE1": "Brenton Strange"
   },
   "Bad Piggies": {
     "RB1": "Jonathan Taylor",
@@ -27,19 +27,19 @@
     "WR1": "Puka Nacua",
     "WR2": "Rashee Rice",
     "Flex1": "Davante Adams",
-    "QB1": "C.J. Stroud",
+    "QB1": "Lamar Jackson",
     "DE1": "LA",
     "K1": "Brandon Aubrey",
-    "TE1": "Dallas Goedert"
+    "TE1": "T.J. Hockenson"
   },
   "Adebayo FC": {
     "RB1": "Omarion Hampton",
     "RB2": "Cam Skattebo",
     "WR1": "Amon-Ra St. Brown",
-    "WR2": "Devonta Smith",
-    "Flex1": "Bucky Irving",
+    "WR2": "DeVonta Smith",
+    "Flex1": "Stefon Diggs",
     "QB1": "Jared Goff",
-    "DE1": "DET",
+    "DE1": "GB",
     "K1": "Cam Little",
     "TE1": "Colston Loveland"
   },
@@ -48,7 +48,7 @@
     "RB2": "Rhamondre Stevenson",
     "WR1": "Justin Jefferson",
     "WR2": "Jaylen Waddle",
-    "Flex1": "Jayden Reed",
+    "Flex1": "Rico Dowdle",
     "QB1": "Josh Allen",
     "DE1": "HOU",
     "K1": "Tyler Loop",
@@ -58,9 +58,9 @@
     "RB1": "Chase Brown",
     "RB2": "Jeremiyah Love",
     "WR1": "Jaxon Smith-Njigba",
-    "WR2": "Michael Wilson",
-    "Flex1": "Terry McLaurin",
-    "QB1": "Jayden Daniels",
+    "WR2": "Denzel Boston",
+    "Flex1": "Michael Wilson",
+    "QB1": "Tyler Shough",
     "DE1": "SEA",
     "K1": "Ka'imi Fairbairn",
     "TE1": "Harold Fannin Jr."
@@ -68,12 +68,12 @@
   "Make Draye": {
     "RB1": "Bijan Robinson",
     "RB2": "Ashton Jeanty",
-    "WR1": "Parker Washington",
-    "WR2": "Luther Burden III",
-    "Flex1": "Kyren Williams",
+    "WR1": "Ladd McConkey",
+    "WR2": "Christian Watson",
+    "Flex1": "Parker Washington",
     "QB1": "Drake Maye",
     "DE1": "CHI",
-    "K1": "Dominic Zvada",
+    "K1": "Chase McLaughlin",
     "TE1": "George Kittle"
   },
   "Maye Drake Good": {
@@ -81,7 +81,7 @@
     "RB2": "Travis Etienne",
     "WR1": "Ja'Marr Chase",
     "WR2": "Drake London",
-    "Flex1": "Bhayshul Tuten",
+    "Flex1": "Kyren Williams",
     "QB1": "Justin Herbert",
     "DE1": "PIT",
     "K1": "Cameron Dicker",
@@ -100,9 +100,9 @@
   },
   "Rumble Bees": {
     "RB1": "James Cook",
-    "RB2": "Jadarian Price",
+    "RB2": "TreVeyon Henderson",
     "WR1": "CeeDee Lamb",
-    "WR2": "Jalen Coker",
+    "WR2": "Zay Flowers",
     "Flex1": "Garrett Wilson",
     "QB1": "Brock Purdy",
     "DE1": "PHI",
