@@ -968,9 +968,6 @@ svg.check-mark:hover {
 .svg-cross {
     fill: red;
 }
-svg.time-mark {
-    /* fill: gray; */
-}
 svg.check-mark {
     fill: green;
 }

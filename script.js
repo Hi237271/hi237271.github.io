@@ -178,7 +178,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         ],
     ];
     stats = await stats_promise;
-    var lineups = await loadJSONData("serialized_lineups.json");
+    var all_lineups = await loadJSONData('new_compiled_lineups.json')
     //console.log(stats)
     function render_table(player_stats){
         table = document.querySelector("table.player-table");
@@ -265,12 +265,20 @@ document.addEventListener("DOMContentLoaded", async () => {
     data.sort((a, b) => {
         return b["score"] - a["score"];
     });
-    function get_team_score(team, statistics) {
+    function get_team_score(team, statistics, current_week = week) {
         let team_roster = Array.from(Object.keys(statistics[team])).filter(
             (val) => {
-                return Object.values(lineups[team]).includes(val);
+                return Object.values(all_lineups[team][current_week - 1]).includes(val)
             },
         );
+        var error_dialog = Object.values(all_lineups[team][current_week - 1]).filter(
+            (val)=>{
+                if (!team_roster.includes(val)) {
+                    console.log(`Player ${val} is not on team ${team}. Current week = ${current_week} Team roster: `)
+                    console.log(Object.keys(statistics[team]))
+                }
+            }
+        )
         // console.log(team)
         // console.log(team_roster)
         sum = 0;
@@ -288,12 +296,12 @@ document.addEventListener("DOMContentLoaded", async () => {
             matchup = matchups[j-1][i]
             team_one = teams[matchup[0] - 1];
             team_two = teams[matchup[1] - 1];
-            if (get_team_score(team_one, week_data[j-1]) < get_team_score(team_two, week_data[j-1])) {
+            if (get_team_score(team_one, week_data[j-1], current_week = j) < get_team_score(team_two, week_data[j-1], current_week = j)) {
                 swp = team_one;
                 team_one = team_two;
                 team_two = swp;
             }
-            else if(get_team_score(team_one, week_data[j-1]) == get_team_score(team_two, week_data[j-1])) {
+            else if(get_team_score(team_one, week_data[j-1], current_week = j) == get_team_score(team_two, week_data[j-1], current_week = j)) {
                 team_scores[team_one][1]+=1
                 team_scores[team_two][1]+=1
                 continue
@@ -310,16 +318,11 @@ document.addEventListener("DOMContentLoaded", async () => {
         week_matchup_container.classList.add('week-matchup-container')
         for (let i = 0; i < matchups[j - 1].length; i++) {
             var stat_var = []
-            if (j==week){
-                stat_var = stats
-            }
-            else {
-                stat_var = week_data[j - 1]
-            }
+            stat_var = week_data[j - 1]
             matchup = matchups[j - 1][i];
             team_one = teams[matchup[0] - 1];
             team_two = teams[matchup[1] - 1];
-            if (get_team_score(team_one, stat_var) < get_team_score(team_two, stat_var)) {
+            if (get_team_score(team_one, stat_var, current_week = j) < get_team_score(team_two, stat_var, current_week = j)) {
                 swp = team_one;
                 team_one = team_two;
                 team_two = swp;
@@ -330,13 +333,13 @@ document.addEventListener("DOMContentLoaded", async () => {
                     <div class = 'team-one'>
                         <span class = 'team'>${team_one}</span>
                         <span class = "win-record">${team_scores[team_one][0]}W  ${team_scores[team_one][1]}D ${team_scores[team_one][2]}L</span>
-                        <span class = "num">${get_team_score(team_one, stat_var).toFixed(2)}</span>
+                        <span class = "num">${get_team_score(team_one, stat_var, current_week = j).toFixed(2)}</span>
                     </div>
                     <span class = 'vs'>VS</span>
                     <div class = "team-two">
                         <span class = 'team'>${team_two}</span>
                         <span class = "win-record">${team_scores[team_two][0]}W ${team_scores[team_two][1]}D ${team_scores[team_two][2]}L</span>
-                        <span class = "num">${get_team_score(team_two, stat_var).toFixed(2)}</span>
+                        <span class = "num">${get_team_score(team_two, stat_var, current_week = j).toFixed(2)}</span>
                     </div>
                 </div>`;
         }
