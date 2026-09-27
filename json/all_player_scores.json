@@ -1271,8 +1271,8 @@
     },
     {
         "player": "Foyesade Oluokun LB",
-        "score": 0,
-        "average": 0
+        "score": 0.0,
+        "average": 0.0
     },
     {
         "player": "Matt Pryor OL",
@@ -2186,8 +2186,8 @@
     },
     {
         "player": "Dre'Mont Jones LB",
-        "score": 0,
-        "average": 0
+        "score": 0.0,
+        "average": 0.0
     },
     {
         "player": "Connor McGovern OL",
@@ -6906,8 +6906,8 @@
     },
     {
         "player": "Matthew Bergeron OL",
-        "score": 0.0,
-        "average": 0.0
+        "score": 0,
+        "average": 0
     },
     {
         "player": "SirVocea Dennis LB",
