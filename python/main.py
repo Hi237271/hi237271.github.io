@@ -59,7 +59,7 @@ def calculate_offensive_score(d):
 
 
 def calculate_defensive_score(d):
-    return d["def_sacks"]+2*d["def_interceptions"]+2*d["def_fg_blocks"]+2*d["def_punt_blocks"]+6*d["special_teams_tds"]
+    return d["def_sacks"]+2*d["def_interceptions"]+2*d["def_fg_blocks"]+2*d["def_punt_blocks"]+6*d["special_teams_tds"] + 2*d["fumble_recovery_opp"]
     # TODO do i need to incorporate def_pat_blocks?
     # TODO need to add touchdown returns on kickoff for both offensive and defensive (nvm. I think special team tds does this.)
 
