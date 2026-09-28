@@ -46,7 +46,7 @@
             "position": "K"
         },
         "PIT": {
-            "score": 1.0,
+            "score": 5.0,
             "team": "Maye Drake Good",
             "position": "DE"
         },
@@ -108,7 +108,7 @@
             "position": "WR"
         },
         "HOU": {
-            "score": 7.0,
+            "score": 11.0,
             "team": "Mmm... Food",
             "position": "DE"
         },
@@ -225,7 +225,7 @@
             "position": "K"
         },
         "KC": {
-            "score": 6.0,
+            "score": 8.0,
             "team": "Washable Markers",
             "position": "DE"
         }
@@ -456,7 +456,7 @@
             "position": "WR"
         },
         "DET": {
-            "score": 5.0,
+            "score": 7.0,
             "team": "Adebayo FC",
             "position": "DE"
         }
@@ -667,7 +667,7 @@
             "position": "RB"
         },
         "BAL": {
-            "score": 2.0,
+            "score": 4.0,
             "team": "Bad Piggies",
             "position": "DE"
         },

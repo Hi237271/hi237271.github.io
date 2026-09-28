@@ -14996,8 +14996,8 @@
     },
     {
         "player": "ARI DE",
-        "score": -4.0,
-        "average": 0.0
+        "score": -2.0,
+        "average": 2.0
     },
     {
         "player": "ATL DE",
@@ -15006,8 +15006,8 @@
     },
     {
         "player": "BAL DE",
-        "score": 2.0,
-        "average": 3.0
+        "score": 4.0,
+        "average": 5.0
     },
     {
         "player": "BUF DE",
@@ -15016,8 +15016,8 @@
     },
     {
         "player": "CAR DE",
-        "score": 2.0,
-        "average": 3.5
+        "score": 4.0,
+        "average": 5.5
     },
     {
         "player": "CHI DE",
@@ -15046,8 +15046,8 @@
     },
     {
         "player": "DET DE",
-        "score": 5.0,
-        "average": 2.5
+        "score": 7.0,
+        "average": 4.5
     },
     {
         "player": "GB DE",
@@ -15056,8 +15056,8 @@
     },
     {
         "player": "HOU DE",
-        "score": 7.0,
-        "average": 4.5
+        "score": 11.0,
+        "average": 8.5
     },
     {
         "player": "IND DE",
@@ -15066,13 +15066,13 @@
     },
     {
         "player": "JAX DE",
-        "score": 13.0,
-        "average": 8.5
+        "score": 15.0,
+        "average": 10.5
     },
     {
         "player": "KC DE",
-        "score": 6.0,
-        "average": 3.5
+        "score": 8.0,
+        "average": 5.5
     },
     {
         "player": "LA DE",
@@ -15081,13 +15081,13 @@
     },
     {
         "player": "LAC DE",
-        "score": 8.0,
-        "average": 8.0
+        "score": 14.0,
+        "average": 14.0
     },
     {
         "player": "LV DE",
-        "score": 4.0,
-        "average": 6.5
+        "score": 10.0,
+        "average": 12.5
     },
     {
         "player": "MIA DE",
@@ -15106,13 +15106,13 @@
     },
     {
         "player": "NO DE",
-        "score": -1.0,
-        "average": 3.0
+        "score": 1.0,
+        "average": 5.0
     },
     {
         "player": "NYG DE",
-        "score": 6.0,
-        "average": 2.0
+        "score": 8.0,
+        "average": 4.0
     },
     {
         "player": "NYJ DE",
@@ -15126,8 +15126,8 @@
     },
     {
         "player": "PIT DE",
-        "score": 1.0,
-        "average": 3.5
+        "score": 5.0,
+        "average": 7.5
     },
     {
         "player": "SEA DE",
@@ -15151,7 +15151,7 @@
     },
     {
         "player": "WAS DE",
-        "score": 3.0,
-        "average": 2.0
+        "score": 5.0,
+        "average": 4.0
     }
 ]
