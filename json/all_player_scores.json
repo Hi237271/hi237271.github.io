@@ -460,6 +460,11 @@
         "average": 0
     },
     {
+        "player": "Matthew Judon LB",
+        "score": 0,
+        "average": 0
+    },
+    {
         "player": "DJ Reader DL",
         "score": 0,
         "average": 0
@@ -2710,6 +2715,11 @@
         "average": 0
     },
     {
+        "player": "Mekhi Becton OL",
+        "score": 0,
+        "average": 0
+    },
+    {
         "player": "A.J. Terrell DB",
         "score": 0,
         "average": 0
@@ -2833,6 +2843,11 @@
         "player": "Alex Highsmith LB",
         "score": 0.0,
         "average": 0.0
+    },
+    {
+        "player": "Saahdiq Charles OL",
+        "score": 0,
+        "average": 0
     },
     {
         "player": "D.J. Wonnum LB",
@@ -6400,9 +6415,9 @@
         "average": 0.4
     },
     {
-        "player": "Jalen Moreno-Cropper WR",
-        "score": 0.0,
-        "average": 0.0
+        "player": "Jalen Cropper WR",
+        "score": 0,
+        "average": 0
     },
     {
         "player": "Tyrus Wheat LB",
@@ -14345,6 +14360,11 @@
         "average": 0.0
     },
     {
+        "player": "Miles Kitselman TE",
+        "score": 0,
+        "average": 0
+    },
+    {
         "player": "Anthony Lucas DL",
         "score": 0,
         "average": 0
@@ -14986,11 +15006,6 @@
     },
     {
         "player": "Al-Jay Henderson RB",
-        "score": 0,
-        "average": 0
-    },
-    {
-        "player": "Spencer Triplett LS",
         "score": 0,
         "average": 0
     },
