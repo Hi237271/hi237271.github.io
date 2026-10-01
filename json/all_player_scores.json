@@ -95,6 +95,11 @@
         "average": 24.480000000000004
     },
     {
+        "player": "Kevin Zeitler OL",
+        "score": 0,
+        "average": 0
+    },
+    {
         "player": "Kirk Cousins QB",
         "score": 22.220000000000002,
         "average": 18.746666666666666
@@ -1600,6 +1605,11 @@
         "average": 31.313333333333333
     },
     {
+        "player": "Dante Pettis WR",
+        "score": 0,
+        "average": 0
+    },
+    {
         "player": "Sam Darnold QB",
         "score": 27.66,
         "average": 14.09
@@ -1616,6 +1626,11 @@
     },
     {
         "player": "Fred Johnson OL",
+        "score": 0,
+        "average": 0
+    },
+    {
+        "player": "Brett Rypien QB",
         "score": 0,
         "average": 0
     },
@@ -2396,6 +2411,11 @@
     },
     {
         "player": "Jonah Williams DL",
+        "score": 0,
+        "average": 0
+    },
+    {
+        "player": "Myles Adams DL",
         "score": 0,
         "average": 0
     },
@@ -3455,7 +3475,17 @@
         "average": 0
     },
     {
+        "player": "Caleb Johnson LB",
+        "score": 0,
+        "average": 0
+    },
+    {
         "player": "Sam Kamara DL",
+        "score": 0,
+        "average": 0
+    },
+    {
+        "player": "Charles Snowden DL",
         "score": 0,
         "average": 0
     },
@@ -3691,6 +3721,11 @@
     },
     {
         "player": "Bobby Brown III DL",
+        "score": 0,
+        "average": 0
+    },
+    {
+        "player": "Robert Rochell DB",
         "score": 0,
         "average": 0
     },
@@ -4900,6 +4935,11 @@
         "average": 0
     },
     {
+        "player": "Juanyeh Thomas DB",
+        "score": 0,
+        "average": 0
+    },
+    {
         "player": "Timmy Horne DL",
         "score": 0,
         "average": 0
@@ -5176,6 +5216,11 @@
     },
     {
         "player": "Charles Cross OL",
+        "score": 0,
+        "average": 0
+    },
+    {
+        "player": "Brian Asamoah LB",
         "score": 0,
         "average": 0
     },
@@ -7991,6 +8036,11 @@
     },
     {
         "player": "Xavier Johnson WR",
+        "score": 0,
+        "average": 0
+    },
+    {
+        "player": "Lawrence Keys WR",
         "score": 0,
         "average": 0
     },
@@ -12430,7 +12480,7 @@
         "average": 0
     },
     {
-        "player": "Gary Smith III DL",
+        "player": "Gary Smith DL",
         "score": 0,
         "average": 0
     },
@@ -13775,7 +13825,7 @@
         "average": 0
     },
     {
-        "player": "David Blay Jr. DL",
+        "player": "David Blay DL",
         "score": 0,
         "average": 0
     },
