@@ -46,7 +46,7 @@
             "position": "K"
         },
         "PIT": {
-            "score": 5.0,
+            "score": 0,
             "team": "Maye Drake Good",
             "position": "DE"
         },
@@ -60,11 +60,6 @@
             "team": "Maye Drake Good",
             "position": "TE"
         },
-        "Jaxson Dart": {
-            "score": 0,
-            "team": "Maye Drake Good",
-            "position": "QB"
-        },
         "Eli Heidenreich": {
             "score": 0,
             "team": "Maye Drake Good",
@@ -74,6 +69,11 @@
             "score": 21.8,
             "team": "Maye Drake Good",
             "position": "RB"
+        },
+        "Matthew Golden": {
+            "score": 21.0,
+            "team": "Maye Drake Good",
+            "position": "WR"
         }
     },
     "Mmm... Food": {
@@ -83,7 +83,7 @@
             "position": "WR"
         },
         "Saquon Barkley": {
-            "score": 0,
+            "score": 9.000000000000002,
             "team": "Mmm... Food",
             "position": "RB"
         },
@@ -108,7 +108,7 @@
             "position": "WR"
         },
         "HOU": {
-            "score": 11.0,
+            "score": 0,
             "team": "Mmm... Food",
             "position": "DE"
         },
@@ -224,8 +224,8 @@
             "team": "Washable Markers",
             "position": "K"
         },
-        "KC": {
-            "score": 8.0,
+        "MIN": {
+            "score": 0,
             "team": "Washable Markers",
             "position": "DE"
         }
@@ -277,7 +277,7 @@
             "position": "RB"
         },
         "LA": {
-            "score": 2.0,
+            "score": 0,
             "team": "McPicklePounders",
             "position": "DE"
         },
@@ -329,17 +329,12 @@
             "position": "WR"
         },
         "D'Andre Swift": {
-            "score": 0,
+            "score": 10.8,
             "team": "Laser Llamas",
             "position": "RB"
         },
         "Rome Odunze": {
-            "score": 0,
-            "team": "Laser Llamas",
-            "position": "WR"
-        },
-        "Carnell Tate": {
-            "score": 11.8,
+            "score": 7.4,
             "team": "Laser Llamas",
             "position": "WR"
         },
@@ -354,12 +349,12 @@
             "position": "RB"
         },
         "DEN": {
-            "score": 8.0,
+            "score": 0,
             "team": "Laser Llamas",
             "position": "DE"
         },
         "Kyle Monangai": {
-            "score": 0,
+            "score": 3.1,
             "team": "Laser Llamas",
             "position": "RB"
         },
@@ -382,6 +377,11 @@
             "score": 13.64,
             "team": "Laser Llamas",
             "position": "QB"
+        },
+        "Mike Gesicki": {
+            "score": 12.7,
+            "team": "Laser Llamas",
+            "position": "TE"
         }
     },
     "Adebayo FC": {
@@ -396,12 +396,12 @@
             "position": "RB"
         },
         "DeVonta Smith": {
-            "score": 0,
+            "score": 12.5,
             "team": "Adebayo FC",
             "position": "WR"
         },
         "Colston Loveland": {
-            "score": 0,
+            "score": 7.1,
             "team": "Adebayo FC",
             "position": "TE"
         },
@@ -456,7 +456,7 @@
             "position": "WR"
         },
         "DET": {
-            "score": 7.0,
+            "score": 0,
             "team": "Adebayo FC",
             "position": "DE"
         }
@@ -483,7 +483,7 @@
             "position": "QB"
         },
         "Luther Burden III": {
-            "score": 0,
+            "score": 19.8,
             "team": "Make Draye",
             "position": "WR"
         },
@@ -504,11 +504,6 @@
         },
         "KC Concepcion": {
             "score": 2.9,
-            "team": "Make Draye",
-            "position": "WR"
-        },
-        "Makai Lemon": {
-            "score": 0,
             "team": "Make Draye",
             "position": "WR"
         },
@@ -536,6 +531,11 @@
             "score": 22.6,
             "team": "Make Draye",
             "position": "WR"
+        },
+        "Kenyon Sadiq": {
+            "score": 23.5,
+            "team": "Make Draye",
+            "position": "TE"
         }
     },
     "LJSSNC": {
@@ -570,7 +570,7 @@
             "position": "WR"
         },
         "SEA": {
-            "score": 1.0,
+            "score": 0,
             "team": "LJSSNC",
             "position": "DE"
         },
@@ -583,11 +583,6 @@
             "score": 5.0,
             "team": "LJSSNC",
             "position": "K"
-        },
-        "Pat Freiermuth": {
-            "score": 5.1,
-            "team": "LJSSNC",
-            "position": "TE"
         },
         "Rachaad White": {
             "score": 11.1,
@@ -613,6 +608,11 @@
             "score": 23.8,
             "team": "LJSSNC",
             "position": "QB"
+        },
+        "Juwan Johnson": {
+            "score": 23.3,
+            "team": "LJSSNC",
+            "position": "TE"
         }
     },
     "Bad Piggies": {
@@ -642,7 +642,7 @@
             "position": "TE"
         },
         "Jalen Hurts": {
-            "score": 0,
+            "score": 12.620000000000001,
             "team": "Bad Piggies",
             "position": "QB"
         },
@@ -667,7 +667,7 @@
             "position": "RB"
         },
         "BAL": {
-            "score": 4.0,
+            "score": 0,
             "team": "Bad Piggies",
             "position": "DE"
         },
