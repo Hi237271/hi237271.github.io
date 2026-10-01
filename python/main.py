@@ -138,7 +138,7 @@ def print_all_players(roster, schedule, stats, team_statistics):
         json.dump(all_stats, file, indent=4)
 
 
-def update_player_data(roster, schedule, stats, team_statistics):
+def update_player_data(roster, schedule, stats, team_statistics, week=week):
     nfl_teams = schedule["away_team"].tolist()
     teams = get_teams()
     all_data = {}
@@ -178,7 +178,9 @@ def main():
     team_statistics = nfl.load_team_stats([2026]).to_pandas()
     # stats.to_csv('player_data.csv', index=False)
     print_all_players(roster, schedule, stats, team_statistics)
-    update_player_data(roster, schedule, stats, team_statistics)
+    update_player_data(roster, schedule, stats, team_statistics, week=week)
+    update_player_data(roster, schedule, stats,
+                       team_statistics, week=(week - 1))
     print("main.py: upload success!")
 
 
