@@ -60,11 +60,6 @@
             "team": "Maye Drake Good",
             "position": "TE"
         },
-        "Jaxson Dart": {
-            "score": 0,
-            "team": "Maye Drake Good",
-            "position": "QB"
-        },
         "Eli Heidenreich": {
             "score": 0,
             "team": "Maye Drake Good",
@@ -74,6 +69,11 @@
             "score": 0,
             "team": "Maye Drake Good",
             "position": "RB"
+        },
+        "Matthew Golden": {
+            "score": 0,
+            "team": "Maye Drake Good",
+            "position": "WR"
         }
     },
     "Mmm... Food": {
@@ -224,7 +224,7 @@
             "team": "Washable Markers",
             "position": "K"
         },
-        "KC": {
+        "MIN": {
             "score": 0,
             "team": "Washable Markers",
             "position": "DE"
@@ -338,11 +338,6 @@
             "team": "Laser Llamas",
             "position": "WR"
         },
-        "Carnell Tate": {
-            "score": 0,
-            "team": "Laser Llamas",
-            "position": "WR"
-        },
         "Caleb Williams": {
             "score": 0,
             "team": "Laser Llamas",
@@ -382,6 +377,11 @@
             "score": 0,
             "team": "Laser Llamas",
             "position": "QB"
+        },
+        "Mike Gesicki": {
+            "score": 0,
+            "team": "Laser Llamas",
+            "position": "TE"
         }
     },
     "Adebayo FC": {
@@ -507,11 +507,6 @@
             "team": "Make Draye",
             "position": "WR"
         },
-        "Makai Lemon": {
-            "score": 0,
-            "team": "Make Draye",
-            "position": "WR"
-        },
         "Bo Nix": {
             "score": 0,
             "team": "Make Draye",
@@ -536,6 +531,11 @@
             "score": 0,
             "team": "Make Draye",
             "position": "WR"
+        },
+        "Kenyon Sadiq": {
+            "score": 0,
+            "team": "Make Draye",
+            "position": "TE"
         }
     },
     "LJSSNC": {
@@ -584,11 +584,6 @@
             "team": "LJSSNC",
             "position": "K"
         },
-        "Pat Freiermuth": {
-            "score": 0,
-            "team": "LJSSNC",
-            "position": "TE"
-        },
         "Rachaad White": {
             "score": 0,
             "team": "LJSSNC",
@@ -613,6 +608,11 @@
             "score": 0,
             "team": "LJSSNC",
             "position": "QB"
+        },
+        "Juwan Johnson": {
+            "score": 0,
+            "team": "LJSSNC",
+            "position": "TE"
         }
     },
     "Bad Piggies": {

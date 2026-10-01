@@ -12,9 +12,9 @@
     "PIT DE",
     "Marvin Harrison Jr. WR",
     "Jake Ferguson TE",
-    "Jaxson Dart QB",
     "Eli Heidenreich RB",
-    "Kyren Williams RB"
+    "Kyren Williams RB",
+    "Matthew Golden WR"
   ],
   "Mmm... Food": [
     "Justin Jefferson WR",
@@ -48,7 +48,7 @@
     "Mike Evans WR",
     "Trevor Lawrence QB",
     "Evan McPherson K",
-    "KC DE"
+    "MIN DE"
   ],
   "McPicklePounders": [
     "Puka Nacua WR",
@@ -74,7 +74,6 @@
     "Tee Higgins WR",
     "D'Andre Swift RB",
     "Rome Odunze WR",
-    "Carnell Tate WR",
     "Caleb Williams QB",
     "J.K. Dobbins RB",
     "DEN DE",
@@ -82,7 +81,8 @@
     "Jake Bates K",
     "Brenton Strange TE",
     "Caleb Douglas WR",
-    "Bryce Young QB"
+    "Bryce Young QB",
+    "Mike Gesicki TE"
   ],
   "Adebayo FC": [
     "Amon-Ra St. Brown WR",
@@ -111,12 +111,12 @@
     "Parker Washington WR",
     "Chuba Hubbard RB",
     "KC Concepcion WR",
-    "Makai Lemon WR",
     "Bo Nix QB",
     "CHI DE",
     "Devaughn Vele WR",
     "Chase McLaughlin K",
-    "Christian Watson WR"
+    "Christian Watson WR",
+    "Kenyon Sadiq TE"
   ],
   "LJSSNC": [
     "Jaxon Smith-Njigba WR",
@@ -128,12 +128,12 @@
     "SEA DE",
     "Michael Pittman WR",
     "Ka'imi Fairbairn K",
-    "Pat Freiermuth TE",
     "Rachaad White RB",
     "Tyjae Spears RB",
     "Michael Wilson WR",
     "Denzel Boston WR",
-    "Tyler Shough QB"
+    "Tyler Shough QB",
+    "Juwan Johnson TE"
   ],
   "Bad Piggies": [
     "Jonathan Taylor RB",
