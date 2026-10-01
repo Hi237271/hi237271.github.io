@@ -46,7 +46,7 @@
             "position": "K"
         },
         "PIT": {
-            "score": 0,
+            "score": 5.0,
             "team": "Maye Drake Good",
             "position": "DE"
         },
@@ -108,7 +108,7 @@
             "position": "WR"
         },
         "HOU": {
-            "score": 0,
+            "score": 11.0,
             "team": "Mmm... Food",
             "position": "DE"
         },
@@ -225,7 +225,7 @@
             "position": "K"
         },
         "MIN": {
-            "score": 0,
+            "score": 17.0,
             "team": "Washable Markers",
             "position": "DE"
         }
@@ -277,7 +277,7 @@
             "position": "RB"
         },
         "LA": {
-            "score": 0,
+            "score": 2.0,
             "team": "McPicklePounders",
             "position": "DE"
         },
@@ -349,7 +349,7 @@
             "position": "RB"
         },
         "DEN": {
-            "score": 0,
+            "score": 8.0,
             "team": "Laser Llamas",
             "position": "DE"
         },
@@ -456,7 +456,7 @@
             "position": "WR"
         },
         "DET": {
-            "score": 0,
+            "score": 7.0,
             "team": "Adebayo FC",
             "position": "DE"
         }
@@ -513,7 +513,7 @@
             "position": "QB"
         },
         "CHI": {
-            "score": 0,
+            "score": 12.0,
             "team": "Make Draye",
             "position": "DE"
         },
@@ -570,7 +570,7 @@
             "position": "WR"
         },
         "SEA": {
-            "score": 0,
+            "score": 1.0,
             "team": "LJSSNC",
             "position": "DE"
         },
@@ -667,7 +667,7 @@
             "position": "RB"
         },
         "BAL": {
-            "score": 0,
+            "score": 4.0,
             "team": "Bad Piggies",
             "position": "DE"
         },
@@ -744,7 +744,7 @@
             "position": "WR"
         },
         "PHI": {
-            "score": 0,
+            "score": 0.0,
             "team": "Rumble Bees",
             "position": "DE"
         },

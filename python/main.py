@@ -85,7 +85,7 @@ def calculate_team_score(team, schedule, team_stats, current_week=week):
                     else 0 if score < 28
                     else -1 if score < 35
                     else -4)
-    team_games = team_stats[team_stats['week'] == week]
+    team_games = team_stats[team_stats['week'] == current_week]
     team_games = team_games[team_games['team'] == team]
     return pts_conceded + calculate_defensive_score(team_games)
 
@@ -150,7 +150,7 @@ def update_player_data(roster, schedule, stats, team_statistics, week=week):
             score = 0
             if parsed_player in nfl_teams:
                 score = calculate_team_score(
-                    parsed_player, schedule, team_statistics)
+                    parsed_player, schedule, team_statistics, current_week=week)
             else:
                 score = calculate_offensive_score(get_stats(player, stats))
             position = player[-2:].strip()
