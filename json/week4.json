@@ -1,7 +1,7 @@
 {
     "Maye Drake Good": {
         "Ja'Marr Chase": {
-            "score": 0,
+            "score": 5.7,
             "team": "Maye Drake Good",
             "position": "WR"
         },
@@ -11,7 +11,7 @@
             "position": "RB"
         },
         "Trey McBride": {
-            "score": 0,
+            "score": 10.1,
             "team": "Maye Drake Good",
             "position": "TE"
         },
@@ -31,12 +31,12 @@
             "position": "QB"
         },
         "Bhayshul Tuten": {
-            "score": 0,
+            "score": 11.100000000000001,
             "team": "Maye Drake Good",
             "position": "RB"
         },
         "Tony Pollard": {
-            "score": 0,
+            "score": 13.0,
             "team": "Maye Drake Good",
             "position": "RB"
         },
@@ -51,12 +51,12 @@
             "position": "DE"
         },
         "Marvin Harrison Jr.": {
-            "score": 0,
+            "score": 8.2,
             "team": "Maye Drake Good",
             "position": "WR"
         },
         "Jake Ferguson": {
-            "score": 0,
+            "score": 4.1,
             "team": "Maye Drake Good",
             "position": "TE"
         },
@@ -66,12 +66,12 @@
             "position": "RB"
         },
         "Kyren Williams": {
-            "score": 0,
+            "score": 36.7,
             "team": "Maye Drake Good",
             "position": "RB"
         },
         "Matthew Golden": {
-            "score": 0,
+            "score": 11.7,
             "team": "Maye Drake Good",
             "position": "WR"
         }
@@ -83,17 +83,17 @@
             "position": "WR"
         },
         "Saquon Barkley": {
-            "score": 0,
+            "score": 2.0,
             "team": "Mmm... Food",
             "position": "RB"
         },
         "Tyler Warren": {
-            "score": 0,
+            "score": 9.100000000000001,
             "team": "Mmm... Food",
             "position": "TE"
         },
         "Josh Allen": {
-            "score": 0,
+            "score": 18.52,
             "team": "Mmm... Food",
             "position": "QB"
         },
@@ -108,12 +108,12 @@
             "position": "WR"
         },
         "HOU": {
-            "score": 0,
+            "score": 4.0,
             "team": "Mmm... Food",
             "position": "DE"
         },
         "Rhamondre Stevenson": {
-            "score": 0,
+            "score": 18.4,
             "team": "Mmm... Food",
             "position": "RB"
         },
@@ -128,7 +128,7 @@
             "position": "RB"
         },
         "Tyler Loop": {
-            "score": 0,
+            "score": 8.0,
             "team": "Mmm... Food",
             "position": "K"
         },
@@ -138,12 +138,12 @@
             "position": "WR"
         },
         "Dak Prescott": {
-            "score": 0,
+            "score": 18.099999999999998,
             "team": "Mmm... Food",
             "position": "QB"
         },
         "Chris Godwin Jr.": {
-            "score": 0,
+            "score": 9.1,
             "team": "Mmm... Food",
             "position": "WR"
         },
@@ -160,7 +160,7 @@
             "position": "RB"
         },
         "Nico Collins": {
-            "score": 0,
+            "score": 30.8,
             "team": "Washable Markers",
             "position": "WR"
         },
@@ -175,7 +175,7 @@
             "position": "RB"
         },
         "Emeka Egbuka": {
-            "score": 0,
+            "score": 3.3,
             "team": "Washable Markers",
             "position": "WR"
         },
@@ -195,17 +195,17 @@
             "position": "RB"
         },
         "DJ Moore": {
-            "score": 0,
+            "score": 2.7,
             "team": "Washable Markers",
             "position": "WR"
         },
         "Dalton Kincaid": {
-            "score": 0,
+            "score": 1.7000000000000002,
             "team": "Washable Markers",
             "position": "TE"
         },
         "Jacory Croskey-Merritt": {
-            "score": 0,
+            "score": 7.0,
             "team": "Washable Markers",
             "position": "RB"
         },
@@ -215,12 +215,12 @@
             "position": "WR"
         },
         "Trevor Lawrence": {
-            "score": 0,
+            "score": 13.08,
             "team": "Washable Markers",
             "position": "QB"
         },
         "Evan McPherson": {
-            "score": 0,
+            "score": 5.0,
             "team": "Washable Markers",
             "position": "K"
         },
@@ -232,7 +232,7 @@
     },
     "McPicklePounders": {
         "Puka Nacua": {
-            "score": 0,
+            "score": 27.7,
             "team": "McPicklePounders",
             "position": "WR"
         },
@@ -247,17 +247,17 @@
             "position": "WR"
         },
         "Javonte Williams": {
-            "score": 0,
+            "score": 31.3,
             "team": "McPicklePounders",
             "position": "RB"
         },
         "Lamar Jackson": {
-            "score": 0,
+            "score": 18.880000000000003,
             "team": "McPicklePounders",
             "position": "QB"
         },
         "Davante Adams": {
-            "score": 0,
+            "score": 7.2,
             "team": "McPicklePounders",
             "position": "WR"
         },
@@ -267,7 +267,7 @@
             "position": "TE"
         },
         "Brandon Aubrey": {
-            "score": 0,
+            "score": 12.0,
             "team": "McPicklePounders",
             "position": "K"
         },
@@ -277,7 +277,7 @@
             "position": "RB"
         },
         "LA": {
-            "score": 0,
+            "score": 5.0,
             "team": "McPicklePounders",
             "position": "DE"
         },
@@ -292,7 +292,7 @@
             "position": "WR"
         },
         "Tyler Allgeier": {
-            "score": 0,
+            "score": 12.899999999999999,
             "team": "McPicklePounders",
             "position": "RB"
         },
@@ -302,7 +302,7 @@
             "position": "RB"
         },
         "C.J. Stroud": {
-            "score": 0,
+            "score": 23.080000000000002,
             "team": "McPicklePounders",
             "position": "QB"
         }
@@ -319,22 +319,22 @@
             "position": "TE"
         },
         "Malik Nabers": {
-            "score": 0,
+            "score": 23.200000000000003,
             "team": "Laser Llamas",
             "position": "WR"
         },
         "Tee Higgins": {
-            "score": 0,
+            "score": 26.700000000000003,
             "team": "Laser Llamas",
             "position": "WR"
         },
         "D'Andre Swift": {
-            "score": 0,
+            "score": 7.4,
             "team": "Laser Llamas",
             "position": "RB"
         },
         "Rome Odunze": {
-            "score": 0,
+            "score": 15.4,
             "team": "Laser Llamas",
             "position": "WR"
         },
@@ -354,7 +354,7 @@
             "position": "DE"
         },
         "Kyle Monangai": {
-            "score": 0,
+            "score": 28.0,
             "team": "Laser Llamas",
             "position": "RB"
         },
@@ -364,7 +364,7 @@
             "position": "K"
         },
         "Brenton Strange": {
-            "score": 0,
+            "score": 16.5,
             "team": "Laser Llamas",
             "position": "TE"
         },
@@ -379,7 +379,7 @@
             "position": "QB"
         },
         "Mike Gesicki": {
-            "score": 0,
+            "score": 13.0,
             "team": "Laser Llamas",
             "position": "TE"
         }
@@ -401,17 +401,17 @@
             "position": "WR"
         },
         "Colston Loveland": {
-            "score": 0,
+            "score": 11.7,
             "team": "Adebayo FC",
             "position": "TE"
         },
         "Cam Skattebo": {
-            "score": 0,
+            "score": 7.6000000000000005,
             "team": "Adebayo FC",
             "position": "RB"
         },
         "Bucky Irving": {
-            "score": 0,
+            "score": 6.1000000000000005,
             "team": "Adebayo FC",
             "position": "RB"
         },
@@ -421,22 +421,22 @@
             "position": "QB"
         },
         "Isaiah Likely": {
-            "score": 0,
+            "score": 13.600000000000001,
             "team": "Adebayo FC",
             "position": "TE"
         },
         "Stefon Diggs": {
-            "score": 0,
+            "score": 8.5,
             "team": "Adebayo FC",
             "position": "WR"
         },
         "Matthew Stafford": {
-            "score": 0,
+            "score": 9.68,
             "team": "Adebayo FC",
             "position": "QB"
         },
         "Cam Little": {
-            "score": 0,
+            "score": 14.0,
             "team": "Adebayo FC",
             "position": "K"
         },
@@ -451,7 +451,7 @@
             "position": "RB"
         },
         "Josh Downs": {
-            "score": 0,
+            "score": 4.6,
             "team": "Adebayo FC",
             "position": "WR"
         },
@@ -478,12 +478,12 @@
             "position": "WR"
         },
         "Drake Maye": {
-            "score": 0,
+            "score": 26.159999999999997,
             "team": "Make Draye",
             "position": "QB"
         },
         "Luther Burden III": {
-            "score": 0,
+            "score": 11.4,
             "team": "Make Draye",
             "position": "WR"
         },
@@ -493,7 +493,7 @@
             "position": "TE"
         },
         "Parker Washington": {
-            "score": 0,
+            "score": 2.0,
             "team": "Make Draye",
             "position": "WR"
         },
@@ -513,7 +513,7 @@
             "position": "QB"
         },
         "CHI": {
-            "score": 0,
+            "score": 7.0,
             "team": "Make Draye",
             "position": "DE"
         },
@@ -523,17 +523,17 @@
             "position": "WR"
         },
         "Chase McLaughlin": {
-            "score": 0,
+            "score": 2.0,
             "team": "Make Draye",
             "position": "K"
         },
         "Christian Watson": {
-            "score": 0,
+            "score": 7.7,
             "team": "Make Draye",
             "position": "WR"
         },
         "Kenyon Sadiq": {
-            "score": 0,
+            "score": 0.0,
             "team": "Make Draye",
             "position": "TE"
         }
@@ -545,12 +545,12 @@
             "position": "WR"
         },
         "Chase Brown": {
-            "score": 0,
+            "score": 19.1,
             "team": "LJSSNC",
             "position": "RB"
         },
         "Jeremiyah Love": {
-            "score": 0,
+            "score": 6.500000000000001,
             "team": "LJSSNC",
             "position": "RB"
         },
@@ -580,7 +580,7 @@
             "position": "WR"
         },
         "Ka'imi Fairbairn": {
-            "score": 0,
+            "score": 16.0,
             "team": "LJSSNC",
             "position": "K"
         },
@@ -590,12 +590,12 @@
             "position": "RB"
         },
         "Tyjae Spears": {
-            "score": 0,
+            "score": 1.6,
             "team": "LJSSNC",
             "position": "RB"
         },
         "Michael Wilson": {
-            "score": 0,
+            "score": 16.5,
             "team": "LJSSNC",
             "position": "WR"
         },
@@ -617,17 +617,17 @@
     },
     "Bad Piggies": {
         "Jonathan Taylor": {
-            "score": 0,
+            "score": 22.7,
             "team": "Bad Piggies",
             "position": "RB"
         },
         "George Pickens": {
-            "score": 0,
+            "score": 9.5,
             "team": "Bad Piggies",
             "position": "WR"
         },
         "Derrick Henry": {
-            "score": 0,
+            "score": 15.9,
             "team": "Bad Piggies",
             "position": "RB"
         },
@@ -642,12 +642,12 @@
             "position": "TE"
         },
         "Jalen Hurts": {
-            "score": 0,
+            "score": 13.520000000000001,
             "team": "Bad Piggies",
             "position": "QB"
         },
         "David Montgomery": {
-            "score": 0,
+            "score": 4.300000000000001,
             "team": "Bad Piggies",
             "position": "RB"
         },
@@ -662,17 +662,17 @@
             "position": "K"
         },
         "MarShawn Lloyd": {
-            "score": 0,
+            "score": 9.9,
             "team": "Bad Piggies",
             "position": "RB"
         },
         "BAL": {
-            "score": 0,
+            "score": 6.0,
             "team": "Bad Piggies",
             "position": "DE"
         },
         "Mark Andrews": {
-            "score": 0,
+            "score": 13.7,
             "team": "Bad Piggies",
             "position": "TE"
         },
@@ -682,44 +682,44 @@
             "position": "RB"
         },
         "Jordan Love": {
-            "score": 0,
+            "score": 13.079999999999998,
             "team": "Bad Piggies",
             "position": "QB"
         },
         "Kenny Gainwell": {
-            "score": 0,
+            "score": 10.7,
             "team": "Bad Piggies",
             "position": "RB"
         }
     },
     "Rumble Bees": {
         "CeeDee Lamb": {
-            "score": 0,
+            "score": 41.3,
             "team": "Rumble Bees",
             "position": "WR"
         },
         "James Cook": {
-            "score": 0,
+            "score": 16.3,
             "team": "Rumble Bees",
             "position": "RB"
         },
         "Zay Flowers": {
-            "score": 0,
+            "score": 25.8,
             "team": "Rumble Bees",
             "position": "WR"
         },
         "Garrett Wilson": {
-            "score": 0,
+            "score": 5.7,
             "team": "Rumble Bees",
             "position": "WR"
         },
         "Joe Burrow": {
-            "score": 0,
+            "score": 23.720000000000002,
             "team": "Rumble Bees",
             "position": "QB"
         },
         "Tucker Kraft": {
-            "score": 0,
+            "score": 16.5,
             "team": "Rumble Bees",
             "position": "TE"
         },
@@ -729,7 +729,7 @@
             "position": "RB"
         },
         "TreVeyon Henderson": {
-            "score": 0,
+            "score": 4.2,
             "team": "Rumble Bees",
             "position": "RB"
         },
@@ -744,7 +744,7 @@
             "position": "WR"
         },
         "PHI": {
-            "score": 0,
+            "score": 5.0,
             "team": "Rumble Bees",
             "position": "DE"
         },
