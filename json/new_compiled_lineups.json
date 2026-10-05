@@ -35,15 +35,15 @@
     },
     {
       "team-name": "Maye Drake Good",
-      "RB1": "Kenneth Walker III ",
-      "RB2": "Kyren Williams ",
-      "WR1": "Ja'Marr Chase ",
-      "WR2": "Drake London ",
-      "Flex1": "Bhayshul Tuten ",
-      "QB1": "Justin Herbert ",
-      "DE1": "PIT ",
+      "RB1": "Kenneth Walker III"
+      "RB2": "Kyren Williams"
+      "WR1": "Ja'Marr Chase"
+      "WR2": "Drake London"
+      "Flex1": "Bhayshul Tuten"
+      "QB1": "Justin Herbert"
+      "DE1": "PIT"
       "K1": "Cameron Dicker",
-      "TE1": "Trey McBride ",
+      "TE1": "Trey McBride"
       "date": "10/1/2026, 03:18:36 PM",
       "week": 4
     },
@@ -98,15 +98,15 @@
     },
     {
       "team-name": "Mmm... Food",
-      "RB1": "Saquon Barkley ",
-      "RB2": "Rhamondre Stevenson ",
-      "WR1": "Justin Jefferson ",
-      "WR2": "Jaylen Waddle ",
-      "Flex1": "Jordan Addison ",
-      "QB1": "Josh Allen ",
-      "DE1": "HOU ",
+      "RB1": "Saquon Barkley"
+      "RB2": "Rhamondre Stevenson"
+      "WR1": "Justin Jefferson"
+      "WR2": "Jaylen Waddle"
+      "Flex1": "Jordan Addison"
+      "QB1": "Josh Allen"
+      "DE1": "HOU"
       "K1": "Tyler Loop",
-      "TE1": "Tyler Warren ",
+      "TE1": "Tyler Warren"
       "date": "10/1/2026, 07:32:47 PM",
       "week": 4
     },
@@ -161,15 +161,15 @@
     },
     {
       "team-name": "Washable Markers",
-      "RB1": "Jahmyr Gibbs ",
-      "RB2": "Jaylen Warren ",
-      "WR1": "Emeka Egbuka ",
-      "WR2": "Chris Olave ",
-      "Flex1": "Quinshon Judkins ",
-      "QB1": "Patrick Mahomes ",
-      "DE1": "MIN ",
+      "RB1": "Jahmyr Gibbs"
+      "RB2": "Jaylen Warren"
+      "WR1": "Emeka Egbuka"
+      "WR2": "Chris Olave"
+      "Flex1": "Quinshon Judkins"
+      "QB1": "Patrick Mahomes"
+      "DE1": "MIN"
       "K1": "Evan McPherson",
-      "TE1": "Dalton Kincaid ",
+      "TE1": "Dalton Kincaid"
       "date": "10/1/2026, 08:08:14 PM",
       "week": 4
     },
@@ -213,29 +213,29 @@
     },
     {
       "team-name": "McPicklePounders",
-      "RB1": "De'Von Achane ",
-      "RB2": "Javonte Williams ",
-      "WR1": "Puka Nacua ",
-      "WR2": "Rashee Rice ",
-      "Flex1": "Davante Adams ",
-      "QB1": "Lamar Jackson ",
-      "DE1": "LA ",
+      "RB1": "De'Von Achane"
+      "RB2": "Javonte Williams"
+      "WR1": "Puka Nacua"
+      "WR2": "Rashee Rice"
+      "Flex1": "Davante Adams"
+      "QB1": "Lamar Jackson"
+      "DE1": "LA"
       "K1": "Brandon Aubrey",
-      "TE1": "Dallas Goedert ",
+      "TE1": "Dallas Goedert"
       "date": "9/27/2026, 10:08:18 AM",
       "week": 3
     },
     {
       "team-name": "McPicklePounders",
-      "RB1": "De'Von Achane ",
-      "RB2": "Javonte Williams ",
-      "WR1": "Puka Nacua ",
-      "WR2": "Rashee Rice ",
-      "Flex1": "Davante Adams ",
-      "QB1": "Lamar Jackson ",
-      "DE1": "LA ",
+      "RB1": "De'Von Achane"
+      "RB2": "Javonte Williams"
+      "WR1": "Puka Nacua"
+      "WR2": "Rashee Rice"
+      "Flex1": "Davante Adams"
+      "QB1": "Lamar Jackson"
+      "DE1": "LA"
       "K1": "Brandon Aubrey",
-      "TE1": "Dallas Goedert ",
+      "TE1": "Dallas Goedert"
       "date": "10/1/2026, 08:07:03 PM",
       "week": 4
     },
@@ -290,15 +290,15 @@
     },
     {
       "team-name": "Laser Llamas",
-      "RB1": "Christian McCaffrey ",
-      "RB2": "D'Andre Swift ",
-      "WR1": "Malik Nabers ",
-      "WR2": "Tee Higgins ",
-      "Flex1": "J.K. Dobbins ",
-      "QB1": "Bryce Young ",
-      "DE1": "DEN ",
+      "RB1": "Christian McCaffrey"
+      "RB2": "D'Andre Swift"
+      "WR1": "Malik Nabers"
+      "WR2": "Tee Higgins"
+      "Flex1": "J.K. Dobbins"
+      "QB1": "Bryce Young"
+      "DE1": "DEN"
       "K1": "Jake Bates",
-      "TE1": "Brock Bowers ",
+      "TE1": "Brock Bowers"
       "date": "10/1/2026, 01:14:40 PM",
       "week": 4
     },
@@ -353,15 +353,15 @@
     },
     {
       "team-name": "Adebayo FC",
-      "RB1": "Omarion Hampton ",
-      "RB2": "Cam Skattebo ",
-      "WR1": "Amon-Ra St. Brown ",
-      "WR2": "DeVonta Smith ",
-      "Flex1": "Stefon Diggs ",
-      "QB1": "Jared Goff ",
-      "DE1": "DET ",
+      "RB1": "Omarion Hampton"
+      "RB2": "Cam Skattebo"
+      "WR1": "Amon-Ra St. Brown"
+      "WR2": "DeVonta Smith"
+      "Flex1": "Stefon Diggs"
+      "QB1": "Jared Goff"
+      "DE1": "DET"
       "K1": "Cam Little",
-      "TE1": "Colston Loveland ",
+      "TE1": "Colston Loveland"
       "date": "10/1/2026, 05:48:13 PM",
       "week": 4
     },
@@ -416,15 +416,15 @@
     },
     {
       "team-name": "Make Draye",
-      "RB1": "Bijan Robinson ",
-      "RB2": "Ashton Jeanty ",
-      "WR1": "Christian Watson ",
-      "WR2": "Parker Washington ",
-      "Flex1": "Chuba Hubbard ",
-      "QB1": "Drake Maye ",
-      "DE1": "CHI ",
+      "RB1": "Bijan Robinson"
+      "RB2": "Ashton Jeanty"
+      "WR1": "Christian Watson"
+      "WR2": "Parker Washington"
+      "Flex1": "Chuba Hubbard"
+      "QB1": "Drake Maye"
+      "DE1": "CHI"
       "K1": "Chase McLaughlin",
-      "TE1": "George Kittle ",
+      "TE1": "George Kittle"
       "date": "10/1/2026, 06:21:18 PM",
       "week": 4
     },
@@ -479,15 +479,15 @@
     },
     {
       "team-name": "LJSSNC",
-      "RB1": "Chase Brown ",
-      "RB2": "Jeremiyah Love ",
-      "WR1": "Jaxon Smith-Njigba ",
-      "WR2": "Michael Wilson ",
-      "Flex1": "Terry McLaurin ",
-      "QB1": "Tyler Shough ",
-      "DE1": "SEA ",
+      "RB1": "Chase Brown"
+      "RB2": "Jeremiyah Love"
+      "WR1": "Jaxon Smith-Njigba"
+      "WR2": "Michael Wilson"
+      "Flex1": "Terry McLaurin"
+      "QB1": "Tyler Shough"
+      "DE1": "SEA"
       "K1": "Ka'imi Fairbairn",
-      "TE1": "Juwan Johnson ",
+      "TE1": "Juwan Johnson"
       "date": "10/1/2026, 06:00:48 PM",
       "week": 4
     },
@@ -542,15 +542,15 @@
     },
     {
       "team-name": "Bad Piggies",
-      "RB1": "Jonathan Taylor ",
-      "RB2": "Derrick Henry ",
-      "WR1": "George Pickens ",
-      "WR2": "Tetairoa McMillan ",
-      "Flex1": "David Montgomery ",
-      "QB1": "Jordan Love ",
-      "DE1": "BAL ",
+      "RB1": "Jonathan Taylor"
+      "RB2": "Derrick Henry"
+      "WR1": "George Pickens"
+      "WR2": "Tetairoa McMillan"
+      "Flex1": "David Montgomery"
+      "QB1": "Jordan Love"
+      "DE1": "BAL"
       "K1": "Jason Myers",
-      "TE1": "Sam LaPorta ",
+      "TE1": "Sam LaPorta"
       "date": "10/1/2026, 02:24:43 PM",
       "week": 4
     },
@@ -605,15 +605,15 @@
     },
     {
       "team-name": "Rumble Bees",
-      "RB1": "James Cook ",
-      "RB2": "TreVeyon Henderson ",
-      "WR1": "CeeDee Lamb ",
-      "WR2": "Zay Flowers ",
-      "Flex1": "Garrett Wilson ",
-      "QB1": "Joe Burrow ",
-      "DE1": "PHI ",
+      "RB1": "James Cook"
+      "RB2": "TreVeyon Henderson"
+      "WR1": "CeeDee Lamb"
+      "WR2": "Zay Flowers"
+      "Flex1": "Garrett Wilson"
+      "QB1": "Joe Burrow"
+      "DE1": "PHI"
       "K1": "Eddy Pineiro",
-      "TE1": "Tucker Kraft ",
+      "TE1": "Tucker Kraft"
       "date": "10/1/2026, 05:38:53 PM",
       "week": 4
     },
