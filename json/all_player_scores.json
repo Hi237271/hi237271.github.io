@@ -305,6 +305,11 @@
         "average": 0
     },
     {
+        "player": "Eric Kendricks LB",
+        "score": 0,
+        "average": 0
+    },
+    {
         "player": "Danielle Hunter DL",
         "score": 0,
         "average": 0
@@ -2515,6 +2520,11 @@
         "average": 0
     },
     {
+        "player": "James Proche WR",
+        "score": 0,
+        "average": 0
+    },
+    {
         "player": "Rico Dowdle RB",
         "score": 6.4,
         "average": 5.25
@@ -2721,6 +2731,11 @@
     },
     {
         "player": "Jedrick Wills OL",
+        "score": 0,
+        "average": 0
+    },
+    {
+        "player": "Quez Watkins WR",
         "score": 0,
         "average": 0
     },
@@ -3196,6 +3211,11 @@
     },
     {
         "player": "Brandin Echols DB",
+        "score": 0,
+        "average": 0
+    },
+    {
+        "player": "Kenny Yeboah TE",
         "score": 0,
         "average": 0
     },
@@ -6080,6 +6100,11 @@
         "average": 0.0
     },
     {
+        "player": "K.J. Henry DL",
+        "score": 0,
+        "average": 0
+    },
+    {
         "player": "Cameron Mitchell DB",
         "score": 0,
         "average": 0
@@ -7431,6 +7456,11 @@
     },
     {
         "player": "Leonard Taylor III DL",
+        "score": 0,
+        "average": 0
+    },
+    {
+        "player": "Eric Watts DL",
         "score": 0,
         "average": 0
     },
@@ -9296,6 +9326,11 @@
     },
     {
         "player": "Maxen Hook DB",
+        "score": 0,
+        "average": 0
+    },
+    {
+        "player": "Brandon Johnson DB",
         "score": 0,
         "average": 0
     },
@@ -13770,7 +13805,7 @@
         "average": 0
     },
     {
-        "player": "Cameron Ross WR",
+        "player": "Cam Ross WR",
         "score": 0,
         "average": 0
     },
@@ -14280,7 +14315,7 @@
         "average": 0
     },
     {
-        "player": "Al'zillion \"AZ\" Hamilton DB",
+        "player": "Al'zillion Hamilton DB",
         "score": 0,
         "average": 0
     },
