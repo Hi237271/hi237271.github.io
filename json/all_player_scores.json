@@ -690,6 +690,11 @@
         "average": 2.6
     },
     {
+        "player": "Daniel Brunskill OL",
+        "score": 0,
+        "average": 0
+    },
+    {
         "player": "Johnny Mundt TE",
         "score": 0.0,
         "average": 1.3999999999999997
@@ -791,6 +796,11 @@
     },
     {
         "player": "Pharaoh Brown TE",
+        "score": 0,
+        "average": 0
+    },
+    {
+        "player": "Carl Lawson DL",
         "score": 0,
         "average": 0
     },
@@ -5205,6 +5215,11 @@
         "average": 3.05
     },
     {
+        "player": "Chad Muma LB",
+        "score": 0,
+        "average": 0
+    },
+    {
         "player": "Abraham Lucas OL",
         "score": 0,
         "average": 0
@@ -7901,6 +7916,11 @@
     },
     {
         "player": "Daijahn Anthony DB",
+        "score": 0,
+        "average": 0
+    },
+    {
+        "player": "Jaden Davis DB",
         "score": 0,
         "average": 0
     },
@@ -13401,6 +13421,11 @@
     },
     {
         "player": "Caullin Lacy WR",
+        "score": 0,
+        "average": 0
+    },
+    {
+        "player": "Nathan Voorhis LB",
         "score": 0,
         "average": 0
     },
