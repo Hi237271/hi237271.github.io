@@ -1,8 +1,8 @@
 [
     {
         "player": "Aaron Rodgers QB",
-        "score": 21.96,
-        "average": 15.29
+        "score": 22.0,
+        "average": 16.631999999999998
     },
     {
         "player": "Nick Folk K",
@@ -71,8 +71,8 @@
     },
     {
         "player": "Tyrod Taylor QB",
-        "score": 0,
-        "average": 0
+        "score": -0.2,
+        "average": -0.2
     },
     {
         "player": "Nick Bellore LB",
@@ -91,8 +91,8 @@
     },
     {
         "player": "Case Keenum QB",
-        "score": 24.480000000000004,
-        "average": 24.480000000000004
+        "score": 0.7200000000000002,
+        "average": 12.600000000000001
     },
     {
         "player": "Kevin Zeitler OL",
@@ -101,8 +101,8 @@
     },
     {
         "player": "Kirk Cousins QB",
-        "score": 22.6,
-        "average": 19.71
+        "score": 13.72,
+        "average": 18.512
     },
     {
         "player": "Harrison Smith DB",
@@ -141,8 +141,8 @@
     },
     {
         "player": "Zach Ertz TE",
-        "score": 3.3,
-        "average": 2.5999999999999996
+        "score": 0.0,
+        "average": 1.7333333333333332
     },
     {
         "player": "John Jenkins DL",
@@ -166,8 +166,8 @@
     },
     {
         "player": "Keenan Allen WR",
-        "score": 18.3,
-        "average": 9.666666666666666
+        "score": 9.5,
+        "average": 9.625
     },
     {
         "player": "Tony Jefferson DB",
@@ -186,8 +186,8 @@
     },
     {
         "player": "Geno Smith QB",
-        "score": 8.76,
-        "average": 14.92
+        "score": 9.98,
+        "average": 13.931999999999999
     },
     {
         "player": "James Winchester LS",
@@ -211,8 +211,8 @@
     },
     {
         "player": "Chris Boswell K",
-        "score": 4.0,
-        "average": 7.75
+        "score": 13.0,
+        "average": 8.8
     },
     {
         "player": "Tyler Ott LS",
@@ -221,8 +221,8 @@
     },
     {
         "player": "Cairo Santos K",
-        "score": 11.0,
-        "average": 9.5
+        "score": 1.0,
+        "average": 7.8
     },
     {
         "player": "Odell Beckham Jr. WR",
@@ -296,8 +296,8 @@
     },
     {
         "player": "Jameis Winston QB",
-        "score": 18.0,
-        "average": 8.886666666666667
+        "score": 25.74,
+        "average": 13.1
     },
     {
         "player": "Shaq Thompson LB",
@@ -387,7 +387,7 @@
     {
         "player": "Ameer Abdullah RB",
         "score": 0.0,
-        "average": 1.675
+        "average": 1.34
     },
     {
         "player": "Bud Dupree LB",
@@ -491,8 +491,8 @@
     },
     {
         "player": "Kalif Raymond WR",
-        "score": 2.6,
-        "average": 12.25
+        "score": 3.4,
+        "average": 10.48
     },
     {
         "player": "Reid Ferguson LS",
@@ -521,8 +521,8 @@
     },
     {
         "player": "Ka'imi Fairbairn K",
-        "score": 16.0,
-        "average": 9.25
+        "score": 17.0,
+        "average": 10.8
     },
     {
         "player": "Luke Rhodes LS",
@@ -581,8 +581,8 @@
     },
     {
         "player": "Laquon Treadwell WR",
-        "score": 9.2,
-        "average": 5.325
+        "score": 5.4,
+        "average": 5.340000000000001
     },
     {
         "player": "Isaac Seumalo OL",
@@ -601,8 +601,8 @@
     },
     {
         "player": "Jihad Ward LB",
-        "score": 0,
-        "average": 0
+        "score": 0.0,
+        "average": 0.0
     },
     {
         "player": "David Onyemata DL",
@@ -641,8 +641,8 @@
     },
     {
         "player": "Hunter Henry TE",
-        "score": 11.2,
-        "average": 6.324999999999999
+        "score": 13.4,
+        "average": 7.74
     },
     {
         "player": "Jonathan Bullard DL",
@@ -686,8 +686,8 @@
     },
     {
         "player": "Mo Alie-Cox TE",
-        "score": 2.6,
-        "average": 2.6
+        "score": 3.4000000000000004,
+        "average": 3.0
     },
     {
         "player": "Daniel Brunskill OL",
@@ -697,7 +697,7 @@
     {
         "player": "Johnny Mundt TE",
         "score": 0.0,
-        "average": 1.3999999999999997
+        "average": 1.0499999999999998
     },
     {
         "player": "Thomas Hennessy LS",
@@ -736,8 +736,8 @@
     },
     {
         "player": "Aaron Jones RB",
-        "score": 16.8,
-        "average": 12.875
+        "score": 18.7,
+        "average": 14.040000000000001
     },
     {
         "player": "Chuck Clark DB",
@@ -776,8 +776,8 @@
     },
     {
         "player": "Tim Patrick WR",
-        "score": 0,
-        "average": 0
+        "score": 4.6,
+        "average": 4.6
     },
     {
         "player": "Patrick Ricard RB",
@@ -811,13 +811,13 @@
     },
     {
         "player": "Samaje Perine RB",
-        "score": 0.7000000000000001,
-        "average": 3.575
+        "score": 15.8,
+        "average": 6.0200000000000005
     },
     {
         "player": "Deshaun Watson QB",
-        "score": 12.920000000000002,
-        "average": 16.725
+        "score": 12.2,
+        "average": 15.819999999999999
     },
     {
         "player": "Garett Bolles OL",
@@ -876,8 +876,8 @@
     },
     {
         "player": "Austin Ekeler RB",
-        "score": 5.0,
-        "average": 5.0
+        "score": 2.4,
+        "average": 3.7
     },
     {
         "player": "Cameron Johnston P",
@@ -901,8 +901,8 @@
     },
     {
         "player": "Jake Elliott K",
-        "score": 10.0,
-        "average": 6.25
+        "score": 6.0,
+        "average": 6.2
     },
     {
         "player": "Corey Levin OL",
@@ -1001,8 +1001,8 @@
     },
     {
         "player": "Alvin Kamara RB",
-        "score": 22.8,
-        "average": 11.700000000000001
+        "score": 2.6,
+        "average": 9.425
     },
     {
         "player": "Cooper Kupp WR",
@@ -1111,8 +1111,8 @@
     },
     {
         "player": "Daniel Carlson K",
-        "score": 6.0,
-        "average": 7.0
+        "score": 0.0,
+        "average": 5.6
     },
     {
         "player": "J.K. Scott P",
@@ -1221,8 +1221,8 @@
     },
     {
         "player": "Dallas Goedert TE",
-        "score": 1.4,
-        "average": 12.549999999999999
+        "score": 9.8,
+        "average": 11.633333333333333
     },
     {
         "player": "M.J. Stewart DB",
@@ -1246,8 +1246,8 @@
     },
     {
         "player": "Ian Thomas TE",
-        "score": 11.2,
-        "average": 6.6499999999999995
+        "score": 1.9,
+        "average": 5.066666666666666
     },
     {
         "player": "Da'Shawn Hand DL",
@@ -1276,8 +1276,8 @@
     },
     {
         "player": "Dalton Schultz TE",
-        "score": 2.9,
-        "average": 10.6
+        "score": 6.0,
+        "average": 9.68
     },
     {
         "player": "D.J. Reed DB",
@@ -1386,8 +1386,8 @@
     },
     {
         "player": "Tanner Hudson TE",
-        "score": 1.2,
-        "average": 1.9666666666666666
+        "score": 10.4,
+        "average": 4.075
     },
     {
         "player": "Mike Ford DB",
@@ -1421,8 +1421,8 @@
     },
     {
         "player": "Corey Bojorquez P",
-        "score": 0.0,
-        "average": 0.0
+        "score": -2.0,
+        "average": -0.4
     },
     {
         "player": "Orlando Brown OL",
@@ -1456,8 +1456,8 @@
     },
     {
         "player": "Mason Rudolph QB",
-        "score": 0.30000000000000004,
-        "average": 0.30000000000000004
+        "score": -0.2,
+        "average": 0.05000000000000002
     },
     {
         "player": "Vita Vea DL",
@@ -1501,8 +1501,8 @@
     },
     {
         "player": "Jason Sanders K",
-        "score": 5.0,
-        "average": 7.5
+        "score": 7.0,
+        "average": 7.4
     },
     {
         "player": "Lamar Jackson QB",
@@ -1566,8 +1566,8 @@
     },
     {
         "player": "Mike Gesicki TE",
-        "score": 13.0,
-        "average": 14.833333333333334
+        "score": 7.4,
+        "average": 12.975
     },
     {
         "player": "Bradley Chubb LB",
@@ -1581,8 +1581,8 @@
     },
     {
         "player": "Calvin Ridley WR",
-        "score": 2.3,
-        "average": 2.6
+        "score": 5.300000000000001,
+        "average": 3.2750000000000004
     },
     {
         "player": "Mike Hughes DB",
@@ -1661,8 +1661,8 @@
     },
     {
         "player": "Jakobi Meyers WR",
-        "score": 6.300000000000001,
-        "average": 10.424999999999999
+        "score": 5.7,
+        "average": 9.48
     },
     {
         "player": "D'Angelo Ross DB",
@@ -1696,8 +1696,8 @@
     },
     {
         "player": "Foster Moreau TE",
-        "score": 1.1,
-        "average": 4.675
+        "score": 2.8,
+        "average": 4.3
     },
     {
         "player": "Dre Greenlaw LB",
@@ -1811,8 +1811,8 @@
     },
     {
         "player": "Joey Slye K",
-        "score": 4.0,
-        "average": 4.5
+        "score": 3.0,
+        "average": 4.2
     },
     {
         "player": "Del'Shawn Phillips LB",
@@ -1831,13 +1831,13 @@
     },
     {
         "player": "Kyler Murray QB",
-        "score": 11.48,
-        "average": 7.173333333333333
+        "score": 18.26,
+        "average": 9.945
     },
     {
         "player": "T.J. Hockenson TE",
-        "score": 24.9,
-        "average": 11.875
+        "score": 1.7000000000000002,
+        "average": 9.84
     },
     {
         "player": "Ed Oliver DL",
@@ -1916,8 +1916,8 @@
     },
     {
         "player": "Tony Pollard RB",
-        "score": 13.0,
-        "average": 9.625
+        "score": 5.2,
+        "average": 8.74
     },
     {
         "player": "Drue Tranquill LB",
@@ -1931,8 +1931,8 @@
     },
     {
         "player": "Matt Gay K",
-        "score": 16.0,
-        "average": 11.5
+        "score": 6.0,
+        "average": 10.4
     },
     {
         "player": "Amani Oruwariye DB",
@@ -2136,8 +2136,8 @@
     },
     {
         "player": "Drew Sample TE",
-        "score": 1.0,
-        "average": 2.95
+        "score": 1.5,
+        "average": 2.466666666666667
     },
     {
         "player": "Amani Hooker DB",
@@ -2161,8 +2161,8 @@
     },
     {
         "player": "DK Metcalf WR",
-        "score": 16.5,
-        "average": 10.825
+        "score": 5.3,
+        "average": 9.72
     },
     {
         "player": "Josh Hines-Allen DL",
@@ -2176,8 +2176,8 @@
     },
     {
         "player": "Noah Fant TE",
-        "score": 19.3,
-        "average": 10.866666666666667
+        "score": 1.7000000000000002,
+        "average": 8.575000000000001
     },
     {
         "player": "Gunner Olszewski WR",
@@ -2191,8 +2191,8 @@
     },
     {
         "player": "Terry McLaurin WR",
-        "score": 19.7,
-        "average": 10.033333333333333
+        "score": 12.2,
+        "average": 10.575
     },
     {
         "player": "Marquise Brown WR",
@@ -2261,8 +2261,8 @@
     },
     {
         "player": "David Montgomery RB",
-        "score": 4.300000000000001,
-        "average": 11.1
+        "score": 1.1,
+        "average": 9.1
     },
     {
         "player": "Michael Deiter OL",
@@ -2326,8 +2326,8 @@
     },
     {
         "player": "Daniel Jones QB",
-        "score": 7.92,
-        "average": 9.065000000000001
+        "score": 11.08,
+        "average": 9.468
     },
     {
         "player": "Brian Burns LB",
@@ -2406,8 +2406,8 @@
     },
     {
         "player": "Cody White WR",
-        "score": 7.6,
-        "average": 7.85
+        "score": 6.4,
+        "average": 7.56
     },
     {
         "player": "Joe Bachie LB",
@@ -2481,8 +2481,8 @@
     },
     {
         "player": "Juwan Johnson TE",
-        "score": 11.9,
-        "average": 15.05
+        "score": 5.6,
+        "average": 13.16
     },
     {
         "player": "Cam Gill LB",
@@ -2646,8 +2646,8 @@
     },
     {
         "player": "Jonathan Taylor RB",
-        "score": 22.7,
-        "average": 21.55
+        "score": 11.2,
+        "average": 19.48
     },
     {
         "player": "Jonathan Greenard LB",
@@ -2716,8 +2716,8 @@
     },
     {
         "player": "Jauan Jennings WR",
-        "score": 1.8,
-        "average": 0.9666666666666668
+        "score": 0.0,
+        "average": 0.7250000000000001
     },
     {
         "player": "Javon Kinlaw DL",
@@ -2731,8 +2731,8 @@
     },
     {
         "player": "Jordan Love QB",
-        "score": 13.079999999999998,
-        "average": 16.21
+        "score": 25.28,
+        "average": 18.024
     },
     {
         "player": "AJ Dillon RB",
@@ -2761,8 +2761,8 @@
     },
     {
         "player": "D'Andre Swift RB",
-        "score": 7.4,
-        "average": 15.875
+        "score": 17.3,
+        "average": 16.16
     },
     {
         "player": "Malik Harrison LB",
@@ -2801,8 +2801,8 @@
     },
     {
         "player": "Cole Kmet TE",
-        "score": 3.3,
-        "average": 3.7
+        "score": 1.8,
+        "average": 3.3200000000000003
     },
     {
         "player": "Jaylon Johnson DB",
@@ -2851,8 +2851,8 @@
     },
     {
         "player": "Darnell Mooney WR",
-        "score": 0.0,
-        "average": 4.1000000000000005
+        "score": 3.4000000000000004,
+        "average": 3.96
     },
     {
         "player": "Hakeem Adeniji OL",
@@ -2871,8 +2871,8 @@
     },
     {
         "player": "Justin Jefferson WR",
-        "score": 5.2,
-        "average": 14.966666666666669
+        "score": 18.8,
+        "average": 15.925
     },
     {
         "player": "Patrick Queen LB",
@@ -3046,8 +3046,8 @@
     },
     {
         "player": "Jalen Hurts QB",
-        "score": 13.520000000000001,
-        "average": 16.755000000000003
+        "score": 13.0,
+        "average": 16.004
     },
     {
         "player": "Lloyd Cushenberry III OL",
@@ -3081,8 +3081,8 @@
     },
     {
         "player": "Jerry Jeudy WR",
-        "score": 6.6,
-        "average": 3.733333333333333
+        "score": 4.9,
+        "average": 4.025
     },
     {
         "player": "Cesar Ruiz OL",
@@ -3096,8 +3096,8 @@
     },
     {
         "player": "Tee Higgins WR",
-        "score": 26.700000000000003,
-        "average": 17.775000000000002
+        "score": 4.2,
+        "average": 15.059999999999999
     },
     {
         "player": "Antoine Winfield Jr. DB",
@@ -3141,8 +3141,8 @@
     },
     {
         "player": "DeeJay Dallas RB",
-        "score": 2.0,
-        "average": 1.575
+        "score": 2.1,
+        "average": 1.6800000000000002
     },
     {
         "player": "Tyler Johnson WR",
@@ -3166,8 +3166,8 @@
     },
     {
         "player": "Joe Burrow QB",
-        "score": 23.720000000000002,
-        "average": 19.16
+        "score": 24.6,
+        "average": 20.248
     },
     {
         "player": "Rex Sunahara LS",
@@ -3266,8 +3266,8 @@
     },
     {
         "player": "Nico Collins WR",
-        "score": 30.8,
-        "average": 26.0
+        "score": 10.600000000000001,
+        "average": 20.866666666666667
     },
     {
         "player": "Chuba Hubbard RB",
@@ -3276,8 +3276,8 @@
     },
     {
         "player": "Brevin Jordan TE",
-        "score": 2.3,
-        "average": 2.3
+        "score": 0.0,
+        "average": 1.15
     },
     {
         "player": "Jaylon Moore OL",
@@ -3322,7 +3322,7 @@
     {
         "player": "Quintin Morris TE",
         "score": 0.0,
-        "average": 0.5666666666666668
+        "average": 0.42500000000000004
     },
     {
         "player": "Alaric Jackson OL",
@@ -3391,13 +3391,13 @@
     },
     {
         "player": "Dyami Brown WR",
-        "score": 9.5,
-        "average": 3.4
+        "score": 1.2,
+        "average": 2.96
     },
     {
         "player": "John Bates TE",
-        "score": 1.9,
-        "average": 2.5999999999999996
+        "score": 1.1,
+        "average": 2.1
     },
     {
         "player": "Camryn Bynum DB",
@@ -3436,8 +3436,8 @@
     },
     {
         "player": "K.J. Britt LB",
-        "score": 0,
-        "average": 0
+        "score": 0.0,
+        "average": 0.0
     },
     {
         "player": "Cameron McGrone LB",
@@ -3591,8 +3591,8 @@
     },
     {
         "player": "Riley Patterson K",
-        "score": 4.0,
-        "average": 5.75
+        "score": 3.0,
+        "average": 5.2
     },
     {
         "player": "Feleipe Franks TE",
@@ -3636,8 +3636,8 @@
     },
     {
         "player": "Evan McPherson K",
-        "score": 5.0,
-        "average": 11.75
+        "score": 7.0,
+        "average": 10.8
     },
     {
         "player": "Jimmy Morrissey OL",
@@ -3686,13 +3686,13 @@
     },
     {
         "player": "Rhamondre Stevenson RB",
-        "score": 18.4,
-        "average": 10.825
+        "score": 17.5,
+        "average": 12.16
     },
     {
         "player": "Kylen Granson TE",
-        "score": 0,
-        "average": 0
+        "score": 0.0,
+        "average": 0.0
     },
     {
         "player": "Sam Ehlinger QB",
@@ -3726,13 +3726,13 @@
     },
     {
         "player": "Najee Harris RB",
-        "score": 3.0,
-        "average": 2.9333333333333336
+        "score": 2.4,
+        "average": 2.8
     },
     {
         "player": "Pat Freiermuth TE",
-        "score": 10.7,
-        "average": 9.7
+        "score": 21.5,
+        "average": 12.059999999999999
     },
     {
         "player": "Victor Dimukeje DL",
@@ -3746,8 +3746,8 @@
     },
     {
         "player": "Ja'Marr Chase WR",
-        "score": 5.7,
-        "average": 15.05
+        "score": 19.7,
+        "average": 15.98
     },
     {
         "player": "Eric Stokes DB",
@@ -3941,8 +3941,8 @@
     },
     {
         "player": "Trevor Lawrence QB",
-        "score": 13.08,
-        "average": 16.28
+        "score": 21.740000000000002,
+        "average": 17.372
     },
     {
         "player": "Mac Jones QB",
@@ -4211,8 +4211,8 @@
     },
     {
         "player": "Bo Melton WR",
-        "score": 0.0,
-        "average": 0.5
+        "score": 5.0,
+        "average": 1.4
     },
     {
         "player": "Chris Paul OL",
@@ -4391,8 +4391,8 @@
     },
     {
         "player": "Jaylen Warren RB",
-        "score": 15.600000000000001,
-        "average": 14.05
+        "score": 36.800000000000004,
+        "average": 18.6
     },
     {
         "player": "Ikem Ekwonu OL",
@@ -4431,8 +4431,8 @@
     },
     {
         "player": "Chris Olave WR",
-        "score": 19.6,
-        "average": 22.525000000000002
+        "score": 8.600000000000001,
+        "average": 19.740000000000002
     },
     {
         "player": "Jameson Williams WR",
@@ -4491,8 +4491,8 @@
     },
     {
         "player": "Greg Dulcich TE",
-        "score": 10.5,
-        "average": 6.0
+        "score": 9.7,
+        "average": 6.925
     },
     {
         "player": "Marcus Jones DB",
@@ -4511,13 +4511,13 @@
     },
     {
         "player": "Rachaad White RB",
-        "score": 11.1,
-        "average": 10.033333333333333
+        "score": 3.0,
+        "average": 8.275
     },
     {
         "player": "Dameon Pierce RB",
-        "score": 0,
-        "average": 0
+        "score": 3.2,
+        "average": 3.2
     },
     {
         "player": "Micah McFadden LB",
@@ -4641,8 +4641,8 @@
     },
     {
         "player": "Andrew Ogletree TE",
-        "score": 0.0,
-        "average": 0.0
+        "score": 1.4,
+        "average": 0.35
     },
     {
         "player": "Jordan Jackson DL",
@@ -4881,8 +4881,8 @@
     },
     {
         "player": "Deven Thompkins WR",
-        "score": 0,
-        "average": 0
+        "score": 1.8,
+        "average": 1.8
     },
     {
         "player": "Mike Brown DB",
@@ -5081,8 +5081,8 @@
     },
     {
         "player": "Jalen Tolbert WR",
-        "score": 0.0,
-        "average": 0.0
+        "score": 3.2,
+        "average": 1.6
     },
     {
         "player": "Kerby Joseph DB",
@@ -5111,8 +5111,8 @@
     },
     {
         "player": "Garrett Wilson WR",
-        "score": 5.7,
-        "average": 15.75
+        "score": 23.4,
+        "average": 17.28
     },
     {
         "player": "Jahan Dotson WR",
@@ -5121,8 +5121,8 @@
     },
     {
         "player": "Treylon Burks WR",
-        "score": 11.7,
-        "average": 7.0
+        "score": 4.6,
+        "average": 6.4
     },
     {
         "player": "Daxton Hill DB",
@@ -5166,8 +5166,8 @@
     },
     {
         "player": "Jelani Woods TE",
-        "score": 2.1,
-        "average": 2.55
+        "score": 0.0,
+        "average": 1.7
     },
     {
         "player": "Travis Jones DL",
@@ -5216,8 +5216,8 @@
     },
     {
         "player": "Chig Okonkwo TE",
-        "score": 2.5,
-        "average": 3.05
+        "score": 10.0,
+        "average": 5.366666666666667
     },
     {
         "player": "Chad Muma LB",
@@ -5241,8 +5241,8 @@
     },
     {
         "player": "Romeo Doubs WR",
-        "score": 23.8,
-        "average": 11.075000000000001
+        "score": 2.6,
+        "average": 9.38
     },
     {
         "player": "Zach Bako-Bewele OL",
@@ -5326,8 +5326,8 @@
     },
     {
         "player": "Isaiah Likely TE",
-        "score": 13.600000000000001,
-        "average": 13.25
+        "score": 32.4,
+        "average": 17.080000000000002
     },
     {
         "player": "Cobie Durant DB",
@@ -5401,8 +5401,8 @@
     },
     {
         "player": "Skyy Moore WR",
-        "score": 0.8,
-        "average": 2.375
+        "score": 1.0,
+        "average": 2.1
     },
     {
         "player": "JT Woods DB",
@@ -5426,8 +5426,8 @@
     },
     {
         "player": "Pierre Strong RB",
-        "score": 0,
-        "average": 0
+        "score": 4.800000000000001,
+        "average": 4.800000000000001
     },
     {
         "player": "Phidarian Mathis DL",
@@ -5496,8 +5496,8 @@
     },
     {
         "player": "Daniel Bellinger TE",
-        "score": 1.2,
-        "average": 1.625
+        "score": 1.5,
+        "average": 1.6
     },
     {
         "player": "Arnold Ebiketie LB",
@@ -5506,8 +5506,8 @@
     },
     {
         "player": "Wan'Dale Robinson WR",
-        "score": 11.0,
-        "average": 10.1
+        "score": 11.3,
+        "average": 10.34
     },
     {
         "player": "Daniel Faalele OL",
@@ -5531,8 +5531,8 @@
     },
     {
         "player": "Christian Watson WR",
-        "score": 7.7,
-        "average": 19.275000000000002
+        "score": 32.3,
+        "average": 21.880000000000003
     },
     {
         "player": "Roger McCreary DB",
@@ -5546,8 +5546,8 @@
     },
     {
         "player": "Malik Willis QB",
-        "score": 2.5,
-        "average": 10.42
+        "score": 18.880000000000003,
+        "average": 12.112
     },
     {
         "player": "Cade Otton TE",
@@ -5671,8 +5671,8 @@
     },
     {
         "player": "Noah Sewell LB",
-        "score": 0,
-        "average": 0
+        "score": 0.0,
+        "average": 0.0
     },
     {
         "player": "Sean Clifford QB",
@@ -5686,8 +5686,8 @@
     },
     {
         "player": "Dontayvion Wicks WR",
-        "score": 4.8,
-        "average": 9.425
+        "score": 11.3,
+        "average": 9.8
     },
     {
         "player": "Will Mallory TE",
@@ -5756,8 +5756,8 @@
     },
     {
         "player": "Lew Nichols III RB",
-        "score": 0.0,
-        "average": 0.0
+        "score": 0.6000000000000001,
+        "average": 0.20000000000000004
     },
     {
         "player": "Anthony Johnson DB",
@@ -5776,8 +5776,8 @@
     },
     {
         "player": "Tyson Bagent QB",
-        "score": 8.82,
-        "average": 5.49
+        "score": 1.1800000000000002,
+        "average": 4.053333333333334
     },
     {
         "player": "Lorenz Metz OL",
@@ -5786,8 +5786,8 @@
     },
     {
         "player": "Andre Szmyt K",
-        "score": 12.0,
-        "average": 9.5
+        "score": 6.0,
+        "average": 8.8
     },
     {
         "player": "Liam Anderson LB",
@@ -5796,8 +5796,8 @@
     },
     {
         "player": "Zavier Scott RB",
-        "score": 0,
-        "average": 0
+        "score": 0.0,
+        "average": 0.0
     },
     {
         "player": "Corey Mayfield Jr. DB",
@@ -5986,8 +5986,8 @@
     },
     {
         "player": "Kendre Miller RB",
-        "score": 1.9,
-        "average": 4.933333333333334
+        "score": 9.0,
+        "average": 5.95
     },
     {
         "player": "Riley Moss DB",
@@ -6021,8 +6021,8 @@
     },
     {
         "player": "Darnell Washington TE",
-        "score": 11.7,
-        "average": 6.725
+        "score": 3.2,
+        "average": 6.02
     },
     {
         "player": "Michael Wilson WR",
@@ -6041,8 +6041,8 @@
     },
     {
         "player": "Tre Tucker WR",
-        "score": 8.4,
-        "average": 11.075
+        "score": 7.5,
+        "average": 10.36
     },
     {
         "player": "Cameron Latu TE",
@@ -6186,8 +6186,8 @@
     },
     {
         "player": "Chase Brown RB",
-        "score": 19.1,
-        "average": 14.5
+        "score": 7.0,
+        "average": 13.0
     },
     {
         "player": "Henry To'oTo'o LB",
@@ -6221,13 +6221,13 @@
     },
     {
         "player": "Parker Washington WR",
-        "score": 2.0,
-        "average": 12.775
+        "score": 30.4,
+        "average": 16.3
     },
     {
         "player": "Kayshon Boutte WR",
-        "score": 6.6,
-        "average": 5.125
+        "score": 6.800000000000001,
+        "average": 5.46
     },
     {
         "player": "Luke Wypler OL",
@@ -6241,8 +6241,8 @@
     },
     {
         "player": "Chris Rodriguez Jr. RB",
-        "score": 9.5,
-        "average": 5.7
+        "score": 2.1,
+        "average": 4.9799999999999995
     },
     {
         "player": "Jerrick Reed II DB",
@@ -6271,8 +6271,8 @@
     },
     {
         "player": "Xavier Hutchinson WR",
-        "score": 7.6000000000000005,
-        "average": 7.25
+        "score": 10.5,
+        "average": 7.9
     },
     {
         "player": "Andrei Iosivas WR",
@@ -6286,8 +6286,8 @@
     },
     {
         "player": "DeMario Douglas WR",
-        "score": 3.5,
-        "average": 4.3
+        "score": 22.5,
+        "average": 7.94
     },
     {
         "player": "Deuce Vaughn RB",
@@ -6501,8 +6501,8 @@
     },
     {
         "player": "Jared Wayne WR",
-        "score": 3.0,
-        "average": 3.5
+        "score": 0.0,
+        "average": 2.625
     },
     {
         "player": "Kilian Zierer OL",
@@ -6611,8 +6611,8 @@
     },
     {
         "player": "Jaleel McLaughlin RB",
-        "score": 8.8,
-        "average": 4.550000000000001
+        "score": 0.0,
+        "average": 3.0333333333333337
     },
     {
         "player": "PJ Mustipher DL",
@@ -6726,8 +6726,8 @@
     },
     {
         "player": "Shaka Heyward LB",
-        "score": 0,
-        "average": 0
+        "score": 0.0,
+        "average": 0.0
     },
     {
         "player": "Shedrick Jackson WR",
@@ -6791,8 +6791,8 @@
     },
     {
         "player": "Brenton Strange TE",
-        "score": 16.5,
-        "average": 9.175
+        "score": 13.8,
+        "average": 10.1
     },
     {
         "player": "Juice Scruggs OL",
@@ -6906,13 +6906,13 @@
     },
     {
         "player": "Tucker Kraft TE",
-        "score": 16.5,
-        "average": 9.025
+        "score": 11.600000000000001,
+        "average": 9.540000000000001
     },
     {
         "player": "Josh Downs WR",
-        "score": 4.6,
-        "average": 9.299999999999999
+        "score": 7.7,
+        "average": 8.98
     },
     {
         "player": "Jake Haener QB",
@@ -6991,8 +6991,8 @@
     },
     {
         "player": "Roschon Johnson RB",
-        "score": 3.3000000000000003,
-        "average": 1.6500000000000001
+        "score": 9.0,
+        "average": 4.1000000000000005
     },
     {
         "player": "Joel Wilson TE",
@@ -7011,8 +7011,8 @@
     },
     {
         "player": "Tyjae Spears RB",
-        "score": 1.6,
-        "average": 3.875
+        "score": 9.8,
+        "average": 5.0600000000000005
     },
     {
         "player": "Peter Skoronski OL",
@@ -7116,8 +7116,8 @@
     },
     {
         "player": "Michael Mayer TE",
-        "score": 16.200000000000003,
-        "average": 10.725000000000001
+        "score": 1.2,
+        "average": 8.82
     },
     {
         "player": "Rashee Rice WR",
@@ -7291,8 +7291,8 @@
     },
     {
         "player": "C.J. Stroud QB",
-        "score": 23.080000000000002,
-        "average": 17.060000000000002
+        "score": 20.939999999999998,
+        "average": 17.836000000000002
     },
     {
         "player": "Anthony Richardson QB",
@@ -7546,8 +7546,8 @@
     },
     {
         "player": "Carson Steele RB",
-        "score": 0,
-        "average": 0
+        "score": 0.0,
+        "average": 0.0
     },
     {
         "player": "Julian Hicks WR",
@@ -7566,13 +7566,13 @@
     },
     {
         "player": "Malik Nabers WR",
-        "score": 23.200000000000003,
-        "average": 11.200000000000001
+        "score": 29.1,
+        "average": 14.780000000000001
     },
     {
         "player": "Brock Bowers TE",
-        "score": 20.6,
-        "average": 24.1
+        "score": 23.0,
+        "average": 23.733333333333334
     },
     {
         "player": "Taliese Fuaga OL",
@@ -7676,8 +7676,8 @@
     },
     {
         "player": "Cade Stover TE",
-        "score": 3.0,
-        "average": 1.9
+        "score": 0.0,
+        "average": 1.2666666666666666
     },
     {
         "player": "Malik Mustapha DB",
@@ -7796,8 +7796,8 @@
     },
     {
         "player": "Tyrone Tracy Jr. RB",
-        "score": -0.1,
-        "average": -0.09999999999999995
+        "score": 5.1,
+        "average": 0.9400000000000001
     },
     {
         "player": "Bub Means WR",
@@ -7876,8 +7876,8 @@
     },
     {
         "player": "Will Reichard K",
-        "score": 19.0,
-        "average": 13.0
+        "score": 16.0,
+        "average": 13.6
     },
     {
         "player": "Jawhar Jordan RB",
@@ -7891,8 +7891,8 @@
     },
     {
         "player": "Dylan Laube RB",
-        "score": 0.0,
-        "average": -0.5
+        "score": 11.5,
+        "average": 1.9
     },
     {
         "player": "Christian Mahogany OL",
@@ -7901,8 +7901,8 @@
     },
     {
         "player": "Cam Little K",
-        "score": 14.0,
-        "average": 9.75
+        "score": 8.0,
+        "average": 9.4
     },
     {
         "player": "Ryan Flournoy WR",
@@ -7966,8 +7966,8 @@
     },
     {
         "player": "Devaughn Vele WR",
-        "score": 17.4,
-        "average": 13.899999999999999
+        "score": 6.6,
+        "average": 12.44
     },
     {
         "player": "Myles Cole DL",
@@ -8041,8 +8041,8 @@
     },
     {
         "player": "Isaiah Williams WR",
-        "score": 15.3,
-        "average": 7.7250000000000005
+        "score": 2.9000000000000004,
+        "average": 6.760000000000001
     },
     {
         "player": "Beanie Bishop DB",
@@ -8261,8 +8261,8 @@
     },
     {
         "player": "Spencer Shrader K",
-        "score": 16.0,
-        "average": 13.25
+        "score": 21.0,
+        "average": 14.8
     },
     {
         "player": "Kedon Slovis QB",
@@ -8412,7 +8412,7 @@
     {
         "player": "Colson Yankoff TE",
         "score": 0.0,
-        "average": 0.9000000000000001
+        "average": 0.7200000000000001
     },
     {
         "player": "Dell Pettus DB",
@@ -8446,8 +8446,8 @@
     },
     {
         "player": "Jeshaun Jones WR",
-        "score": 0.0,
-        "average": 0.0
+        "score": 4.2,
+        "average": 2.1
     },
     {
         "player": "Dwight McGlothern DB",
@@ -8521,8 +8521,8 @@
     },
     {
         "player": "Roman Wilson WR",
-        "score": 16.4,
-        "average": 11.2
+        "score": 0.0,
+        "average": 8.959999999999999
     },
     {
         "player": "Jalyx Hunt LB",
@@ -8556,8 +8556,8 @@
     },
     {
         "player": "Will Shipley RB",
-        "score": 2.3000000000000003,
-        "average": 2.875
+        "score": 8.299999999999999,
+        "average": 3.96
     },
     {
         "player": "Tyler Davis DL",
@@ -8671,8 +8671,8 @@
     },
     {
         "player": "Braelon Allen RB",
-        "score": 8.700000000000001,
-        "average": 6.4750000000000005
+        "score": 18.6,
+        "average": 8.9
     },
     {
         "player": "Nehemiah Pritchett DB",
@@ -8686,8 +8686,8 @@
     },
     {
         "player": "Isaiah Davis RB",
-        "score": 0.0,
-        "average": 0.0
+        "score": 2.7,
+        "average": 0.675
     },
     {
         "player": "DJ James DB",
@@ -8711,8 +8711,8 @@
     },
     {
         "player": "MarShawn Lloyd RB",
-        "score": 9.9,
-        "average": 6.5
+        "score": 16.700000000000003,
+        "average": 8.540000000000001
     },
     {
         "player": "Ty'Ron Hopper LB",
@@ -8726,8 +8726,8 @@
     },
     {
         "player": "Erick All TE",
-        "score": 2.5,
-        "average": 2.5
+        "score": 5.5,
+        "average": 4.0
     },
     {
         "player": "Tyrice Knight LB",
@@ -8881,8 +8881,8 @@
     },
     {
         "player": "Theo Johnson TE",
-        "score": 8.1,
-        "average": 3.3333333333333335
+        "score": 5.5,
+        "average": 3.875
     },
     {
         "player": "Marvin Harrison Jr. WR",
@@ -8896,8 +8896,8 @@
     },
     {
         "player": "Drake Maye QB",
-        "score": 26.159999999999997,
-        "average": 11.94
+        "score": 39.46,
+        "average": 17.444
     },
     {
         "player": "Jared Verse DL",
@@ -8981,8 +8981,8 @@
     },
     {
         "player": "Jaylen Wright RB",
-        "score": 0.7000000000000001,
-        "average": 0.5666666666666668
+        "score": 1.1,
+        "average": 0.7000000000000001
     },
     {
         "player": "Ray Davis RB",
@@ -9011,8 +9011,8 @@
     },
     {
         "player": "Malik Washington WR",
-        "score": 12.0,
-        "average": 9.525
+        "score": 12.1,
+        "average": 10.040000000000001
     },
     {
         "player": "Patrick McMorris DB",
@@ -9056,8 +9056,8 @@
     },
     {
         "player": "Brian Thomas Jr. WR",
-        "score": 9.7,
-        "average": 6.375
+        "score": 0.0,
+        "average": 5.1
     },
     {
         "player": "Xavier Worthy WR",
@@ -9131,8 +9131,8 @@
     },
     {
         "player": "Jayden Daniels QB",
-        "score": 14.74,
-        "average": 16.2
+        "score": 32.260000000000005,
+        "average": 21.553333333333338
     },
     {
         "player": "Chop Robinson LB",
@@ -9142,7 +9142,7 @@
     {
         "player": "Ben Sinnott TE",
         "score": 0.0,
-        "average": 0.8
+        "average": 0.5333333333333333
     },
     {
         "player": "Brandon Coleman OL",
@@ -9171,13 +9171,13 @@
     },
     {
         "player": "Rome Odunze WR",
-        "score": 15.4,
-        "average": 9.325
+        "score": 5.0,
+        "average": 8.459999999999999
     },
     {
         "player": "Malachi Corley WR",
         "score": 0.0,
-        "average": -0.5
+        "average": -0.4
     },
     {
         "player": "Trey Benson RB",
@@ -9186,8 +9186,8 @@
     },
     {
         "player": "J.J. McCarthy QB",
-        "score": 0,
-        "average": 0
+        "score": 0.2,
+        "average": 0.2
     },
     {
         "player": "Dallas Turner LB",
@@ -9346,8 +9346,8 @@
     },
     {
         "player": "Darius Cooper WR",
-        "score": 18.3,
-        "average": 7.225
+        "score": 15.100000000000001,
+        "average": 8.8
     },
     {
         "player": "Maxen Hook DB",
@@ -9631,8 +9631,8 @@
     },
     {
         "player": "Ashton Jeanty RB",
-        "score": 18.6,
-        "average": 18.475
+        "score": 10.7,
+        "average": 16.92
     },
     {
         "player": "Armand Membou OL",
@@ -9651,8 +9651,8 @@
     },
     {
         "player": "Colston Loveland TE",
-        "score": 11.7,
-        "average": 5.0249999999999995
+        "score": 3.9000000000000004,
+        "average": 4.8
     },
     {
         "player": "Kenneth Grant DL",
@@ -9661,8 +9661,8 @@
     },
     {
         "player": "Tyler Warren TE",
-        "score": 9.100000000000001,
-        "average": 12.125
+        "score": 21.4,
+        "average": 13.98
     },
     {
         "player": "Emeka Egbuka WR",
@@ -9676,8 +9676,8 @@
     },
     {
         "player": "Kyle Williams WR",
-        "score": 0.0,
-        "average": 1.6
+        "score": 18.1,
+        "average": 4.9
     },
     {
         "player": "Landon Jackson DL",
@@ -9711,8 +9711,8 @@
     },
     {
         "player": "Jaylin Noel WR",
-        "score": 11.9,
-        "average": 7.275
+        "score": 15.2,
+        "average": 8.86
     },
     {
         "player": "Justin Walley DB",
@@ -9731,8 +9731,8 @@
     },
     {
         "player": "Kaleb Johnson RB",
-        "score": 2.2,
-        "average": 2.0
+        "score": 2.6,
+        "average": 2.12
     },
     {
         "player": "Jacob Parrish DB",
@@ -9791,8 +9791,8 @@
     },
     {
         "player": "Tai Felton WR",
-        "score": 2.4000000000000004,
-        "average": 1.2000000000000002
+        "score": 4.7,
+        "average": 2.3666666666666667
     },
     {
         "player": "Danny Stutsman LB",
@@ -9871,8 +9871,8 @@
     },
     {
         "player": "Elic Ayomanor WR",
-        "score": 3.2,
-        "average": 5.575
+        "score": 2.7,
+        "average": 5.0
     },
     {
         "player": "Joshua Farmer DL",
@@ -10006,8 +10006,8 @@
     },
     {
         "player": "Ollie Gordon II RB",
-        "score": 18.0,
-        "average": 11.066666666666668
+        "score": 14.8,
+        "average": 12.0
     },
     {
         "player": "JJ Pegues DL",
@@ -10016,8 +10016,8 @@
     },
     {
         "player": "Andy Borregales K",
-        "score": 3.0,
-        "average": 6.25
+        "score": 9.0,
+        "average": 6.8
     },
     {
         "player": "Marcus Harris DB",
@@ -10041,8 +10041,8 @@
     },
     {
         "player": "Kalel Mullings RB",
-        "score": 0,
-        "average": 0
+        "score": 0.30000000000000004,
+        "average": 0.30000000000000004
     },
     {
         "player": "Riley Leonard QB",
@@ -10086,8 +10086,8 @@
     },
     {
         "player": "Gavin Bartholomew TE",
-        "score": 1.4,
-        "average": 1.4
+        "score": 8.3,
+        "average": 4.8500000000000005
     },
     {
         "player": "Kain Medrano LB",
@@ -10197,7 +10197,7 @@
     {
         "player": "LeQuint Allen Jr. RB",
         "score": 0.0,
-        "average": 0.9666666666666667
+        "average": 0.725
     },
     {
         "player": "Kaden Prather WR",
@@ -10216,8 +10216,8 @@
     },
     {
         "player": "Jacory Croskey-Merritt RB",
-        "score": 7.0,
-        "average": 7.675000000000001
+        "score": 14.200000000000001,
+        "average": 8.98
     },
     {
         "player": "Korie Black DB",
@@ -10316,8 +10316,8 @@
     },
     {
         "player": "Jahdae Walker WR",
-        "score": 7.1,
-        "average": 7.1
+        "score": 0.0,
+        "average": 3.55
     },
     {
         "player": "Ryan Fitzgerald K",
@@ -10746,8 +10746,8 @@
     },
     {
         "player": "Dalen Cambre WR",
-        "score": 0,
-        "average": 0
+        "score": 0.0,
+        "average": 0.0
     },
     {
         "player": "Beaux Collins WR",
@@ -10826,8 +10826,8 @@
     },
     {
         "player": "Raheim Sanders RB",
-        "score": 3.6,
-        "average": 5.1000000000000005
+        "score": 2.3000000000000003,
+        "average": 4.540000000000001
     },
     {
         "player": "Josh Kaltenberger OL",
@@ -10926,8 +10926,8 @@
     },
     {
         "player": "Austin Keys LB",
-        "score": 0,
-        "average": 0
+        "score": 0.0,
+        "average": 0.0
     },
     {
         "player": "Dorian Mausi LB",
@@ -10941,8 +10941,8 @@
     },
     {
         "player": "Myles Price WR",
-        "score": 2.8000000000000003,
-        "average": 2.2
+        "score": 3.0,
+        "average": 2.3600000000000003
     },
     {
         "player": "Zemaiah Vaughn DB",
@@ -10951,8 +10951,8 @@
     },
     {
         "player": "Ben Yurosek TE",
-        "score": 0,
-        "average": 0
+        "score": 2.0,
+        "average": 2.0
     },
     {
         "player": "Brandon Crenshaw-Dickson OL",
@@ -11066,8 +11066,8 @@
     },
     {
         "player": "Corey Kiner RB",
-        "score": 0.0,
-        "average": 1.2
+        "score": 4.9,
+        "average": 1.94
     },
     {
         "player": "Drew Moss OL",
@@ -11091,8 +11091,8 @@
     },
     {
         "player": "Efton Chism III WR",
-        "score": 12.2,
-        "average": 4.913333333333333
+        "score": 10.9,
+        "average": 6.41
     },
     {
         "player": "Jack Conley OL",
@@ -11137,7 +11137,7 @@
     {
         "player": "Elijah Ponder LB",
         "score": 0.0,
-        "average": 1.5
+        "average": 1.2
     },
     {
         "player": "Josh Minkins DB",
@@ -11176,13 +11176,13 @@
     },
     {
         "player": "Woody Marks RB",
-        "score": 8.2,
-        "average": 7.699999999999999
+        "score": 12.5,
+        "average": 8.66
     },
     {
         "player": "Gunnar Helm TE",
-        "score": 3.5,
-        "average": 4.25
+        "score": 0.0,
+        "average": 3.4
     },
     {
         "player": "Ty Hamilton DL",
@@ -11456,8 +11456,8 @@
     },
     {
         "player": "Harold Fannin Jr. TE",
-        "score": 11.7,
-        "average": 12.575
+        "score": 1.4,
+        "average": 10.34
     },
     {
         "player": "Omarion Hampton RB",
@@ -11466,8 +11466,8 @@
     },
     {
         "player": "Matthew Golden WR",
-        "score": 11.7,
-        "average": 14.5
+        "score": 20.3,
+        "average": 15.66
     },
     {
         "player": "Shedeur Sanders QB",
@@ -11501,8 +11501,8 @@
     },
     {
         "player": "Cam Ward QB",
-        "score": 15.580000000000002,
-        "average": 14.185
+        "score": 5.0,
+        "average": 12.348
     },
     {
         "player": "Abdul Carter LB",
@@ -11586,8 +11586,8 @@
     },
     {
         "player": "Chimere Dike WR",
-        "score": 2.5,
-        "average": 0.37500000000000006
+        "score": 5.800000000000001,
+        "average": 1.4600000000000002
     },
     {
         "player": "Walter Nolen DL",
@@ -11621,8 +11621,8 @@
     },
     {
         "player": "Cam Skattebo RB",
-        "score": 7.6000000000000005,
-        "average": 11.05
+        "score": 7.100000000000001,
+        "average": 10.260000000000002
     },
     {
         "player": "Craig Woodson DB",
@@ -11636,8 +11636,8 @@
     },
     {
         "player": "Bhayshul Tuten RB",
-        "score": 11.100000000000001,
-        "average": 13.025
+        "score": 11.6,
+        "average": 12.74
     },
     {
         "player": "Jahdae Barron DB",
@@ -11706,18 +11706,18 @@
     },
     {
         "player": "TreVeyon Henderson RB",
-        "score": 4.2,
-        "average": 7.233333333333334
+        "score": 4.800000000000001,
+        "average": 6.625000000000001
     },
     {
         "player": "Luther Burden III WR",
-        "score": 11.4,
-        "average": 11.725
+        "score": 8.9,
+        "average": 11.16
     },
     {
         "player": "Mason Taylor TE",
-        "score": 1.8,
-        "average": 1.8
+        "score": 5.4,
+        "average": 3.6
     },
     {
         "player": "Terrance Ferguson TE",
@@ -11727,7 +11727,7 @@
     {
         "player": "Demetrius Knight Jr. LB",
         "score": 0.0,
-        "average": 1.5
+        "average": 1.2
     },
     {
         "player": "Elijah Arroyo TE",
@@ -11751,8 +11751,8 @@
     },
     {
         "player": "Tyler Shough QB",
-        "score": 15.94,
-        "average": 21.33
+        "score": -0.16000000000000014,
+        "average": 17.032
     },
     {
         "player": "Jaylahn Tuimoloau DL",
@@ -11836,18 +11836,18 @@
     },
     {
         "player": "Isaiah Bond WR",
-        "score": 1.2,
-        "average": 1.6
+        "score": 10.4,
+        "average": 4.533333333333333
     },
     {
         "player": "Quinshon Judkins RB",
-        "score": 21.6,
-        "average": 12.075000000000001
+        "score": 8.0,
+        "average": 11.260000000000002
     },
     {
         "player": "Dohnte Meyers WR",
-        "score": 15.200000000000001,
-        "average": 6.2250000000000005
+        "score": 3.2,
+        "average": 5.62
     },
     {
         "player": "Jacob Roberts LB",
@@ -11906,8 +11906,8 @@
     },
     {
         "player": "Makai Lemon WR",
-        "score": 5.7,
-        "average": 4.0
+        "score": 9.3,
+        "average": 5.0600000000000005
     },
     {
         "player": "Treydan Stukes DB",
@@ -11961,8 +11961,8 @@
     },
     {
         "player": "Mike Washington Jr. RB",
-        "score": 2.6999999999999997,
-        "average": 4.7250000000000005
+        "score": 2.0,
+        "average": 4.180000000000001
     },
     {
         "player": "Matthew Hibner TE",
@@ -12041,8 +12041,8 @@
     },
     {
         "player": "Malik Benson WR",
-        "score": 0.0,
-        "average": 0.2
+        "score": 1.6,
+        "average": 0.4800000000000001
     },
     {
         "player": "Emmanuel Henderson Jr. WR",
@@ -12066,8 +12066,8 @@
     },
     {
         "player": "Trey Smack K",
-        "score": 7.0,
-        "average": 7.25
+        "score": 4.0,
+        "average": 6.6
     },
     {
         "player": "Anthony Smith WR",
@@ -12272,7 +12272,7 @@
     {
         "player": "J. Michael Sturdivant WR",
         "score": 0.0,
-        "average": 1.7333333333333334
+        "average": 1.3
     },
     {
         "player": "Dillon Wade OL",
@@ -12646,8 +12646,8 @@
     },
     {
         "player": "Kenyon Sadiq TE",
-        "score": 0.0,
-        "average": 9.65
+        "score": 0.2999999999999998,
+        "average": 7.779999999999999
     },
     {
         "player": "Caleb Banks DL",
@@ -12671,8 +12671,8 @@
     },
     {
         "player": "Denzel Boston WR",
-        "score": 12.9,
-        "average": 13.850000000000001
+        "score": 13.600000000000001,
+        "average": 13.8
     },
     {
         "player": "D'Angelo Ponds DB",
@@ -12686,18 +12686,18 @@
     },
     {
         "player": "Antonio Williams WR",
-        "score": 5.1,
-        "average": 7.6
+        "score": 6.1,
+        "average": 7.3
     },
     {
         "player": "Oscar Delp TE",
         "score": 0.0,
-        "average": 0.9
+        "average": 0.6
     },
     {
         "player": "Malachi Fields WR",
-        "score": 13.2,
-        "average": 6.65
+        "score": 4.0,
+        "average": 6.12
     },
     {
         "player": "A.J. Haulcy DB",
@@ -12741,8 +12741,8 @@
     },
     {
         "player": "Zavion Thomas WR",
-        "score": 0.0,
-        "average": 0.3666666666666667
+        "score": 3.2,
+        "average": 1.0750000000000002
     },
     {
         "player": "Kaelon Black RB",
@@ -12821,8 +12821,8 @@
     },
     {
         "player": "Bryce Lance WR",
-        "score": 1.7000000000000002,
-        "average": 2.6750000000000003
+        "score": 0.0,
+        "average": 2.14
     },
     {
         "player": "Ephesians Prysock DB",
@@ -12861,8 +12861,8 @@
     },
     {
         "player": "Justin Jefferson LB",
-        "score": 0,
-        "average": 0
+        "score": 0.0,
+        "average": 0.0
     },
     {
         "player": "Zakee Wheatley DB",
@@ -12981,13 +12981,13 @@
     },
     {
         "player": "Barion Brown WR",
-        "score": -0.5,
-        "average": -0.06666666666666665
+        "score": 0.0,
+        "average": -0.04999999999999999
     },
     {
         "player": "Josh Cameron WR",
-        "score": 6.2,
-        "average": 6.1
+        "score": 7.3,
+        "average": 6.34
     },
     {
         "player": "J.C. Davis OL",
@@ -13006,8 +13006,8 @@
     },
     {
         "player": "Demond Claiborne RB",
-        "score": 1.2000000000000002,
-        "average": 0.8333333333333334
+        "score": 1.6,
+        "average": 1.0250000000000001
     },
     {
         "player": "Logan Taylor OL",
@@ -13111,8 +13111,8 @@
     },
     {
         "player": "Seth McGowan RB",
-        "score": 4.8,
-        "average": 1.8
+        "score": 2.9000000000000004,
+        "average": 2.02
     },
     {
         "player": "Tommy Doman Jr. P",
@@ -13146,8 +13146,8 @@
     },
     {
         "player": "Deion Burks WR",
-        "score": 1.6,
-        "average": 1.5
+        "score": 0.0,
+        "average": 1.0
     },
     {
         "player": "Dallen Bentley TE",
@@ -13206,8 +13206,8 @@
     },
     {
         "player": "Dominic Zvada K",
-        "score": 14.0,
-        "average": 9.5
+        "score": 13.0,
+        "average": 10.2
     },
     {
         "player": "Isaia Glass OL",
@@ -13372,7 +13372,7 @@
     {
         "player": "Drew Stevens K",
         "score": 7.0,
-        "average": 8.0
+        "average": 7.8
     },
     {
         "player": "Tanoa Togiai OL",
@@ -13896,8 +13896,8 @@
     },
     {
         "player": "Tanner Arkin TE",
-        "score": 0,
-        "average": 0
+        "score": 0.0,
+        "average": 0.0
     },
     {
         "player": "David Blay Jr. DL",
@@ -13956,8 +13956,8 @@
     },
     {
         "player": "CJ Donaldson RB",
-        "score": 4.3,
-        "average": 1.55
+        "score": 3.0,
+        "average": 1.8399999999999999
     },
     {
         "player": "Cody Hardy TE",
@@ -14241,8 +14241,8 @@
     },
     {
         "player": "Eli Raridon TE",
-        "score": 2.2,
-        "average": 4.466666666666667
+        "score": 10.7,
+        "average": 6.025
     },
     {
         "player": "Gennings Dunker OL",
@@ -14431,8 +14431,8 @@
     },
     {
         "player": "Carnell Tate WR",
-        "score": 21.5,
-        "average": 11.700000000000001
+        "score": 1.6,
+        "average": 9.68
     },
     {
         "player": "Blake Miller OL",
@@ -14656,8 +14656,8 @@
     },
     {
         "player": "Germie Bernard WR",
-        "score": 3.1,
-        "average": 4.333333333333333
+        "score": 14.4,
+        "average": 6.8500000000000005
     },
     {
         "player": "Eli Heidenreich RB",
@@ -14716,8 +14716,8 @@
     },
     {
         "player": "Nate Boerkircher TE",
-        "score": 2.5,
-        "average": 1.4666666666666668
+        "score": 4.0,
+        "average": 2.1
     },
     {
         "player": "Francis Mauigoa OL",
@@ -14801,13 +14801,13 @@
     },
     {
         "player": "Will Kacmarek TE",
-        "score": 2.5,
-        "average": 0.975
+        "score": 1.5,
+        "average": 1.08
     },
     {
         "player": "Chris Bell WR",
-        "score": 0.0,
-        "average": 3.55
+        "score": 2.6,
+        "average": 3.3600000000000003
     },
     {
         "player": "Trey Moore LB",
@@ -14826,8 +14826,8 @@
     },
     {
         "player": "Kevin Coleman Jr. WR",
-        "score": 1.3,
-        "average": 0.8666666666666667
+        "score": 12.0,
+        "average": 3.65
     },
     {
         "player": "DJ Campbell OL",
@@ -14911,8 +14911,8 @@
     },
     {
         "player": "KC Concepcion WR",
-        "score": 11.4,
-        "average": 7.575
+        "score": 1.5,
+        "average": 6.36
     },
     {
         "player": "Jude Bowry OL",
@@ -14961,8 +14961,8 @@
     },
     {
         "player": "Sam Roush TE",
-        "score": 1.8,
-        "average": 2.1
+        "score": 0.0,
+        "average": 1.575
     },
     {
         "player": "Febechi Nwaiwu OL",
@@ -14981,8 +14981,8 @@
     },
     {
         "player": "Fernando Mendoza QB",
-        "score": 0,
-        "average": 0
+        "score": 2.2199999999999998,
+        "average": 2.2199999999999998
     },
     {
         "player": "Jermod McCoy DB",
@@ -15061,8 +15061,8 @@
     },
     {
         "player": "Seydou Traore TE",
-        "score": 0,
-        "average": 0
+        "score": 0.0,
+        "average": 0.0
     },
     {
         "player": "Uar Bernard DL",
@@ -15191,17 +15191,17 @@
     },
     {
         "player": "CHI DE",
-        "score": 0,
+        "score": 1.0,
         "average": 7.5
     },
     {
         "player": "CIN DE",
-        "score": 0,
+        "score": 9.0,
         "average": 7.5
     },
     {
         "player": "CLE DE",
-        "score": 0,
+        "score": 9.0,
         "average": 5.25
     },
     {
@@ -15221,22 +15221,22 @@
     },
     {
         "player": "GB DE",
-        "score": 0,
+        "score": 18.0,
         "average": 3.0
     },
     {
         "player": "HOU DE",
-        "score": 0,
+        "score": 15.0,
         "average": 4.75
     },
     {
         "player": "IND DE",
-        "score": 0,
+        "score": 0.0,
         "average": 3.25
     },
     {
         "player": "JAX DE",
-        "score": 0,
+        "score": 2.0,
         "average": 9.5
     },
     {
@@ -15256,47 +15256,47 @@
     },
     {
         "player": "LV DE",
-        "score": 0,
+        "score": -1.0,
         "average": 8.5
     },
     {
         "player": "MIA DE",
-        "score": 0,
+        "score": 1.0,
         "average": 1.75
     },
     {
         "player": "MIN DE",
-        "score": 0,
+        "score": 11.0,
         "average": 12.5
     },
     {
         "player": "NE DE",
-        "score": 0,
+        "score": 6.0,
         "average": 6.25
     },
     {
         "player": "NO DE",
-        "score": 0,
+        "score": 6.0,
         "average": 2.0
     },
     {
         "player": "NYG DE",
-        "score": 0,
+        "score": 5.0,
         "average": 5.75
     },
     {
         "player": "NYJ DE",
-        "score": 0,
+        "score": 16.0,
         "average": 5.25
     },
     {
         "player": "PHI DE",
-        "score": 0,
+        "score": 5.0,
         "average": 2.25
     },
     {
         "player": "PIT DE",
-        "score": 0,
+        "score": 1.0,
         "average": 7.75
     },
     {
@@ -15316,12 +15316,12 @@
     },
     {
         "player": "TEN DE",
-        "score": 0,
+        "score": 2.0,
         "average": 4.0
     },
     {
         "player": "WAS DE",
-        "score": 0,
+        "score": 6.0,
         "average": 2.75
     }
 ]
