@@ -15166,162 +15166,162 @@
     },
     {
         "player": "ARI DE",
-        "score": -1.0,
-        "average": 4.0
+        "score": 0,
+        "average": 3.0
     },
     {
         "player": "ATL DE",
-        "score": 5.0,
-        "average": 4.0
+        "score": 0,
+        "average": 4.2
     },
     {
         "player": "BAL DE",
-        "score": 5.0,
-        "average": 4.75
+        "score": 0,
+        "average": 4.8
     },
     {
         "player": "BUF DE",
         "score": 0,
-        "average": 4.5
+        "average": 3.6
     },
     {
         "player": "CAR DE",
         "score": 0,
-        "average": 6.0
+        "average": 4.8
     },
     {
         "player": "CHI DE",
-        "score": 1.0,
-        "average": 7.5
+        "score": 0,
+        "average": 6.2
     },
     {
         "player": "CIN DE",
-        "score": 9.0,
-        "average": 7.5
+        "score": 0,
+        "average": 7.8
     },
     {
         "player": "CLE DE",
-        "score": 9.0,
-        "average": 5.25
+        "score": 0,
+        "average": 6.0
     },
     {
         "player": "DAL DE",
-        "score": 1.0,
-        "average": 1.5
+        "score": 0,
+        "average": 1.4
     },
     {
         "player": "DEN DE",
-        "score": 12.0,
-        "average": 5.25
+        "score": 0,
+        "average": 6.6
     },
     {
         "player": "DET DE",
-        "score": 7.0,
-        "average": 4.25
+        "score": 0,
+        "average": 4.8
     },
     {
         "player": "GB DE",
-        "score": 18.0,
-        "average": 3.0
+        "score": 0,
+        "average": 6.0
     },
     {
         "player": "HOU DE",
-        "score": 15.0,
-        "average": 4.75
+        "score": 0,
+        "average": 6.8
     },
     {
         "player": "IND DE",
-        "score": 0.0,
-        "average": 3.25
+        "score": 0,
+        "average": 2.6
     },
     {
         "player": "JAX DE",
-        "score": 2.0,
-        "average": 9.5
+        "score": 0,
+        "average": 8.0
     },
     {
         "player": "KC DE",
         "score": 0,
-        "average": 6.0
+        "average": 4.8
     },
     {
         "player": "LA DE",
         "score": 0,
-        "average": 5.0
-    },
-    {
-        "player": "LAC DE",
-        "score": 3.0,
-        "average": 5.75
-    },
-    {
-        "player": "LV DE",
-        "score": -1.0,
-        "average": 8.5
-    },
-    {
-        "player": "MIA DE",
-        "score": 1.0,
-        "average": 1.75
-    },
-    {
-        "player": "MIN DE",
-        "score": 11.0,
-        "average": 12.5
-    },
-    {
-        "player": "NE DE",
-        "score": 6.0,
-        "average": 6.25
-    },
-    {
-        "player": "NO DE",
-        "score": 6.0,
-        "average": 2.0
-    },
-    {
-        "player": "NYG DE",
-        "score": 5.0,
-        "average": 5.75
-    },
-    {
-        "player": "NYJ DE",
-        "score": 16.0,
-        "average": 5.25
-    },
-    {
-        "player": "PHI DE",
-        "score": 5.0,
-        "average": 2.25
-    },
-    {
-        "player": "PIT DE",
-        "score": 1.0,
-        "average": 7.75
-    },
-    {
-        "player": "SEA DE",
-        "score": 8.0,
-        "average": 8.5
-    },
-    {
-        "player": "SF DE",
-        "score": 12.0,
-        "average": 5.0
-    },
-    {
-        "player": "TB DE",
-        "score": 7.0,
-        "average": 3.5
-    },
-    {
-        "player": "TEN DE",
-        "score": 2.0,
         "average": 4.0
     },
     {
+        "player": "LAC DE",
+        "score": 0,
+        "average": 5.2
+    },
+    {
+        "player": "LV DE",
+        "score": 0,
+        "average": 6.6
+    },
+    {
+        "player": "MIA DE",
+        "score": 0,
+        "average": 1.6
+    },
+    {
+        "player": "MIN DE",
+        "score": 0,
+        "average": 12.2
+    },
+    {
+        "player": "NE DE",
+        "score": 0,
+        "average": 6.2
+    },
+    {
+        "player": "NO DE",
+        "score": 0,
+        "average": 2.8
+    },
+    {
+        "player": "NYG DE",
+        "score": 0,
+        "average": 5.6
+    },
+    {
+        "player": "NYJ DE",
+        "score": 0,
+        "average": 7.4
+    },
+    {
+        "player": "PHI DE",
+        "score": 0,
+        "average": 2.8
+    },
+    {
+        "player": "PIT DE",
+        "score": 0,
+        "average": 6.4
+    },
+    {
+        "player": "SEA DE",
+        "score": 0,
+        "average": 8.4
+    },
+    {
+        "player": "SF DE",
+        "score": 0,
+        "average": 6.4
+    },
+    {
+        "player": "TB DE",
+        "score": 0,
+        "average": 4.2
+    },
+    {
+        "player": "TEN DE",
+        "score": 0,
+        "average": 3.6
+    },
+    {
         "player": "WAS DE",
-        "score": 6.0,
-        "average": 2.75
+        "score": 0,
+        "average": 3.4
     }
 ]
