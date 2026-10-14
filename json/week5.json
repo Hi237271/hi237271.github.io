@@ -522,11 +522,6 @@
             "team": "Make Draye",
             "position": "WR"
         },
-        "Chase McLaughlin": {
-            "score": 7.0,
-            "team": "Make Draye",
-            "position": "K"
-        },
         "Christian Watson": {
             "score": 32.3,
             "team": "Make Draye",
@@ -536,6 +531,11 @@
             "score": 0.2999999999999998,
             "team": "Make Draye",
             "position": "TE"
+        },
+        "Spencer Shrader": {
+            "score": 21.0,
+            "team": "Make Draye",
+            "position": "K"
         }
     },
     "LJSSNC": {
@@ -604,15 +604,15 @@
             "team": "LJSSNC",
             "position": "WR"
         },
-        "Tyler Shough": {
-            "score": -0.16000000000000014,
-            "team": "LJSSNC",
-            "position": "QB"
-        },
         "Juwan Johnson": {
             "score": 5.6,
             "team": "LJSSNC",
             "position": "TE"
+        },
+        "Jayden Daniels": {
+            "score": 32.260000000000005,
+            "team": "LJSSNC",
+            "position": "QB"
         }
     },
     "Bad Piggies": {
