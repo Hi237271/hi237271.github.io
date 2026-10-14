@@ -485,6 +485,11 @@
         "average": 0
     },
     {
+        "player": "Elandon Roberts LB",
+        "score": 0,
+        "average": 0
+    },
+    {
         "player": "Ted Karras OL",
         "score": 0,
         "average": 0
@@ -1005,6 +1010,11 @@
         "average": 9.425
     },
     {
+        "player": "Dawuane Smoot DL",
+        "score": 0,
+        "average": 0
+    },
+    {
         "player": "Cooper Kupp WR",
         "score": 3.5,
         "average": 5.98
@@ -1281,6 +1291,11 @@
     },
     {
         "player": "D.J. Reed DB",
+        "score": 0,
+        "average": 0
+    },
+    {
+        "player": "Justin Watson WR",
         "score": 0,
         "average": 0
     },
@@ -2290,6 +2305,11 @@
         "average": 0
     },
     {
+        "player": "Germaine Pratt LB",
+        "score": 0,
+        "average": 0
+    },
+    {
         "player": "Chuma Edoga OL",
         "score": 0,
         "average": 0
@@ -2351,6 +2371,11 @@
     },
     {
         "player": "Brett Toth OL",
+        "score": 0,
+        "average": 0
+    },
+    {
+        "player": "Jacob Bobenmoyer LS",
         "score": 0,
         "average": 0
     },
@@ -5370,7 +5395,7 @@
         "average": 0
     },
     {
-        "player": "Pepe Williams DB",
+        "player": "Damarion Williams DB",
         "score": 0,
         "average": 0
     },
@@ -10828,6 +10853,11 @@
         "player": "Marlowe Wax LB",
         "score": 0.0,
         "average": 0.0
+    },
+    {
+        "player": "Luke Grimm WR",
+        "score": 0,
+        "average": 0
     },
     {
         "player": "DJ Uiagalelei QB",
