@@ -56,7 +56,7 @@
             "position": "WR"
         },
         "Jake Ferguson": {
-            "score": 0,
+            "score": 3.3,
             "team": "Maye Drake Good",
             "position": "TE"
         },
@@ -71,7 +71,7 @@
             "position": "RB"
         },
         "Matthew Golden": {
-            "score": 0,
+            "score": 22.4,
             "team": "Maye Drake Good",
             "position": "WR"
         }
@@ -138,7 +138,7 @@
             "position": "WR"
         },
         "Dak Prescott": {
-            "score": 0,
+            "score": 11.02,
             "team": "Mmm... Food",
             "position": "QB"
         },
@@ -247,7 +247,7 @@
             "position": "WR"
         },
         "Javonte Williams": {
-            "score": 0,
+            "score": 13.000000000000002,
             "team": "McPicklePounders",
             "position": "RB"
         },
@@ -267,7 +267,7 @@
             "position": "TE"
         },
         "Brandon Aubrey": {
-            "score": 0,
+            "score": 1.0,
             "team": "McPicklePounders",
             "position": "K"
         },
@@ -523,7 +523,7 @@
             "position": "WR"
         },
         "Christian Watson": {
-            "score": 0,
+            "score": 9.4,
             "team": "Make Draye",
             "position": "WR"
         },
@@ -622,7 +622,7 @@
             "position": "RB"
         },
         "George Pickens": {
-            "score": 0,
+            "score": 13.3,
             "team": "Bad Piggies",
             "position": "WR"
         },
@@ -662,7 +662,7 @@
             "position": "K"
         },
         "MarShawn Lloyd": {
-            "score": 0,
+            "score": 1.0,
             "team": "Bad Piggies",
             "position": "RB"
         },
@@ -682,7 +682,7 @@
             "position": "RB"
         },
         "Jordan Love": {
-            "score": 0,
+            "score": 20.24,
             "team": "Bad Piggies",
             "position": "QB"
         },
@@ -694,7 +694,7 @@
     },
     "Rumble Bees": {
         "CeeDee Lamb": {
-            "score": 0,
+            "score": 16.0,
             "team": "Rumble Bees",
             "position": "WR"
         },
@@ -719,7 +719,7 @@
             "position": "QB"
         },
         "Tucker Kraft": {
-            "score": 0,
+            "score": 8.7,
             "team": "Rumble Bees",
             "position": "TE"
         },
