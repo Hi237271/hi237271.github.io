@@ -345,6 +345,11 @@
         "average": 0
     },
     {
+        "player": "DeAndre Carter WR",
+        "score": 0,
+        "average": 0
+    },
+    {
         "player": "Alex Singleton LB",
         "score": 0.0,
         "average": 0.0
@@ -5046,6 +5051,11 @@
     },
     {
         "player": "Sam Okuayinonu DL",
+        "score": 0,
+        "average": 0
+    },
+    {
+        "player": "Andrew Rupcich OL",
         "score": 0,
         "average": 0
     },
@@ -13350,6 +13360,11 @@
         "average": 0
     },
     {
+        "player": "KC Eziomume DB",
+        "score": 0,
+        "average": 0
+    },
+    {
         "player": "Beau Gardner LS",
         "score": 0.0,
         "average": 0.0
@@ -13566,6 +13581,11 @@
     },
     {
         "player": "Michael Wortham WR",
+        "score": 0,
+        "average": 0
+    },
+    {
+        "player": "Jackson Acker RB",
         "score": 0,
         "average": 0
     },
