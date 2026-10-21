@@ -60,11 +60,6 @@
             "team": "Maye Drake Good",
             "position": "TE"
         },
-        "Eli Heidenreich": {
-            "score": 0,
-            "team": "Maye Drake Good",
-            "position": "RB"
-        },
         "Kyren Williams": {
             "score": 9.7,
             "team": "Maye Drake Good",
@@ -74,6 +69,11 @@
             "score": 22.4,
             "team": "Maye Drake Good",
             "position": "WR"
+        },
+        "Tyler Shough": {
+            "score": 26.959999999999997,
+            "team": "Maye Drake Good",
+            "position": "QB"
         }
     },
     "Mmm... Food": {
@@ -564,11 +564,6 @@
             "team": "LJSSNC",
             "position": "TE"
         },
-        "Terry McLaurin": {
-            "score": 3.7,
-            "team": "LJSSNC",
-            "position": "WR"
-        },
         "SEA": {
             "score": 3.0,
             "team": "LJSSNC",
@@ -613,6 +608,11 @@
             "score": 21.0,
             "team": "LJSSNC",
             "position": "QB"
+        },
+        "Omar Cooper Jr.": {
+            "score": 22.3,
+            "team": "LJSSNC",
+            "position": "WR"
         }
     },
     "Bad Piggies": {
