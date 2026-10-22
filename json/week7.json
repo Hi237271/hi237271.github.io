@@ -219,15 +219,15 @@
             "team": "Washable Markers",
             "position": "QB"
         },
-        "Evan McPherson": {
-            "score": 0,
-            "team": "Washable Markers",
-            "position": "K"
-        },
         "MIN": {
             "score": 0,
             "team": "Washable Markers",
             "position": "DE"
+        },
+        "Will Reichard": {
+            "score": 0,
+            "team": "Washable Markers",
+            "position": "K"
         }
     },
     "McPicklePounders": {
