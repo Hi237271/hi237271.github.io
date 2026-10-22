@@ -579,11 +579,6 @@
             "team": "LJSSNC",
             "position": "RB"
         },
-        "Tyjae Spears": {
-            "score": 0,
-            "team": "LJSSNC",
-            "position": "RB"
-        },
         "Michael Wilson": {
             "score": 0,
             "team": "LJSSNC",
@@ -613,6 +608,11 @@
             "score": 0,
             "team": "LJSSNC",
             "position": "QB"
+        },
+        "Jordan Mason": {
+            "score": 0,
+            "team": "LJSSNC",
+            "position": "RB"
         }
     },
     "Bad Piggies": {
