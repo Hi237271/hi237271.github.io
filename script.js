@@ -86,14 +86,22 @@ function request_player(player) {
 	let player_input = document.querySelector('input#request-player-input')
 	player_input.value = player;
 }
-function get_week() {
+function get_week(now = null) {
 	const start = new Date("2026-09-08");
-	let now = new Date();
+	if(now === null){
+		now = new Date();
+	}
 	return (
 		Math.floor(
 			(now.getTime() - start.getTime()) / (1000 * 60 * 60 * 24 * 7),
 		) + 1
 	);
+}
+function is_date_valid(hours){
+	let now = new Date()
+	let anticipated = now.getTime() + 1000*60*60*hours
+	return get_week(now = new Date(anticipated))==get_week()
+
 }
 function promise_error(error) {
 	console.log(`An error occured: ${error}`)
@@ -377,7 +385,18 @@ document.addEventListener("DOMContentLoaded", async () => {
             </div>
         `;
 	}
+	//Handle waiver wires vs. free agency 
+	if(!is_date_valid(-36)&&!is_date_valid(4)){
+		//waiver wires
+	}
+	else {
+		//free agency
+		document.querySelector('a.a-waiver').innerHTML="Free Agency"
+		document.querySelector('h1.small-title').innerHTML = "Free Agency Submission"
+		document.querySelector('input#secretField1').value = 'agency'
+		document.querySelector('table.draft-order-container').hidden=true
 
+	}
 	//Add Waiver wire picks
 	async function load_waiver_scores() {
 		function render_player(player_obj) {

@@ -30,11 +30,26 @@ def get_stats(player, player_stats):
     return player
 
 
-def get_teams():
-    players = {}
-    with open(get_json_path('new_full_roster.json'), 'r') as file:
-        players = json.load(file)
-    return players
+def get_teams(week=week):
+    if week == get_week():
+        players = {}
+        with open(get_json_path('new_full_roster.json'), 'r') as file:
+            players = json.load(file)
+        return players
+    else:
+        players = {}
+        new_players = {}
+        with open(get_json_path(f'week{week}.json'), 'r') as file:
+            players = json.load(file)
+        teams = list(players.keys())
+        for team in teams:
+            lineup = players[team]
+            new_lineup = []
+            for player in list(lineup.keys()):
+                old_player = players[team][player]
+                new_lineup.append(f'{player} {old_player['position']}')
+            new_players[team] = new_lineup
+        return new_players
 #     teams = list(players.keys())
 #     for team in teams:
 #         lineup = players[team].tolist()
@@ -157,7 +172,7 @@ def print_all_players(roster, schedule, stats, team_statistics):
 
 def update_player_data(roster, schedule, stats, team_statistics, week=week):
     nfl_teams = schedule["away_team"].tolist()
-    teams = get_teams()
+    teams = get_teams(week=week)
     all_data = {}
     stats = stats[stats['week'] == week]
     for team in teams.keys():

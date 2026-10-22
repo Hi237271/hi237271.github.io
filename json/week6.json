@@ -236,6 +236,11 @@
             "team": "McPicklePounders",
             "position": "WR"
         },
+        "De'Von Achane": {
+            "score": 0,
+            "team": "McPicklePounders",
+            "position": "RB"
+        },
         "Rashee Rice": {
             "score": 0,
             "team": "McPicklePounders",
@@ -300,11 +305,6 @@
             "score": 22.98,
             "team": "McPicklePounders",
             "position": "QB"
-        },
-        "Ollie Gordon II": {
-            "score": 0,
-            "team": "McPicklePounders",
-            "position": "RB"
         }
     },
     "Laser Llamas": {
