@@ -204,11 +204,6 @@
             "team": "Washable Markers",
             "position": "TE"
         },
-        "Jacory Croskey-Merritt": {
-            "score": 0,
-            "team": "Washable Markers",
-            "position": "RB"
-        },
         "Mike Evans": {
             "score": 0,
             "team": "Washable Markers",
@@ -228,6 +223,11 @@
             "score": 0,
             "team": "Washable Markers",
             "position": "K"
+        },
+        "Pat Freiermuth": {
+            "score": 0,
+            "team": "Washable Markers",
+            "position": "TE"
         }
     },
     "McPicklePounders": {
