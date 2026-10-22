@@ -58,6 +58,21 @@ def calculate_offensive_score(d):
     # TODO See if fumbles work and add "blocked kick" functionality
 
 
+def get_last_week_played(player_stats):
+    try:
+        return player_stats.iloc[-1]["week"]
+    except:
+        return -1
+
+
+def get_last_week_played_team(team, team_stats):
+    team_games = team_stats[team_stats['team'] == team]
+    try:
+        return team_games.iloc[-1]['week']
+    except:
+        return -1
+
+
 def calculate_defensive_score(d):
     return d["def_sacks"]+2*d["def_interceptions"]+2*d["def_fg_blocks"]+2*d["def_punt_blocks"]+6*d["special_teams_tds"] + 2*d["fumble_recovery_opp"]
     # TODO do i need to incorporate def_pat_blocks?
@@ -98,6 +113,7 @@ def print_all_players(roster, schedule, stats, team_statistics):
     # print(f'TEAMS: {teams}')
     for player in players:
         score = calculate_offensive_score(get_stats(player, stats))
+        last_game = int(get_last_week_played(get_stats(player, stats)))
         average_score = 0
         if isinstance(score, pd.Series):
             if len(score) == 0:
@@ -109,7 +125,7 @@ def print_all_players(roster, schedule, stats, team_statistics):
                     average_score = 0
                 score = score.iloc[-1]
         all_stats.append(
-            {'player': player, 'score': score, 'average': average_score})
+            {'player': player, 'score': score, 'average': average_score, 'week': last_game})
     for team in teams:
         scores = []
         average_score = 0
@@ -123,6 +139,7 @@ def print_all_players(roster, schedule, stats, team_statistics):
                     score = 0
             scores.append(score)
         score = calculate_team_score(team, schedule, team_statistics)
+        last_team_game = int(get_last_week_played_team(team, team_statistics))
         if isinstance(score, pd.Series):
             if len(score) != 0:
                 score = score.iloc[-1]
@@ -133,7 +150,7 @@ def print_all_players(roster, schedule, stats, team_statistics):
         else:
             average_score = sum(scores)/len(scores)
         all_stats.append(
-            {'player': team + ' DE', 'score': score, 'average': average_score})
+            {'player': team + ' DE', 'score': score, 'average': average_score, 'week': last_team_game})
     with open(get_json_path('all_player_scores.json'), 'w') as file:
         json.dump(all_stats, file, indent=4)
 
@@ -184,4 +201,5 @@ def main():
     print("main.py: upload success!")
 
 
-main()
+if __name__ == "__main__":
+    main()
