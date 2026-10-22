@@ -569,11 +569,6 @@
             "team": "LJSSNC",
             "position": "DE"
         },
-        "Michael Pittman": {
-            "score": 0,
-            "team": "LJSSNC",
-            "position": "WR"
-        },
         "Ka'imi Fairbairn": {
             "score": 0,
             "team": "LJSSNC",
@@ -613,6 +608,11 @@
             "score": 0,
             "team": "LJSSNC",
             "position": "WR"
+        },
+        "Kirk Cousins": {
+            "score": 0,
+            "team": "LJSSNC",
+            "position": "QB"
         }
     },
     "Bad Piggies": {
