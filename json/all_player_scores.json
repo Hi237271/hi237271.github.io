@@ -3186,10 +3186,10 @@
         "week": 2
     },
     {
-        "player": "A.J. Epenesa DL",
-        "score": 0,
-        "average": 0,
-        "week": -1
+        "player": "A.J. Epenesa LB",
+        "score": 0.0,
+        "average": 0.0,
+        "week": 5
     },
     {
         "player": "Anfernee Jennings LB",
@@ -4308,7 +4308,7 @@
         "week": -1
     },
     {
-        "player": "Charles Snowden DL",
+        "player": "Charles Snowden LB",
         "score": 0,
         "average": 0,
         "week": -1
