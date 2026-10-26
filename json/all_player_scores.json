@@ -5821,9 +5821,9 @@
     },
     {
         "player": "Arron Mosby LB",
-        "score": 0,
-        "average": 0,
-        "week": -1
+        "score": 0.0,
+        "average": 0.0,
+        "week": 6
     },
     {
         "player": "Kaden Davis WR",
