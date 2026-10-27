@@ -60,11 +60,6 @@
             "team": "Maye Drake Good",
             "position": "TE"
         },
-        "Eli Heidenreich": {
-            "score": 0,
-            "team": "Maye Drake Good",
-            "position": "RB"
-        },
         "Kyren Williams": {
             "score": 0,
             "team": "Maye Drake Good",
@@ -74,6 +69,11 @@
             "score": 0,
             "team": "Maye Drake Good",
             "position": "WR"
+        },
+        "Tyler Shough": {
+            "score": 0,
+            "team": "Maye Drake Good",
+            "position": "QB"
         }
     },
     "Mmm... Food": {
@@ -204,11 +204,6 @@
             "team": "Washable Markers",
             "position": "TE"
         },
-        "Jacory Croskey-Merritt": {
-            "score": 0,
-            "team": "Washable Markers",
-            "position": "RB"
-        },
         "Mike Evans": {
             "score": 0,
             "team": "Washable Markers",
@@ -219,15 +214,20 @@
             "team": "Washable Markers",
             "position": "QB"
         },
-        "Evan McPherson": {
-            "score": 0,
-            "team": "Washable Markers",
-            "position": "K"
-        },
         "MIN": {
             "score": 0,
             "team": "Washable Markers",
             "position": "DE"
+        },
+        "Will Reichard": {
+            "score": 0,
+            "team": "Washable Markers",
+            "position": "K"
+        },
+        "Pat Freiermuth": {
+            "score": 0,
+            "team": "Washable Markers",
+            "position": "TE"
         }
     },
     "McPicklePounders": {
@@ -235,11 +235,6 @@
             "score": 0,
             "team": "McPicklePounders",
             "position": "WR"
-        },
-        "De'Von Achane": {
-            "score": 0,
-            "team": "McPicklePounders",
-            "position": "RB"
         },
         "Rashee Rice": {
             "score": 0,
@@ -305,6 +300,11 @@
             "score": 0,
             "team": "McPicklePounders",
             "position": "QB"
+        },
+        "Jawhar Jordan": {
+            "score": 0,
+            "team": "McPicklePounders",
+            "position": "RB"
         }
     },
     "Laser Llamas": {
@@ -522,11 +522,6 @@
             "team": "Make Draye",
             "position": "WR"
         },
-        "Chase McLaughlin": {
-            "score": 0,
-            "team": "Make Draye",
-            "position": "K"
-        },
         "Christian Watson": {
             "score": 0,
             "team": "Make Draye",
@@ -536,6 +531,11 @@
             "score": 0,
             "team": "Make Draye",
             "position": "TE"
+        },
+        "Spencer Shrader": {
+            "score": 0,
+            "team": "Make Draye",
+            "position": "K"
         }
     },
     "LJSSNC": {
@@ -564,20 +564,10 @@
             "team": "LJSSNC",
             "position": "TE"
         },
-        "Terry McLaurin": {
-            "score": 0,
-            "team": "LJSSNC",
-            "position": "WR"
-        },
         "SEA": {
             "score": 0,
             "team": "LJSSNC",
             "position": "DE"
-        },
-        "Michael Pittman": {
-            "score": 0,
-            "team": "LJSSNC",
-            "position": "WR"
         },
         "Ka'imi Fairbairn": {
             "score": 0,
@@ -585,11 +575,6 @@
             "position": "K"
         },
         "Rachaad White": {
-            "score": 0,
-            "team": "LJSSNC",
-            "position": "RB"
-        },
-        "Tyjae Spears": {
             "score": 0,
             "team": "LJSSNC",
             "position": "RB"
@@ -604,15 +589,30 @@
             "team": "LJSSNC",
             "position": "WR"
         },
-        "Tyler Shough": {
-            "score": 0,
-            "team": "LJSSNC",
-            "position": "QB"
-        },
         "Juwan Johnson": {
             "score": 0,
             "team": "LJSSNC",
             "position": "TE"
+        },
+        "Jayden Daniels": {
+            "score": 0,
+            "team": "LJSSNC",
+            "position": "QB"
+        },
+        "Omar Cooper Jr.": {
+            "score": 0,
+            "team": "LJSSNC",
+            "position": "WR"
+        },
+        "Kirk Cousins": {
+            "score": 0,
+            "team": "LJSSNC",
+            "position": "QB"
+        },
+        "Jordan Mason": {
+            "score": 0,
+            "team": "LJSSNC",
+            "position": "RB"
         }
     },
     "Bad Piggies": {
