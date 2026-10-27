@@ -56,7 +56,7 @@
             "position": "WR"
         },
         "Jake Ferguson": {
-            "score": 0,
+            "score": 0.0,
             "team": "Maye Drake Good",
             "position": "TE"
         },
@@ -83,7 +83,7 @@
             "position": "WR"
         },
         "Saquon Barkley": {
-            "score": 0,
+            "score": 15.1,
             "team": "Mmm... Food",
             "position": "RB"
         },
@@ -138,7 +138,7 @@
             "position": "WR"
         },
         "Dak Prescott": {
-            "score": 0,
+            "score": 23.28,
             "team": "Mmm... Food",
             "position": "QB"
         },
@@ -242,7 +242,7 @@
             "position": "WR"
         },
         "Javonte Williams": {
-            "score": 0,
+            "score": 21.5,
             "team": "McPicklePounders",
             "position": "RB"
         },
@@ -257,12 +257,12 @@
             "position": "WR"
         },
         "Dallas Goedert": {
-            "score": 0,
+            "score": 9.8,
             "team": "McPicklePounders",
             "position": "TE"
         },
         "Brandon Aubrey": {
-            "score": 0,
+            "score": 14.0,
             "team": "McPicklePounders",
             "position": "K"
         },
@@ -622,7 +622,7 @@
             "position": "RB"
         },
         "George Pickens": {
-            "score": 0,
+            "score": 15.7,
             "team": "Bad Piggies",
             "position": "WR"
         },
@@ -694,7 +694,7 @@
     },
     "Rumble Bees": {
         "CeeDee Lamb": {
-            "score": 0,
+            "score": 24.4,
             "team": "Rumble Bees",
             "position": "WR"
         },
@@ -744,7 +744,7 @@
             "position": "WR"
         },
         "PHI": {
-            "score": 0,
+            "score": -4.0,
             "team": "Rumble Bees",
             "position": "DE"
         },
