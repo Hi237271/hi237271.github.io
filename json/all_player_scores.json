@@ -9781,9 +9781,9 @@
     },
     {
         "player": "Theo Benedet OL",
-        "score": 0.0,
-        "average": 0.0,
-        "week": 6
+        "score": 0,
+        "average": 0,
+        "week": -1
     },
     {
         "player": "Carl Jones LB",
