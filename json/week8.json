@@ -251,11 +251,6 @@
             "team": "McPicklePounders",
             "position": "QB"
         },
-        "Davante Adams": {
-            "score": 0,
-            "team": "McPicklePounders",
-            "position": "WR"
-        },
         "Dallas Goedert": {
             "score": 0,
             "team": "McPicklePounders",
@@ -305,6 +300,11 @@
             "score": 0,
             "team": "McPicklePounders",
             "position": "RB"
+        },
+        "Tank Dell": {
+            "score": 0,
+            "team": "McPicklePounders",
+            "position": "WR"
         }
     },
     "Laser Llamas": {
