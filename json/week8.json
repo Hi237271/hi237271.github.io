@@ -55,11 +55,6 @@
             "team": "Maye Drake Good",
             "position": "WR"
         },
-        "Jake Ferguson": {
-            "score": 0,
-            "team": "Maye Drake Good",
-            "position": "TE"
-        },
         "Kyren Williams": {
             "score": 0,
             "team": "Maye Drake Good",
@@ -74,6 +69,11 @@
             "score": 0,
             "team": "Maye Drake Good",
             "position": "QB"
+        },
+        "Carnell Tate": {
+            "score": 0,
+            "team": "Maye Drake Good",
+            "position": "WR"
         }
     },
     "Mmm... Food": {
