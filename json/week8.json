@@ -142,15 +142,15 @@
             "team": "Mmm... Food",
             "position": "QB"
         },
-        "Chris Godwin Jr.": {
-            "score": 0,
-            "team": "Mmm... Food",
-            "position": "WR"
-        },
         "Jonah Coleman": {
             "score": 0,
             "team": "Mmm... Food",
             "position": "RB"
+        },
+        "NE": {
+            "score": 0,
+            "team": "Mmm... Food",
+            "position": "DE"
         }
     },
     "Washable Markers": {
