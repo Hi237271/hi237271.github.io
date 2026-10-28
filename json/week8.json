@@ -368,11 +368,6 @@
             "team": "Laser Llamas",
             "position": "TE"
         },
-        "Caleb Douglas": {
-            "score": 0,
-            "team": "Laser Llamas",
-            "position": "WR"
-        },
         "Bryce Young": {
             "score": 0,
             "team": "Laser Llamas",
@@ -382,6 +377,11 @@
             "score": 0,
             "team": "Laser Llamas",
             "position": "TE"
+        },
+        "Keon Coleman": {
+            "score": 0,
+            "team": "Laser Llamas",
+            "position": "WR"
         }
     },
     "Adebayo FC": {
