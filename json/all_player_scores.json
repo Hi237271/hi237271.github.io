@@ -2382,6 +2382,12 @@
         "week": -1
     },
     {
+        "player": "Michael Jordan OL",
+        "score": 0,
+        "average": 0,
+        "week": -1
+    },
+    {
         "player": "Matt Gay K",
         "score": 9.0,
         "average": 10.428571428571429,
@@ -4381,6 +4387,12 @@
     },
     {
         "player": "Jake Curhan OL",
+        "score": 0,
+        "average": 0,
+        "week": -1
+    },
+    {
+        "player": "Jon Rhattigan LB",
         "score": 0,
         "average": 0,
         "week": -1
@@ -12907,6 +12919,12 @@
     },
     {
         "player": "Aaron Smith LB",
+        "score": 0,
+        "average": 0,
+        "week": -1
+    },
+    {
+        "player": "Ja'Markis Weston LB",
         "score": 0,
         "average": 0,
         "week": -1
