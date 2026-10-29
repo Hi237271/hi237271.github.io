@@ -20,11 +20,6 @@
             "team": "Maye Drake Good",
             "position": "WR"
         },
-        "Travis Etienne": {
-            "score": 0,
-            "team": "Maye Drake Good",
-            "position": "RB"
-        },
         "Justin Herbert": {
             "score": 0,
             "team": "Maye Drake Good",
@@ -74,6 +69,11 @@
             "score": 0,
             "team": "Maye Drake Good",
             "position": "WR"
+        },
+        "Dak Prescott": {
+            "score": 0,
+            "team": "Maye Drake Good",
+            "position": "QB"
         }
     },
     "Mmm... Food": {
@@ -137,11 +137,6 @@
             "team": "Mmm... Food",
             "position": "WR"
         },
-        "Dak Prescott": {
-            "score": 0,
-            "team": "Mmm... Food",
-            "position": "QB"
-        },
         "Jonah Coleman": {
             "score": 0,
             "team": "Mmm... Food",
@@ -151,6 +146,11 @@
             "score": 0,
             "team": "Mmm... Food",
             "position": "DE"
+        },
+        "Travis Etienne": {
+            "score": 0,
+            "team": "Mmm... Food",
+            "position": "RB"
         }
     },
     "Washable Markers": {
