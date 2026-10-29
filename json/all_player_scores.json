@@ -102,6 +102,12 @@
         "week": -1
     },
     {
+        "player": "Jake McQuaide LS",
+        "score": 0,
+        "average": 0,
+        "week": -1
+    },
+    {
         "player": "Josh Harris LS",
         "score": 0.0,
         "average": 0.0,
@@ -121,6 +127,12 @@
     },
     {
         "player": "Kevin Zeitler OL",
+        "score": 0,
+        "average": 0,
+        "week": -1
+    },
+    {
+        "player": "Justin Tucker K",
         "score": 0,
         "average": 0,
         "week": -1
@@ -1213,6 +1225,12 @@
     },
     {
         "player": "Budda Baker DB",
+        "score": 0,
+        "average": 0,
+        "week": -1
+    },
+    {
+        "player": "Zay Jones WR",
         "score": 0,
         "average": 0,
         "week": -1
@@ -3582,7 +3600,7 @@
         "week": -1
     },
     {
-        "player": "D.J. Wonnum LB",
+        "player": "DJ Wonnum LB",
         "score": 0,
         "average": 0,
         "week": -1
@@ -10393,6 +10411,12 @@
     },
     {
         "player": "Tyler Davis DL",
+        "score": 0,
+        "average": 0,
+        "week": -1
+    },
+    {
+        "player": "Joshua Karty K",
         "score": 0,
         "average": 0,
         "week": -1
