@@ -1,15 +1,15 @@
 [
     {
         "player": "Aaron Rodgers QB",
-        "score": 13.08,
-        "average": 16.037142857142857,
-        "week": 7
+        "score": 4.88,
+        "average": 14.6425,
+        "week": 8
     },
     {
         "player": "Nick Folk K",
-        "score": 10.0,
-        "average": 8.0,
-        "week": 7
+        "score": 0.0,
+        "average": 7.0,
+        "week": 8
     },
     {
         "player": "J.J. Jansen LS",
@@ -37,15 +37,15 @@
     },
     {
         "player": "Matthew Stafford QB",
-        "score": 17.5,
-        "average": 17.622857142857143,
-        "week": 7
+        "score": 8.280000000000001,
+        "average": 16.455000000000002,
+        "week": 8
     },
     {
         "player": "Thomas Morstead P",
-        "score": 0,
-        "average": 0,
-        "week": -1
+        "score": 0.0,
+        "average": 0.0,
+        "week": 8
     },
     {
         "player": "Jon Weeks LS",
@@ -111,7 +111,7 @@
         "player": "Josh Harris LS",
         "score": 0.0,
         "average": 0.0,
-        "week": 6
+        "week": 8
     },
     {
         "player": "Johnny Hekker P",
@@ -139,9 +139,9 @@
     },
     {
         "player": "Kirk Cousins QB",
-        "score": 20.400000000000002,
-        "average": 18.782857142857146,
-        "week": 7
+        "score": 28.180000000000003,
+        "average": 19.9575,
+        "week": 8
     },
     {
         "player": "Harrison Smith DB",
@@ -165,7 +165,7 @@
         "player": "Bryan Anger P",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Andrew DePaola LS",
@@ -175,9 +175,9 @@
     },
     {
         "player": "Brandon McManus K",
-        "score": 5.0,
-        "average": 5.0,
-        "week": 7
+        "score": 6.0,
+        "average": 5.5,
+        "week": 8
     },
     {
         "player": "Kyle Juszczyk RB",
@@ -223,9 +223,9 @@
     },
     {
         "player": "Keenan Allen WR",
-        "score": 6.1,
-        "average": 10.133333333333335,
-        "week": 7
+        "score": 13.7,
+        "average": 10.642857142857142,
+        "week": 8
     },
     {
         "player": "Tony Jefferson DB",
@@ -235,9 +235,9 @@
     },
     {
         "player": "Travis Kelce TE",
-        "score": 8.4,
-        "average": 11.716666666666669,
-        "week": 7
+        "score": 11.7,
+        "average": 11.714285714285714,
+        "week": 8
     },
     {
         "player": "Lane Johnson OL",
@@ -247,9 +247,9 @@
     },
     {
         "player": "Geno Smith QB",
-        "score": 23.48,
-        "average": 15.017142857142858,
-        "week": 7
+        "score": 18.0,
+        "average": 15.39,
+        "week": 8
     },
     {
         "player": "James Winchester LS",
@@ -277,9 +277,9 @@
     },
     {
         "player": "Chris Boswell K",
-        "score": 11.0,
-        "average": 10.428571428571429,
-        "week": 7
+        "score": 9.0,
+        "average": 10.25,
+        "week": 8
     },
     {
         "player": "Tyler Ott LS",
@@ -441,13 +441,13 @@
         "player": "DeAndre Carter WR",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Alex Singleton LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Kendall Lamm OL",
@@ -477,7 +477,7 @@
         "player": "Bradley Pinion P",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Trent Brown OL",
@@ -493,9 +493,9 @@
     },
     {
         "player": "Ameer Abdullah RB",
-        "score": 0.0,
-        "average": 1.1166666666666667,
-        "week": 6
+        "score": 1.3,
+        "average": 1.1428571428571428,
+        "week": 8
     },
     {
         "player": "Bud Dupree LB",
@@ -577,9 +577,9 @@
     },
     {
         "player": "Austin Hooper TE",
-        "score": 4.1,
-        "average": 4.14,
-        "week": 7
+        "score": 1.9,
+        "average": 3.766666666666666,
+        "week": 8
     },
     {
         "player": "Nick Vannett TE",
@@ -631,15 +631,15 @@
     },
     {
         "player": "Reid Ferguson LS",
-        "score": 0,
-        "average": 0,
-        "week": -1
+        "score": 0.0,
+        "average": 0.0,
+        "week": 8
     },
     {
         "player": "Wil Lutz K",
-        "score": 14.0,
-        "average": 8.0,
-        "week": 7
+        "score": 9.0,
+        "average": 8.125,
+        "week": 8
     },
     {
         "player": "Jonathan Jones DB",
@@ -691,9 +691,9 @@
     },
     {
         "player": "Derrick Henry RB",
-        "score": 5.9,
-        "average": 17.52857142857143,
-        "week": 7
+        "score": 14.0,
+        "average": 17.0875,
+        "week": 8
     },
     {
         "player": "Demarcus Robinson WR",
@@ -723,7 +723,7 @@
         "player": "Riley Dixon P",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Carson Wentz QB",
@@ -733,9 +733,9 @@
     },
     {
         "player": "Laquon Treadwell WR",
-        "score": 3.9000000000000004,
-        "average": 4.957142857142857,
-        "week": 7
+        "score": 2.8,
+        "average": 4.6875,
+        "week": 8
     },
     {
         "player": "Isaac Seumalo OL",
@@ -793,9 +793,9 @@
     },
     {
         "player": "Dak Prescott QB",
-        "score": 23.28,
-        "average": 18.305714285714284,
-        "week": 7
+        "score": 19.8,
+        "average": 18.4925,
+        "week": 8
     },
     {
         "player": "Lucas Patrick OL",
@@ -805,9 +805,9 @@
     },
     {
         "player": "Hunter Henry TE",
-        "score": 14.100000000000001,
-        "average": 9.657142857142857,
-        "week": 7
+        "score": 6.0,
+        "average": 9.2,
+        "week": 8
     },
     {
         "player": "Jonathan Bullard DL",
@@ -817,9 +817,9 @@
     },
     {
         "player": "Jared Goff QB",
-        "score": 18.019999999999996,
-        "average": 22.169999999999998,
-        "week": 7
+        "score": 9.04,
+        "average": 20.294285714285714,
+        "week": 8
     },
     {
         "player": "Javon Hargrave DL",
@@ -829,15 +829,15 @@
     },
     {
         "player": "Tyler Higbee TE",
-        "score": 3.4000000000000004,
-        "average": 9.0,
-        "week": 7
+        "score": 2.4000000000000004,
+        "average": 8.057142857142857,
+        "week": 8
     },
     {
         "player": "Jacoby Brissett QB",
-        "score": 16.48,
-        "average": 15.385714285714286,
-        "week": 7
+        "score": 3.46,
+        "average": 13.895,
+        "week": 8
     },
     {
         "player": "Kenny Clark DL",
@@ -885,7 +885,7 @@
         "player": "Rigoberto Sanchez P",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Christian McCaffrey RB",
@@ -919,9 +919,9 @@
     },
     {
         "player": "Aaron Jones RB",
-        "score": 3.6,
-        "average": 12.299999999999999,
-        "week": 7
+        "score": 6.0,
+        "average": 11.4,
+        "week": 8
     },
     {
         "player": "Chuck Clark DB",
@@ -937,15 +937,15 @@
     },
     {
         "player": "Harrison Butker K",
-        "score": 5.0,
-        "average": 8.833333333333334,
-        "week": 7
+        "score": 7.0,
+        "average": 8.571428571428571,
+        "week": 8
     },
     {
         "player": "Kendrick Bourne WR",
-        "score": 3.9,
-        "average": 8.066666666666666,
-        "week": 7
+        "score": 3.9000000000000004,
+        "average": 7.471428571428571,
+        "week": 8
     },
     {
         "player": "Nick Mullens QB",
@@ -957,7 +957,7 @@
         "player": "Eric Wilson LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Josh Tupou DL",
@@ -1009,15 +1009,15 @@
     },
     {
         "player": "Samaje Perine RB",
-        "score": 7.6,
-        "average": 6.283333333333334,
-        "week": 7
+        "score": 2.9,
+        "average": 5.8,
+        "week": 8
     },
     {
         "player": "Deshaun Watson QB",
-        "score": 18.22,
-        "average": 15.254285714285714,
-        "week": 7
+        "score": 11.16,
+        "average": 14.7425,
+        "week": 8
     },
     {
         "player": "Garett Bolles OL",
@@ -1095,7 +1095,7 @@
         "player": "Cameron Johnston P",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Storm Norton OL",
@@ -1153,9 +1153,9 @@
     },
     {
         "player": "Zane Gonzalez K",
-        "score": 4.0,
-        "average": 4.0,
-        "week": 7
+        "score": 9.0,
+        "average": 6.5,
+        "week": 8
     },
     {
         "player": "Myles Garrett LB",
@@ -1183,9 +1183,9 @@
     },
     {
         "player": "Patrick Mahomes QB",
-        "score": 6.0,
-        "average": 16.676666666666666,
-        "week": 7
+        "score": 25.44,
+        "average": 17.928571428571427,
+        "week": 8
     },
     {
         "player": "Derek Barnett DL",
@@ -1201,9 +1201,9 @@
     },
     {
         "player": "Evan Engram TE",
-        "score": 1.2,
-        "average": 4.6571428571428575,
-        "week": 7
+        "score": 0.0,
+        "average": 4.075,
+        "week": 8
     },
     {
         "player": "Tre'Davious White DB",
@@ -1291,9 +1291,9 @@
     },
     {
         "player": "Chris Godwin Jr. WR",
-        "score": 6.7,
-        "average": 7.585714285714286,
-        "week": 7
+        "score": 0.0,
+        "average": 6.6375,
+        "week": 8
     },
     {
         "player": "Jourdan Lewis DB",
@@ -1305,7 +1305,7 @@
         "player": "Trey Hendrickson LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Rayshawn Jenkins DB",
@@ -1351,9 +1351,9 @@
     },
     {
         "player": "Christian Kuntz LS",
-        "score": 0,
-        "average": 0,
-        "week": -1
+        "score": 0.0,
+        "average": 0.0,
+        "week": 8
     },
     {
         "player": "Scott Daly LS",
@@ -1401,7 +1401,7 @@
         "player": "J.K. Scott P",
         "score": 0.0,
         "average": 0.0,
-        "week": 6
+        "week": 8
     },
     {
         "player": "Jacob Martin DL",
@@ -1447,9 +1447,9 @@
     },
     {
         "player": "Tyler Conklin TE",
-        "score": 1.4,
-        "average": 1.4,
-        "week": 7
+        "score": 1.7000000000000002,
+        "average": 1.55,
+        "week": 8
     },
     {
         "player": "Marquez Valdes-Scantling WR",
@@ -1513,9 +1513,9 @@
     },
     {
         "player": "Courtland Sutton WR",
-        "score": 7.5,
-        "average": 5.542857142857144,
-        "week": 7
+        "score": 9.3,
+        "average": 6.0125,
+        "week": 8
     },
     {
         "player": "Uchenna Nwosu LB",
@@ -1587,7 +1587,7 @@
         "player": "Josh Sweat LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Dalton Schultz TE",
@@ -1635,7 +1635,7 @@
         "player": "Foyesade Oluokun LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 6
+        "week": 8
     },
     {
         "player": "Matt Pryor OL",
@@ -1665,7 +1665,7 @@
         "player": "Logan Cooke P",
         "score": 0.0,
         "average": 0.0,
-        "week": 6
+        "week": 8
     },
     {
         "player": "Jalen Davis DB",
@@ -1683,7 +1683,7 @@
         "player": "Dennis Gardeck LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 6
+        "week": 8
     },
     {
         "player": "Jonathan Owens DB",
@@ -1723,9 +1723,9 @@
     },
     {
         "player": "Kyle Allen QB",
-        "score": 0,
-        "average": 0,
-        "week": -1
+        "score": -0.2,
+        "average": -0.2,
+        "week": 8
     },
     {
         "player": "Tanner Hudson TE",
@@ -1737,7 +1737,7 @@
         "player": "Mike Ford DB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Matt Dickerson DL",
@@ -1767,13 +1767,13 @@
         "player": "Robert Spillane LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Corey Bojorquez P",
         "score": 0.0,
-        "average": -0.2857142857142857,
-        "week": 7
+        "average": -0.25,
+        "week": 8
     },
     {
         "player": "Orlando Brown OL",
@@ -1783,9 +1783,9 @@
     },
     {
         "player": "Mark Andrews TE",
-        "score": 5.300000000000001,
-        "average": 7.2,
-        "week": 7
+        "score": 4.4,
+        "average": 6.8500000000000005,
+        "week": 8
     },
     {
         "player": "Oren Burks LB",
@@ -1867,15 +1867,15 @@
     },
     {
         "player": "Jason Sanders K",
-        "score": 5.0,
-        "average": 8.142857142857142,
-        "week": 7
+        "score": 15.0,
+        "average": 9.0,
+        "week": 8
     },
     {
         "player": "Lamar Jackson QB",
-        "score": 18.880000000000003,
-        "average": 19.770000000000003,
-        "week": 4
+        "score": 0.0,
+        "average": 15.816000000000003,
+        "week": 8
     },
     {
         "player": "Durham Smythe TE",
@@ -1893,7 +1893,7 @@
         "player": "Josh Woods LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "John Franklin-Myers DL",
@@ -1933,9 +1933,9 @@
     },
     {
         "player": "DJ Moore WR",
-        "score": 2.7,
-        "average": 9.075,
-        "week": 4
+        "score": 16.6,
+        "average": 10.58,
+        "week": 8
     },
     {
         "player": "Harold Landry III LB",
@@ -1945,9 +1945,9 @@
     },
     {
         "player": "Mike Gesicki TE",
-        "score": 7.6,
-        "average": 11.9,
-        "week": 7
+        "score": 17.6,
+        "average": 12.85,
+        "week": 8
     },
     {
         "player": "Bradley Chubb LB",
@@ -1963,9 +1963,9 @@
     },
     {
         "player": "Calvin Ridley WR",
-        "score": 0.0,
-        "average": 2.62,
-        "week": 6
+        "score": 2.0,
+        "average": 2.516666666666667,
+        "week": 8
     },
     {
         "player": "Mike Hughes DB",
@@ -1993,9 +1993,9 @@
     },
     {
         "player": "Baker Mayfield QB",
-        "score": 6.66,
-        "average": 10.440000000000001,
-        "week": 7
+        "score": 1.4000000000000001,
+        "average": 8.632000000000001,
+        "week": 8
     },
     {
         "player": "Denzel Ward DB",
@@ -2005,9 +2005,9 @@
     },
     {
         "player": "Josh Allen QB",
-        "score": 18.3,
-        "average": 26.876666666666665,
-        "week": 6
+        "score": 26.560000000000002,
+        "average": 26.83142857142857,
+        "week": 8
     },
     {
         "player": "Dante Pettis WR",
@@ -2037,7 +2037,7 @@
         "player": "Mitch Wishnowsky P",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Fred Johnson OL",
@@ -2059,9 +2059,9 @@
     },
     {
         "player": "Jakobi Meyers WR",
-        "score": 13.3,
-        "average": 10.116666666666667,
-        "week": 6
+        "score": 4.4,
+        "average": 9.299999999999999,
+        "week": 8
     },
     {
         "player": "D'Angelo Ross DB",
@@ -2073,7 +2073,7 @@
         "player": "Rashan Gary LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Maxx Crosby DL",
@@ -2089,9 +2089,9 @@
     },
     {
         "player": "Justice Hill RB",
-        "score": 6.300000000000001,
-        "average": 5.057142857142857,
-        "week": 7
+        "score": 7.5,
+        "average": 5.3625,
+        "week": 8
     },
     {
         "player": "Ben Powers OL",
@@ -2143,9 +2143,9 @@
     },
     {
         "player": "Ashton Dulin WR",
-        "score": 0.0,
-        "average": 1.9666666666666668,
-        "week": 7
+        "score": 0.30000000000000004,
+        "average": 1.55,
+        "week": 8
     },
     {
         "player": "Kevin Givens DL",
@@ -2229,7 +2229,7 @@
         "player": "Mack Wilson LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Nick Allegretti OL",
@@ -2241,7 +2241,7 @@
         "player": "Jack Fox P",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Azeez Al-Shaair LB",
@@ -2251,45 +2251,45 @@
     },
     {
         "player": "AJ Cole P",
-        "score": 0.52,
-        "average": 0.07428571428571429,
-        "week": 7
+        "score": 0.0,
+        "average": 0.065,
+        "week": 8
     },
     {
         "player": "Joey Slye K",
-        "score": 6.0,
-        "average": 6.428571428571429,
-        "week": 7
+        "score": 9.0,
+        "average": 6.75,
+        "week": 8
     },
     {
         "player": "Del'Shawn Phillips LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 6
+        "week": 8
     },
     {
         "player": "Olamide Zaccheaus WR",
-        "score": 0.0,
-        "average": 0.9500000000000001,
-        "week": 6
+        "score": 1.4,
+        "average": 1.0142857142857142,
+        "week": 8
     },
     {
         "player": "P.J. Locke DB",
         "score": 0.0,
         "average": 0.0,
-        "week": 2
+        "week": 8
     },
     {
         "player": "Kyler Murray QB",
-        "score": 13.9,
-        "average": 10.736,
-        "week": 7
+        "score": 19.9,
+        "average": 12.263333333333334,
+        "week": 8
     },
     {
         "player": "T.J. Hockenson TE",
-        "score": 13.5,
-        "average": 10.45,
-        "week": 7
+        "score": 15.8,
+        "average": 11.214285714285714,
+        "week": 8
     },
     {
         "player": "Ed Oliver DL",
@@ -2331,7 +2331,7 @@
         "player": "Jahlani Tavai LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 6
+        "week": 8
     },
     {
         "player": "Erik McCoy OL",
@@ -2373,7 +2373,7 @@
         "player": "Anthony Nelson LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Hjalte Froholdt OL",
@@ -2383,15 +2383,15 @@
     },
     {
         "player": "Tony Pollard RB",
-        "score": 36.5,
-        "average": 12.542857142857143,
-        "week": 7
+        "score": 28.700000000000003,
+        "average": 14.5625,
+        "week": 8
     },
     {
         "player": "Drue Tranquill LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Jarrett Stidham QB",
@@ -2407,9 +2407,9 @@
     },
     {
         "player": "Matt Gay K",
-        "score": 9.0,
-        "average": 10.428571428571429,
-        "week": 7
+        "score": 10.0,
+        "average": 10.375,
+        "week": 8
     },
     {
         "player": "Amani Oruwariye DB",
@@ -2427,7 +2427,7 @@
         "player": "Blake Cashman LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Mike Jackson DB",
@@ -2451,7 +2451,7 @@
         "player": "Jake Bailey P",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Easton Stick QB",
@@ -2467,9 +2467,9 @@
     },
     {
         "player": "Gardner Minshew QB",
-        "score": 0,
-        "average": 0,
-        "week": -1
+        "score": 19.52,
+        "average": 19.52,
+        "week": 8
     },
     {
         "player": "Scott Miller WR",
@@ -2516,8 +2516,8 @@
     {
         "player": "Chase McLaughlin K",
         "score": 12.0,
-        "average": 11.0,
-        "week": 7
+        "average": 11.125,
+        "week": 8
     },
     {
         "player": "David Sills WR",
@@ -2529,7 +2529,7 @@
         "player": "Joe Giles-Harris LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Andrew Wingard DB",
@@ -2551,9 +2551,9 @@
     },
     {
         "player": "Lil'Jordan Humphrey WR",
-        "score": 1.5,
-        "average": 1.0999999999999999,
-        "week": 7
+        "score": 2.0,
+        "average": 1.325,
+        "week": 8
     },
     {
         "player": "Nick Moore LS",
@@ -2577,7 +2577,7 @@
         "player": "Greg Dortch WR",
         "score": 0.0,
         "average": 0.0,
-        "week": 6
+        "week": 8
     },
     {
         "player": "Devin Bush LB",
@@ -2599,9 +2599,9 @@
     },
     {
         "player": "Ty Johnson RB",
-        "score": 4.7,
-        "average": 7.0249999999999995,
-        "week": 6
+        "score": 5.3,
+        "average": 6.68,
+        "week": 8
     },
     {
         "player": "Tom Kennedy WR",
@@ -2637,7 +2637,7 @@
         "player": "Alex Bachman WR",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Troy Reeder LB",
@@ -2683,9 +2683,9 @@
     },
     {
         "player": "DK Metcalf WR",
-        "score": 7.6000000000000005,
-        "average": 10.928571428571429,
-        "week": 7
+        "score": 1.4,
+        "average": 9.7375,
+        "week": 8
     },
     {
         "player": "Josh Hines-Allen DL",
@@ -2763,7 +2763,7 @@
         "player": "Cody Barton LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Jerry Tillery DL",
@@ -2781,7 +2781,7 @@
         "player": "Dre'Mont Jones LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Connor McGovern OL",
@@ -2793,7 +2793,7 @@
         "player": "Quincy Williams LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Dexter Lawrence DL",
@@ -2827,9 +2827,9 @@
     },
     {
         "player": "Dawson Knox TE",
-        "score": 1.0,
-        "average": 2.9333333333333336,
-        "week": 6
+        "score": 1.6,
+        "average": 2.742857142857143,
+        "week": 8
     },
     {
         "player": "Clelin Ferrell DL",
@@ -2887,9 +2887,9 @@
     },
     {
         "player": "Daniel Jones QB",
-        "score": 3.62,
-        "average": 9.245714285714286,
-        "week": 7
+        "score": 6.46,
+        "average": 8.8975,
+        "week": 8
     },
     {
         "player": "Brian Burns LB",
@@ -2955,7 +2955,7 @@
         "player": "Ross Matiscik LS",
         "score": 0.0,
         "average": 0.0,
-        "week": 2
+        "week": 8
     },
     {
         "player": "Austen Pleasants OL",
@@ -2973,7 +2973,7 @@
         "player": "Blake Gillikin P",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Tommy Townsend P",
@@ -3015,7 +3015,7 @@
         "player": "Michael Hoecht LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 6
+        "week": 8
     },
     {
         "player": "Christian Rozeboom LB",
@@ -3049,9 +3049,9 @@
     },
     {
         "player": "Tyler Huntley QB",
-        "score": 15.120000000000001,
-        "average": 14.17,
-        "week": 7
+        "score": -2.0,
+        "average": 10.936,
+        "week": 8
     },
     {
         "player": "Julian Good-Jones OL",
@@ -3151,9 +3151,9 @@
     },
     {
         "player": "Rico Dowdle RB",
-        "score": 14.600000000000001,
-        "average": 8.25,
-        "week": 7
+        "score": 11.600000000000001,
+        "average": 8.92,
+        "week": 8
     },
     {
         "player": "Kristian Welch LB",
@@ -3163,21 +3163,21 @@
     },
     {
         "player": "J.K. Dobbins RB",
-        "score": 8.3,
-        "average": 8.285714285714286,
-        "week": 7
+        "score": 1.3,
+        "average": 7.4125000000000005,
+        "week": 8
     },
     {
         "player": "Joshua Uche LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Tyler Bass K",
-        "score": 17.0,
-        "average": 10.0,
-        "week": 6
+        "score": 16.0,
+        "average": 10.857142857142858,
+        "week": 8
     },
     {
         "player": "Isaiah Hodgins WR",
@@ -3283,9 +3283,9 @@
     },
     {
         "player": "Jonathan Taylor RB",
-        "score": 19.0,
-        "average": 19.642857142857142,
-        "week": 7
+        "score": 6.700000000000001,
+        "average": 18.025,
+        "week": 8
     },
     {
         "player": "Jonathan Greenard LB",
@@ -3367,9 +3367,9 @@
     },
     {
         "player": "Jauan Jennings WR",
-        "score": 5.4,
-        "average": 1.6600000000000001,
-        "week": 7
+        "score": 3.1,
+        "average": 1.9000000000000001,
+        "week": 8
     },
     {
         "player": "Javon Kinlaw DL",
@@ -3495,7 +3495,7 @@
         "player": "Akeem Davis-Gaither LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Mykal Walker LB",
@@ -3553,15 +3553,15 @@
     },
     {
         "player": "Justin Jefferson WR",
-        "score": 8.4,
-        "average": 14.420000000000002,
-        "week": 7
+        "score": 14.3,
+        "average": 14.4,
+        "week": 8
     },
     {
         "player": "Patrick Queen LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Robert Hunt OL",
@@ -3583,9 +3583,9 @@
     },
     {
         "player": "Devin Duvernay WR",
-        "score": 0.0,
-        "average": 0.0,
-        "week": 7
+        "score": 3.4000000000000004,
+        "average": 0.42500000000000004,
+        "week": 8
     },
     {
         "player": "Josiah Deguara TE",
@@ -3597,7 +3597,7 @@
         "player": "Alex Highsmith LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Saahdiq Charles OL",
@@ -3621,7 +3621,7 @@
         "player": "Troy Dye LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 6
+        "week": 8
     },
     {
         "player": "Kevin Dotson OL",
@@ -3667,9 +3667,9 @@
     },
     {
         "player": "Justin Herbert QB",
-        "score": 8.76,
-        "average": 10.406666666666666,
-        "week": 6
+        "score": 7.779999999999999,
+        "average": 10.031428571428572,
+        "week": 8
     },
     {
         "player": "Isaiah Simmons DB",
@@ -3679,9 +3679,9 @@
     },
     {
         "player": "CeeDee Lamb WR",
-        "score": 24.4,
-        "average": 22.214285714285715,
-        "week": 7
+        "score": 12.8,
+        "average": 21.037499999999998,
+        "week": 8
     },
     {
         "player": "Trevon Diggs DB",
@@ -3693,7 +3693,7 @@
         "player": "Willie Gay Jr. LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 5
+        "week": 8
     },
     {
         "player": "Josh Jones OL",
@@ -3805,9 +3805,9 @@
     },
     {
         "player": "Jerry Jeudy WR",
-        "score": 6.1,
-        "average": 5.516666666666667,
-        "week": 7
+        "score": 0.0,
+        "average": 4.728571428571429,
+        "week": 8
     },
     {
         "player": "Cesar Ruiz OL",
@@ -3819,13 +3819,13 @@
         "player": "Jordyn Brooks LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Tee Higgins WR",
-        "score": 26.8,
-        "average": 17.01666666666667,
-        "week": 7
+        "score": 37.5,
+        "average": 19.942857142857143,
+        "week": 8
     },
     {
         "player": "Antoine Winfield Jr. DB",
@@ -3865,9 +3865,9 @@
     },
     {
         "player": "Adam Trautman TE",
-        "score": 0.0,
-        "average": 1.0,
-        "week": 7
+        "score": 5.0,
+        "average": 2.0,
+        "week": 8
     },
     {
         "player": "Albert Okwuegbunam TE",
@@ -3877,9 +3877,9 @@
     },
     {
         "player": "DeeJay Dallas RB",
-        "score": 0.0,
-        "average": 1.4000000000000001,
-        "week": 7
+        "score": 0.4,
+        "average": 1.2571428571428573,
+        "week": 8
     },
     {
         "player": "Tyler Johnson WR",
@@ -3891,13 +3891,13 @@
         "player": "Justin Strnad LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Charlie Woerner TE",
-        "score": 2.2,
-        "average": 1.125,
-        "week": 7
+        "score": 0.0,
+        "average": 0.9,
+        "week": 8
     },
     {
         "player": "Kenneth Murray, Jr. LB",
@@ -3907,15 +3907,15 @@
     },
     {
         "player": "Joe Burrow QB",
-        "score": 28.88,
-        "average": 21.686666666666667,
-        "week": 7
+        "score": 39.480000000000004,
+        "average": 24.22857142857143,
+        "week": 8
     },
     {
         "player": "Rex Sunahara LS",
         "score": 0.0,
         "average": 0.0,
-        "week": 1
+        "week": 8
     },
     {
         "player": "Isaac Alarcon OL",
@@ -3963,7 +3963,7 @@
         "player": "Jamien Sherwood LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Michael Carter II DB",
@@ -3985,9 +3985,9 @@
     },
     {
         "player": "Kenny Yeboah TE",
-        "score": 0,
-        "average": 0,
-        "week": -1
+        "score": 0.0,
+        "average": 0.0,
+        "week": 8
     },
     {
         "player": "Milo Eifler LB",
@@ -4009,9 +4009,9 @@
     },
     {
         "player": "Rashod Bateman WR",
-        "score": 5.300000000000001,
-        "average": 7.228571428571429,
-        "week": 7
+        "score": 3.2,
+        "average": 6.7250000000000005,
+        "week": 8
     },
     {
         "player": "Aaron Banks OL",
@@ -4100,8 +4100,8 @@
     {
         "player": "Quintin Morris TE",
         "score": 0.0,
-        "average": 0.42500000000000004,
-        "week": 5
+        "average": 0.34,
+        "week": 8
     },
     {
         "player": "Alaric Jackson OL",
@@ -4123,9 +4123,9 @@
     },
     {
         "player": "Jaylen Waddle WR",
-        "score": 8.8,
-        "average": 9.128571428571428,
-        "week": 7
+        "score": 14.9,
+        "average": 9.85,
+        "week": 8
     },
     {
         "player": "Christian Darrisaw OL",
@@ -4155,7 +4155,7 @@
         "player": "Nick Bolton LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Josh Myers OL",
@@ -4201,9 +4201,9 @@
     },
     {
         "player": "Tylan Wallace WR",
-        "score": 2.2,
-        "average": 1.1,
-        "week": 6
+        "score": 1.3,
+        "average": 1.1666666666666667,
+        "week": 8
     },
     {
         "player": "Tony Fields II LB",
@@ -4219,9 +4219,9 @@
     },
     {
         "player": "Noah Gray TE",
-        "score": 7.4,
-        "average": 4.633333333333334,
-        "week": 7
+        "score": 9.5,
+        "average": 5.328571428571429,
+        "week": 8
     },
     {
         "player": "Darrick Forrest DB",
@@ -4249,9 +4249,9 @@
     },
     {
         "player": "Simi Fehoko WR",
-        "score": 0.0,
-        "average": 0.0,
-        "week": 6
+        "score": 2.7,
+        "average": 0.45,
+        "week": 8
     },
     {
         "player": "Cornell Powell WR",
@@ -4353,7 +4353,7 @@
         "player": "Amen Ogbongbemiga LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 5
+        "week": 8
     },
     {
         "player": "Adam Prentice RB",
@@ -4425,7 +4425,7 @@
         "player": "Christian Elliss LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Riley Patterson K",
@@ -4471,9 +4471,9 @@
     },
     {
         "player": "Tutu Atwell WR",
-        "score": 1.4,
-        "average": 2.0333333333333337,
-        "week": 5
+        "score": 7.2,
+        "average": 3.325,
+        "week": 8
     },
     {
         "player": "Cameron Sample DL",
@@ -4484,8 +4484,8 @@
     {
         "player": "Evan McPherson K",
         "score": 5.0,
-        "average": 9.833333333333334,
-        "week": 7
+        "average": 9.142857142857142,
+        "week": 8
     },
     {
         "player": "Jimmy Morrissey OL",
@@ -4543,9 +4543,9 @@
     },
     {
         "player": "Rhamondre Stevenson RB",
-        "score": 22.5,
-        "average": 12.414285714285715,
-        "week": 7
+        "score": 12.000000000000002,
+        "average": 12.3625,
+        "week": 8
     },
     {
         "player": "Kylen Granson TE",
@@ -4603,9 +4603,9 @@
     },
     {
         "player": "Pat Freiermuth TE",
-        "score": 4.0,
-        "average": 9.62857142857143,
-        "week": 7
+        "score": 11.6,
+        "average": 9.875,
+        "week": 8
     },
     {
         "player": "Victor Dimukeje DL",
@@ -4621,9 +4621,9 @@
     },
     {
         "player": "Ja'Marr Chase WR",
-        "score": 17.2,
-        "average": 16.183333333333334,
-        "week": 7
+        "score": 31.1,
+        "average": 18.314285714285713,
+        "week": 8
     },
     {
         "player": "Eric Stokes DB",
@@ -4657,9 +4657,9 @@
     },
     {
         "player": "Khalil Herbert RB",
-        "score": 3.8,
-        "average": 3.8,
-        "week": 7
+        "score": 2.5,
+        "average": 3.15,
+        "week": 8
     },
     {
         "player": "Khyiris Tonga DL",
@@ -4677,7 +4677,7 @@
         "player": "Greg Rousseau LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 6
+        "week": 8
     },
     {
         "player": "Jeremiah Owusu-Koramoah LB",
@@ -4699,9 +4699,9 @@
     },
     {
         "player": "Kenny Gainwell RB",
-        "score": 8.8,
-        "average": 5.571428571428571,
-        "week": 7
+        "score": 14.0,
+        "average": 6.625,
+        "week": 8
     },
     {
         "player": "Patrick Johnson LB",
@@ -4743,7 +4743,7 @@
         "player": "Zaven Collins LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Jaelan Phillips LB",
@@ -4797,7 +4797,7 @@
         "player": "Jonathon Cooper LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Teven Jenkins OL",
@@ -4831,15 +4831,15 @@
     },
     {
         "player": "Amon-Ra St. Brown WR",
-        "score": 24.200000000000003,
-        "average": 21.400000000000002,
-        "week": 7
+        "score": 12.600000000000001,
+        "average": 20.142857142857142,
+        "week": 8
     },
     {
         "player": "Derrick Barnes LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Joe Tryon DL",
@@ -4855,15 +4855,15 @@
     },
     {
         "player": "Kyle Pitts TE",
-        "score": 13.2,
-        "average": 9.014285714285714,
-        "week": 7
+        "score": 2.6,
+        "average": 8.2125,
+        "week": 8
     },
     {
         "player": "Trevor Lawrence QB",
-        "score": 27.340000000000003,
-        "average": 19.033333333333335,
-        "week": 6
+        "score": 19.4,
+        "average": 19.085714285714285,
+        "week": 8
     },
     {
         "player": "Mac Jones QB",
@@ -4951,9 +4951,9 @@
     },
     {
         "player": "Josh Palmer WR",
-        "score": 4.7,
-        "average": 6.925000000000001,
-        "week": 6
+        "score": 0.0,
+        "average": 5.540000000000001,
+        "week": 8
     },
     {
         "player": "Malcolm Koonce DL",
@@ -4989,7 +4989,7 @@
         "player": "Baron Browning LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Greg Newsome II DB",
@@ -4999,9 +4999,9 @@
     },
     {
         "player": "Javonte Williams RB",
-        "score": 21.5,
-        "average": 18.642857142857142,
-        "week": 7
+        "score": 6.7,
+        "average": 17.150000000000002,
+        "week": 8
     },
     {
         "player": "Jevon Holland DB",
@@ -5115,7 +5115,7 @@
         "player": "Quay Walker LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Devonte Wyatt DL",
@@ -5169,7 +5169,7 @@
         "player": "Kingsley Enagbare LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Tyler Badie RB",
@@ -5198,8 +5198,8 @@
     {
         "player": "Dareke Young WR",
         "score": 0.0,
-        "average": 0.72,
-        "week": 6
+        "average": 0.6,
+        "week": 8
     },
     {
         "player": "Jonathan Ford DL",
@@ -5221,9 +5221,9 @@
     },
     {
         "player": "Jaylon Jones DB",
-        "score": 0,
-        "average": 0,
-        "week": -1
+        "score": 0.0,
+        "average": 0.0,
+        "week": 8
     },
     {
         "player": "Jack Sanborn LB",
@@ -5239,9 +5239,9 @@
     },
     {
         "player": "Tyler Goodson RB",
-        "score": 3.8000000000000003,
-        "average": 2.4000000000000004,
-        "week": 7
+        "score": 5.300000000000001,
+        "average": 2.9800000000000004,
+        "week": 8
     },
     {
         "player": "Josh Blackwell DB",
@@ -5299,9 +5299,9 @@
     },
     {
         "player": "Bam Knight RB",
-        "score": 9.3,
-        "average": 6.075,
-        "week": 7
+        "score": 0.7999999999999998,
+        "average": 5.0200000000000005,
+        "week": 8
     },
     {
         "player": "Jeremiah Moon LB",
@@ -5385,13 +5385,13 @@
         "player": "Jack Cochrane LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Cameron Dicker K",
-        "score": 6.0,
-        "average": 6.333333333333333,
-        "week": 6
+        "score": 11.0,
+        "average": 7.0,
+        "week": 8
     },
     {
         "player": "Chris Glaser OL",
@@ -5401,9 +5401,9 @@
     },
     {
         "player": "Jaylen Warren RB",
-        "score": 16.700000000000003,
-        "average": 17.071428571428573,
-        "week": 7
+        "score": 21.3,
+        "average": 17.6,
+        "week": 8
     },
     {
         "player": "Ikem Ekwonu OL",
@@ -5443,9 +5443,9 @@
     },
     {
         "player": "Drake London WR",
-        "score": 19.6,
-        "average": 15.428571428571429,
-        "week": 7
+        "score": 1.8,
+        "average": 13.725000000000001,
+        "week": 8
     },
     {
         "player": "Chris Olave WR",
@@ -5455,9 +5455,9 @@
     },
     {
         "player": "Jameson Williams WR",
-        "score": 26.1,
-        "average": 13.950000000000001,
-        "week": 7
+        "score": 17.0,
+        "average": 14.385714285714286,
+        "week": 8
     },
     {
         "player": "Trevor Penning OL",
@@ -5491,21 +5491,21 @@
     },
     {
         "player": "George Pickens WR",
-        "score": 15.7,
-        "average": 13.928571428571429,
-        "week": 7
+        "score": 6.800000000000001,
+        "average": 13.0375,
+        "week": 8
     },
     {
         "player": "James Cook RB",
-        "score": 24.3,
-        "average": 18.933333333333334,
-        "week": 6
+        "score": 18.1,
+        "average": 18.814285714285713,
+        "week": 8
     },
     {
         "player": "Nik Bonitto LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Martin Emerson DB",
@@ -5521,9 +5521,9 @@
     },
     {
         "player": "Greg Dulcich TE",
-        "score": 13.6,
-        "average": 8.26,
-        "week": 7
+        "score": 8.3,
+        "average": 8.266666666666667,
+        "week": 8
     },
     {
         "player": "Marcus Jones DB",
@@ -5535,7 +5535,7 @@
         "player": "Terrel Bernard LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 6
+        "week": 8
     },
     {
         "player": "Dylan Parham OL",
@@ -5569,9 +5569,9 @@
     },
     {
         "player": "Khalil Shakir WR",
-        "score": 13.4,
-        "average": 9.166666666666666,
-        "week": 6
+        "score": 11.4,
+        "average": 9.485714285714286,
+        "week": 8
     },
     {
         "player": "Thomas Booker DL",
@@ -5581,9 +5581,9 @@
     },
     {
         "player": "Tyler Allgeier RB",
-        "score": 7.9,
-        "average": 6.857142857142857,
-        "week": 7
+        "score": 36.1,
+        "average": 10.512500000000001,
+        "week": 8
     },
     {
         "player": "Matt Waletzko OL",
@@ -5659,9 +5659,9 @@
     },
     {
         "player": "James Mitchell TE",
-        "score": 0,
-        "average": 0,
-        "week": -1
+        "score": 6.0,
+        "average": 6.0,
+        "week": 8
     },
     {
         "player": "John Ridgeway DL",
@@ -5672,8 +5672,8 @@
     {
         "player": "Matt Araiza P",
         "score": 0.0,
-        "average": 0.20000000000000004,
-        "week": 7
+        "average": 0.17142857142857146,
+        "week": 8
     },
     {
         "player": "Vederian Lowe OL",
@@ -5691,19 +5691,19 @@
         "player": "Malcolm Rodriguez LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Jalen Nailor WR",
-        "score": 3.4000000000000004,
-        "average": 3.1,
-        "week": 7
+        "score": 13.8,
+        "average": 4.883333333333334,
+        "week": 8
     },
     {
         "player": "Andrew Ogletree TE",
-        "score": 3.2,
-        "average": 0.9199999999999999,
-        "week": 7
+        "score": 0.0,
+        "average": 0.7666666666666666,
+        "week": 8
     },
     {
         "player": "Jordan Jackson DL",
@@ -5721,7 +5721,7 @@
         "player": "Theo Jackson DB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Austin Deculus OL",
@@ -5763,13 +5763,13 @@
         "player": "James Houston LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Ko Kieft TE",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Chance Campbell LB",
@@ -5785,9 +5785,9 @@
     },
     {
         "player": "Nick Muse TE",
-        "score": 8.2,
-        "average": 1.64,
-        "week": 7
+        "score": 0.0,
+        "average": 1.3666666666666665,
+        "week": 8
     },
     {
         "player": "Deane Leonard DB",
@@ -5881,9 +5881,9 @@
     },
     {
         "player": "Brandon Johnson WR",
-        "score": 0,
-        "average": 0,
-        "week": -1
+        "score": 1.9,
+        "average": 1.9,
+        "week": 8
     },
     {
         "player": "Ja'Quan McMillian DB",
@@ -6027,13 +6027,13 @@
         "player": "Tay Martin WR",
         "score": 0.0,
         "average": 0.0,
-        "week": 5
+        "week": 8
     },
     {
         "player": "Jordan Mason RB",
-        "score": 6.800000000000001,
-        "average": 9.350000000000001,
-        "week": 7
+        "score": 2.0,
+        "average": 6.900000000000001,
+        "week": 8
     },
     {
         "player": "Marcelino McCrary-Ball LB",
@@ -6105,7 +6105,7 @@
         "player": "Juanyeh Thomas DB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Timmy Horne DL",
@@ -6117,19 +6117,19 @@
         "player": "Nate Landman LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 6
+        "week": 8
     },
     {
         "player": "Julius Chestnut RB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Jack Gibbens LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Xavier Newman-Johnson OL",
@@ -6171,7 +6171,7 @@
         "player": "Nakobe Dean LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Nick Cross DB",
@@ -6235,9 +6235,9 @@
     },
     {
         "player": "Jalen Tolbert WR",
-        "score": 3.2,
-        "average": 1.6,
-        "week": 5
+        "score": 1.8,
+        "average": 1.6666666666666667,
+        "week": 8
     },
     {
         "player": "Kerby Joseph DB",
@@ -6253,9 +6253,9 @@
     },
     {
         "player": "Brandon Aubrey K",
-        "score": 14.0,
-        "average": 8.571428571428571,
-        "week": 7
+        "score": 13.0,
+        "average": 9.125,
+        "week": 8
     },
     {
         "player": "Maurice Alexander WR",
@@ -6271,15 +6271,15 @@
     },
     {
         "player": "Garrett Wilson WR",
-        "score": 4.6,
-        "average": 14.200000000000001,
-        "week": 7
+        "score": 14.3,
+        "average": 14.2125,
+        "week": 8
     },
     {
         "player": "Jahan Dotson WR",
-        "score": 1.6,
-        "average": 6.885714285714286,
-        "week": 7
+        "score": 11.5,
+        "average": 7.4625,
+        "week": 8
     },
     {
         "player": "Treylon Burks WR",
@@ -6291,13 +6291,13 @@
         "player": "Daxton Hill DB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Trey McBride TE",
-        "score": 27.1,
-        "average": 18.6,
-        "week": 7
+        "score": 20.2,
+        "average": 18.8,
+        "week": 8
     },
     {
         "player": "Velus Jones Jr. RB",
@@ -6337,9 +6337,9 @@
     },
     {
         "player": "Jelani Woods TE",
-        "score": 0.9,
-        "average": 1.58,
-        "week": 7
+        "score": 0.0,
+        "average": 1.3166666666666667,
+        "week": 8
     },
     {
         "player": "Travis Jones DL",
@@ -6363,7 +6363,7 @@
         "player": "Dondrea Tillman LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "KaVontae Turpin WR",
@@ -6541,9 +6541,9 @@
     },
     {
         "player": "Kyren Williams RB",
-        "score": 18.099999999999998,
-        "average": 19.585714285714285,
-        "week": 7
+        "score": 12.900000000000002,
+        "average": 18.75,
+        "week": 8
     },
     {
         "player": "Quentin Lake DB",
@@ -6613,9 +6613,9 @@
     },
     {
         "player": "Charlie Kolar TE",
-        "score": 5.0,
-        "average": 3.7,
-        "week": 6
+        "score": 3.0,
+        "average": 3.56,
+        "week": 8
     },
     {
         "player": "Skyy Moore WR",
@@ -6733,9 +6733,9 @@
     },
     {
         "player": "Daniel Bellinger TE",
-        "score": 1.4,
-        "average": 1.342857142857143,
-        "week": 7
+        "score": 6.6,
+        "average": 2.0,
+        "week": 8
     },
     {
         "player": "Arnold Ebiketie LB",
@@ -6745,9 +6745,9 @@
     },
     {
         "player": "Wan'Dale Robinson WR",
-        "score": 4.7,
-        "average": 8.8,
-        "week": 7
+        "score": 15.7,
+        "average": 9.6625,
+        "week": 8
     },
     {
         "player": "Daniel Faalele OL",
@@ -6793,9 +6793,9 @@
     },
     {
         "player": "Malik Willis QB",
-        "score": 26.02,
-        "average": 14.43,
-        "week": 7
+        "score": 14.639999999999997,
+        "average": 14.459999999999999,
+        "week": 8
     },
     {
         "player": "Cade Otton TE",
@@ -6817,9 +6817,9 @@
     },
     {
         "player": "Kenneth Walker III RB",
-        "score": 9.7,
-        "average": 24.61666666666667,
-        "week": 7
+        "score": 12.4,
+        "average": 22.87142857142857,
+        "week": 8
     },
     {
         "player": "Jaquan Brisker DB",
@@ -7033,9 +7033,9 @@
     },
     {
         "player": "Jaylon Jones DB",
-        "score": 0,
-        "average": 0,
-        "week": -1
+        "score": 0.0,
+        "average": 0.0,
+        "week": 8
     },
     {
         "player": "Carrington Valentine DB",
@@ -7081,9 +7081,9 @@
     },
     {
         "player": "Andre Szmyt K",
-        "score": 9.0,
-        "average": 8.714285714285714,
-        "week": 7
+        "score": 7.0,
+        "average": 8.5,
+        "week": 8
     },
     {
         "player": "Liam Anderson LB",
@@ -7105,9 +7105,9 @@
     },
     {
         "player": "Keaton Mitchell RB",
-        "score": 0.4,
-        "average": 6.183333333333334,
-        "week": 6
+        "score": 5.300000000000001,
+        "average": 6.057142857142857,
+        "week": 8
     },
     {
         "player": "Owen Wright RB",
@@ -7191,7 +7191,7 @@
         "player": "Trenton Simpson LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Tavius Robinson LB",
@@ -7226,8 +7226,8 @@
     {
         "player": "Nikko Remigio WR",
         "score": 0.0,
-        "average": -0.3333333333333333,
-        "week": 7
+        "average": -0.2857142857142857,
+        "week": 8
     },
     {
         "player": "Reese Taylor DB",
@@ -7267,9 +7267,9 @@
     },
     {
         "player": "Bijan Robinson RB",
-        "score": 17.200000000000003,
-        "average": 20.814285714285717,
-        "week": 7
+        "score": 7.6000000000000005,
+        "average": 19.1625,
+        "week": 8
     },
     {
         "player": "Jaxon Smith-Njigba WR",
@@ -7279,9 +7279,9 @@
     },
     {
         "player": "Quentin Johnston WR",
-        "score": 6.7,
-        "average": 4.96,
-        "week": 6
+        "score": 7.7,
+        "average": 5.416666666666667,
+        "week": 8
     },
     {
         "player": "Mazi Smith DL",
@@ -7335,7 +7335,7 @@
         "player": "Daiyan Henley LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 6
+        "week": 8
     },
     {
         "player": "Ji'Ayir Brown DB",
@@ -7353,25 +7353,25 @@
         "player": "DeMarvion Overshown LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Dorian Williams LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 6
+        "week": 8
     },
     {
         "player": "Darnell Washington TE",
-        "score": 7.4,
-        "average": 7.142857142857143,
-        "week": 7
+        "score": 12.4,
+        "average": 7.8,
+        "week": 8
     },
     {
         "player": "Michael Wilson WR",
-        "score": 10.6,
-        "average": 11.697142857142856,
-        "week": 7
+        "score": 26.8,
+        "average": 13.585,
+        "week": 8
     },
     {
         "player": "Jordan Battle DB",
@@ -7387,9 +7387,9 @@
     },
     {
         "player": "Tre Tucker WR",
-        "score": 21.3,
-        "average": 14.257142857142856,
-        "week": 7
+        "score": 0.0,
+        "average": 12.475,
+        "week": 8
     },
     {
         "player": "Cameron Latu TE",
@@ -7401,7 +7401,7 @@
         "player": "Mekhi Blackmon DB",
         "score": 0.0,
         "average": 0.0,
-        "week": 4
+        "week": 8
     },
     {
         "player": "Nick Saldiveri OL",
@@ -7411,9 +7411,9 @@
     },
     {
         "player": "Chad Ryland K",
-        "score": 11.0,
-        "average": 10.285714285714286,
-        "week": 7
+        "score": 9.0,
+        "average": 10.125,
+        "week": 8
     },
     {
         "player": "Clark Phillips III DB",
@@ -7425,7 +7425,7 @@
         "player": "Ventrell Miller LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 6
+        "week": 8
     },
     {
         "player": "Jon Gaines II OL",
@@ -7435,9 +7435,9 @@
     },
     {
         "player": "Derius Davis WR",
-        "score": 0.4,
-        "average": 1.850371707708594e-17,
-        "week": 6
+        "score": 0.0,
+        "average": 1.586032892321652e-17,
+        "week": 8
     },
     {
         "player": "Isaiah McGuire DL",
@@ -7461,7 +7461,7 @@
         "player": "Nick Herbig LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Jay Ward DB",
@@ -7561,9 +7561,9 @@
     },
     {
         "player": "Chase Brown RB",
-        "score": 9.8,
-        "average": 12.466666666666669,
-        "week": 7
+        "score": 16.1,
+        "average": 12.985714285714286,
+        "week": 8
     },
     {
         "player": "Henry To'oTo'o LB",
@@ -7603,9 +7603,9 @@
     },
     {
         "player": "Parker Washington WR",
-        "score": 10.4,
-        "average": 15.316666666666668,
-        "week": 6
+        "score": 3.6,
+        "average": 13.642857142857142,
+        "week": 8
     },
     {
         "player": "Kayshon Boutte WR",
@@ -7627,9 +7627,9 @@
     },
     {
         "player": "Chris Rodriguez Jr. RB",
-        "score": 5.5,
-        "average": 5.066666666666666,
-        "week": 6
+        "score": 12.8,
+        "average": 6.171428571428572,
+        "week": 8
     },
     {
         "player": "Jerrick Reed II DB",
@@ -7639,9 +7639,9 @@
     },
     {
         "player": "Scott Matlock RB",
-        "score": 0,
-        "average": 0,
-        "week": -1
+        "score": 0.0,
+        "average": 0.0,
+        "week": 8
     },
     {
         "player": "Jarrett Patterson OL",
@@ -7681,9 +7681,9 @@
     },
     {
         "player": "DeMario Douglas WR",
-        "score": 5.300000000000001,
-        "average": 9.22857142857143,
-        "week": 7
+        "score": 16.6,
+        "average": 10.15,
+        "week": 8
     },
     {
         "player": "Deuce Vaughn RB",
@@ -7821,7 +7821,7 @@
         "player": "Trevor Nowaske LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Chris Smith DL",
@@ -7897,9 +7897,9 @@
     },
     {
         "player": "Blake Whiteheart TE",
-        "score": 1.8,
-        "average": 3.225,
-        "week": 6
+        "score": 1.9,
+        "average": 2.96,
+        "week": 8
     },
     {
         "player": "Mohamoud Diabate LB",
@@ -7969,9 +7969,9 @@
     },
     {
         "player": "Hunter Luepke RB",
-        "score": 0.30000000000000004,
-        "average": 1.1166666666666667,
-        "week": 7
+        "score": 0.0,
+        "average": 0.9571428571428572,
+        "week": 8
     },
     {
         "player": "Jalen Cropper WR",
@@ -8025,7 +8025,7 @@
         "player": "Jalen Redmond DL",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Rejzohn Wright DB",
@@ -8041,9 +8041,9 @@
     },
     {
         "player": "Nate Adkins TE",
-        "score": 0.0,
-        "average": 5.15,
-        "week": 7
+        "score": 8.4,
+        "average": 5.8,
+        "week": 8
     },
     {
         "player": "Henry Byrd OL",
@@ -8103,7 +8103,7 @@
         "player": "Ivan Pace Jr. LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Ben Sims TE",
@@ -8229,7 +8229,7 @@
         "player": "Jacob Saylors RB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Blake Grupe K",
@@ -8275,9 +8275,9 @@
     },
     {
         "player": "Dalton Kincaid TE",
-        "score": 10.8,
-        "average": 10.083333333333334,
-        "week": 6
+        "score": 18.6,
+        "average": 11.3,
+        "week": 8
     },
     {
         "player": "Anton Harrison OL",
@@ -8287,9 +8287,9 @@
     },
     {
         "player": "Brenton Strange TE",
-        "score": 9.4,
-        "average": 9.983333333333334,
-        "week": 6
+        "score": 7.5,
+        "average": 9.62857142857143,
+        "week": 8
     },
     {
         "player": "Juice Scruggs OL",
@@ -8329,9 +8329,9 @@
     },
     {
         "player": "Sean Tucker RB",
-        "score": 11.2,
-        "average": 6.666666666666667,
-        "week": 7
+        "score": 0.0,
+        "average": 5.0,
+        "week": 8
     },
     {
         "player": "Dylan Drummond WR",
@@ -8359,9 +8359,9 @@
     },
     {
         "player": "Marvin Mims Jr. WR",
-        "score": 7.6000000000000005,
-        "average": 2.7600000000000002,
-        "week": 7
+        "score": 4.9,
+        "average": 3.1166666666666667,
+        "week": 8
     },
     {
         "player": "Tank Dell WR",
@@ -8397,7 +8397,7 @@
         "player": "Chamarri Conner DB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Kei'Trel Clark DB",
@@ -8413,9 +8413,9 @@
     },
     {
         "player": "Jordan Addison WR",
-        "score": 4.3,
-        "average": 7.5,
-        "week": 7
+        "score": 11.600000000000001,
+        "average": 8.183333333333334,
+        "week": 8
     },
     {
         "player": "Bryan Bresee DL",
@@ -8431,9 +8431,9 @@
     },
     {
         "player": "Josh Downs WR",
-        "score": 3.8,
-        "average": 8.2,
-        "week": 7
+        "score": 12.3,
+        "average": 8.7125,
+        "week": 8
     },
     {
         "player": "Jake Haener QB",
@@ -8511,7 +8511,7 @@
         "player": "Jack Campbell LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "John Michael Schmitz OL",
@@ -8569,9 +8569,9 @@
     },
     {
         "player": "Elijah Higgins TE",
-        "score": 4.7,
-        "average": 5.683333333333334,
-        "week": 7
+        "score": 3.0,
+        "average": 5.3,
+        "week": 8
     },
     {
         "player": "Ryan Hayes OL",
@@ -8595,7 +8595,7 @@
         "player": "SirVocea Dennis LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Payne Durham TE",
@@ -8636,8 +8636,8 @@
     {
         "player": "Ethan Evans P",
         "score": 0.0,
-        "average": 0.14285714285714285,
-        "week": 7
+        "average": 0.125,
+        "week": 8
     },
     {
         "player": "Jason Taylor II DB",
@@ -8654,8 +8654,8 @@
     {
         "player": "Jonathan Mingo WR",
         "score": 0.0,
-        "average": 1.2,
-        "week": 7
+        "average": 1.0,
+        "week": 8
     },
     {
         "player": "Calijah Kancey DL",
@@ -8665,27 +8665,27 @@
     },
     {
         "player": "Zay Flowers WR",
-        "score": 27.700000000000003,
-        "average": 20.366666666666667,
-        "week": 7
+        "score": 0.0,
+        "average": 17.45714285714286,
+        "week": 8
     },
     {
         "player": "Sam LaPorta TE",
-        "score": 2.8,
-        "average": 13.233333333333334,
-        "week": 7
+        "score": 6.5,
+        "average": 12.271428571428572,
+        "week": 8
     },
     {
         "player": "Michael Mayer TE",
-        "score": 6.2,
-        "average": 9.542857142857143,
-        "week": 7
+        "score": 10.3,
+        "average": 9.637500000000001,
+        "week": 8
     },
     {
         "player": "Rashee Rice WR",
-        "score": 15.8,
-        "average": 12.666666666666666,
-        "week": 3
+        "score": 18.3,
+        "average": 14.075000000000001,
+        "week": 8
     },
     {
         "player": "Yaya Diaby LB",
@@ -8713,15 +8713,15 @@
     },
     {
         "player": "Davis Allen TE",
-        "score": 18.0,
-        "average": 4.328571428571428,
-        "week": 7
+        "score": 2.8,
+        "average": 4.1375,
+        "week": 8
     },
     {
         "player": "Puka Nacua WR",
-        "score": 21.8,
-        "average": 22.720000000000002,
-        "week": 7
+        "score": 25.0,
+        "average": 23.099999999999998,
+        "week": 8
     },
     {
         "player": "Nick Hampton LB",
@@ -8763,7 +8763,7 @@
         "player": "Tuli Tuipulotu LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 6
+        "week": 8
     },
     {
         "player": "Lukas Van Ness LB",
@@ -8775,7 +8775,7 @@
         "player": "Byron Young LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Kobie Turner DL",
@@ -8785,9 +8785,9 @@
     },
     {
         "player": "Jahmyr Gibbs RB",
-        "score": 17.3,
-        "average": 28.5,
-        "week": 7
+        "score": 24.8,
+        "average": 27.97142857142857,
+        "week": 8
     },
     {
         "player": "Kelee Ringo DB",
@@ -8899,9 +8899,9 @@
     },
     {
         "player": "Anthony Richardson QB",
-        "score": 0,
-        "average": 0,
-        "week": -1
+        "score": 0.72,
+        "average": 0.72,
+        "week": 8
     },
     {
         "player": "Zach Charbonnet RB",
@@ -8923,9 +8923,9 @@
     },
     {
         "player": "Jake Bates K",
-        "score": 9.0,
-        "average": 9.666666666666666,
-        "week": 7
+        "score": 7.0,
+        "average": 9.285714285714286,
+        "week": 8
     },
     {
         "player": "Chukwuebuka Godrick OL",
@@ -8949,7 +8949,7 @@
         "player": "Austin Ajiake LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Durell Nchami DL",
@@ -9189,7 +9189,7 @@
         "player": "Ryan Rehkow P",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Christian Roland-Wallace DB",
@@ -9229,9 +9229,9 @@
     },
     {
         "player": "Brock Bowers TE",
-        "score": 13.3,
-        "average": 19.1,
-        "week": 7
+        "score": 28.200000000000003,
+        "average": 20.616666666666667,
+        "week": 8
     },
     {
         "player": "Taliese Fuaga OL",
@@ -9285,7 +9285,7 @@
         "player": "Trevin Wallace LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Cooper Beebe OL",
@@ -9367,9 +9367,9 @@
     },
     {
         "player": "Bucky Irving RB",
-        "score": 24.0,
-        "average": 15.657142857142858,
-        "week": 7
+        "score": 21.0,
+        "average": 16.325,
+        "week": 8
     },
     {
         "player": "Giovanni Manu OL",
@@ -9385,9 +9385,9 @@
     },
     {
         "player": "Sione Vaki RB",
-        "score": 0.5,
-        "average": 2.466666666666667,
-        "week": 7
+        "score": 8.0,
+        "average": 3.257142857142857,
+        "week": 8
     },
     {
         "player": "Jacob Cowing WR",
@@ -9429,7 +9429,7 @@
         "player": "Jarvis Brownlee Jr. DB",
         "score": 0.0,
         "average": 0.0,
-        "week": 6
+        "week": 8
     },
     {
         "player": "Audric Estim\u00e9 RB",
@@ -9441,7 +9441,7 @@
         "player": "Tommy Eichenberg LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Josh Newton DB",
@@ -9459,7 +9459,7 @@
         "player": "Jaylon Carlies LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 4
+        "week": 8
     },
     {
         "player": "Deantre Prince DB",
@@ -9535,9 +9535,9 @@
     },
     {
         "player": "Kimani Vidal RB",
-        "score": 7.0,
-        "average": 6.840000000000001,
-        "week": 6
+        "score": 5.000000000000001,
+        "average": 6.533333333333334,
+        "week": 8
     },
     {
         "player": "Jha'Quan Jackson WR",
@@ -9595,9 +9595,9 @@
     },
     {
         "player": "Will Reichard K",
-        "score": 13.0,
-        "average": 13.5,
-        "week": 7
+        "score": 1.0,
+        "average": 11.714285714285714,
+        "week": 8
     },
     {
         "player": "Jawhar Jordan RB",
@@ -9613,9 +9613,9 @@
     },
     {
         "player": "Dylan Laube RB",
-        "score": 0.0,
-        "average": 1.4857142857142858,
-        "week": 7
+        "score": 6.0,
+        "average": 2.05,
+        "week": 8
     },
     {
         "player": "Christian Mahogany OL",
@@ -9625,15 +9625,15 @@
     },
     {
         "player": "Cam Little K",
-        "score": 9.0,
-        "average": 9.333333333333334,
-        "week": 6
+        "score": 6.0,
+        "average": 8.857142857142858,
+        "week": 8
     },
     {
         "player": "Ryan Flournoy WR",
-        "score": 11.0,
-        "average": 9.057142857142857,
-        "week": 7
+        "score": 13.1,
+        "average": 9.5625,
+        "week": 8
     },
     {
         "player": "Elijah Klein OL",
@@ -9687,7 +9687,7 @@
         "player": "Levi Drake Rodriguez DL",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Nathan Thomas OL",
@@ -9729,7 +9729,7 @@
         "player": "James Williams LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Jowon Briggs DL",
@@ -9789,13 +9789,13 @@
         "player": "Nate Lynn LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Isaiah Williams WR",
-        "score": 0.0,
-        "average": 4.885714285714286,
-        "week": 7
+        "score": 8.8,
+        "average": 5.375,
+        "week": 8
     },
     {
         "player": "Beanie Bishop DB",
@@ -9855,7 +9855,7 @@
         "player": "Te'Cory Couch DB",
         "score": 0.0,
         "average": 0.0,
-        "week": 3
+        "week": 8
     },
     {
         "player": "Frank Gore Jr. RB",
@@ -9957,7 +9957,7 @@
         "player": "Winston Reid LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Treyton Welch TE",
@@ -9979,15 +9979,15 @@
     },
     {
         "player": "Brevyn Spann-Ford TE",
-        "score": 3.1,
-        "average": 2.4142857142857146,
-        "week": 7
+        "score": 7.1,
+        "average": 3.0,
+        "week": 8
     },
     {
         "player": "Julius Wood DB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Carter Bradley QB",
@@ -10057,9 +10057,9 @@
     },
     {
         "player": "Spencer Shrader K",
-        "score": 5.0,
-        "average": 12.571428571428571,
-        "week": 7
+        "score": 1.0,
+        "average": 11.125,
+        "week": 8
     },
     {
         "player": "Kedon Slovis QB",
@@ -10167,7 +10167,7 @@
         "player": "Austin McNamara P",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Maema Njongmeta LB",
@@ -10183,9 +10183,9 @@
     },
     {
         "player": "David Martin-Robinson TE",
-        "score": 0,
-        "average": 0,
-        "week": -1
+        "score": 0.0,
+        "average": 0.0,
+        "week": 8
     },
     {
         "player": "Bryce Oliver WR",
@@ -10273,9 +10273,9 @@
     },
     {
         "player": "Cody Schrader RB",
-        "score": 0,
-        "average": 0,
-        "week": -1
+        "score": 0.0,
+        "average": 0.0,
+        "week": 8
     },
     {
         "player": "Jeshaun Jones WR",
@@ -10327,9 +10327,9 @@
     },
     {
         "player": "Bo Nix QB",
-        "score": 26.18,
-        "average": 13.691428571428572,
-        "week": 7
+        "score": 19.28,
+        "average": 14.39,
+        "week": 8
     },
     {
         "player": "Ruke Orhorhoro DL",
@@ -10363,9 +10363,9 @@
     },
     {
         "player": "Blake Corum RB",
-        "score": 17.1,
-        "average": 9.928571428571429,
-        "week": 7
+        "score": 13.3,
+        "average": 10.350000000000001,
+        "week": 8
     },
     {
         "player": "Roman Wilson WR",
@@ -10383,7 +10383,7 @@
         "player": "Payton Wilson LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Javon Foster OL",
@@ -10423,15 +10423,15 @@
     },
     {
         "player": "Joshua Karty K",
-        "score": 0,
-        "average": 0,
-        "week": -1
+        "score": 0.0,
+        "average": 0.0,
+        "week": 8
     },
     {
         "player": "Jordan Whittington WR",
         "score": 0.0,
-        "average": 0.8,
-        "week": 7
+        "average": 0.64,
+        "week": 8
     },
     {
         "player": "Cedric Johnson DL",
@@ -10461,7 +10461,7 @@
         "player": "Joe Andreessen LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 6
+        "week": 8
     },
     {
         "player": "Elijah Chatman DL",
@@ -10491,7 +10491,7 @@
         "player": "Omar Speights LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Elias Neal LB",
@@ -10537,9 +10537,9 @@
     },
     {
         "player": "Adisa Isaac LB",
-        "score": 0,
-        "average": 0,
-        "week": -1
+        "score": 0.0,
+        "average": 0.0,
+        "week": 8
     },
     {
         "player": "Devontez Walker WR",
@@ -10555,9 +10555,9 @@
     },
     {
         "player": "Braelon Allen RB",
-        "score": 19.4,
-        "average": 10.9,
-        "week": 7
+        "score": 23.300000000000004,
+        "average": 12.450000000000001,
+        "week": 8
     },
     {
         "player": "Nehemiah Pritchett DB",
@@ -10567,15 +10567,15 @@
     },
     {
         "player": "Rasheen Ali RB",
-        "score": 1.9000000000000001,
-        "average": 0.3166666666666667,
-        "week": 7
+        "score": 0.5,
+        "average": 0.3428571428571429,
+        "week": 8
     },
     {
         "player": "Isaiah Davis RB",
-        "score": 8.4,
-        "average": 2.45,
-        "week": 7
+        "score": 1.5,
+        "average": 2.314285714285714,
+        "week": 8
     },
     {
         "player": "DJ James DB",
@@ -10707,7 +10707,7 @@
         "player": "Darius Muasau LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Dylan McMahon OL",
@@ -10825,9 +10825,9 @@
     },
     {
         "player": "Drake Maye QB",
-        "score": 27.44,
-        "average": 19.78,
-        "week": 7
+        "score": 22.46,
+        "average": 20.115,
+        "week": 8
     },
     {
         "player": "Jared Verse DL",
@@ -10839,7 +10839,7 @@
         "player": "Darius Robinson DL",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Jalen McMillan WR",
@@ -10857,7 +10857,7 @@
         "player": "Cedric Gray LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Brandon Dorlus DL",
@@ -10903,9 +10903,9 @@
     },
     {
         "player": "Troy Franklin WR",
-        "score": 0.0,
-        "average": 2.0166666666666666,
-        "week": 7
+        "score": 1.3,
+        "average": 1.9142857142857144,
+        "week": 8
     },
     {
         "player": "Troy Fautanu OL",
@@ -10927,15 +10927,15 @@
     },
     {
         "player": "Jaylen Wright RB",
-        "score": 0.8,
-        "average": 0.72,
-        "week": 7
+        "score": 0.5,
+        "average": 0.6833333333333335,
+        "week": 8
     },
     {
         "player": "Ray Davis RB",
-        "score": 1.9,
-        "average": 1.64,
-        "week": 6
+        "score": 3.0,
+        "average": 1.8666666666666665,
+        "week": 8
     },
     {
         "player": "Sedrick Van Pran-Granger OL",
@@ -10959,13 +10959,13 @@
         "player": "Javon Solomon LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 6
+        "week": 8
     },
     {
         "player": "Malik Washington WR",
-        "score": 6.5,
-        "average": 9.450000000000001,
-        "week": 7
+        "score": 15.0,
+        "average": 10.242857142857144,
+        "week": 8
     },
     {
         "player": "Patrick McMorris DB",
@@ -11011,21 +11011,21 @@
     },
     {
         "player": "Adonai Mitchell WR",
-        "score": 0.0,
-        "average": 7.1000000000000005,
-        "week": 7
+        "score": 27.200000000000003,
+        "average": 12.125,
+        "week": 8
     },
     {
         "player": "Brian Thomas Jr. WR",
-        "score": 0.0,
-        "average": 4.25,
-        "week": 6
+        "score": 8.2,
+        "average": 4.814285714285714,
+        "week": 8
     },
     {
         "player": "Xavier Worthy WR",
-        "score": 4.1,
-        "average": 8.616666666666667,
-        "week": 7
+        "score": 4.3,
+        "average": 8.0,
+        "week": 8
     },
     {
         "player": "Mike Hall Jr. DL",
@@ -11059,9 +11059,9 @@
     },
     {
         "player": "Keon Coleman WR",
-        "score": 15.9,
-        "average": 10.883333333333333,
-        "week": 6
+        "score": 1.4,
+        "average": 9.528571428571428,
+        "week": 8
     },
     {
         "player": "Chris Braswell LB",
@@ -11115,7 +11115,7 @@
         "player": "Chop Robinson LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Ben Sinnott TE",
@@ -11131,9 +11131,9 @@
     },
     {
         "player": "Ladd McConkey WR",
-        "score": 2.7,
-        "average": 7.800000000000002,
-        "week": 6
+        "score": 12.6,
+        "average": 8.6,
+        "week": 8
     },
     {
         "player": "Ricky Pearsall WR",
@@ -11143,9 +11143,9 @@
     },
     {
         "player": "Michael Penix Jr. QB",
-        "score": 20.419999999999998,
-        "average": 16.936,
-        "week": 7
+        "score": -1.9,
+        "average": 13.796666666666667,
+        "week": 8
     },
     {
         "player": "Caleb Williams QB",
@@ -11162,8 +11162,8 @@
     {
         "player": "Malachi Corley WR",
         "score": 0.0,
-        "average": -0.2857142857142857,
-        "week": 7
+        "average": -0.25,
+        "week": 8
     },
     {
         "player": "Trey Benson RB",
@@ -11181,7 +11181,7 @@
         "player": "Dallas Turner LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Amarius Mims OL",
@@ -11289,7 +11289,7 @@
         "player": "Shemar James LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Collin Oliver LB",
@@ -11415,7 +11415,7 @@
         "player": "Justin Barron LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Zion Childress DB",
@@ -11427,7 +11427,7 @@
         "player": "Alijah Clark DB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Rivaldo Fairweather TE",
@@ -11499,7 +11499,7 @@
         "player": "Isas Waxter DB",
         "score": 0.0,
         "average": 0.0,
-        "week": 6
+        "week": 8
     },
     {
         "player": "Jackson Woodard LB",
@@ -11523,7 +11523,7 @@
         "player": "Teddye Buchanan LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Carson Vinson OL",
@@ -11541,7 +11541,7 @@
         "player": "Jeffrey Bassa LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Bilhal Kone DB",
@@ -11551,15 +11551,15 @@
     },
     {
         "player": "Tyler Loop K",
-        "score": 7.0,
-        "average": 9.285714285714286,
-        "week": 7
+        "score": 4.0,
+        "average": 8.625,
+        "week": 8
     },
     {
         "player": "LaJohntay Wester WR",
-        "score": 2.5,
-        "average": 1.2,
-        "week": 7
+        "score": 0.0,
+        "average": 1.05,
+        "week": 8
     },
     {
         "player": "Aeneas Peebles DL",
@@ -11587,9 +11587,9 @@
     },
     {
         "player": "Jake Briningstool TE",
-        "score": 0.0,
-        "average": 0.6333333333333333,
-        "week": 4
+        "score": 1.6,
+        "average": 0.875,
+        "week": 8
     },
     {
         "player": "Dalton Cooper OL",
@@ -11613,7 +11613,7 @@
         "player": "Kevin Knowles DB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Esa Pole OL",
@@ -11697,7 +11697,7 @@
         "player": "Cooper McDonald LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 1
+        "week": 8
     },
     {
         "player": "Jimmy Holiday WR",
@@ -11707,9 +11707,9 @@
     },
     {
         "player": "Ashton Jeanty RB",
-        "score": 21.6,
-        "average": 17.428571428571427,
-        "week": 7
+        "score": 10.3,
+        "average": 16.5375,
+        "week": 8
     },
     {
         "player": "Armand Membou OL",
@@ -11743,9 +11743,9 @@
     },
     {
         "player": "Tyler Warren TE",
-        "score": 21.4,
-        "average": 13.98,
-        "week": 5
+        "score": 5.8,
+        "average": 12.616666666666667,
+        "week": 8
     },
     {
         "player": "Emeka Egbuka WR",
@@ -11761,9 +11761,9 @@
     },
     {
         "player": "Kyle Williams WR",
-        "score": 0.0,
-        "average": 3.8142857142857145,
-        "week": 7
+        "score": 11.3,
+        "average": 4.75,
+        "week": 8
     },
     {
         "player": "Landon Jackson DL",
@@ -11799,7 +11799,7 @@
         "player": "Jordan Burch LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Jaylin Noel WR",
@@ -11919,7 +11919,7 @@
         "player": "Barrett Carter LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "David Walker LB",
@@ -11937,7 +11937,7 @@
         "player": "Jack Sawyer LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Kyle Kennard LB",
@@ -11947,9 +11947,9 @@
     },
     {
         "player": "Dylan Sampson RB",
-        "score": 10.7,
-        "average": 5.35,
-        "week": 7
+        "score": 12.9,
+        "average": 7.866666666666667,
+        "week": 8
     },
     {
         "player": "Jalen Travis OL",
@@ -11985,7 +11985,7 @@
         "player": "Que Robinson LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Tonka Hemingway DL",
@@ -11995,9 +11995,9 @@
     },
     {
         "player": "Elic Ayomanor WR",
-        "score": 7.4,
-        "average": 4.814285714285715,
-        "week": 7
+        "score": 6.4,
+        "average": 5.0125,
+        "week": 8
     },
     {
         "player": "Joshua Farmer DL",
@@ -12049,9 +12049,9 @@
     },
     {
         "player": "DJ Giddens RB",
-        "score": 0,
-        "average": 0,
-        "week": -1
+        "score": 4.3,
+        "average": 4.3,
+        "week": 8
     },
     {
         "player": "Jalen Rivers OL",
@@ -12079,9 +12079,9 @@
     },
     {
         "player": "KeAndre Lambert-Smith WR",
-        "score": 6.199999999999999,
-        "average": 6.199999999999999,
-        "week": 6
+        "score": 0.0,
+        "average": 3.0999999999999996,
+        "week": 8
     },
     {
         "player": "Marques Sigle DB",
@@ -12109,9 +12109,9 @@
     },
     {
         "player": "Oronde Gadsden II TE",
-        "score": 4.7,
-        "average": 4.75,
-        "week": 6
+        "score": 10.2,
+        "average": 5.528571428571429,
+        "week": 8
     },
     {
         "player": "Jackson Slater OL",
@@ -12133,9 +12133,9 @@
     },
     {
         "player": "Jackson Hawes TE",
-        "score": 0.0,
-        "average": 0.0,
-        "week": 6
+        "score": 1.7000000000000002,
+        "average": 0.42500000000000004,
+        "week": 8
     },
     {
         "player": "Denzel Burke DB",
@@ -12157,9 +12157,9 @@
     },
     {
         "player": "Ollie Gordon II RB",
-        "score": 17.3,
-        "average": 13.059999999999999,
-        "week": 7
+        "score": 6.9,
+        "average": 12.033333333333333,
+        "week": 8
     },
     {
         "player": "JJ Pegues DL",
@@ -12169,9 +12169,9 @@
     },
     {
         "player": "Andy Borregales K",
-        "score": 7.0,
-        "average": 6.857142857142857,
-        "week": 7
+        "score": 6.0,
+        "average": 6.75,
+        "week": 8
     },
     {
         "player": "Marcus Harris DB",
@@ -12217,15 +12217,15 @@
     },
     {
         "player": "Tahj Brooks RB",
-        "score": 0.6000000000000001,
-        "average": 0.15000000000000002,
-        "week": 7
+        "score": 0.0,
+        "average": 0.12000000000000002,
+        "week": 8
     },
     {
         "player": "Jalen McLeod LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 6
+        "week": 8
     },
     {
         "player": "Luke Newman OL",
@@ -12297,7 +12297,7 @@
         "player": "Jeremy Crawshaw P",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Jack Nelson OL",
@@ -12345,7 +12345,7 @@
         "player": "Carson Bruener LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Donte Kent DB",
@@ -12361,9 +12361,9 @@
     },
     {
         "player": "Quinn Ewers QB",
-        "score": 0,
-        "average": 0,
-        "week": -1
+        "score": 0.32,
+        "average": 0.32,
+        "week": 8
     },
     {
         "player": "Hunter Wohler DB",
@@ -12379,15 +12379,15 @@
     },
     {
         "player": "Tez Johnson WR",
-        "score": 12.700000000000001,
-        "average": 4.971428571428572,
-        "week": 7
+        "score": 0.0,
+        "average": 4.3500000000000005,
+        "week": 8
     },
     {
         "player": "LeQuint Allen Jr. RB",
-        "score": 0.1,
-        "average": 0.6,
-        "week": 6
+        "score": 0.0,
+        "average": 0.5,
+        "week": 8
     },
     {
         "player": "Kaden Prather WR",
@@ -12433,9 +12433,9 @@
     },
     {
         "player": "Julian Ashby LS",
-        "score": 0,
-        "average": 0,
-        "week": -1
+        "score": 0.0,
+        "average": 0.0,
+        "week": 8
     },
     {
         "player": "Junior Bergen WR",
@@ -12489,7 +12489,7 @@
         "player": "Easton Mascarenas-Arnold LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 6
+        "week": 8
     },
     {
         "player": "Donovan McMillon DB",
@@ -12577,9 +12577,9 @@
     },
     {
         "player": "Andrew Armstrong WR",
-        "score": 1.3,
-        "average": 1.7999999999999998,
-        "week": 7
+        "score": 0.0,
+        "average": 1.2,
+        "week": 8
     },
     {
         "player": "Eugene Asante LB",
@@ -12675,7 +12675,7 @@
         "player": "Branson Combs LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 6
+        "week": 8
     },
     {
         "player": "Ethan Downs LB",
@@ -12739,9 +12739,9 @@
     },
     {
         "player": "Johnathan Edwards DB",
-        "score": 0,
-        "average": 0,
-        "week": -1
+        "score": 0.0,
+        "average": 0.0,
+        "week": 8
     },
     {
         "player": "Marshall Foerner OL",
@@ -12783,7 +12783,7 @@
         "player": "Keleki Latu TE",
         "score": 0.0,
         "average": 0.0,
-        "week": 6
+        "week": 8
     },
     {
         "player": "Wande Owens DB",
@@ -12849,7 +12849,7 @@
         "player": "Elijah Simmons DL",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Zach Horton TE",
@@ -13095,7 +13095,7 @@
         "player": "Karene Reid LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Jaden Robinson DB",
@@ -13137,7 +13137,7 @@
         "player": "Marlowe Wax LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 6
+        "week": 8
     },
     {
         "player": "Luke Grimm WR",
@@ -13245,7 +13245,7 @@
         "player": "Chaz Chambliss LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 5
+        "week": 8
     },
     {
         "player": "Zeke Correll OL",
@@ -13292,8 +13292,8 @@
     {
         "player": "Myles Price WR",
         "score": 0.0,
-        "average": 1.9666666666666668,
-        "week": 7
+        "average": 1.6857142857142857,
+        "week": 8
     },
     {
         "player": "Zemaiah Vaughn DB",
@@ -13303,9 +13303,9 @@
     },
     {
         "player": "Ben Yurosek TE",
-        "score": 2.0,
-        "average": 2.0,
-        "week": 5
+        "score": 3.4000000000000004,
+        "average": 2.7,
+        "week": 8
     },
     {
         "player": "Brandon Crenshaw-Dickson OL",
@@ -13327,9 +13327,9 @@
     },
     {
         "player": "Xavier Restrepo WR",
-        "score": 0,
-        "average": 0,
-        "week": -1
+        "score": 0.0,
+        "average": 0.0,
+        "week": 8
     },
     {
         "player": "Tre Stewart RB",
@@ -13441,9 +13441,9 @@
     },
     {
         "player": "Corey Kiner RB",
-        "score": 1.3,
-        "average": 2.3857142857142857,
-        "week": 7
+        "score": 3.8000000000000003,
+        "average": 2.5625,
+        "week": 8
     },
     {
         "player": "Drew Moss OL",
@@ -13471,9 +13471,9 @@
     },
     {
         "player": "Efton Chism III WR",
-        "score": 2.6,
-        "average": 4.706666666666666,
-        "week": 7
+        "score": 6.699999999999999,
+        "average": 4.991428571428571,
+        "week": 8
     },
     {
         "player": "Jack Conley OL",
@@ -13501,9 +13501,9 @@
     },
     {
         "player": "Lan Larison RB",
-        "score": 2.9,
-        "average": 2.9,
-        "week": 1
+        "score": 0.6000000000000001,
+        "average": 1.75,
+        "week": 8
     },
     {
         "player": "Jeremiah Webb WR",
@@ -13526,8 +13526,8 @@
     {
         "player": "Elijah Ponder LB",
         "score": 0.0,
-        "average": 0.8571428571428571,
-        "week": 7
+        "average": 0.75,
+        "week": 8
     },
     {
         "player": "Josh Minkins DB",
@@ -13551,13 +13551,13 @@
         "player": "Carson Schwesinger LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Josaiah Stewart LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 6
+        "week": 8
     },
     {
         "player": "Dont'e Thornton Jr. WR",
@@ -13579,9 +13579,9 @@
     },
     {
         "player": "Gunnar Helm TE",
-        "score": 5.4,
-        "average": 3.733333333333334,
-        "week": 7
+        "score": 14.600000000000001,
+        "average": 5.285714285714286,
+        "week": 8
     },
     {
         "player": "Ty Hamilton DL",
@@ -13615,9 +13615,9 @@
     },
     {
         "player": "Konata Mumpfield WR",
-        "score": 2.5,
-        "average": 4.866666666666667,
-        "week": 7
+        "score": 0.0,
+        "average": 4.171428571428572,
+        "week": 8
     },
     {
         "player": "Mehki Butler OL",
@@ -13755,7 +13755,7 @@
         "player": "Jordan Turner LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Keyon Martin DB",
@@ -13809,13 +13809,13 @@
         "player": "Cody Simon LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Jalen Royals WR",
-        "score": 0.0,
-        "average": 2.5166666666666666,
-        "week": 7
+        "score": 1.4,
+        "average": 2.357142857142857,
+        "week": 8
     },
     {
         "player": "Rylie Mills DL",
@@ -13909,15 +13909,15 @@
     },
     {
         "player": "Harold Fannin Jr. TE",
-        "score": 13.1,
-        "average": 9.528571428571428,
-        "week": 7
+        "score": 23.4,
+        "average": 11.2625,
+        "week": 8
     },
     {
         "player": "Omarion Hampton RB",
-        "score": 7.9,
-        "average": 9.583333333333334,
-        "week": 6
+        "score": 4.7,
+        "average": 8.885714285714286,
+        "week": 8
     },
     {
         "player": "Matthew Golden WR",
@@ -13927,9 +13927,9 @@
     },
     {
         "player": "Shedeur Sanders QB",
-        "score": 0.0,
-        "average": 0.0,
-        "week": 3
+        "score": 0.08,
+        "average": 0.04,
+        "week": 8
     },
     {
         "player": "Isaac TeSlaa WR",
@@ -13963,9 +13963,9 @@
     },
     {
         "player": "Cam Ward QB",
-        "score": 5.74,
-        "average": 10.608571428571429,
-        "week": 7
+        "score": 26.26,
+        "average": 12.565,
+        "week": 8
     },
     {
         "player": "Abdul Carter LB",
@@ -14065,9 +14065,9 @@
     },
     {
         "player": "Chimere Dike WR",
-        "score": 0.0,
-        "average": 1.042857142857143,
-        "week": 7
+        "score": 18.1,
+        "average": 3.1750000000000003,
+        "week": 8
     },
     {
         "player": "Walter Nolen DL",
@@ -14125,9 +14125,9 @@
     },
     {
         "player": "Bhayshul Tuten RB",
-        "score": 24.700000000000003,
-        "average": 14.733333333333334,
-        "week": 6
+        "score": 29.9,
+        "average": 16.9,
+        "week": 8
     },
     {
         "player": "Jahdae Barron DB",
@@ -14145,13 +14145,13 @@
         "player": "Mike Green LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Jack Kiser LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "T.J. Sanders DL",
@@ -14163,7 +14163,7 @@
         "player": "Donovan Ezeiruaku LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Anthony Belton OL",
@@ -14173,9 +14173,9 @@
     },
     {
         "player": "Tre Harris WR",
-        "score": 3.6,
-        "average": 7.5,
-        "week": 5
+        "score": 6.1,
+        "average": 7.266666666666667,
+        "week": 8
     },
     {
         "player": "Tate Ratledge OL",
@@ -14221,9 +14221,9 @@
     },
     {
         "player": "Mason Taylor TE",
-        "score": 25.2,
-        "average": 9.925,
-        "week": 7
+        "score": 4.9,
+        "average": 8.92,
+        "week": 8
     },
     {
         "player": "Terrance Ferguson TE",
@@ -14233,9 +14233,9 @@
     },
     {
         "player": "Demetrius Knight Jr. LB",
-        "score": 0.0,
-        "average": 1.0,
-        "week": 7
+        "score": 4.0,
+        "average": 1.4285714285714286,
+        "week": 8
     },
     {
         "player": "Elijah Arroyo TE",
@@ -14365,21 +14365,21 @@
     },
     {
         "player": "Isaiah Bond WR",
-        "score": 10.4,
-        "average": 4.533333333333333,
-        "week": 5
+        "score": 0.0,
+        "average": 3.4,
+        "week": 8
     },
     {
         "player": "Quinshon Judkins RB",
-        "score": 23.400000000000002,
-        "average": 13.283333333333333,
-        "week": 7
+        "score": 6.9,
+        "average": 12.371428571428572,
+        "week": 8
     },
     {
         "player": "Dohnte Meyers WR",
-        "score": 0.0,
-        "average": 4.683333333333334,
-        "week": 7
+        "score": 6.4,
+        "average": 4.928571428571429,
+        "week": 8
     },
     {
         "player": "Jacob Roberts LB",
@@ -14467,9 +14467,9 @@
     },
     {
         "player": "Ja'Kobi Lane WR",
-        "score": 5.5,
-        "average": 5.2,
-        "week": 7
+        "score": 2.3,
+        "average": 4.475,
+        "week": 8
     },
     {
         "player": "Trey Zuhn III OL",
@@ -14481,7 +14481,7 @@
         "player": "Jaishawn Barham LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Julian Neal DB",
@@ -14515,15 +14515,15 @@
     },
     {
         "player": "Mike Washington Jr. RB",
-        "score": 2.7,
-        "average": 4.228571428571429,
-        "week": 7
+        "score": 8.3,
+        "average": 4.7375,
+        "week": 8
     },
     {
         "player": "Matthew Hibner TE",
         "score": 0.0,
-        "average": 4.5,
-        "week": 7
+        "average": 3.6,
+        "week": 8
     },
     {
         "player": "LT Overton DL",
@@ -14569,9 +14569,9 @@
     },
     {
         "player": "Josh Cuevas TE",
-        "score": 5.5,
-        "average": 5.38,
-        "week": 7
+        "score": 2.5,
+        "average": 4.8999999999999995,
+        "week": 8
     },
     {
         "player": "Adam Randall RB",
@@ -14587,9 +14587,9 @@
     },
     {
         "player": "Cyrus Allen WR",
-        "score": 2.8,
-        "average": 1.875,
-        "week": 7
+        "score": 4.0,
+        "average": 2.3,
+        "week": 8
     },
     {
         "player": "Cole Payton QB",
@@ -14637,7 +14637,7 @@
         "player": "Ryan Eckley P",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Trey Smack K",
@@ -14953,9 +14953,9 @@
     },
     {
         "player": "Jaydn Ott RB",
-        "score": 0,
-        "average": 0,
-        "week": -1
+        "score": 0.0,
+        "average": 0.0,
+        "week": 8
     },
     {
         "player": "Damon Payne DL",
@@ -15085,9 +15085,9 @@
     },
     {
         "player": "Joe Fagnano QB",
-        "score": 0,
-        "average": 0,
-        "week": -1
+        "score": -0.05999999999999983,
+        "average": -0.05999999999999983,
+        "week": 8
     },
     {
         "player": "Aaron Graves DL",
@@ -15217,9 +15217,9 @@
     },
     {
         "player": "Cian Slone LB",
-        "score": 0,
-        "average": 0,
-        "week": -1
+        "score": 0.0,
+        "average": 0.0,
+        "week": 8
     },
     {
         "player": "Gary Smith III DL",
@@ -15253,9 +15253,9 @@
     },
     {
         "player": "Emmett Johnson RB",
-        "score": 3.7,
-        "average": 4.3500000000000005,
-        "week": 7
+        "score": 25.3,
+        "average": 7.342857142857143,
+        "week": 8
     },
     {
         "player": "Niklas Henning OL",
@@ -15307,9 +15307,9 @@
     },
     {
         "player": "Jeremiyah Love RB",
-        "score": 2.2,
-        "average": 10.22,
-        "week": 5
+        "score": 2.3000000000000003,
+        "average": 8.9,
+        "week": 8
     },
     {
         "player": "Sonny Styles LB",
@@ -15337,9 +15337,9 @@
     },
     {
         "player": "Kenyon Sadiq TE",
-        "score": 1.6,
-        "average": 6.1000000000000005,
-        "week": 7
+        "score": 3.2,
+        "average": 5.7375,
+        "week": 8
     },
     {
         "player": "Caleb Banks DL",
@@ -15363,13 +15363,13 @@
         "player": "TJ Parker LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 6
+        "week": 8
     },
     {
         "player": "Denzel Boston WR",
-        "score": 5.7,
-        "average": 11.028571428571428,
-        "week": 7
+        "score": 9.7,
+        "average": 10.8625,
+        "week": 8
     },
     {
         "player": "D'Angelo Ponds DB",
@@ -15381,7 +15381,7 @@
         "player": "CJ Allen LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 6
+        "week": 8
     },
     {
         "player": "Antonio Williams WR",
@@ -15409,9 +15409,9 @@
     },
     {
         "player": "Zachariah Branch WR",
-        "score": 2.7,
-        "average": 2.1714285714285717,
-        "week": 7
+        "score": 0.0,
+        "average": 1.9000000000000001,
+        "week": 8
     },
     {
         "player": "Albert Regis DL",
@@ -15434,8 +15434,8 @@
     {
         "player": "Ted Hurst III WR",
         "score": 0.0,
-        "average": 5.633333333333333,
-        "week": 7
+        "average": 4.828571428571428,
+        "week": 8
     },
     {
         "player": "Austin Barber OL",
@@ -15543,7 +15543,7 @@
         "player": "Kendal Daniels LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Bryce Lance WR",
@@ -15565,9 +15565,9 @@
     },
     {
         "player": "Reggie Virgil WR",
-        "score": 4.9,
-        "average": 4.9,
-        "week": 5
+        "score": 0.0,
+        "average": 2.45,
+        "week": 8
     },
     {
         "player": "Sam Hecht OL",
@@ -15649,9 +15649,9 @@
     },
     {
         "player": "Tanner Koziol TE",
-        "score": 0,
-        "average": 0,
-        "week": -1
+        "score": 1.8,
+        "average": 1.8,
+        "week": 8
     },
     {
         "player": "Keyshaun Elliott LB",
@@ -15721,9 +15721,9 @@
     },
     {
         "player": "Kaytron Allen RB",
-        "score": 0.1,
-        "average": 1.366666666666667,
-        "week": 4
+        "score": 0.0,
+        "average": 1.0250000000000001,
+        "week": 8
     },
     {
         "player": "Anez Cooper OL",
@@ -15746,8 +15746,8 @@
     {
         "player": "Josh Cameron WR",
         "score": 0.0,
-        "average": 5.283333333333333,
-        "week": 6
+        "average": 4.5285714285714285,
+        "week": 8
     },
     {
         "player": "J.C. Davis OL",
@@ -15819,7 +15819,7 @@
         "player": "Harold Perkins Jr. LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Jayden Williams OL",
@@ -15841,9 +15841,9 @@
     },
     {
         "player": "Jack Endries TE",
-        "score": 0,
-        "average": 0,
-        "week": -1
+        "score": 7.1,
+        "average": 7.1,
+        "week": 8
     },
     {
         "player": "Athan Kaliakmanis QB",
@@ -15895,15 +15895,15 @@
     },
     {
         "player": "Seth McGowan RB",
-        "score": 5.800000000000001,
-        "average": 2.6571428571428575,
-        "week": 7
+        "score": 2.9000000000000004,
+        "average": 2.6875,
+        "week": 8
     },
     {
         "player": "Tommy Doman Jr. P",
         "score": 0.0,
         "average": 0.0,
-        "week": 6
+        "week": 8
     },
     {
         "player": "Parker Hughes LB",
@@ -15937,9 +15937,9 @@
     },
     {
         "player": "Deion Burks WR",
-        "score": 2.1,
-        "average": 2.38,
-        "week": 7
+        "score": 1.2,
+        "average": 2.1833333333333336,
+        "week": 8
     },
     {
         "player": "Dallen Bentley TE",
@@ -16851,7 +16851,7 @@
         "player": "Tanner Arkin TE",
         "score": 0.0,
         "average": 0.0,
-        "week": 5
+        "week": 8
     },
     {
         "player": "David Blay Jr. DL",
@@ -17263,9 +17263,9 @@
     },
     {
         "player": "Eli Raridon TE",
-        "score": 14.600000000000001,
-        "average": 6.800000000000001,
-        "week": 7
+        "score": 1.5,
+        "average": 6.042857142857144,
+        "week": 8
     },
     {
         "player": "Gennings Dunker OL",
@@ -17277,7 +17277,7 @@
         "player": "Kaden Wetjen WR",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Riley Nowakowski RB",
@@ -17319,7 +17319,7 @@
         "player": "Wesley Bailey LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Peter Manuma DB",
@@ -17517,7 +17517,7 @@
         "player": "Jimmy Rolder LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Skyler Bell WR",
@@ -17529,7 +17529,7 @@
         "player": "Kaleb Elarms-Orr LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 6
+        "week": 8
     },
     {
         "player": "Keith Abney II DB",
@@ -17589,7 +17589,7 @@
         "player": "Erick Hunter LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 6
+        "week": 8
     },
     {
         "player": "Aidan Keanaaina DL",
@@ -17715,7 +17715,7 @@
         "player": "Anthony Hill Jr. LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Terrill Davis WR",
@@ -17767,9 +17767,9 @@
     },
     {
         "player": "Germie Bernard WR",
-        "score": 5.7,
-        "average": 9.8,
-        "week": 7
+        "score": 8.0,
+        "average": 9.542857142857143,
+        "week": 8
     },
     {
         "player": "Eli Heidenreich RB",
@@ -17793,19 +17793,19 @@
         "player": "Zion Young LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Jake Golday LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Jonah Coleman RB",
-        "score": 8.9,
-        "average": 7.900000000000001,
-        "week": 7
+        "score": 20.400000000000002,
+        "average": 11.025,
+        "week": 8
     },
     {
         "player": "Jadon Canady DB",
@@ -17835,13 +17835,13 @@
         "player": "Josiah Trotter LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Nate Boerkircher TE",
-        "score": 8.8,
-        "average": 3.44,
-        "week": 6
+        "score": 10.1,
+        "average": 4.55,
+        "week": 8
     },
     {
         "player": "Francis Mauigoa OL",
@@ -17931,25 +17931,25 @@
         "player": "Jacob Rodriguez LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Caleb Douglas WR",
-        "score": 21.0,
-        "average": 13.1,
-        "week": 7
+        "score": 8.3,
+        "average": 11.9,
+        "week": 8
     },
     {
         "player": "Will Kacmarek TE",
-        "score": 1.5,
-        "average": 1.08,
-        "week": 5
+        "score": 0.0,
+        "average": 0.9,
+        "week": 8
     },
     {
         "player": "Chris Bell WR",
-        "score": 5.5,
-        "average": 3.716666666666667,
-        "week": 7
+        "score": 6.9,
+        "average": 4.171428571428572,
+        "week": 8
     },
     {
         "player": "Trey Moore LB",
@@ -17961,7 +17961,7 @@
         "player": "Kyle Louis LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Michael Taaffe DB",
@@ -17971,9 +17971,9 @@
     },
     {
         "player": "Kevin Coleman Jr. WR",
-        "score": 0.0,
-        "average": 2.92,
-        "week": 7
+        "score": 13.600000000000001,
+        "average": 4.7,
+        "week": 8
     },
     {
         "player": "DJ Campbell OL",
@@ -18015,7 +18015,7 @@
         "player": "Malachi Lawrence LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Dillon Thieneman DB",
@@ -18057,7 +18057,7 @@
         "player": "Akheem Mesidor LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 6
+        "week": 8
     },
     {
         "player": "Peter Woods DL",
@@ -18073,9 +18073,9 @@
     },
     {
         "player": "KC Concepcion WR",
-        "score": 23.200000000000003,
-        "average": 8.985714285714286,
-        "week": 7
+        "score": 6.7,
+        "average": 8.700000000000001,
+        "week": 8
     },
     {
         "player": "Jude Bowry OL",
@@ -18195,7 +18195,7 @@
         "player": "Gabe Jacas LB",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Tyler Moore TE",
@@ -18255,7 +18255,7 @@
         "player": "Seydou Traore TE",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Uar Bernard DL",
@@ -18267,7 +18267,7 @@
         "player": "Brett Thorson P",
         "score": 0.0,
         "average": 0.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "Kansei Matsuzawa K",
@@ -18379,27 +18379,27 @@
     },
     {
         "player": "ARI DE",
-        "score": 0,
+        "score": 3.0,
         "average": 2.857142857142857,
-        "week": 7
+        "week": 8
     },
     {
         "player": "ATL DE",
-        "score": 0,
+        "score": 2.0,
         "average": 5.285714285714286,
-        "week": 7
+        "week": 8
     },
     {
         "player": "BAL DE",
-        "score": 0,
+        "score": 1.0,
         "average": 4.285714285714286,
-        "week": 7
+        "week": 8
     },
     {
         "player": "BUF DE",
-        "score": 0,
+        "score": 14.0,
         "average": 3.0,
-        "week": 6
+        "week": 8
     },
     {
         "player": "CAR DE",
@@ -18415,33 +18415,33 @@
     },
     {
         "player": "CIN DE",
-        "score": 0,
+        "score": 2.0,
         "average": 7.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "CLE DE",
-        "score": 0,
+        "score": 3.0,
         "average": 6.285714285714286,
-        "week": 7
+        "week": 8
     },
     {
         "player": "DAL DE",
-        "score": 0,
+        "score": 8.0,
         "average": 2.2857142857142856,
-        "week": 7
+        "week": 8
     },
     {
         "player": "DEN DE",
-        "score": 0,
+        "score": 2.0,
         "average": 7.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "DET DE",
-        "score": 0,
+        "score": 6.0,
         "average": 4.285714285714286,
-        "week": 7
+        "week": 8
     },
     {
         "player": "GB DE",
@@ -18457,57 +18457,57 @@
     },
     {
         "player": "IND DE",
-        "score": 0,
+        "score": 1.0,
         "average": 3.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "JAX DE",
-        "score": 0,
+        "score": 14.0,
         "average": 5.857142857142857,
-        "week": 6
+        "week": 8
     },
     {
         "player": "KC DE",
-        "score": 0,
+        "score": 0.0,
         "average": 6.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "LA DE",
-        "score": 0,
+        "score": 10.0,
         "average": 3.7142857142857144,
-        "week": 7
+        "week": 8
     },
     {
         "player": "LAC DE",
-        "score": 0,
+        "score": 3.0,
         "average": 4.285714285714286,
-        "week": 6
+        "week": 8
     },
     {
         "player": "LV DE",
-        "score": 0,
+        "score": 9.0,
         "average": 5.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "MIA DE",
-        "score": 0,
+        "score": 5.0,
         "average": 1.7142857142857142,
-        "week": 7
+        "week": 8
     },
     {
         "player": "MIN DE",
-        "score": 0,
+        "score": 7.0,
         "average": 10.142857142857142,
-        "week": 7
+        "week": 8
     },
     {
         "player": "NE DE",
-        "score": 0,
+        "score": 8.0,
         "average": 5.571428571428571,
-        "week": 7
+        "week": 8
     },
     {
         "player": "NO DE",
@@ -18523,9 +18523,9 @@
     },
     {
         "player": "NYJ DE",
-        "score": 0,
+        "score": -3.0,
         "average": 6.0,
-        "week": 7
+        "week": 8
     },
     {
         "player": "PHI DE",
@@ -18535,9 +18535,9 @@
     },
     {
         "player": "PIT DE",
-        "score": 0,
+        "score": 19.0,
         "average": 7.142857142857143,
-        "week": 7
+        "week": 8
     },
     {
         "player": "SEA DE",
@@ -18553,15 +18553,15 @@
     },
     {
         "player": "TB DE",
-        "score": 0,
+        "score": 18.0,
         "average": 6.428571428571429,
-        "week": 7
+        "week": 8
     },
     {
         "player": "TEN DE",
-        "score": 0,
+        "score": 7.0,
         "average": 6.285714285714286,
-        "week": 7
+        "week": 8
     },
     {
         "player": "WAS DE",
