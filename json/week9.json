@@ -20,11 +20,6 @@
             "team": "Maye Drake Good",
             "position": "WR"
         },
-        "Justin Herbert": {
-            "score": 0,
-            "team": "Maye Drake Good",
-            "position": "QB"
-        },
         "Bhayshul Tuten": {
             "score": 0,
             "team": "Maye Drake Good",
@@ -74,6 +69,11 @@
             "score": 0,
             "team": "Maye Drake Good",
             "position": "QB"
+        },
+        "Zach Charbonnet": {
+            "score": 0,
+            "team": "Maye Drake Good",
+            "position": "RB"
         }
     },
     "Mmm... Food": {
