@@ -142,15 +142,15 @@
             "team": "Mmm... Food",
             "position": "RB"
         },
-        "NE": {
-            "score": 0,
-            "team": "Mmm... Food",
-            "position": "DE"
-        },
         "Travis Etienne": {
             "score": 0,
             "team": "Mmm... Food",
             "position": "RB"
+        },
+        "Evan McPherson": {
+            "score": 0,
+            "team": "Mmm... Food",
+            "position": "K"
         }
     },
     "Washable Markers": {
