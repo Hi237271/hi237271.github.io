@@ -600,6 +600,12 @@
         "week": -1
     },
     {
+        "player": "Dean Lowry DL",
+        "score": 0,
+        "average": 0,
+        "week": -1
+    },
+    {
         "player": "Matthew Judon LB",
         "score": 0,
         "average": 0,
@@ -6756,6 +6762,12 @@
         "week": -1
     },
     {
+        "player": "Jalyn Armour-Davis DB",
+        "score": 0,
+        "average": 0,
+        "week": -1
+    },
+    {
         "player": "Breece Hall RB",
         "score": 8.5,
         "average": 14.16666666666667,
@@ -10453,6 +10465,12 @@
     },
     {
         "player": "KT Leveston OL",
+        "score": 0,
+        "average": 0,
+        "week": -1
+    },
+    {
+        "player": "Terrell Jennings RB",
         "score": 0,
         "average": 0,
         "week": -1
@@ -16819,6 +16837,12 @@
     },
     {
         "player": "James Neal III OL",
+        "score": 0,
+        "average": 0,
+        "week": -1
+    },
+    {
+        "player": "Joshua Pitsenberger RB",
         "score": 0,
         "average": 0,
         "week": -1
