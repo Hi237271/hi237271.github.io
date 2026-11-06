@@ -1440,6 +1440,12 @@
         "week": 6
     },
     {
+        "player": "Daniel Ekuale DL",
+        "score": 0,
+        "average": 0,
+        "week": -1
+    },
+    {
         "player": "Austin Corbett OL",
         "score": 0,
         "average": 0,
@@ -4492,6 +4498,12 @@
         "score": 5.0,
         "average": 9.142857142857142,
         "week": 8
+    },
+    {
+        "player": "Earnest Brown IV DL",
+        "score": 0,
+        "average": 0,
+        "week": -1
     },
     {
         "player": "Jimmy Morrissey OL",
