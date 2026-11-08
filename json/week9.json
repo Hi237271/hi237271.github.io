@@ -40,11 +40,6 @@
             "team": "Maye Drake Good",
             "position": "DE"
         },
-        "Marvin Harrison Jr.": {
-            "score": 0,
-            "team": "Maye Drake Good",
-            "position": "WR"
-        },
         "Kyren Williams": {
             "score": 0,
             "team": "Maye Drake Good",
@@ -71,6 +66,11 @@
             "position": "QB"
         },
         "Zach Charbonnet": {
+            "score": 0,
+            "team": "Maye Drake Good",
+            "position": "RB"
+        },
+        "Braelon Allen": {
             "score": 0,
             "team": "Maye Drake Good",
             "position": "RB"
