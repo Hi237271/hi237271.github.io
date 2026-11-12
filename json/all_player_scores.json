@@ -5610,6 +5610,12 @@
         "week": 9
     },
     {
+        "player": "Delarrin Turner-Yell DB",
+        "score": 0,
+        "average": 0,
+        "week": -1
+    },
+    {
         "player": "Matt Waletzko OL",
         "score": 0,
         "average": 0,
@@ -9462,10 +9468,10 @@
         "week": 9
     },
     {
-        "player": "Audric Estim\u00e9 RB",
-        "score": 14.7,
-        "average": 11.3,
-        "week": 9
+        "player": "Audric Estime RB",
+        "score": 0,
+        "average": 0,
+        "week": -1
     },
     {
         "player": "Tommy Eichenberg LB",
