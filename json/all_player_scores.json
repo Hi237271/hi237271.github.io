@@ -18019,9 +18019,9 @@
     },
     {
         "player": "Kyle Louis LB",
-        "score": 0.0,
-        "average": 0.0,
-        "week": 10
+        "score": 0,
+        "average": 0,
+        "week": -1
     },
     {
         "player": "Michael Taaffe DB",
