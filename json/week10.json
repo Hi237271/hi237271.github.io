@@ -65,15 +65,15 @@
             "team": "Maye Drake Good",
             "position": "QB"
         },
-        "Zach Charbonnet": {
-            "score": 9.4,
-            "team": "Maye Drake Good",
-            "position": "RB"
-        },
         "Terrance Ferguson": {
             "score": 0,
             "team": "Maye Drake Good",
             "position": "TE"
+        },
+        "Deebo Samuel Sr.": {
+            "score": 25.900000000000002,
+            "team": "Maye Drake Good",
+            "position": "WR"
         }
     },
     "Mmm... Food": {
