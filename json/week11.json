@@ -55,11 +55,6 @@
             "team": "Maye Drake Good",
             "position": "QB"
         },
-        "Carnell Tate": {
-            "score": 0,
-            "team": "Maye Drake Good",
-            "position": "WR"
-        },
         "Dak Prescott": {
             "score": 0,
             "team": "Maye Drake Good",
@@ -71,6 +66,11 @@
             "position": "TE"
         },
         "Deebo Samuel Sr.": {
+            "score": 0,
+            "team": "Maye Drake Good",
+            "position": "WR"
+        },
+        "Davante Adams": {
             "score": 0,
             "team": "Maye Drake Good",
             "position": "WR"
