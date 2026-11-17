@@ -477,11 +477,6 @@
             "team": "Make Draye",
             "position": "WR"
         },
-        "Drake Maye": {
-            "score": 0,
-            "team": "Make Draye",
-            "position": "QB"
-        },
         "Luther Burden III": {
             "score": 0,
             "team": "Make Draye",
@@ -536,6 +531,11 @@
             "score": 0,
             "team": "Make Draye",
             "position": "K"
+        },
+        "Kirk Cousins": {
+            "score": 0,
+            "team": "Make Draye",
+            "position": "QB"
         }
     },
     "LJSSNC": {
