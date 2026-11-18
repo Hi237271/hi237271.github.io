@@ -4,16 +4,18 @@
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="refresh" content="0; url=https://sportstatistics.mbhs.edu">
 	<title>Sports Stat Draft</title>
 	<!-- Link your external CSS stylesheet here -->
 	<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap"
 		rel="stylesheet" />
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-	<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,800&amp;family=Fira+Code:wght@300..700&amp;family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Graduate&amp;family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;family=Roboto:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,800&amp;family=Fira+Code:wght@300..700&amp;family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Graduate&amp;family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;family=Roboto:ital,wght@0,100..900;1,100..900&amp;display=swap"
+		rel="stylesheet">
 	<link rel="icon" type="image/png" href="red_football_transparent.png">
-	<link rel = 'stylesheet' href = 'style.css'>
-	<script src = 'script.js'></script>
+	<link rel='stylesheet' href='style.css'>
+	<script src='script.js'></script>
 </head>
 
 <body>
@@ -46,14 +48,17 @@
 						<a class="a-waiver" href="javascript:void(0);"
 							onclick="showSection('waiver')">Waiver Wires</a>
 					</li>
-					<li class = "navbar-text">
-						<a class = "a-trades" href = "javascript:void(0);" onclick = "showSection('trades')">View Trades</a>
+					<li class="navbar-text">
+						<a class="a-trades" href="javascript:void(0);" onclick="showSection('trades')">View
+							Trades</a>
 					</li>
-					<li class = "navbar-text">
-						<a class = "a-create-trade" href = "javascript:void(0);" onclick = "showSection('create-trade')">Create Trade</a>
+					<li class="navbar-text">
+						<a class="a-create-trade" href="javascript:void(0);"
+							onclick="showSection('create-trade')">Create Trade</a>
 					</li>
-					<li class = "navbar-text">
-						<a class = "a-coordinator" href = "javascript:void(0);" onclick = "showSection('coordinator')">Coordinator</a>
+					<li class="navbar-text">
+						<a class="a-coordinator" href="javascript:void(0);"
+							onclick="showSection('coordinator')">Coordinator</a>
 					</li>
 				</ul>
 			</div>
@@ -74,7 +79,7 @@
 						<span class="num-desc">Players drafted</span>
 					</div>
 					<div class="num-box">
-						<span class="num" id = 'current-week'>17</span>
+						<span class="num" id='current-week'>17</span>
 						<span class="num-desc">Current Week</span>
 					</div>
 					<div class="num-box">
@@ -88,9 +93,9 @@
 				</div>
 			</div>
 		</div>
-		<div class = 'draft-title-container'>
+		<div class='draft-title-container'>
 			<h1 class="table-title">Draft Table</h1>
-			<select id = 'draft-week-select'>
+			<select id='draft-week-select'>
 
 			</select>
 		</div>
@@ -336,109 +341,110 @@
 						<option value="LJSSNC">LJSSNC</option>
 					</select>
 					<label class="input-label" for="lineup-team-password">Team Password</label>
-					<input class="input-field" name="team-password" type="password" id="lineup-team-password" />
+					<input class="input-field" name="team-password" type="password"
+						id="lineup-team-password" />
 				</div>
-					
+
 				<div class="lineup-player-container"></div>
 				<button class="lineup-submit" type="submit" value="Submit">
 					Submit
 				</button>
-			
+
 				<span id="error-field"></span>
-				<span id = "success-field" hidden>Success</span>
+				<span id="success-field" hidden>Success</span>
 			</form>
 		</div>
 	</section>
-	<section id = "waiver">
-		<div class = 'waiver-information-container'>
-			<form id = 'waiver-form'>
+	<section id="waiver">
+		<div class='waiver-information-container'>
+			<form id='waiver-form'>
 				<h1 class="small-title">Waiver Wire Submission</h1>
 				<!-- <div class = "waiver-team-name"> -->
-					<input type="hidden" id="secretField1" name="type" value="waiver">
-					<label for = 'waiver-select-team' class = 'input-label' >Team Name*</label>
-					<select id = 'waiver-select-team' class = 'input-field' name = 'team-name'>
-						<option disabled selected value>-- Select a Team --</option>
-						<option value="Maye Drake Good">Maye Drake Good</option>
-						<option value="Make Draye">Make Draye</option>
-						<option value="Rumble Bees">Rumble Bees</option>
-						<option value="McPicklePounders">McPicklePounders</option>
-						<option value="Mmm... Food">Mmm... Food</option>
-						<option value="Bad Piggies">Bad Piggies</option>
-						<option value="Laser Llamas">Laser Llamas</option>
-						<option value="Adebayo FC">Adebayo FC</option>
-						<option value="Washable Markers">Washable Markers</option>
-						<option value="LJSSNC">LJSSNC</option>
-					</select> 
-					<label for = 'waiver-team-password' class = 'input-label' >Team Password</label>
-					<input type = 'password' id = 'waiver-team-password' class = 'input-field' name = 'team-password'>
+				<input type="hidden" id="secretField1" name="type" value="waiver">
+				<label for='waiver-select-team' class='input-label'>Team Name*</label>
+				<select id='waiver-select-team' class='input-field' name='team-name'>
+					<option disabled selected value>-- Select a Team --</option>
+					<option value="Maye Drake Good">Maye Drake Good</option>
+					<option value="Make Draye">Make Draye</option>
+					<option value="Rumble Bees">Rumble Bees</option>
+					<option value="McPicklePounders">McPicklePounders</option>
+					<option value="Mmm... Food">Mmm... Food</option>
+					<option value="Bad Piggies">Bad Piggies</option>
+					<option value="Laser Llamas">Laser Llamas</option>
+					<option value="Adebayo FC">Adebayo FC</option>
+					<option value="Washable Markers">Washable Markers</option>
+					<option value="LJSSNC">LJSSNC</option>
+				</select>
+				<label for='waiver-team-password' class='input-label'>Team Password</label>
+				<input type='password' id='waiver-team-password' class='input-field' name='team-password'>
 
-					<label for = 'drop-player-select' class = 'input-label'>Drop</label>
-					<select id = 'drop-player-select' class = 'input-field' name = 'drop'></select>
+				<label for='drop-player-select' class='input-label'>Drop</label>
+				<select id='drop-player-select' class='input-field' name='drop'></select>
 
-					<label for = 'request-player-input' class = 'input-label'>Request</label>
-					<input id = 'request-player-input' type = 'text' hidden name = 'request'>
-					<div id = 'request-player-container'>
+				<label for='request-player-input' class='input-label'>Request</label>
+				<input id='request-player-input' type='text' hidden name='request'>
+				<div id='request-player-container'>
 
-					</div>
-					<button type = 'submit' value = 'Submit' class = 'waiver-submit'>Submit</button>
-					<span class = 'waiver-error-desc'></span>
-					<span class = 'waiver-success-desc' hidden>Success!</span>
+				</div>
+				<button type='submit' value='Submit' class='waiver-submit'>Submit</button>
+				<span class='waiver-error-desc'></span>
+				<span class='waiver-success-desc' hidden>Success!</span>
 			</form>
-			<table class = 'draft-order-container'>
+			<table class='draft-order-container'>
 				<thead>
-					<th class = 'player-table-header'>Draft Priority</th>
-					<th class = 'player-table-header'>Team</th>
+					<th class='player-table-header'>Draft Priority</th>
+					<th class='player-table-header'>Team</th>
 				</thead>
-				<tbody id = 'draft-priority-container'>
-					
+				<tbody id='draft-priority-container'>
+
 				</tbody>
 			</table>
 		</div>
 
-		<div class = 'waiver-container'>
-			<div class = 'search-container'>
+		<div class='waiver-container'>
+			<div class='search-container'>
 				<span>Undrafted players (Top 30 results)</span>
-				<input type="text" id = "waiver-search" placeholder="Search player here...">
+				<input type="text" id="waiver-search" placeholder="Search player here...">
 			</div>
-			<div class = 'player-draft'>
+			<div class='player-draft'>
 
 			</div>
 		</div>
 	</section>
-	<section id = 'coordinator'>
-		<div class = 'coordinator-password'>
-			<form id = 'coordinator-password-form'>
+	<section id='coordinator'>
+		<div class='coordinator-password'>
+			<form id='coordinator-password-form'>
 				<input type="hidden" id="secretField2" name="type" value="coordinator">
 
-				<label for = "coordinator-password-input" class = "input-label">Password</label>
-				<input id = 'coordinator-password-input' type = 'password' class = 'input-field' name = 'password'>
-				<button type = 'submit' value = 'Submit' class = 'coordinator-submit'>Submit</button>
-				<span id = 'coordinator-success-field' hidden>Success</span>
-				<span id = 'coordinator-error-field'></span>
+				<label for="coordinator-password-input" class="input-label">Password</label>
+				<input id='coordinator-password-input' type='password' class='input-field' name='password'>
+				<button type='submit' value='Submit' class='coordinator-submit'>Submit</button>
+				<span id='coordinator-success-field' hidden>Success</span>
+				<span id='coordinator-error-field'></span>
 			</form>
 		</div>
 		<!-- data-receive -->
-		<div id = "coordinator-section-container" hidden>
+		<div id="coordinator-section-container" hidden>
 			<h1 class="small-title bottom-margin">Lineups</h1>
-			<div id = 'coordinator-data-container'>
-				<div class = 'coordinator-player-data'>
-					<table class = 'coordinator-table'>
+			<div id='coordinator-data-container'>
+				<div class='coordinator-player-data'>
+					<table class='coordinator-table'>
 						<thead>
-							<th class = 'player-table-header left'>Position</th>
-							<th class = 'player-table-header right'>Player</th>
+							<th class='player-table-header left'>Position</th>
+							<th class='player-table-header right'>Player</th>
 						</thead>
 					</table>
 				</div>
 			</div>
 		</div>
 	</section>
-	<section id = "trades">
-		<div class = 'trades-password'>
-			<form id = 'trade-password-form'>
+	<section id="trades">
+		<div class='trades-password'>
+			<form id='trade-password-form'>
 
 				<input type="hidden" name="type" value="trade_get">
-				<label for = 'trade-select-team' class = 'input-label'>Select Team</label>
-				<select id = 'trade-select-team' class = 'input-field' name = 'team-name'>
+				<label for='trade-select-team' class='input-label'>Select Team</label>
+				<select id='trade-select-team' class='input-field' name='team-name'>
 					<option disabled selected value>-- Select a Team --</option>
 					<option value="Maye Drake Good">Maye Drake Good</option>
 					<option value="Make Draye">Make Draye</option>
@@ -450,71 +456,71 @@
 					<option value="Adebayo FC">Adebayo FC</option>
 					<option value="Washable Markers">Washable Markers</option>
 					<option value="LJSSNC">LJSSNC</option>
-				</select> 
-				<label for = "trade-password-input" class = "input-label">Password</label>
-				<input id = 'trade-password-input' type = 'password' class = 'input-field' name = 'team-password'>
-				<button type = 'submit' value = 'Submit' class = 'trade-submit'>Submit</button>
+				</select>
+				<label for="trade-password-input" class="input-label">Password</label>
+				<input id='trade-password-input' type='password' class='input-field' name='team-password'>
+				<button type='submit' value='Submit' class='trade-submit'>Submit</button>
 
-				<span id = 'trade-success-field' hidden>Success</span>
-				<span id = 'trade-error-field'></span>
+				<span id='trade-success-field' hidden>Success</span>
+				<span id='trade-error-field'></span>
 			</form>
 		</div>
 
-		<div id = 'trade-container' hidden>
-			<div id = 'all-trades'>
-				
+		<div id='trade-container' hidden>
+			<div id='all-trades'>
+
 			</div>
 		</div>
 
 	</section>
-	<section id = 'create-trade'>
-		<form id = 'create-trade-form'>
+	<section id='create-trade'>
+		<form id='create-trade-form'>
 			<h1 class="small-title">Create a Trade</h1>
-				<input type="hidden" name="type" value="trade_submit">
-				<label for = 'create-trade-select-team' class = 'input-label' >Team Name*</label>
-				<select id = 'create-trade-select-team' class = 'input-field' name = 'team-name'>
-					<option disabled selected value>-- Select a Team --</option>
-					<option value="Maye Drake Good">Maye Drake Good</option>
-					<option value="Make Draye">Make Draye</option>
-					<option value="Rumble Bees">Rumble Bees</option>
-					<option value="McPicklePounders">McPicklePounders</option>
-					<option value="Mmm... Food">Mmm... Food</option>
-					<option value="Bad Piggies">Bad Piggies</option>
-					<option value="Laser Llamas">Laser Llamas</option>
-					<option value="Adebayo FC">Adebayo FC</option>
-					<option value="Washable Markers">Washable Markers</option>
-					<option value="LJSSNC">LJSSNC</option>
-				</select> 
-				<label for = 'trade-team-password' class = 'input-label' >Team Password</label>
-				<input type = 'password' id = 'trade-team-password' class = 'input-field' name = 'team-password'>
+			<input type="hidden" name="type" value="trade_submit">
+			<label for='create-trade-select-team' class='input-label'>Team Name*</label>
+			<select id='create-trade-select-team' class='input-field' name='team-name'>
+				<option disabled selected value>-- Select a Team --</option>
+				<option value="Maye Drake Good">Maye Drake Good</option>
+				<option value="Make Draye">Make Draye</option>
+				<option value="Rumble Bees">Rumble Bees</option>
+				<option value="McPicklePounders">McPicklePounders</option>
+				<option value="Mmm... Food">Mmm... Food</option>
+				<option value="Bad Piggies">Bad Piggies</option>
+				<option value="Laser Llamas">Laser Llamas</option>
+				<option value="Adebayo FC">Adebayo FC</option>
+				<option value="Washable Markers">Washable Markers</option>
+				<option value="LJSSNC">LJSSNC</option>
+			</select>
+			<label for='trade-team-password' class='input-label'>Team Password</label>
+			<input type='password' id='trade-team-password' class='input-field' name='team-password'>
 
-				<label for = 'offer-player-input' class = 'input-label'>Offer</label>
-				<select id = 'offer-player-input' class = 'input-field trade-offer-input' name = 'offer'>
+			<label for='offer-player-input' class='input-label'>Offer</label>
+			<select id='offer-player-input' class='input-field trade-offer-input' name='offer'>
 
-				</select>
+			</select>
 
-				<label for = 'opposing-team-select' class = 'input-label'>Trade Recipient</label>
-				<select id = 'opposing-team-select' class = 'input-field' name = 'opposing-team'>
-					<option disabled selected value>-- Select a Team --</option>
-					<option value="Maye Drake Good">Maye Drake Good</option>
-					<option value="Make Draye">Make Draye</option>
-					<option value="Rumble Bees">Rumble Bees</option>
-					<option value="McPicklePounders">McPicklePounders</option>
-					<option value="Mmm... Food">Mmm... Food</option>
-					<option value="Bad Piggies">Bad Piggies</option>
-					<option value="Laser Llamas">Laser Llamas</option>
-					<option value="Adebayo FC">Adebayo FC</option>
-					<option value="Washable Markers">Washable Markers</option>
-					<option value="LJSSNC">LJSSNC</option>
-				</select> 
+			<label for='opposing-team-select' class='input-label'>Trade Recipient</label>
+			<select id='opposing-team-select' class='input-field' name='opposing-team'>
+				<option disabled selected value>-- Select a Team --</option>
+				<option value="Maye Drake Good">Maye Drake Good</option>
+				<option value="Make Draye">Make Draye</option>
+				<option value="Rumble Bees">Rumble Bees</option>
+				<option value="McPicklePounders">McPicklePounders</option>
+				<option value="Mmm... Food">Mmm... Food</option>
+				<option value="Bad Piggies">Bad Piggies</option>
+				<option value="Laser Llamas">Laser Llamas</option>
+				<option value="Adebayo FC">Adebayo FC</option>
+				<option value="Washable Markers">Washable Markers</option>
+				<option value="LJSSNC">LJSSNC</option>
+			</select>
 
-				<label for = 'trade-request-player-input' class = 'input-label'>Request</label>
-				<select id = 'trade-request-player-input' class = 'input-field' name = 'request'>
+			<label for='trade-request-player-input' class='input-label'>Request</label>
+			<select id='trade-request-player-input' class='input-field' name='request'>
 
-				</select>
-				<button type = 'submit' value = 'Submit' id = 'create-trade-submit'>Submit</button>
-				<span id = 'create-trade-error-desc'></span>
-				<span id = 'create-trade-success-desc' hidden>Success!</span>
+			</select>
+			<button type='submit' value='Submit' id='create-trade-submit'>Submit</button>
+			<span id='create-trade-error-desc'></span>
+			<span id='create-trade-success-desc' hidden>Success!</span>
 		</form>
 	</section>
 </body>
