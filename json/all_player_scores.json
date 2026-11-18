@@ -3738,6 +3738,12 @@
         "week": -1
     },
     {
+        "player": "Leki Fotu DL",
+        "score": 0,
+        "average": 0,
+        "week": -1
+    },
+    {
         "player": "L'Jarius Sneed DB",
         "score": 0,
         "average": 0,
@@ -5683,6 +5689,12 @@
     },
     {
         "player": "Luke Wattenberg OL",
+        "score": 0,
+        "average": 0,
+        "week": -1
+    },
+    {
+        "player": "Matthew Butler DL",
         "score": 0,
         "average": 0,
         "week": -1
@@ -8244,7 +8256,7 @@
         "week": -1
     },
     {
-        "player": "AJ Finley DB",
+        "player": "A.J. Finley DB",
         "score": 0,
         "average": 0,
         "week": -1
@@ -15042,7 +15054,7 @@
         "week": -1
     },
     {
-        "player": "EJ Smith RB",
+        "player": "E.J. Smith RB",
         "score": 0,
         "average": 0,
         "week": -1
