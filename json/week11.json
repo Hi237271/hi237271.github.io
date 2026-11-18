@@ -60,11 +60,6 @@
             "team": "Maye Drake Good",
             "position": "QB"
         },
-        "Terrance Ferguson": {
-            "score": 0,
-            "team": "Maye Drake Good",
-            "position": "TE"
-        },
         "Deebo Samuel Sr.": {
             "score": 0,
             "team": "Maye Drake Good",
@@ -74,6 +69,11 @@
             "score": 0,
             "team": "Maye Drake Good",
             "position": "WR"
+        },
+        "Emmett Johnson": {
+            "score": 0,
+            "team": "Maye Drake Good",
+            "position": "RB"
         }
     },
     "Mmm... Food": {
