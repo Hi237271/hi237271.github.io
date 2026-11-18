@@ -579,11 +579,6 @@
             "team": "LJSSNC",
             "position": "RB"
         },
-        "Michael Wilson": {
-            "score": 0,
-            "team": "LJSSNC",
-            "position": "WR"
-        },
         "Denzel Boston": {
             "score": 0,
             "team": "LJSSNC",
@@ -613,6 +608,11 @@
             "score": 0,
             "team": "LJSSNC",
             "position": "K"
+        },
+        "Jordyn Tyson": {
+            "score": 0,
+            "team": "LJSSNC",
+            "position": "WR"
         }
     },
     "Bad Piggies": {
