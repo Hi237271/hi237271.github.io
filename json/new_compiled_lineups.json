@@ -131,7 +131,20 @@
       "date": "11/11/2026, 06:34:41 PM",
       "week": 10
     },
-    0,
+    {
+      "team-name": "Maye Drake Good",
+      "RB1": "Kenneth Walker III",
+      "RB2": "Bhayshul Tuten",
+      "WR1": "Ja'Marr Chase",
+      "WR2": "Deebo Samuel Sr.",
+      "Flex1": "Tony Pollard",
+      "QB1": "Dak Prescott",
+      "DE1": "PIT",
+      "K1": "Cameron Dicker",
+      "TE1": "Trey McBride",
+      "date": "11/17/2026, 06:57:56 PM",
+      "week": 11
+    },
     0,
     0,
     0,
@@ -645,7 +658,20 @@
       "date": "11/5/2026, 03:16:34 PM",
       "week": 9
     },
-    0,
+    {
+      "team-name": "Laser Llamas",
+      "RB1": "Christian McCaffrey",
+      "RB2": "D'Andre Swift",
+      "WR1": "Malik Nabers",
+      "WR2": "Tee Higgins",
+      "Flex1": "Rome Odunze",
+      "QB1": "Caleb Williams",
+      "DE1": "DEN",
+      "K1": "Jake Bates",
+      "TE1": "Brock Bowers",
+      "date": "11/17/2026, 03:16:34 PM",
+      "week": 10
+    },
     0,
     0,
     0,
