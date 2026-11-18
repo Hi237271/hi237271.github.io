@@ -1,3 +1,6 @@
+if (window.location.href != "https://sportstatistics.mbhs.edu") {
+	window.location.replace("https://sportstatistics.mbhs.edu")
+}
 let week = get_week();
 let roster_promise = loadJSONData('new_full_roster.json')
 let all_scores_promise = loadJSONData("all_player_scores.json")
@@ -88,7 +91,7 @@ function request_player(player) {
 }
 function get_week(now = null) {
 	const start = new Date("2026-09-08");
-	if(now === null){
+	if (now === null) {
 		now = new Date();
 	}
 	return (
@@ -97,10 +100,10 @@ function get_week(now = null) {
 		) + 1
 	);
 }
-function is_date_valid(hours){
+function is_date_valid(hours) {
 	let now = new Date()
-	let anticipated = now.getTime() + 1000*60*60*hours
-	return get_week(now = new Date(anticipated))==get_week()
+	let anticipated = now.getTime() + 1000 * 60 * 60 * hours
+	return get_week(now = new Date(anticipated)) == get_week()
 
 }
 function promise_error(error) {
@@ -450,15 +453,15 @@ document.addEventListener("DOMContentLoaded", async () => {
         `;
 	}
 	//Handle waiver wires vs. free agency 
-	if(!is_date_valid(-36)&&!is_date_valid(4)){
+	if (!is_date_valid(-36) && !is_date_valid(4)) {
 		//waiver wires
 	}
 	else {
 		//free agency
-		document.querySelector('a.a-waiver').innerHTML="Free Agency"
+		document.querySelector('a.a-waiver').innerHTML = "Free Agency"
 		document.querySelector('h1.small-title').innerHTML = "Free Agency Submission"
 		document.querySelector('input#secretField1').value = 'agency'
-		document.querySelector('table.draft-order-container').hidden=true
+		document.querySelector('table.draft-order-container').hidden = true
 
 	}
 	//Add Waiver wire picks
