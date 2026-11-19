@@ -743,11 +743,6 @@
             "team": "Rumble Bees",
             "position": "K"
         },
-        "RJ Harvey": {
-            "score": 0,
-            "team": "Rumble Bees",
-            "position": "RB"
-        },
         "Travis Kelce": {
             "score": 0,
             "team": "Rumble Bees",
@@ -764,6 +759,11 @@
             "position": "DE"
         },
         "Blake Corum": {
+            "score": 0,
+            "team": "Rumble Bees",
+            "position": "RB"
+        },
+        "Alvin Kamara": {
             "score": 0,
             "team": "Rumble Bees",
             "position": "RB"
