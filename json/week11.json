@@ -743,11 +743,6 @@
             "team": "Rumble Bees",
             "position": "WR"
         },
-        "PHI": {
-            "score": 0,
-            "team": "Rumble Bees",
-            "position": "DE"
-        },
         "Eddy Pineiro": {
             "score": 0,
             "team": "Rumble Bees",
@@ -767,6 +762,11 @@
             "score": 0,
             "team": "Rumble Bees",
             "position": "WR"
+        },
+        "KC": {
+            "score": 0,
+            "team": "Rumble Bees",
+            "position": "DE"
         }
     }
 }
