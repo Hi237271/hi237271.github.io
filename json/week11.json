@@ -641,11 +641,6 @@
             "team": "Bad Piggies",
             "position": "TE"
         },
-        "Jalen Hurts": {
-            "score": 0,
-            "team": "Bad Piggies",
-            "position": "QB"
-        },
         "David Montgomery": {
             "score": 0,
             "team": "Bad Piggies",
@@ -690,6 +685,11 @@
             "score": 0,
             "team": "Bad Piggies",
             "position": "RB"
+        },
+        "Cam Ward": {
+            "score": 0,
+            "team": "Bad Piggies",
+            "position": "QB"
         }
     },
     "Rumble Bees": {
