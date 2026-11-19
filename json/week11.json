@@ -661,11 +661,6 @@
             "team": "Bad Piggies",
             "position": "RB"
         },
-        "BAL": {
-            "score": 0,
-            "team": "Bad Piggies",
-            "position": "DE"
-        },
         "Mark Andrews": {
             "score": 0,
             "team": "Bad Piggies",
@@ -690,6 +685,11 @@
             "score": 0,
             "team": "Bad Piggies",
             "position": "K"
+        },
+        "JAX": {
+            "score": 0,
+            "team": "Bad Piggies",
+            "position": "DE"
         }
     },
     "Rumble Bees": {
