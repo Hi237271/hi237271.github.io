@@ -671,11 +671,6 @@
             "team": "Bad Piggies",
             "position": "TE"
         },
-        "Brian Robinson": {
-            "score": 0,
-            "team": "Bad Piggies",
-            "position": "RB"
-        },
         "Jordan Love": {
             "score": 0,
             "team": "Bad Piggies",
@@ -690,6 +685,11 @@
             "score": 0,
             "team": "Bad Piggies",
             "position": "QB"
+        },
+        "Tyler Bass": {
+            "score": 0,
+            "team": "Bad Piggies",
+            "position": "K"
         }
     },
     "Rumble Bees": {
