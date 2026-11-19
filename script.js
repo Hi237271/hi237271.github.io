@@ -1,4 +1,4 @@
-if(window.location.href.includes("sports")){
+if(!window.location.href.includes("sports")){
 	window.location.replace("https://sportstatistics.mbhs.edu")
 }
 let week = get_week();
