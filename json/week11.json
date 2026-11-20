@@ -88,7 +88,7 @@
             "position": "RB"
         },
         "Tyler Warren": {
-            "score": 0,
+            "score": 3.2,
             "team": "Mmm... Food",
             "position": "TE"
         },
@@ -108,7 +108,7 @@
             "position": "WR"
         },
         "HOU": {
-            "score": 0,
+            "score": 13.0,
             "team": "Mmm... Food",
             "position": "DE"
         },
@@ -160,7 +160,7 @@
             "position": "RB"
         },
         "Nico Collins": {
-            "score": 0,
+            "score": 14.8,
             "team": "Washable Markers",
             "position": "WR"
         },
@@ -292,7 +292,7 @@
             "position": "RB"
         },
         "C.J. Stroud": {
-            "score": 0,
+            "score": 20.459999999999997,
             "team": "McPicklePounders",
             "position": "QB"
         },
@@ -302,7 +302,7 @@
             "position": "RB"
         },
         "Tank Dell": {
-            "score": 0,
+            "score": 5.7,
             "team": "McPicklePounders",
             "position": "WR"
         }
@@ -528,7 +528,7 @@
             "position": "TE"
         },
         "Spencer Shrader": {
-            "score": 0,
+            "score": 3.0,
             "team": "Make Draye",
             "position": "K"
         },
@@ -570,7 +570,7 @@
             "position": "DE"
         },
         "Ka'imi Fairbairn": {
-            "score": 0,
+            "score": 6.0,
             "team": "LJSSNC",
             "position": "K"
         },
@@ -617,7 +617,7 @@
     },
     "Bad Piggies": {
         "Jonathan Taylor": {
-            "score": 0,
+            "score": 6.699999999999999,
             "team": "Bad Piggies",
             "position": "RB"
         },
@@ -642,7 +642,7 @@
             "position": "TE"
         },
         "David Montgomery": {
-            "score": 0,
+            "score": 15.400000000000002,
             "team": "Bad Piggies",
             "position": "RB"
         },
