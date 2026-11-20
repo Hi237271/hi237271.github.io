@@ -980,7 +980,20 @@
       "date": "11/11/2026, 09:10:26 AM",
       "week": 10
     },
-    0,
+    {
+      "team-name": "Make Draye",
+      "RB1": "Chuba Hubbard",
+      "RB2": "Ashton Jeanty",
+      "WR1": "Parker Washington",
+      "WR2": "Luther Burden III",
+      "Flex1": "KC Concepcion",
+      "QB1": "Kirk Cousins",
+      "DE1": "CHI",
+      "K1": "Spencer Shrader",
+      "TE1": "George Kittle",
+      "date": "11/19/2026, 06:32:30 PM",
+      "week": 11
+    },
     0,
     0,
     0,

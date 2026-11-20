@@ -40,11 +40,6 @@
             "team": "Maye Drake Good",
             "position": "DE"
         },
-        "Kyren Williams": {
-            "score": 0,
-            "team": "Maye Drake Good",
-            "position": "RB"
-        },
         "Matthew Golden": {
             "score": 0,
             "team": "Maye Drake Good",
@@ -74,6 +69,11 @@
             "score": 0,
             "team": "Maye Drake Good",
             "position": "WR"
+        },
+        "Joe Burrow": {
+            "score": 0,
+            "team": "Maye Drake Good",
+            "position": "QB"
         }
     },
     "Mmm... Food": {
@@ -713,11 +713,6 @@
             "team": "Rumble Bees",
             "position": "WR"
         },
-        "Joe Burrow": {
-            "score": 0,
-            "team": "Rumble Bees",
-            "position": "QB"
-        },
         "Tucker Kraft": {
             "score": 0,
             "team": "Rumble Bees",
@@ -764,6 +759,11 @@
             "position": "RB"
         },
         "Alvin Kamara": {
+            "score": 0,
+            "team": "Rumble Bees",
+            "position": "RB"
+        },
+        "Kyren Williams": {
             "score": 0,
             "team": "Rumble Bees",
             "position": "RB"
