@@ -604,15 +604,15 @@
             "team": "LJSSNC",
             "position": "RB"
         },
-        "Chase McLaughlin": {
-            "score": 0,
-            "team": "LJSSNC",
-            "position": "K"
-        },
         "Jordyn Tyson": {
             "score": 0,
             "team": "LJSSNC",
             "position": "WR"
+        },
+        "BUF": {
+            "score": 0,
+            "team": "LJSSNC",
+            "position": "DE"
         }
     },
     "Bad Piggies": {
