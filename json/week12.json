@@ -45,11 +45,6 @@
             "team": "Maye Drake Good",
             "position": "WR"
         },
-        "Tyler Shough": {
-            "score": 0,
-            "team": "Maye Drake Good",
-            "position": "QB"
-        },
         "Dak Prescott": {
             "score": 0,
             "team": "Maye Drake Good",
@@ -74,6 +69,11 @@
             "score": 0,
             "team": "Maye Drake Good",
             "position": "QB"
+        },
+        "NYG": {
+            "score": 0,
+            "team": "Maye Drake Good",
+            "position": "DE"
         }
     },
     "Mmm... Food": {
