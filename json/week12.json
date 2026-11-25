@@ -758,15 +758,15 @@
             "team": "Rumble Bees",
             "position": "RB"
         },
-        "Alvin Kamara": {
-            "score": 0,
-            "team": "Rumble Bees",
-            "position": "RB"
-        },
         "Kyren Williams": {
             "score": 0,
             "team": "Rumble Bees",
             "position": "RB"
+        },
+        "Geno Smith": {
+            "score": 0,
+            "team": "Rumble Bees",
+            "position": "QB"
         }
     }
 }
