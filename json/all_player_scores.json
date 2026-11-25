@@ -3078,6 +3078,12 @@
         "week": 11
     },
     {
+        "player": "Sean McKeon TE",
+        "score": 0,
+        "average": 0,
+        "week": -1
+    },
+    {
         "player": "Terence Steele OL",
         "score": 0,
         "average": 0,
@@ -4512,7 +4518,7 @@
         "week": 10
     },
     {
-        "player": "Cameron Sample DL",
+        "player": "Cam Sample DL",
         "score": 0,
         "average": 0,
         "week": -1
@@ -9046,6 +9052,12 @@
         "score": 11.0,
         "average": 10.0,
         "week": 11
+    },
+    {
+        "player": "Patrick Murtagh TE",
+        "score": 0,
+        "average": 0,
+        "week": -1
     },
     {
         "player": "Nate Wiggins DB",
